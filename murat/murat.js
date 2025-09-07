@@ -11,7 +11,7 @@ document.getElementById("start-btn").addEventListener("click", () => {
 
 async function loadScene(sceneId) {
   try {
-    const response = await fetch(`leonie_scene${sceneId}.json`);
+    const response = await fetch(`murat_scene${sceneId}.json`);
     const scene = await response.json();
 
     // Zone anhand RI bestimmen
@@ -22,13 +22,9 @@ async function loadScene(sceneId) {
     else if (ri <= 6) zone = "Z4";
     else zone = "Z5";
 
-    // Szenentext einsetzen
+    // Szenentitel und Text einsetzen
+    document.getElementById("scene-title").innerText = scene.title;
     document.getElementById("scene").innerText = scene.text[zone];
-// Szenentitel einsetzen
-document.getElementById("scene-title").innerText = scene.title;
-
-// Szenentext einsetzen (wie bisher abhängig von RI)
-document.getElementById("scene").innerText = scene.text[zone];
 
     // Optionen anzeigen
     const optionsDiv = document.getElementById("options");
@@ -69,33 +65,33 @@ document.getElementById("next-btn").addEventListener("click", () => {
   }
 });
 
-// Spielende (mit Evaluation – wie vorher)
+// Spielende (Evaluation aus Sicht einer Distanzierungsberaterin)
 function endGame() {
   let summary = "";
   let consequence = "";
 
   if (ri <= -6) {
-    summary = "leonie hat sich deutlich von extremistischen Ideen distanziert.";
-    consequence = "Dein Verhalten war überwiegend unterstützend, offen und deeskalierend.";
+    summary = "Murat konnte eigene Perspektiven entwickeln und bleibt offen für Beratung.";
+    consequence = "Deine professionelle Haltung war deeskalierend, validierend und ermöglichte Distanzierung.";
   } else if (ri <= -1) {
-    summary = "leonie ist vorsichtig erreichbar und zeigt erste Distanzierung.";
-    consequence = "Deine Reaktionen haben Orientierung geboten. Mit Geduld bleibt er erreichbar.";
+    summary = "Murat zeigt vorsichtige Distanz zu rigiden Mustern.";
+    consequence = "Du hast ihn mit Geduld begleitet und erste Reflexionsräume geöffnet.";
   } else if (ri <= 3) {
-    summary = "leonie bleibt ambivalent – mal offen, mal verschlossen.";
-    consequence = "Dein Verhalten war gemischt: nicht klar genug distanzierend, aber auch nicht eskalierend.";
+    summary = "Murat bleibt ambivalent – er schwankt zwischen Eigenständigkeit und starren Vorgaben.";
+    consequence = "Deine Interventionen waren teils förderlich, teils zu konfrontativ.";
   } else if (ri <= 6) {
-    summary = "leonie zeigt deutliche Radikalisierungstendenzen.";
-    consequence = "Du hast ihn mehrfach unter Druck gesetzt oder keine Nähe gezeigt. Dadurch verstärkte sich die Abgrenzung.";
+    summary = "Murat zieht sich stärker in rigide Familiennarrative zurück.";
+    consequence = "Zu viel Druck oder Konfrontation haben die Gesprächsbasis geschwächt.";
   } else {
-    summary = "leonie ist stark radikalisiert und tief in extremistische Narrative verstrickt.";
-    consequence = "Deine Reaktionen haben die Fronten verhärtet. leonie sieht sich bestätigt, dass Familie und Gesellschaft gegen ihn stehen.";
+    summary = "Murat verfestigt rigide und radikale Deutungsmuster.";
+    consequence = "Eine zu harte Herangehensweise hat Distanz statt Nähe geschaffen.";
   }
 
   const evaluation = `
     <h2>Evaluation</h2>
     <p><strong>Ende des Falls:</strong> ${summary}</p>
     <p><strong>Analyse:</strong> ${consequence}</p>
-    <p><em>Überlege: Welche Entscheidungen haben dich in diese Richtung geführt? 
+    <p><em>Überlege: Welche Interventionen haben dich in diese Richtung geführt? 
     Was hättest du anders machen können?</em></p>
   `;
 

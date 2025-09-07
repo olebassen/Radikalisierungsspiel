@@ -100,9 +100,15 @@ h2 {
   transform: translateY(0);
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
+
 #game-container {
   text-align: center;
+  max-width: 1000px;   /* maximale Breite */
+  margin: 0 auto;      /* zentriert den Container horizontal */
+  padding: 0 15px;     /* sorgt dafür, dass Inhalte nicht am Rand kleben */
 }
+
+
 #next-btn {
   background: #1e1e1e;
   border: 1px solid #333;

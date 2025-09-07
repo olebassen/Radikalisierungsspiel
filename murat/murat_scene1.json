@@ -1,0 +1,97 @@
+{
+  "title": "Erstes Beratungsgespräch",
+  "text": {
+    "Z1": "Murat wirkt vorsichtig offen. Er spricht von Druck zuhause, aber auch von seinem Wunsch nach Eigenständigkeit.",
+    "Z2": "Murat deutet Spannungen an, hält sich aber zurück. Er testet, wie sicher der Raum ist.",
+    "Z3": "Murat schwankt zwischen Verteidigung der Familie und ersten Zweifeln.",
+    "Z4": "Murat präsentiert sich abweisend, erwähnt nur die Pflichterfüllung gegenüber seiner Familie.",
+    "Z5": "Murat wiederholt starre Glaubenssätze, ohne eigenen Reflexionsraum zuzulassen."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Seine Ambivalenz anerkennen",
+        "effect": -2,
+        "feedback": "Murat spürt, dass seine widersprüchlichen Gefühle Platz haben. Vertrauen wächst."
+      },
+      {
+        "label": "Direkt vor Radikalisierung warnen",
+        "effect": 2,
+        "feedback": "Murat fühlt sich belehrt und zieht sich zurück."
+      },
+      {
+        "label": "Neutral nachfragen: 'Was ist dir in letzter Zeit wichtig geworden?'",
+        "effect": 0,
+        "feedback": "Murat antwortet vage, bleibt aber im Gespräch."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Sein Bedürfnis nach Freiheit anerkennen",
+        "effect": -1,
+        "feedback": "Murat erlebt Unterstützung und Entlastung."
+      },
+      {
+        "label": "Religiöse Pflichten betonen",
+        "effect": 1,
+        "feedback": "Murat fühlt sich stärker kontrolliert."
+      },
+      {
+        "label": "Offen lassen, ob er mehr erzählen möchte",
+        "effect": 0,
+        "feedback": "Murat zögert, aber das Gespräch bleibt offen."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Ermutigen, eigene Interessen zu verfolgen",
+        "effect": -1,
+        "feedback": "Murat entdeckt Räume für Selbstwirksamkeit."
+      },
+      {
+        "label": "Ihm Vorwürfe machen",
+        "effect": 2,
+        "feedback": "Murat verschließt sich und fühlt sich missverstanden."
+      },
+      {
+        "label": "Seine Familie würdigen und nach eigenen Wünschen fragen",
+        "effect": -1,
+        "feedback": "Murat fühlt sich respektiert und überlegt kurz."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Gemeinsame Aktivitäten anbieten",
+        "effect": -2,
+        "feedback": "Murat erlebt Nähe und etwas Entspannung."
+      },
+      {
+        "label": "Noch strenger auftreten",
+        "effect": 2,
+        "feedback": "Murat fühlt sich eingeengt und verhärtet."
+      },
+      {
+        "label": "Neutrales Smalltalk-Thema wählen",
+        "effect": 0,
+        "feedback": "Das Gespräch bleibt oberflächlich, aber Murat bleibt ansprechbar."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Sanft fragen, was er wirklich denkt",
+        "effect": -1,
+        "feedback": "Murat zeigt kleine Offenheit."
+      },
+      {
+        "label": "Strenge verstärken",
+        "effect": 1,
+        "feedback": "Murat bestätigt sich in rigiden Mustern."
+      },
+      {
+        "label": "Geduldig zuhören, ohne sofort zu reagieren",
+        "effect": 0,
+        "feedback": "Murat wiederholt seine Sätze, merkt aber, dass du zuhörst."
+      }
+    ]
+  }
+}

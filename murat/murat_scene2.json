@@ -1,0 +1,107 @@
+{
+  "title": "Zweites Gespräch",
+  "text": {
+    "Z1": "Murat erzählt von einem Lehrer, der ihn unterstützt. Er reflektiert vorsichtig, dass nicht alle Autoritäten nur Druck ausüben.",
+    "Z2": "Murat spricht angedeutet über Spannungen mit seiner Familie, wirkt dabei unsicher, ob er dir vertrauen kann.",
+    "Z3": "Murat schwankt: Einerseits verteidigt er die Strenge zuhause, andererseits deutet er an, dass er sich eingeengt fühlt.",
+    "Z4": "Murat betont die Loyalität zur Familie. Er reagiert knapp, wenn es um seine eigenen Wünsche geht.",
+    "Z5": "Murat wiederholt starre Glaubenssätze, die er online gehört hat. Eigene Gedanken blendet er aus."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Das positive Lehrer-Erlebnis aufgreifen",
+        "effect": -2,
+        "feedback": "Murat erkennt, dass Unterstützung auch außerhalb der Familie möglich ist."
+      },
+      {
+        "label": "Seine Familie kritisch thematisieren",
+        "effect": 2,
+        "feedback": "Murat geht in die Verteidigung und blockt ab."
+      },
+      {
+        "label": "Neutral nachfragen: 'Wie geht es dir damit?'",
+        "effect": 0,
+        "feedback": "Murat bleibt vage, doch das Gespräch bricht nicht ab."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Aktiv zuhören und seine Unsicherheit benennen",
+        "effect": -1,
+        "feedback": "Murat fühlt sich ernst genommen und öffnet sich etwas."
+      },
+      {
+        "label": "Schnell Ratschläge geben",
+        "effect": 1,
+        "feedback": "Murat nimmt die Hinweise nicht an und zieht sich zurück."
+      },
+      {
+        "label": "Ein Beispiel aus ähnlichen Beratungen schildern",
+        "effect": -1,
+        "feedback": "Murat erkennt Parallelen und fühlt sich weniger allein."
+      },
+      {
+        "label": "Das Thema wechseln",
+        "effect": 0,
+        "feedback": "Das Gespräch bleibt oberflächlich, aber Murat bleibt ansprechbar."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Ambivalenz normalisieren",
+        "effect": -1,
+        "feedback": "Murat spürt, dass Zweifel erlaubt sind."
+      },
+      {
+        "label": "Seine Familie in Frage stellen",
+        "effect": 2,
+        "feedback": "Murat rechtfertigt die Strenge und verschließt sich stärker."
+      },
+      {
+        "label": "Nach Beispielen aus seinem Alltag fragen",
+        "effect": -1,
+        "feedback": "Murat erzählt eine kleine Alltagsszene und zeigt damit ein Stück Offenheit."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Nach seinen eigenen Interessen fragen",
+        "effect": -2,
+        "feedback": "Murat erzählt zögerlich von Hobbys, die nichts mit Religion zu tun haben."
+      },
+      {
+        "label": "Auf seine Loyalität kritisch reagieren",
+        "effect": 2,
+        "feedback": "Murat verteidigt die Familie und beendet das Thema."
+      },
+      {
+        "label": "Loyalität anerkennen und vorsichtig nach Eigenem fragen",
+        "effect": -1,
+        "feedback": "Murat akzeptiert das und deutet vorsichtige Wünsche an."
+      },
+      {
+        "label": "Thema wechseln und neutral Smalltalk führen",
+        "effect": 0,
+        "feedback": "Murat bleibt reserviert, aber nicht abweisend."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Geduldig nach seinen eigenen Gedanken fragen",
+        "effect": -1,
+        "feedback": "Murat stockt, überlegt, und zeigt kleine Brüche in der starren Haltung."
+      },
+      {
+        "label": "Die Glaubenssätze direkt widerlegen",
+        "effect": 1,
+        "feedback": "Murat fühlt sich angegriffen und verstärkt die Wiederholung."
+      },
+      {
+        "label": "Ein Gegenbeispiel aus der Realität nennen",
+        "effect": 0,
+        "feedback": "Murat nimmt es zur Kenntnis, reagiert aber nicht weiter."
+      }
+    ]
+  }
+}
