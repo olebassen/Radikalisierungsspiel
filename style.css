@@ -222,17 +222,31 @@ h1 {
 /* Textbox unsichtbar bis hover */
 .case-info {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
   background: rgba(0,0,0,0.7);
-  padding: 10px;
-  border-radius: 6px;
+  padding: 12px;
+  border-radius: 0 0 12px 12px;
+
+  /* Text-Einstellungen */
+  font-size: clamp(0.8rem, 2vw, 1rem); 
+  /* → min 0.8rem, steigt dynamisch bis 1rem, abhängig von Bildschirmbreite */
+  line-height: 1.4;
+  color: #fff;
+  text-align: left;
+  word-wrap: break-word;
+  white-space: normal;
+
+  /* Animation & Begrenzung */
   opacity: 0;
-  transition: opacity 0.3s;
-  font-size: 0.9rem;
+  transition: opacity 0.3s ease;
+  max-height: 35%;     
+  overflow-y: auto;    
 }
 
+/* Beim Hover sichtbar */
 .zone:hover .case-info {
   opacity: 1;
 }
