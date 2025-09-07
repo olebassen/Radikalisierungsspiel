@@ -1,0 +1,39 @@
+{
+  "id": "scene_7",
+  "title": "Kontakt zu radikalen Mentor*innen",
+  "text": {
+    "Z1": "Sami erzählt, dass er online jemanden getroffen hat, der viel über Religion weiß. Er wirkt neugierig, aber offen für Diskussion.",
+    "Z2": "Sami berichtet vage, dass er 'neue Leute' kennengelernt hat, die ihn beraten. Er wirkt verunsichert, aber neugierig.",
+    "Z3": "Sami schwärmt von einem Online-Mentor, der 'endlich die Wahrheit sagt'. Er wirkt beeindruckt, aber gereizt, wenn man kritisch nachfragt.",
+    "Z4": "Sami zitiert seinen Mentor als absolute Autorität: 'Nur er versteht den Islam wirklich.' Widerspruch blockt er sofort ab.",
+    "Z5": "Sami sagt: 'Mein Mentor ist der Einzige, dem ich vertraue. Ihr seid blind!' Er wirkt aggressiv und abweisend."
+  },
+  "options": {
+    "Z1": [
+      { "label": "Offen fragen: 'Was findest du an der Person interessant?'", "effect": -1, "feedback": "Sami erklärt ruhig, was ihn fasziniert." },
+      { "label": "Anbieten, gemeinsam mehr über Religion zu lesen", "effect": -1, "feedback": "Sami freut sich, dass ihr Interesse zeigt." },
+      { "label": "Nicht weiter nachhaken", "effect": 0, "feedback": "Sami erzählt nicht mehr und geht online." }
+    ],
+    "Z2": [
+      { "label": "Sanft fragen: 'Wer sind diese Leute?'", "effect": -1, "feedback": "Sami sagt zögerlich ein paar Dinge, bleibt vorsichtig." },
+      { "label": "Abwarten, ob er mehr erzählt", "effect": 0, "feedback": "Sami bleibt schweigsam und zieht sich zurück." },
+      { "label": "Skeptisch: 'Du kennst die doch gar nicht richtig!'", "effect": 1, "feedback": "Sami reagiert gereizt und verschließt sich." }
+    ],
+    "Z3": [
+      { "label": "Ruhig nachfragen: 'Was genau gefällt dir an ihm?'", "effect": -1, "feedback": "Sami spricht begeistert, aber widersprüchlich." },
+      { "label": "Neutral bleiben", "effect": 0, "feedback": "Sami verschwindet schnell ins Zimmer." },
+      { "label": "Kritisch: 'Das klingt gefährlich!'", "effect": 2, "feedback": "Sami schreit: 'Ihr versteht gar nichts!'" }
+    ],
+    "Z4": [
+      { "label": "Deeskalierend: 'Wir interessieren uns für deine Sicht, erzähl mehr.'", "effect": -1, "feedback": "Sami spricht weiter, bleibt aber abweisend." },
+      { "label": "Nichts sagen", "effect": 0, "feedback": "Sami geht sofort online, um weiter mit dem Mentor zu reden." },
+      { "label": "Widersprechen: 'Das ist keine Wahrheit!'", "effect": 2, "feedback": "Sami schreit: 'Er ist der Einzige, der recht hat!'" }
+    ],
+    "Z5": [
+      { "label": "Ruhig bleiben: 'Wir sind trotzdem deine Familie.'", "effect": -1, "feedback": "Sami brüllt, bleibt aber für Sekunden still." },
+      { "label": "Thema vermeiden", "effect": 0, "feedback": "Sami verschwindet sofort ins Zimmer." },
+      { "label": "Streng reagieren: 'Dieser Mentor ist gefährlich!'", "effect": 2, "feedback": "Sami explodiert: 'Ihr seid gegen ihn, also gegen mich!'" },
+      { "label": "Handy oder Computer wegnehmen", "effect": 1, "feedback": "Sami schreit, dass ihr ihn von der Wahrheit abschneiden wollt." }
+    ]
+  }
+}

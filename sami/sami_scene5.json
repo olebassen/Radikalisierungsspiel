@@ -1,0 +1,39 @@
+{
+  "id": "scene_5",
+  "title": "Krise in der Schule",
+  "text": {
+    "Z1": "Sami erzählt, dass er in der Schule über Religion diskutiert hat. Obwohl es Meinungsverschiedenheiten gab, konnte er ruhig argumentieren. Er wirkt offen und reflektiert.",
+    "Z2": "Sami berichtet, dass Mitschüler über seine Videos gelacht haben. Er wirkt verletzt, aber noch bereit zu reden.",
+    "Z3": "Sami schimpft, dass Lehrer absichtlich gegen den Islam hetzen würden. Er wirkt aufgebracht und sucht Bestätigung.",
+    "Z4": "Sami schreit, dass die Schule voller Heuchler sei und niemand die Wahrheit hören wolle. Er wirkt feindselig und abwehrend.",
+    "Z5": "Sami brüllt: 'Die Lehrer sind Feinde des Glaubens!' Er spricht von Verrat und wirkt völlig abgekapselt."
+  },
+  "options": {
+    "Z1": [
+      { "label": "Loben: 'Gut, dass du ruhig geblieben bist.'", "effect": -1, "feedback": "Sami fühlt sich verstanden und bestätigt." },
+      { "label": "Fragen: 'Wie hast du das gelöst?'", "effect": -1, "feedback": "Sami erklärt die Diskussion ausführlich." },
+      { "label": "Keine Reaktion zeigen", "effect": 0, "feedback": "Sami wirkt enttäuscht, dass ihr nicht nachfragt." }
+    ],
+    "Z2": [
+      { "label": "Mitfühlen: 'Das klingt echt verletzend.'", "effect": -1, "feedback": "Sami erzählt mehr über die Situation." },
+      { "label": "Abwarten, ob er noch etwas sagt", "effect": 0, "feedback": "Sami wird still und zieht sich zurück." },
+      { "label": "Vorwurf: 'Ignorier die doch einfach!'", "effect": 1, "feedback": "Sami reagiert verärgert und geht in sein Zimmer." }
+    ],
+    "Z3": [
+      { "label": "Ruhig nachfragen: 'Was genau wurde gesagt?'", "effect": -1, "feedback": "Sami schildert Details, bleibt aber aufgebracht." },
+      { "label": "Nicht reagieren", "effect": 0, "feedback": "Sami rennt in sein Zimmer und geht sofort online." },
+      { "label": "Heftig widersprechen", "effect": 2, "feedback": "Sami schreit: 'Ihr verteidigt die Feinde!'" }
+    ],
+    "Z4": [
+      { "label": "Deeskalierend: 'Wir hören dir zu, erzähl in Ruhe.'", "effect": -1, "feedback": "Sami redet weiter, wenn auch aggressiv." },
+      { "label": "Still bleiben", "effect": 0, "feedback": "Sami schließt sich im Zimmer ein." },
+      { "label": "Streng reagieren: 'So ein Unsinn!'", "effect": 2, "feedback": "Sami tobt und beschuldigt euch." }
+    ],
+    "Z5": [
+      { "label": "Ruhig fragen: 'Warum siehst du die Lehrer als Feinde?'", "effect": -1, "feedback": "Sami zischt, gibt aber kurze Antworten." },
+      { "label": "Thema meiden", "effect": 0, "feedback": "Sami bleibt voller Hass und zieht sich zurück." },
+      { "label": "Aggressiv widersprechen", "effect": 2, "feedback": "Sami brüllt: 'Ihr seid genauso wie sie!'" },
+      { "label": "Handy oder Laptop wegnehmen", "effect": 1, "feedback": "Sami schreit, dass ihr ihn zerstören wollt." }
+    ]
+  }
+}

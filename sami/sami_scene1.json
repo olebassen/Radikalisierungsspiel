@@ -1,0 +1,103 @@
+{
+  "id": "scene_1",
+  "title": "Familiengespräch zuhause",
+  "text": {
+    "Z1": "Sami kommt entspannt nach Hause, legt den Rucksack in die Ecke. Beim Abendessen erzählt er beiläufig, dass ein Freund ihn gefragt hat, wie er über Religion denkt. Er wirkt nachdenklich, aber nicht verschlossen. „Manchmal frage ich mich, was das alles mit uns zu tun hat“, sagt er mit offenem Blick.",
+    "Z2": "Sami kommt nach Hause, zieht die Jacke langsam aus und wirkt niedergeschlagen. Er setzt sich an den Tisch, stochert lustlos im Essen. „Alles egal“, murmelt er. Sein Blick bleibt am Boden. Man spürt, dass er etwas mit sich herumträgt, aber er wirkt noch nicht komplett verschlossen.",
+    "Z3": "Sami knallt die Haustür zu, stampft in die Küche. „Die Lehrer sind alle Heuchler!“ zischt er, bevor er sich ein Glas Wasser einschenkt. Er wirkt aufgewühlt, voller Energie – aber nicht unnahbar. Er schaut die Eltern kurz herausfordernd an, dann dreht er sich Richtung Zimmer.",
+    "Z4": "Sami kommt nach Hause, Kopfhörer tief über die Ohren, den Blick fest nach unten. Er murmelt kaum hörbar: „Ihr versteht sowieso nichts.“ Ohne die Schuhe auszuziehen, will er direkt an den Eltern vorbeigehen. Sein Körper wirkt angespannt, die Miene hart.",
+    "Z5": "Sami stürmt ins Haus, schmeißt den Ranzen in die Ecke. Mit funkelnden Augen schreit er: „Alle sind Heuchler – die Lehrer, die Politiker, und ihr seid keinen Deut besser!“ Seine Stimme überschlägt sich, er tritt gegen die Tür, als er in die Küche kommt. Die Spannung ist zum Greifen nah."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Interesse zeigen: „Erzähl doch mal – was genau findest du spannend daran?“",
+        "effect": -1,
+        "feedback": "Sami redet ruhig weiter, freut sich, dass er ernst genommen wird."
+      },
+      {
+        "label": "Gemeinsames Lernen vorschlagen: „Wollen wir uns mal zusammen ein Buch oder einen Artikel anschauen?“",
+        "effect": -1,
+        "feedback": "Sami wirkt überrascht, dass die Eltern mitdenken wollen, und nickt vorsichtig."
+      },
+      {
+        "label": "Nur zuhören, ohne viele Nachfragen",
+        "effect": 0,
+        "feedback": "Sami redet ein bisschen, zieht sich dann in sein Zimmer zurück."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Sanft nachhaken: „War in der Schule etwas, das dich geärgert hat?“",
+        "effect": -1,
+        "feedback": "Sami schaut kurz hoch, erzählt stockend von kleinen Streitigkeiten, dann wird er still."
+      },
+      {
+        "label": "Abwarten, ob er von selbst spricht",
+        "effect": 0,
+        "feedback": "Sami sagt kein Wort mehr, steht irgendwann auf und geht in sein Zimmer."
+      },
+      {
+        "label": "Vorwurfsvoll: „Du bist in letzter Zeit immer so komisch – was soll das?“",
+        "effect": 1,
+        "feedback": "Sami zieht die Augenbrauen zusammen, verlässt wortlos den Tisch und knallt die Tür."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Ruhig fragen: „Was genau meinst du damit?“",
+        "effect": -1,
+        "feedback": "Sami meckert weiter, aber redet noch einige Minuten, bevor er sich zurückzieht."
+      },
+      {
+        "label": "Ignorieren, nichts sagen",
+        "effect": 0,
+        "feedback": "Sami schnappt sich sein Handy, zieht sich zurück und schreibt sofort in Chats."
+      },
+      {
+        "label": "Sarkastisch: „Du weißt es natürlich besser als alle anderen, oder?“",
+        "effect": 1,
+        "feedback": "Sami explodiert, schreit „Ihr versteht gar nichts!“ und knallt die Tür."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Ruhig bleiben: „Wir sind da, wenn du reden willst.“",
+        "effect": -1,
+        "feedback": "Sami sagt nichts, aber seine Schritte werden langsamer, bevor er ins Zimmer geht."
+      },
+      {
+        "label": "Distanz lassen, ihn nicht ansprechen",
+        "effect": 0,
+        "feedback": "Sami verschwindet wortlos, schlägt die Tür zu."
+      },
+      {
+        "label": "Mit Druck: „Du redest jetzt sofort mit uns!“",
+        "effect": 2,
+        "feedback": "Sami reißt sich die Kopfhörer runter und schreit: „Ihr seid genau wie die anderen – gegen mich!“"
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Deeskalierend: „Wir hören dir zu, wenn du reden möchtest.“",
+        "effect": -1,
+        "feedback": "Sami bleibt wütend, aber setzt sich kurz hin, bevor er ins Zimmer rennt."
+      },
+      {
+        "label": "Diskussion vermeiden, Situation abkühlen lassen",
+        "effect": 0,
+        "feedback": "Sami verschwindet im Zimmer, murmelt: „Meine Brüder verstehen mich wenigstens.“"
+      },
+      {
+        "label": "Streng reagieren: „So redest du nicht mit uns!“",
+        "effect": 2,
+        "feedback": "Sami brüllt: „Genau das meine ich – ihr seid Teil der Feinde!“"
+      },
+      {
+        "label": "Handy wegnehmen: „Gib sofort dein Telefon her!“",
+        "effect": 1,
+        "feedback": "Sami schreit panisch: „Das ist mein einziger Kontakt, ihr wollt mich brechen!“ und schlägt die Tür zu."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "scene_8",
+  "title": "Verstärkte Ideologie und Abwertung der Familie",
+  "text": {
+    "Z1": "Sami erzählt beim Abendessen von einem Video über Gemeinschaft. Er fragt interessiert: 'Wie wichtig ist Familie eigentlich im Glauben?' Er wirkt offen und neugierig.",
+    "Z2": "Sami sagt, dass einige Online-Freunde meinten, Familie sei weniger wichtig als die 'Umma'. Er wirkt unsicher, sucht aber Orientierung.",
+    "Z3": "Sami erklärt wütend, dass Familie ihn sowieso nie richtig verstanden habe. Er betont, dass die 'wahre Gemeinschaft' woanders sei.",
+    "Z4": "Sami beschuldigt die Eltern: 'Ihr seid angepasst an die Ungläubigen! Ich will nichts mehr mit euch zu tun haben.'",
+    "Z5": "Sami schreit: 'Ihr seid Verräter, ihr lebt falsch! Meine Brüder sind meine wahre Familie!' Er wirkt voller Hass und Aggression."
+  },
+  "options": {
+    "Z1": [
+      { "label": "Eingehen: 'Im Glauben spielt Familie eine wichtige Rolle.'", "effect": -1, "feedback": "Sami hört aufmerksam zu und wirkt nachdenklich." },
+      { "label": "Gemeinsam religiöse Texte lesen", "effect": -1, "feedback": "Sami zeigt sich offen und diskutiert interessiert." },
+      { "label": "Ausweichen, Thema wechseln", "effect": 0, "feedback": "Sami wirkt enttäuscht und zieht sich zurück." }
+    ],
+    "Z2": [
+      { "label": "Fragen: 'Warum meinst du, dass die Umma wichtiger ist?'", "effect": -1, "feedback": "Sami erklärt vorsichtig, was er online gehört hat." },
+      { "label": "Neutral bleiben", "effect": 0, "feedback": "Sami beendet das Gespräch und geht ins Zimmer." },
+      { "label": "Kritisch sagen: 'Das ist Unsinn!'", "effect": 1, "feedback": "Sami wirkt verletzt und zieht sich zurück." }
+    ],
+    "Z3": [
+      { "label": "Ruhig betonen: 'Wir wollen dich trotzdem verstehen.'", "effect": -1, "feedback": "Sami wirkt kurz irritiert, redet aber abwehrend weiter." },
+      { "label": "Nicht reagieren", "effect": 0, "feedback": "Sami rennt ins Zimmer und geht sofort online." },
+      { "label": "Streng zurückweisen: 'Das ist respektlos!'", "effect": 2, "feedback": "Sami schreit: 'Ihr seid Teil des Problems!'" }
+    ],
+    "Z4": [
+      { "label": "Deeskalierend: 'Wir sind deine Familie, egal was du denkst.'", "effect": -1, "feedback": "Sami sagt nichts, wirkt aber innerlich bewegt." },
+      { "label": "Streit vermeiden", "effect": 0, "feedback": "Sami zieht sich wortlos zurück." },
+      { "label": "Heftig widersprechen", "effect": 2, "feedback": "Sami tobt und schreit über Verrat." }
+    ],
+    "Z5": [
+      { "label": "Ruhig sagen: 'Wir lieben dich, egal was passiert.'", "effect": -1, "feedback": "Sami brüllt weiter, doch kurz zögert er." },
+      { "label": "Schweigen und Distanz wahren", "effect": 0, "feedback": "Sami verschwindet sofort ins Zimmer." },
+      { "label": "Streng: 'Diese Brüder zerstören dich!'", "effect": 2, "feedback": "Sami schreit: 'Sie retten mich, ihr nicht!'" },
+      { "label": "Handy oder Laptop wegnehmen", "effect": 1, "feedback": "Sami schreit, dass ihr ihn von seiner wahren Familie trennt." }
+    ]
+  }
+}

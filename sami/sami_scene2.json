@@ -1,0 +1,38 @@
+{
+  "id": "scene_2",
+  "title": "Freunde und Kontakte",
+  "text": {
+    "Z1": "Sami trifft nach der Schule alte Freunde. Sie reden über Musik, Sport und lachen zusammen. Die Stimmung ist entspannt – Sami wirkt offen und normal.",
+    "Z2": "Sami ist zurückhaltend. Er meidet alte Freunde, sagt, er habe 'andere Leute' kennengelernt. Er wirkt verletzlich, aber erreichbar.",
+    "Z3": "Sami verbringt weniger Zeit mit alten Freunden. Stattdessen erwähnt er neue Bekanntschaften, die 'den Islam richtig verstehen'. Er wirkt zwiespältig.",
+    "Z4": "Sami trifft sich zunehmend mit Jugendlichen, die von 'Ungläubigen' reden. Alte Freunde sieht er kaum noch. Er wirkt kühl und abweisend.",
+    "Z5": "Sami ist nur noch mit einer radikalen Gruppe unterwegs. Er bezeichnet alte Freunde als 'irrelevant' und spricht von Verrat, wenn man nicht dazugehört."
+  },
+  "options": {
+    "Z1": [
+      { "label": "Freunde nach Hause einladen", "effect": -1, "feedback": "Sami freut sich, seine alten Freunde in vertrauter Umgebung zu sehen." },
+      { "label": "Interesse an den gemeinsamen Aktivitäten zeigen", "effect": -1, "feedback": "Sami wirkt glücklich, dass die Eltern Anteil nehmen." },
+      { "label": "Gleichgültig bleiben", "effect": 0, "feedback": "Sami geht mit Freunden raus, ohne ein Wort zu Hause zu sagen." }
+    ],
+    "Z2": [
+      { "label": "Ermutigen, alte Freundschaften zu pflegen", "effect": -1, "feedback": "Sami geht zögerlich auf alte Freunde zu, wirkt erleichtert." },
+      { "label": "Nachfragen zu den neuen Kontakten", "effect": 0, "feedback": "Sami sagt nur, es seien 'gute Leute', bleibt aber ausweichend." },
+      { "label": "Misstrauen äußern: 'Wer sind diese neuen Leute?'", "effect": 1, "feedback": "Sami verschließt sich und geht in sein Zimmer." }
+    ],
+    "Z3": [
+      { "label": "Behutsam nachfragen, ohne Druck", "effect": -1, "feedback": "Sami erzählt bruchstückhaft von den Treffen, aber vermeidet Details." },
+      { "label": "Neutral bleiben und nichts sagen", "effect": 0, "feedback": "Sami verschwindet bald zu seinen neuen Freunden." },
+      { "label": "Streng verbieten, neue Leute zu treffen", "effect": 2, "feedback": "Sami rebelliert lautstark: 'Ihr habt mir nichts zu sagen!'" }
+    ],
+    "Z4": [
+      { "label": "Gespräch über Loyalität suchen", "effect": -1, "feedback": "Sami reagiert abweisend, hört aber ein wenig zu." },
+      { "label": "Ignorieren und nicht einmischen", "effect": 0, "feedback": "Sami verbringt den ganzen Abend mit der Gruppe draußen." },
+      { "label": "Vorwürfe machen: 'Die verderben dich!'", "effect": 2, "feedback": "Sami verteidigt die Gruppe aggressiv." }
+    ],
+    "Z5": [
+      { "label": "Offen fragen, was er an der Gruppe findet", "effect": -1, "feedback": "Sami antwortet misstrauisch, aber spricht einige Sätze." },
+      { "label": "Strenge Grenzen setzen", "effect": 1, "feedback": "Sami schreit, dass die Gruppe seine 'wahre Familie' sei." },
+      { "label": "Treffen verbieten", "effect": 2, "feedback": "Sami explodiert: 'Ihr wollt mir alles nehmen!'" }
+    ]
+  }
+}

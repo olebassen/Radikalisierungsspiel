@@ -1,0 +1,39 @@
+{
+  "id": "scene_9",
+  "title": "Konkrete Pläne und Radikalisierungsschritte",
+  "text": {
+    "Z1": "Sami erzählt beiläufig, dass er ein Video über eine Jugendgruppe gesehen hat, die gemeinsam religiöse Aktivitäten macht. Er klingt neugierig und sucht Anschluss.",
+    "Z2": "Sami erwähnt, dass seine Online-Freunde ein Treffen vorschlagen. Er wirkt unsicher, ob er hingehen soll.",
+    "Z3": "Sami spricht aufgebracht davon, dass er bald 'echte Brüder' treffen will. Er wirkt entschlossen, aber auch angespannt.",
+    "Z4": "Sami sagt aggressiv: 'Meine Brüder wollen, dass ich mitkomme. Endlich echte Gemeinschaft!' Er blockt jede Kritik ab.",
+    "Z5": "Sami kündigt laut an: 'Ich treffe sie bald, dann beginnt der wahre Weg!' Er wirkt fest entschlossen und aggressiv."
+  },
+  "options": {
+    "Z1": [
+      { "label": "Interesse zeigen: 'Was genau machen die dort?'", "effect": -1, "feedback": "Sami erklärt neugierig, ohne Misstrauen." },
+      { "label": "Vorschlagen, die Gruppe gemeinsam zu recherchieren", "effect": -1, "feedback": "Sami ist überrascht, dass ihr mitmachen wollt." },
+      { "label": "Nicht reagieren", "effect": 0, "feedback": "Sami zieht sich zurück und geht online." }
+    ],
+    "Z2": [
+      { "label": "Sanft fragen: 'Was erwartest du dir von dem Treffen?'", "effect": -1, "feedback": "Sami spricht vorsichtig über seine Unsicherheiten." },
+      { "label": "Neutral bleiben", "effect": 0, "feedback": "Sami bleibt still und geht ins Zimmer." },
+      { "label": "Misstrauisch: 'Das sind keine guten Leute!'", "effect": 1, "feedback": "Sami blockt sofort ab und verschließt sich." }
+    ],
+    "Z3": [
+      { "label": "Ruhig fragen: 'Was bedeutet dir dieses Treffen?'", "effect": -1, "feedback": "Sami redet aufgeregt, aber etwas offener." },
+      { "label": "Keine Reaktion zeigen", "effect": 0, "feedback": "Sami geht schnell ins Zimmer und schreibt Nachrichten." },
+      { "label": "Streng verbieten, zu gehen", "effect": 2, "feedback": "Sami schreit: 'Ihr habt mir nichts zu sagen!'" }
+    ],
+    "Z4": [
+      { "label": "Deeskalierend: 'Wir verstehen, dass dir Gemeinschaft wichtig ist.'", "effect": -1, "feedback": "Sami sagt nichts, wirkt aber kurz unsicher." },
+      { "label": "Nicht reagieren", "effect": 0, "feedback": "Sami bleibt wortlos und verschwindet." },
+      { "label": "Heftig widersprechen: 'Das ist gefährlich!'", "effect": 2, "feedback": "Sami schreit: 'Ihr seid gegen meine Brüder!'" }
+    ],
+    "Z5": [
+      { "label": "Ruhig fragen: 'Warum ist dieses Treffen so wichtig für dich?'", "effect": -1, "feedback": "Sami zischt, antwortet aber kurz." },
+      { "label": "Schweigen und nicht weiter einmischen", "effect": 0, "feedback": "Sami packt hektisch seine Sachen." },
+      { "label": "Drohen: 'Wenn du gehst, gibt es Konsequenzen!'", "effect": 2, "feedback": "Sami brüllt: 'Dann bin ich weg, für immer!'" },
+      { "label": "Handy/Laptop sofort wegnehmen", "effect": 1, "feedback": "Sami schreit, dass ihr ihn von seinen Brüdern abschneiden wollt." }
+    ]
+  }
+}

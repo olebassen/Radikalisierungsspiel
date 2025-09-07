@@ -1,0 +1,39 @@
+{
+  "id": "scene_10",
+  "title": "Eskalation oder Distanzierung",
+  "text": {
+    "Z1": "Sami erzählt ruhig, dass er gemerkt hat, wie unterschiedlich Religion interpretiert wird. Er wirkt nachdenklich und fragt, wie ihr das seht.",
+    "Z2": "Sami sagt, er habe Zweifel an den harten Worten seiner Online-Kontakte. Er wirkt unsicher und sucht Orientierung.",
+    "Z3": "Sami verteidigt seine Online-Gruppe, betont aber, dass er sich manchmal überfordert fühlt. Er schwankt zwischen Loyalität und Distanz.",
+    "Z4": "Sami sagt wütend: 'Ihr versteht es nicht – meine Brüder haben recht!' Er wirkt angespannt und blockt Widerspruch ab.",
+    "Z5": "Sami schreit: 'Es gibt nur einen Weg, alles andere ist Verrat!' Er wirkt entschlossen, jedes Gegenargument abzuwehren."
+  },
+  "options": {
+    "Z1": [
+      { "label": "Offen diskutieren: 'Ja, es gibt viele Sichtweisen.'", "effect": -1, "feedback": "Sami hört aufmerksam zu und wirkt erleichtert." },
+      { "label": "Anregen, gemeinsam nach Quellen zu suchen", "effect": -1, "feedback": "Sami ist überrascht und zeigt sich interessiert." },
+      { "label": "Ausweichen und nicht weiter reden", "effect": 0, "feedback": "Sami bleibt still und geht später online." }
+    ],
+    "Z2": [
+      { "label": "Ermutigen: 'Es ist gut, dass du selbst nachdenkst.'", "effect": -1, "feedback": "Sami wirkt erleichtert und erzählt mehr." },
+      { "label": "Schweigen und zuhören", "effect": 0, "feedback": "Sami bleibt unsicher und zieht sich ins Zimmer zurück." },
+      { "label": "Vorwurfsvoll: 'Du hättest gar nicht erst zuhören sollen.'", "effect": 1, "feedback": "Sami reagiert gekränkt und blockt ab." }
+    ],
+    "Z3": [
+      { "label": "Verständnis zeigen: 'Es ist schwer, immer nur einer Meinung zu folgen.'", "effect": -1, "feedback": "Sami redet länger und öffnet sich ein wenig." },
+      { "label": "Nichts sagen und es stehen lassen", "effect": 0, "feedback": "Sami verschwindet schnell online." },
+      { "label": "Kritisieren: 'Die Gruppe ist schlecht für dich.'", "effect": 2, "feedback": "Sami schreit: 'Ihr versteht nichts!'" }
+    ],
+    "Z4": [
+      { "label": "Deeskalierend: 'Wir hören dir zu, auch wenn wir anders denken.'", "effect": -1, "feedback": "Sami schweigt, wirkt aber nachdenklich." },
+      { "label": "Nicht weiter eingehen", "effect": 0, "feedback": "Sami verschwindet wortlos ins Zimmer." },
+      { "label": "Heftig widersprechen", "effect": 2, "feedback": "Sami tobt und schreit über Verrat." }
+    ],
+    "Z5": [
+      { "label": "Ruhig bleiben: 'Wir sind trotzdem deine Familie.'", "effect": -1, "feedback": "Sami schreit, doch sein Blick wird kurz unsicher." },
+      { "label": "Distanz wahren und nichts sagen", "effect": 0, "feedback": "Sami verschwindet sofort online." },
+      { "label": "Drohen: 'Wenn du so weitermachst, gibt es Konsequenzen!'", "effect": 2, "feedback": "Sami brüllt: 'Dann bin ich ganz weg!'" },
+      { "label": "Gerät wegnehmen", "effect": 1, "feedback": "Sami schreit, dass ihr ihn von der Wahrheit trennt." }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "scene_6",
+  "title": "Konflikt über Freizeit und Kontrolle",
+  "text": {
+    "Z1": "Sami verbringt den Nachmittag mit Sport und Gaming. Er erzählt entspannt, dass er auch ein neues Video gesehen hat. Die Stimmung ist locker.",
+    "Z2": "Sami sitzt lange am Handy, wirkt gereizt, wenn ihr fragt. Er sagt, er brauche 'seine Ruhe'.",
+    "Z3": "Sami meckert, dass er ständig kontrolliert werde. Er betont, dass seine Online-Kontakte ihn besser verstehen als ihr.",
+    "Z4": "Sami bleibt bis spät in der Nacht online. Auf Nachfragen schreit er, ihr würdet sein Leben zerstören.",
+    "Z5": "Sami weigert sich, das Handy abzugeben, ruft: 'Ihr wollt mich isolieren von meinen Brüdern!' Er wirkt panisch und aggressiv."
+  },
+  "options": {
+    "Z1": [
+      { "label": "Locker fragen, was er geschaut hat", "effect": -1, "feedback": "Sami erzählt entspannt vom Video, ohne Misstrauen." },
+      { "label": "Vorschlagen, eine gemeinsame Aktivität zu machen", "effect": -1, "feedback": "Sami freut sich und geht mit." },
+      { "label": "Gar nichts sagen", "effect": 0, "feedback": "Sami bleibt beim Handy, ohne weiteren Austausch." }
+    ],
+    "Z2": [
+      { "label": "Verständnis zeigen: 'Okay, du brauchst Ruhe – aber erzähl uns später.'", "effect": -1, "feedback": "Sami nickt zögerlich und beruhigt sich etwas." },
+      { "label": "Nicht nachfragen und ihn machen lassen", "effect": 0, "feedback": "Sami bleibt online bis spät in die Nacht." },
+      { "label": "Vorwurfsvoll: 'Du bist nur noch am Handy!'", "effect": 1, "feedback": "Sami reagiert gereizt und knallt die Tür." }
+    ],
+    "Z3": [
+      { "label": "Ruhig erklären, warum ihr euch sorgt", "effect": -1, "feedback": "Sami schnaubt, hört aber zu." },
+      { "label": "Neutral bleiben und es laufen lassen", "effect": 0, "feedback": "Sami geht sofort wieder online." },
+      { "label": "Mit Druck fordern: 'Zeig uns sofort dein Handy!'", "effect": 2, "feedback": "Sami blockt aggressiv ab." }
+    ],
+    "Z4": [
+      { "label": "Deeskalierend anbieten: 'Lass uns morgen gemeinsam was unternehmen.'", "effect": -1, "feedback": "Sami wirkt kurz nachdenklich, geht dann ins Zimmer." },
+      { "label": "Nicht eingreifen", "effect": 0, "feedback": "Sami bleibt bis tief in die Nacht online." },
+      { "label": "Drohen, WLAN auszuschalten", "effect": 2, "feedback": "Sami schreit: 'Ihr wollt mich mundtot machen!'" }
+    ],
+    "Z5": [
+      { "label": "Ruhig betonen: 'Wir machen uns Sorgen, nicht Kontrolle.'", "effect": -1, "feedback": "Sami zischt, hört aber ein paar Sekunden zu." },
+      { "label": "Streit vermeiden und nichts sagen", "effect": 0, "feedback": "Sami verbringt die Nacht am Handy." },
+      { "label": "Handy fordern: 'Gib es sofort her!'", "effect": 2, "feedback": "Sami schreit panisch und verteidigt das Gerät wie einen Schatz." },
+      { "label": "Körperlich eingreifen", "effect": 2, "feedback": "Sami schreit: 'Ihr seid Feinde!' und schlägt die Tür." }
+    ]
+  }
+}

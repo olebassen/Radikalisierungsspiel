@@ -1,0 +1,39 @@
+{
+  "id": "scene_4",
+  "title": "Religiöse Diskussion zuhause",
+  "text": {
+    "Z1": "Beim Abendessen erzählt Sami, dass er ein Video gesehen hat, in dem über das Gebet gesprochen wurde. Er ist neugierig und will wissen, wie andere es sehen.",
+    "Z2": "Sami spricht vorsichtig über Gott und fragt, warum in der Schule kaum über Religion gesprochen wird. Er wirkt suchend, aber zurückhaltend.",
+    "Z3": "Sami behauptet, die Lehrer würden den Islam absichtlich falsch darstellen. Er spricht gereizt, aber nicht unzugänglich.",
+    "Z4": "Sami sagt scharf: 'Die da draußen sind alle gegen uns – nur wir Muslime wissen die Wahrheit!' Er wirkt abweisend und angespannt.",
+    "Z5": "Sami brüllt: 'Ihr seid keine richtigen Muslime, ihr lebt wie die Ungläubigen!' Seine Stimme überschlägt sich, er wirkt voller Zorn."
+  },
+  "options": {
+    "Z1": [
+      { "label": "Fragen: 'Was genau hat dich an dem Video interessiert?'", "effect": -1, "feedback": "Sami erklärt begeistert und freut sich über echtes Interesse." },
+      { "label": "Anbieten, gemeinsam mehr dazu zu lesen", "effect": -1, "feedback": "Sami ist überrascht, dass ihr euch einbringen wollt." },
+      { "label": "Thema wechseln", "effect": 0, "feedback": "Sami wirkt enttäuscht und zieht sich zurück." }
+    ],
+    "Z2": [
+      { "label": "Zuhören und nachfragen, ohne zu werten", "effect": -1, "feedback": "Sami erzählt etwas mehr, wirkt erleichtert." },
+      { "label": "Neutral bleiben", "effect": 0, "feedback": "Sami beendet das Gespräch und geht in sein Zimmer." },
+      { "label": "Kritisch sagen: 'Das ist doch nicht wichtig'", "effect": 1, "feedback": "Sami zieht sich gekränkt zurück." }
+    ],
+    "Z3": [
+      { "label": "Sachlich nachfragen: 'Warum denkst du das?'", "effect": -1, "feedback": "Sami argumentiert hitzig, bleibt aber im Gespräch." },
+      { "label": "Ignorieren und nichts sagen", "effect": 0, "feedback": "Sami geht sofort online, um weiterzulesen." },
+      { "label": "Wütend widersprechen", "effect": 2, "feedback": "Sami schreit: 'Ihr seid auch Teil der Lüge!'" }
+    ],
+    "Z4": [
+      { "label": "Ruhig betonen: 'Wir sind trotzdem deine Familie'", "effect": -1, "feedback": "Sami schweigt, wirkt innerlich bewegt." },
+      { "label": "Nichts sagen, Distanz wahren", "effect": 0, "feedback": "Sami geht wortlos ins Zimmer." },
+      { "label": "Drohung: 'Wenn du so redest, gibt es Konsequenzen!'", "effect": 2, "feedback": "Sami tobt und schreit über Verrat." }
+    ],
+    "Z5": [
+      { "label": "Deeskalierend: 'Wir wollen verstehen, warum du so denkst'", "effect": -1, "feedback": "Sami zischt, dass ihr nie verstehen werdet, spricht aber weiter." },
+      { "label": "Thema vermeiden, um Streit zu verhindern", "effect": 0, "feedback": "Sami zieht sich zurück, bleibt voller Zorn." },
+      { "label": "Streng reagieren: 'So redest du nicht mit uns!'", "effect": 2, "feedback": "Sami brüllt: 'Ihr seid schlimmer als die Ungläubigen!'" },
+      { "label": "Handy wegnehmen", "effect": 1, "feedback": "Sami schreit, dass ihr ihn kaputtmachen wollt." }
+    ]
+  }
+}

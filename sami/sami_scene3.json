@@ -1,0 +1,38 @@
+{
+  "id": "scene_3",
+  "title": "Online-Kontakte und digitale Blasen",
+  "text": {
+    "Z1": "Sami nutzt das Internet hauptsächlich für Musik und Gaming. Er erwähnt beiläufig ein religiöses Video, das er spannend fand, aber er wirkt neugierig, nicht besessen.",
+    "Z2": "Sami verbringt mehr Zeit online, schaut Predigten und diskutiert in Kommentaren. Er wirkt fasziniert, aber auch verunsichert.",
+    "Z3": "Sami ist in religiösen Foren aktiv. Er betont, dass er dort endlich 'echte Antworten' bekommt. Er wirkt zwischen Begeisterung und Misstrauen schwankend.",
+    "Z4": "Sami schaut stundenlang exklusive Inhalte auf YouTube und Telegram. Er spricht von 'Lügenpresse' und 'den wahren Gläubigen'.",
+    "Z5": "Sami ist tief in extremistischen Chats verstrickt. Er nennt die Online-Kontakte 'Brüder' und zeigt Misstrauen gegenüber jedem außerhalb der Gruppe."
+  },
+  "options": {
+    "Z1": [
+      { "label": "Nachfragen: 'Was findest du spannend an den Videos?'", "effect": -1, "feedback": "Sami erklärt, dass er neugierig ist und fühlt sich ernst genommen." },
+      { "label": "Gemeinsam ein Video ansehen", "effect": -1, "feedback": "Sami freut sich, dass die Eltern Interesse zeigen." },
+      { "label": "Nicht weiter nachhaken", "effect": 0, "feedback": "Sami schaut weiter online, ohne es groß zu thematisieren." }
+    ],
+    "Z2": [
+      { "label": "Offen fragen, welche Predigten er schaut", "effect": -1, "feedback": "Sami erzählt ein wenig, aber vorsichtig." },
+      { "label": "Abwarten, ob er selbst mehr erzählt", "effect": 0, "feedback": "Sami verbringt den Abend online, ohne mit euch zu reden." },
+      { "label": "Skeptisch reagieren: 'Das sind doch nur Spinner'", "effect": 1, "feedback": "Sami zieht sich sofort zurück." }
+    ],
+    "Z3": [
+      { "label": "Gespräch über Inhalte suchen", "effect": -1, "feedback": "Sami diskutiert widersprüchlich, bleibt aber im Gespräch." },
+      { "label": "Nichts unternehmen", "effect": 0, "feedback": "Sami verbringt die halbe Nacht in Foren." },
+      { "label": "Handy kontrollieren wollen", "effect": 2, "feedback": "Sami verschließt sein Gerät sofort." }
+    ],
+    "Z4": [
+      { "label": "Ruhig nachfragen, was ihn daran fasziniert", "effect": -1, "feedback": "Sami blockt ab, wirkt aber nachdenklich." },
+      { "label": "Tolerieren, ohne es anzusprechen", "effect": 0, "feedback": "Sami bleibt bis tief in die Nacht online." },
+      { "label": "Drohen, Internet zu sperren", "effect": 2, "feedback": "Sami schreit: 'Ihr wollt mich mundtot machen!'" }
+    ],
+    "Z5": [
+      { "label": "Sensibel nach Risiken fragen", "effect": -1, "feedback": "Sami reagiert misstrauisch, aber antwortet kurz." },
+      { "label": "Versuchen, sein Handy zu überwachen", "effect": 1, "feedback": "Sami sagt: 'Ihr kontrolliert mich, ihr seid wie die Feinde!'" },
+      { "label": "Geräte wegnehmen", "effect": 2, "feedback": "Sami explodiert und schreit, dass seine 'Brüder' wichtiger seien als Familie." }
+    ]
+  }
+}
