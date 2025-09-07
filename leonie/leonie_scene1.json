@@ -1,112 +1,96 @@
 {
-  "id": "leonie_scene1",
-  "title": "Erste Meldung",
+  "title": "Erste Beobachtungen",
   "text": {
-    "Z1": "Von der Universität geht eine allgemeine Meldung ein: Leonie hat ihr Studium abgebrochen, wirkt orientierungslos, zieht sich zurück. Keine klaren Hinweise auf Radikalisierung.",
-    "Z2": "Eine Mitarbeiterin der Uni berichtet, Leonie sei seit Wochen kaum erreichbar. Auf Social Media postet sie religiöse Zitate, die aber nicht extremistisch wirken.",
-    "Z3": "Die Meldung beschreibt, dass Leonie zunehmend religiöse Inhalte teilt und sich von alten Freundeskreisen abgrenzt. Es besteht ein vages Unbehagen.",
-    "Z4": "Leonie wird von Kommiliton*innen als abweisend beschrieben. Sie äußert, die Universität sei 'Teil eines falschen Systems'. Erste Kontakte zu radikalen Online-Gruppen sind erkennbar.",
-    "Z5": "Die Universität meldet konkrete Sorgen: Leonie verbreitet extremistische Inhalte in Chatgruppen und benutzt eine klare 'Wir gegen die'-Rhetorik."
+    "Z1": "Leonie fällt online durch kritische, aber noch nicht klar extremistische Kommentare auf. Sie wirkt provozierend, aber auch suchend.",
+    "Z2": "Leonie teilt Inhalte, die verschwörungsideologisch geprägt sind. Sie testet Grenzen, bleibt aber ansprechbar.",
+    "Z3": "Leonie verbreitet provokante Posts mit radikalem Unterton. Sie schwankt zwischen Protesthaltung und ernsthafter Übernahme extremistischer Narrative.",
+    "Z4": "Leonie beteiligt sich aktiv in Foren mit extremistischem Vokabular. Sie zeigt Abwehr, wenn man ihre Haltung infrage stellt.",
+    "Z5": "Leonie teilt offen extremistisches Material und verteidigt es aggressiv. Sie präsentiert sich klar in Abgrenzung zum 'System'."
   },
   "options": {
     "Z1": [
       {
-        "label": "Eine einfache Aktennotiz erstellen und den Fall beobachten",
-        "effect": 0,
-        "feedback": "Der Fall wird vermerkt, bleibt aber ohne weitere Aufmerksamkeit."
-      },
-      {
-        "label": "Frühzeitig Kontakt zu Leonie aufnehmen und ein Gespräch anbieten",
+        "label": "Ein vertrauliches Gespräch an der Schule anbahnen",
         "effect": -1,
-        "feedback": "Leonie wirkt überrascht, hört aber freundlich zu."
+        "feedback": "Leonie wirkt überrascht, aber sie hört zu und bleibt erreichbar."
       },
       {
-        "label": "Die Meldung als harmlos abtun",
-        "effect": 1,
-        "feedback": "Leonie bleibt unbeachtet, mögliche Probleme entwickeln sich weiter."
+        "label": "Ihre Posts sofort aktenkundig machen und beobachten",
+        "effect": 0,
+        "feedback": "Die Informationen werden gesichert. Für den Moment bleibt der Kontakt jedoch distanziert."
+      },
+      {
+        "label": "Sie öffentlich auf ihr Verhalten ansprechen",
+        "effect": 2,
+        "feedback": "Leonie fühlt sich bloßgestellt und reagiert trotzig."
       }
     ],
     "Z2": [
       {
-        "label": "Leonie online beobachten, ohne sie zu kontaktieren",
-        "effect": 0,
-        "feedback": "Es zeigen sich erste Muster, doch ohne weitere Schritte bleibt es beim Verdacht."
-      },
-      {
-        "label": "Sie direkt zu einem Gespräch einladen",
+        "label": "Ihre Unsicherheit ansprechen und nachfragen",
         "effect": -1,
-        "feedback": "Leonie wirkt reserviert, akzeptiert aber den Termin."
+        "feedback": "Leonie wirkt ertappt, aber sie antwortet knapp und bleibt ansprechbar."
       },
       {
-        "label": "Die Meldung sofort an den Staatsschutz weitergeben",
-        "effect": 1,
-        "feedback": "Das Umfeld wird nervös, Leonie erfährt von der Aufmerksamkeit und zieht sich noch mehr zurück."
+        "label": "Ihre Online-Aktivitäten protokollieren und abwarten",
+        "effect": 0,
+        "feedback": "Die Dokumentation ist sauber, aber der Kontakt zu Leonie wird nicht gestärkt."
+      },
+      {
+        "label": "Ihr Verhalten als gefährlich einstufen",
+        "effect": 2,
+        "feedback": "Leonie fühlt sich missverstanden und verteidigt ihre Haltung."
       }
     ],
     "Z3": [
       {
-        "label": "Ein präventives Gespräch anregen",
+        "label": "Ein Gespräch mit den Eltern führen",
         "effect": -1,
-        "feedback": "Leonie reagiert vorsichtig, zeigt aber, dass sie die Ansprache ernstnimmt."
+        "feedback": "Die Eltern sind besorgt, Leonie reagiert jedoch gemischt."
       },
       {
-        "label": "Monitoring der Social Media Aktivitäten starten",
-        "effect": 0,
-        "feedback": "Leonie bemerkt nichts, die Polizei sammelt weitere Informationen."
-      },
-      {
-        "label": "Die Universität ermahnen, nicht zu übertreiben",
-        "effect": 1,
-        "feedback": "Die Uni fühlt sich abgewiesen, Leonie rutscht unbeobachtet tiefer ab."
-      },
-      {
-        "label": "Leonie vorladen und offiziell befragen",
+        "label": "Ein offizielles Verhör einleiten",
         "effect": 2,
-        "feedback": "Leonie fühlt sich kriminalisiert und verweigert Kooperation."
+        "feedback": "Leonie geht sofort in die Verteidigung und misstraut der Polizei."
+      },
+      {
+        "label": "In einem vertraulichen Rahmen vorsichtig Kontakt aufnehmen",
+        "effect": -2,
+        "feedback": "Leonie reagiert abweisend, hört aber zu – ein kleiner Zugang entsteht."
       }
     ],
     "Z4": [
       {
-        "label": "Deeskalierend Kontakt aufnehmen und Hilfeangebote nennen",
-        "effect": -1,
-        "feedback": "Leonie reagiert abweisend, merkt aber deine ernsthafte Haltung."
-      },
-      {
-        "label": "Die Meldung dokumentieren und an das Präventionsteam weitergeben",
+        "label": "Ihre Aktivitäten still dokumentieren und beobachten",
         "effect": 0,
-        "feedback": "Die Akte wird ergänzt, es folgt aber keine direkte Reaktion."
+        "feedback": "Es gibt keine Eskalation, aber auch keinen direkten Zugang."
       },
       {
-        "label": "Leonie offiziell verwarnen",
-        "effect": 1,
-        "feedback": "Leonie fühlt sich angegriffen und zieht sich stärker zurück."
-      },
-      {
-        "label": "Die Familie sofort einbeziehen",
+        "label": "Sie direkt mit den Forenbeiträgen konfrontieren",
         "effect": 2,
-        "feedback": "Leonie erfährt davon und reagiert wütend auf die Einmischung."
+        "feedback": "Leonie blockt sofort ab und beruft sich auf Meinungsfreiheit."
+      },
+      {
+        "label": "Über Dritte (z. B. Schule, Jugendamt) einen Zugang suchen",
+        "effect": -1,
+        "feedback": "Leonie erfährt es indirekt, reagiert skeptisch, bleibt aber ansprechbar."
       }
     ],
     "Z5": [
       {
-        "label": "Ein vertrauliches, deeskalierendes Gespräch suchen",
-        "effect": -1,
-        "feedback": "Leonie kontert ablehnend, zeigt aber einen kurzen Moment des Zögerns."
-      },
-      {
-        "label": "Die Social Media Inhalte dokumentieren und weiterleiten",
-        "effect": 0,
-        "feedback": "Der Vorgang wird gesichert, Leonie bemerkt nichts."
-      },
-      {
-        "label": "Leonie offiziell vorladen und streng befragen",
-        "effect": 1,
-        "feedback": "Leonie reagiert wütend und verschließt sich völlig."
-      },
-      {
-        "label": "Den Fall sofort an die Staatsschutzbehörde übergeben",
+        "label": "Eine offizielle Gefährderansprache durchführen",
         "effect": 2,
-        "feedback": "Leonie spürt den Druck, fühlt sich bestätigt, dass der Staat gegen sie sei."
+        "feedback": "Leonie fühlt sich frontal angegriffen und zieht sich tiefer in ihre Szene zurück."
+      },
+      {
+        "label": "Ihre Online-Aktivitäten dokumentieren und erst beobachten",
+        "effect": 0,
+        "feedback": "Die Gefahreneinschätzung wird abgesichert, ohne dass ein direkter Zugang entsteht."
+      },
+      {
+        "label": "In einem geschützten Rahmen das Gespräch suchen",
+        "effect": -1,
+        "feedback": "Leonie reagiert abwehrend, aber sie hört mit halbem Ohr zu."
       }
     ]
   }

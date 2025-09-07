@@ -1,117 +1,96 @@
 {
-  "id": "leonie_scene3",
-  "title": "Erstkontakt",
+  "title": "Gespräch vertiefen",
   "text": {
-    "Z1": "Du triffst Leonie bei einer freiwilligen Info-Veranstaltung zum Thema 'Sicherheit im Netz'. Sie wirkt zurückhaltend, aber höflich. Noch keine klaren Anzeichen für Radikalisierung.",
-    "Z2": "Leonie wurde zu einem Gespräch eingeladen. Sie erscheint pünktlich, wirkt unsicher und fragt, warum sie hier sei.",
-    "Z3": "Im Gespräch äußert Leonie, dass 'die Medien sowieso lügen'. Sie wirkt skeptisch, bleibt aber äußerlich ruhig.",
-    "Z4": "Leonie reagiert abwehrend: 'Die Polizei will uns doch nur kontrollieren.' Ihre Körpersprache ist angespannt, sie wirkt misstrauisch.",
-    "Z5": "Beim Erstkontakt wird Leonie laut. Sie wirft der Polizei vor, 'Teil des Systems zu sein, das Muslime unterdrückt', und verweigert jede Zusammenarbeit."
+    "Z1": "Leonie wirkt nachdenklich und erzählt zögerlich von Spannungen mit ihren Eltern, die ihre Online-Aktivitäten nicht verstehen.",
+    "Z2": "Leonie verteidigt ihre Posts, sagt aber, dass sie zuhause zunehmend Streit deswegen hat.",
+    "Z3": "Leonie schwankt: Einerseits verteidigt sie ihre Position, andererseits deutet sie an, dass sie manchmal überfordert ist.",
+    "Z4": "Leonie reagiert distanziert: 'Das geht niemanden etwas an.' Sie will nicht über Familie oder Umfeld reden.",
+    "Z5": "Leonie behauptet, dass ihre Familie und die Polizei gegen sie arbeiten. Sie betont, dass nur ihre Gruppe sie versteht."
   },
   "options": {
     "Z1": [
       {
-        "label": "Das Gespräch locker halten und Vertrauen aufbauen",
+        "label": "Ihre Konflikte anerkennen und Verständnis zeigen",
         "effect": -1,
-        "feedback": "Leonie bleibt vorsichtig, hört dir aber aufmerksam zu."
+        "feedback": "Leonie fühlt sich gesehen und öffnet sich etwas mehr."
       },
       {
-        "label": "Das Gespräch formal führen und dokumentieren",
-        "effect": 0,
-        "feedback": "Leonie beantwortet Fragen knapp und geht wieder."
+        "label": "Ihre Eltern kritisieren",
+        "effect": 2,
+        "feedback": "Leonie verteidigt die Familie und zieht sich zurück."
       },
       {
-        "label": "Sie direkt fragen, ob sie Kontakt zu riskanten Gruppen hat",
-        "effect": 1,
-        "feedback": "Leonie wirkt irritiert und zieht sich zurück."
+        "label": "Neutral fragen: 'Wie erlebst du die Reaktionen zuhause?'",
+        "effect": -1,
+        "feedback": "Leonie erzählt etwas mehr, bleibt aber vorsichtig."
       }
     ],
     "Z2": [
       {
-        "label": "Verständnis zeigen und erklären, warum du das Gespräch führst",
+        "label": "Ihre Belastung durch den Streit ansprechen",
         "effect": -1,
-        "feedback": "Leonie entspannt sich etwas und wirkt offener."
+        "feedback": "Leonie wirkt erleichtert, dass der Druck wahrgenommen wird."
       },
       {
-        "label": "Neutral Fragen stellen und dokumentieren",
-        "effect": 0,
-        "feedback": "Leonie bleibt einsilbig und wirkt abwesend."
-      },
-      {
-        "label": "Sie streng ermahnen, mitzuwirken",
-        "effect": 1,
-        "feedback": "Leonie schaut abweisend und bricht das Gespräch fast ab."
-      },
-      {
-        "label": "Das Gespräch abkürzen und sofort Aktenvermerk anlegen",
+        "label": "Ihre Verteidigung kritisieren",
         "effect": 2,
-        "feedback": "Leonie geht wortlos und wirkt verärgert."
+        "feedback": "Leonie verschließt sich und reagiert trotzig."
+      },
+      {
+        "label": "Sachlich erklären, warum die Polizei aufmerksam ist",
+        "effect": 0,
+        "feedback": "Leonie hört zu, bleibt aber auf Distanz."
       }
     ],
     "Z3": [
       {
-        "label": "Auf ihre Skepsis eingehen und nach ihren Gründen fragen",
+        "label": "Ihre Überforderung benennen",
         "effect": -1,
-        "feedback": "Leonie nennt Beispiele, wirkt aber nachdenklich."
+        "feedback": "Leonie fühlt sich verstanden und nickt vorsichtig."
       },
       {
-        "label": "Die Aussage kommentarlos notieren",
-        "effect": 0,
-        "feedback": "Leonie redet nicht weiter und beendet das Gespräch schnell."
-      },
-      {
-        "label": "Sie streng unterbrechen und klarstellen, dass das Unsinn sei",
-        "effect": 1,
-        "feedback": "Leonie verschließt sich und wirkt feindselig."
-      },
-      {
-        "label": "Ironisch fragen, ob sie die Wahrheit besser kenne",
+        "label": "Ihre Unsicherheit als Schwäche darstellen",
         "effect": 2,
-        "feedback": "Leonie fühlt sich provoziert und reagiert aggressiv."
+        "feedback": "Leonie geht sofort in die Abwehrhaltung."
+      },
+      {
+        "label": "Nachfragen, welche Unterstützung sie sich wünschen würde",
+        "effect": -2,
+        "feedback": "Leonie überlegt und nennt vorsichtig ein Bedürfnis."
       }
     ],
     "Z4": [
       {
-        "label": "Ruhig bleiben und betonen, dass es um Prävention geht",
-        "effect": -1,
-        "feedback": "Leonie bleibt abwehrend, hört aber zu."
-      },
-      {
-        "label": "Ihre Vorwürfe ignorieren und Thema wechseln",
+        "label": "Ihre Grenzen respektieren und zuhören",
         "effect": 0,
-        "feedback": "Leonie wirkt unbeeindruckt und distanziert."
+        "feedback": "Leonie bleibt reserviert, aber das Gespräch bricht nicht ab."
       },
       {
-        "label": "Sie streng konfrontieren",
-        "effect": 1,
-        "feedback": "Leonie schreit, dass die Polizei sie überwache."
-      },
-      {
-        "label": "Das Gespräch abbrechen und vermerken",
+        "label": "Darauf bestehen, dass sie Auskunft geben muss",
         "effect": 2,
-        "feedback": "Leonie verlässt wütend den Raum."
+        "feedback": "Leonie blockt sofort und zieht sich zurück."
+      },
+      {
+        "label": "Sanft erklären, warum ihr Umfeld relevant ist",
+        "effect": -1,
+        "feedback": "Leonie hört zu, bleibt aber vorsichtig."
       }
     ],
     "Z5": [
       {
-        "label": "Ruhig deeskalieren und ihre Kritik ernst nehmen",
+        "label": "Ihre Angst vor Isolation anerkennen",
         "effect": -1,
-        "feedback": "Leonie bleibt aggressiv, zeigt aber kurz Unsicherheit."
+        "feedback": "Leonie wirkt irritiert, aber auch etwas nachdenklich."
       },
       {
-        "label": "Ihre Aussagen dokumentieren und sachlich fortfahren",
-        "effect": 0,
-        "feedback": "Leonie bleibt ablehnend, das Gespräch bleibt angespannt."
-      },
-      {
-        "label": "Sie streng ermahnen, die Polizei zu respektieren",
-        "effect": 1,
-        "feedback": "Leonie schreit lauter und weigert sich weiter."
-      },
-      {
-        "label": "Das Gespräch abbrechen und Konsequenzen androhen",
+        "label": "Ihre Gruppe als gefährlich bezeichnen",
         "effect": 2,
-        "feedback": "Leonie fühlt sich bestätigt, dass der Staat sie bekämpft."
+        "feedback": "Leonie verteidigt sie heftig und bricht fast ab."
+      },
+      {
+        "label": "Neutral nachfragen, was sie an der Gruppe stärkt",
+        "effect": 0,
+        "feedback": "Leonie antwortet knapp, bleibt aber im Gespräch."
       }
     ]
   }

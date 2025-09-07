@@ -1,1 +1,97 @@
-
+{
+  "title": "Emotionen im Gespräch",
+  "text": {
+    "Z1": "Murat spricht offen über seine Wut und Enttäuschung. Er sagt, dass er manchmal nicht weiß, wohin mit seinen Gefühlen.",
+    "Z2": "Murat deutet an, dass er innerlich zerrissen ist. Er wirkt traurig, will aber nicht schwach erscheinen.",
+    "Z3": "Murat schwankt zwischen aggressiven Kommentaren und dem Eingeständnis, dass er sich überfordert fühlt.",
+    "Z4": "Murat reagiert schroff. Er sagt, dass solche Gespräche sowieso nichts bringen.",
+    "Z5": "Murat wiederholt starre Parolen: 'Gefühle sind Schwäche, nur Stärke zählt.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Seine Gefühle anerkennen und entlasten",
+        "effect": -2,
+        "feedback": "Murat spürt, dass er mit seiner Wut nicht allein ist und beruhigt sich etwas."
+      },
+      {
+        "label": "Schnell Lösungen anbieten",
+        "effect": 1,
+        "feedback": "Murat fühlt sich nicht verstanden und blockt ab."
+      },
+      {
+        "label": "Neutral nachfragen: 'Wann merkst du das am stärksten?'",
+        "effect": -1,
+        "feedback": "Murat beginnt, seine Wut besser einzuordnen."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Seine Traurigkeit wertschätzen und normalisieren",
+        "effect": -1,
+        "feedback": "Murat erkennt, dass auch Schwäche Platz haben darf."
+      },
+      {
+        "label": "Betonen, dass er stark wirken soll",
+        "effect": 2,
+        "feedback": "Murat fühlt sich gezwungen, seine Traurigkeit zu verbergen."
+      },
+      {
+        "label": "Eine kleine Pause vorschlagen",
+        "effect": 0,
+        "feedback": "Murat atmet durch, bleibt aber zurückhaltend."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Überforderung klar benennen",
+        "effect": -1,
+        "feedback": "Murat wirkt erleichtert, dass jemand seine Ambivalenz erkennt."
+      },
+      {
+        "label": "Seine aggressiven Kommentare kritisieren",
+        "effect": 2,
+        "feedback": "Murat geht in die Verteidigung und baut Distanz auf."
+      },
+      {
+        "label": "Eine Strategie zur Stressbewältigung anbieten",
+        "effect": -1,
+        "feedback": "Murat hört zu, bleibt aber vorsichtig interessiert."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Seine Frustration anerkennen",
+        "effect": -1,
+        "feedback": "Murat merkt, dass seine Ablehnung gehört wird."
+      },
+      {
+        "label": "Betonen, dass er sich nicht so anstellen soll",
+        "effect": 2,
+        "feedback": "Murat reagiert abweisend und zieht sich stärker zurück."
+      },
+      {
+        "label": "Gelassen reagieren und das Thema wechseln",
+        "effect": 0,
+        "feedback": "Das Gespräch bleibt oberflächlich, aber ohne Abbruch."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Sanft fragen, ob er wirklich keine Gefühle kennt",
+        "effect": -1,
+        "feedback": "Murat stockt und überlegt kurz."
+      },
+      {
+        "label": "Die Parolen direkt kritisieren",
+        "effect": 2,
+        "feedback": "Murat wiederholt sie noch stärker."
+      },
+      {
+        "label": "Geduldig zuhören, ohne sofort zu reagieren",
+        "effect": 0,
+        "feedback": "Murat bleibt bei seinen Sätzen, merkt aber deine Ruhe."
+      }
+    ]
+  }
+}

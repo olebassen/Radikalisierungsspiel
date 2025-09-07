@@ -1,0 +1,97 @@
+{
+  "title": "Emotionale Reaktionen",
+  "text": {
+    "Z1": "Leonie wirkt angespannt, gibt aber zu, dass sie manchmal unsicher ist, ob sie sich verrannt hat.",
+    "Z2": "Leonie zeigt Frust: 'Alle schauen nur kritisch auf mich.'",
+    "Z3": "Leonie schwankt zwischen Wut und dem Eingeständnis, dass sie sich manchmal einsam fühlt.",
+    "Z4": "Leonie sagt, dass Gespräche mit der Polizei sinnlos seien. Sie wirkt müde und abweisend.",
+    "Z5": "Leonie ruft: 'Ihr seid Teil des Systems, das mich kaputtmachen will!'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Ihre Unsicherheit anerkennen",
+        "effect": -2,
+        "feedback": "Leonie zeigt vorsichtige Offenheit und bleibt im Gespräch."
+      },
+      {
+        "label": "Ihre Zweifel herunterspielen",
+        "effect": 1,
+        "feedback": "Leonie zieht sich zurück und blockt ab."
+      },
+      {
+        "label": "Neutral fragen: 'Was gibt dir Sicherheit?'",
+        "effect": -1,
+        "feedback": "Leonie überlegt und nennt ein kleines Beispiel."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Ihren Frust ernst nehmen",
+        "effect": -1,
+        "feedback": "Leonie wirkt erleichtert, dass ihre Gefühle anerkannt werden."
+      },
+      {
+        "label": "Betonen, dass sie übertreibt",
+        "effect": 2,
+        "feedback": "Leonie reagiert noch wütender."
+      },
+      {
+        "label": "Das Gespräch ruhig fortsetzen",
+        "effect": 0,
+        "feedback": "Leonie bleibt genervt, aber sie hört zu."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Ihre Einsamkeit thematisieren",
+        "effect": -1,
+        "feedback": "Leonie reagiert nachdenklich und spricht vorsichtiger."
+      },
+      {
+        "label": "Ihre Wut fokussieren",
+        "effect": 1,
+        "feedback": "Leonie steigert sich in ihre Aggression hinein."
+      },
+      {
+        "label": "Ihre Ambivalenz akzeptieren",
+        "effect": -1,
+        "feedback": "Leonie merkt, dass sie sich nicht sofort festlegen muss."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Ihre Müdigkeit anerkennen",
+        "effect": -1,
+        "feedback": "Leonie entspannt sich minimal, bleibt aber skeptisch."
+      },
+      {
+        "label": "Darauf bestehen, dass sie reden muss",
+        "effect": 2,
+        "feedback": "Leonie blockt sofort ab."
+      },
+      {
+        "label": "Gespräch neutral halten",
+        "effect": 0,
+        "feedback": "Leonie bleibt verschlossen, doch der Kontakt reißt nicht ab."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Ihre Angst vor Verfolgung ansprechen",
+        "effect": -1,
+        "feedback": "Leonie stockt, wirkt aber leicht irritiert und weniger aggressiv."
+      },
+      {
+        "label": "Ihre Aussage als absurd abtun",
+        "effect": 2,
+        "feedback": "Leonie schreit lauter und blockt ab."
+      },
+      {
+        "label": "Ruhig zuhören und keine Konfrontation suchen",
+        "effect": 0,
+        "feedback": "Leonie beruhigt sich langsam, bleibt aber misstrauisch."
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "title": "Finale Entscheidung",
+  "text": {
+    "Z1": "Leonie spricht von Zukunftsplänen und zeigt vorsichtige Offenheit für andere Perspektiven.",
+    "Z2": "Leonie wirkt ambivalent: Sie erkennt Probleme, hat aber noch Bindung zur Gruppe.",
+    "Z3": "Leonie schwankt zwischen Neugier auf andere Wege und Abwehr gegen Kontrolle.",
+    "Z4": "Leonie sagt: 'Ich will einfach meine Ruhe und mache, was nötig ist.'",
+    "Z5": "Leonie bekräftigt: 'Die Polizei ist mein Feind, und ich bleibe, wo ich bin.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Ihre Pläne bestärken",
+        "effect": -2,
+        "feedback": "Leonie fühlt sich ernst genommen und öffnet sich weiter."
+      },
+      {
+        "label": "Ihr sofort konkrete Wege vorgeben",
+        "effect": 1,
+        "feedback": "Leonie wirkt gedrängt und zieht sich leicht zurück."
+      },
+      {
+        "label": "Fragen, wie sie diese Pläne umsetzen möchte",
+        "effect": -1,
+        "feedback": "Leonie beginnt, kleine Schritte zu benennen."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Ihre Ambivalenz akzeptieren",
+        "effect": -1,
+        "feedback": "Leonie bleibt erreichbar und fühlt sich verstanden."
+      },
+      {
+        "label": "Ihre Bindung an die Gruppe scharf kritisieren",
+        "effect": 2,
+        "feedback": "Leonie verteidigt sie aggressiv."
+      },
+      {
+        "label": "Nachfragen, was sie außerhalb der Gruppe reizt",
+        "effect": -2,
+        "feedback": "Leonie denkt über Alternativen nach."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Ihre Neugier hervorheben",
+        "effect": -1,
+        "feedback": "Leonie zeigt vorsichtiges Interesse an anderen Wegen."
+      },
+      {
+        "label": "Ihre Abwehr fokussieren",
+        "effect": 1,
+        "feedback": "Leonie betont stärker ihre Ablehnung."
+      },
+      {
+        "label": "Neutral fragen: 'Was gibt dir Sicherheit?'",
+        "effect": -1,
+        "feedback": "Leonie reflektiert und bleibt im Gespräch."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Ihre Sehnsucht nach Ruhe anerkennen",
+        "effect": -1,
+        "feedback": "Leonie wirkt erleichtert, bleibt aber zurückhaltend."
+      },
+      {
+        "label": "Ihre Resignation kritisieren",
+        "effect": 2,
+        "feedback": "Leonie blockt und reagiert aggressiv."
+      },
+      {
+        "label": "Das Gespräch neutral offenhalten",
+        "effect": 0,
+        "feedback": "Leonie bleibt vage, aber nicht konfrontativ."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Ihre Feindbilder vorsichtig spiegeln",
+        "effect": -1,
+        "feedback": "Leonie reagiert kurz irritiert, ohne aggressiv zu werden."
+      },
+      {
+        "label": "Ihre Aussage direkt zurückweisen",
+        "effect": 2,
+        "feedback": "Leonie verhärtet ihre Haltung sofort."
+      },
+      {
+        "label": "Ruhig zuhören und keine Konfrontation suchen",
+        "effect": 0,
+        "feedback": "Leonie bleibt bei ihrer Haltung, das Gespräch bleibt sachlich."
+      }
+    ]
+  }
+}

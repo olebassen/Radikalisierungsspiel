@@ -1,1 +1,102 @@
-
+{
+  "title": "Zugehörigkeit und Gruppendruck",
+  "text": {
+    "Z1": "Murat erzählt, dass er sich manchmal in seiner Clique wohlfühlt, manchmal aber auch unter Druck gesetzt wird.",
+    "Z2": "Murat deutet an, dass seine Freunde ihn stark beeinflussen. Er wirkt unsicher, ob er eigene Entscheidungen treffen darf.",
+    "Z3": "Murat schwankt zwischen dem Wunsch nach Zugehörigkeit und dem Bedürfnis nach Unabhängigkeit.",
+    "Z4": "Murat betont, dass er unbedingt dazugehören muss, auch wenn er sich nicht immer wohlfühlt.",
+    "Z5": "Murat wiederholt: 'Alle außerhalb der Gruppe sind Feinde.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Seine Ambivalenz anerkennen",
+        "effect": -1,
+        "feedback": "Murat merkt, dass es normal ist, gleichzeitig Zugehörigkeit und Zweifel zu empfinden."
+      },
+      {
+        "label": "Seine Clique kritisieren",
+        "effect": 2,
+        "feedback": "Murat verteidigt die Gruppe und zieht sich zurück."
+      },
+      {
+        "label": "Fragen, was ihm in der Clique gefällt",
+        "effect": -1,
+        "feedback": "Murat reflektiert, was ihn wirklich anspricht."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Seinen Einfluss durch Freunde thematisieren",
+        "effect": -1,
+        "feedback": "Murat erkennt vorsichtig, dass er nicht immer frei entscheidet."
+      },
+      {
+        "label": "Betonen, dass er stärker als der Druck sein muss",
+        "effect": 1,
+        "feedback": "Murat fühlt sich kritisiert und blockt ab."
+      },
+      {
+        "label": "Neutral nachfragen: 'Wie ist es, wenn du anderer Meinung bist?'",
+        "effect": 0,
+        "feedback": "Murat bleibt vage, denkt aber nach."
+      },
+      {
+        "label": "Das Thema wechseln",
+        "effect": 0,
+        "feedback": "Murat bleibt distanziert, aber nicht abweisend."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Sein Bedürfnis nach Unabhängigkeit wertschätzen",
+        "effect": -2,
+        "feedback": "Murat fühlt sich bestärkt, eigene Entscheidungen zu entwickeln."
+      },
+      {
+        "label": "Auf Zugehörigkeit pochen",
+        "effect": 2,
+        "feedback": "Murat betont noch stärker die Loyalität zur Gruppe."
+      },
+      {
+        "label": "Fragen, wo er sich am wohlsten fühlt",
+        "effect": -1,
+        "feedback": "Murat beginnt, Unterschiede zwischen Gruppen wahrzunehmen."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Sanft nachfragen, warum Zugehörigkeit so wichtig ist",
+        "effect": -1,
+        "feedback": "Murat öffnet sich ein Stück und benennt Unsicherheiten."
+      },
+      {
+        "label": "Seine Abhängigkeit kritisieren",
+        "effect": 2,
+        "feedback": "Murat geht in die Verteidigung."
+      },
+      {
+        "label": "Neutral zuhören, ohne zu drängen",
+        "effect": 0,
+        "feedback": "Murat bleibt beim Thema, ohne Neues preiszugeben."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Fragen, ob er wirklich alle anderen für Feinde hält",
+        "effect": -1,
+        "feedback": "Murat zögert und wirkt kurz unsicher."
+      },
+      {
+        "label": "Die Aussage direkt widerlegen",
+        "effect": 2,
+        "feedback": "Murat beharrt noch stärker auf der Abgrenzung."
+      },
+      {
+        "label": "Geduldig zuhören und spiegeln",
+        "effect": 0,
+        "feedback": "Murat wiederholt die Worte, bemerkt aber dein ruhiges Zuhören."
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "title": "Die Gruppe",
+  "text": {
+    "Z1": "Tobias erzählt, dass er online Gleichgesinnte gefunden hat, die ihn verstehen.",
+    "Z2": "Tobias sagt, er habe neue Freunde, die ihn 'endlich ernst nehmen'.",
+    "Z3": "Tobias schwankt: Einerseits betont er Zugehörigkeit, andererseits wirkt er gestresst vom Druck.",
+    "Z4": "Tobias erklärt: 'Die Gruppe ist meine neue Familie – alle anderen sind Verräter.'",
+    "Z5": "Tobias ruft: 'Nur die Umma zählt! Alles andere ist wertlos.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Nachfragen, was er an ihnen schätzt",
+        "effect": -1,
+        "feedback": "Tobias beschreibt Zugehörigkeit, bleibt aber offen."
+      },
+      {
+        "label": "Die Gruppe als gefährlich bezeichnen",
+        "effect": 2,
+        "feedback": "Tobias verteidigt sie aggressiv."
+      },
+      {
+        "label": "Fragen, ob es auch Dinge gibt, die ihn stören",
+        "effect": -2,
+        "feedback": "Tobias wirkt kurz unsicher und denkt nach."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Sein Bedürfnis nach Anerkennung anerkennen",
+        "effect": -1,
+        "feedback": "Tobias wirkt erleichtert, dass seine Suche ernst genommen wird."
+      },
+      {
+        "label": "Seine neuen Freunde abwerten",
+        "effect": 2,
+        "feedback": "Tobias blockt sofort ab."
+      },
+      {
+        "label": "Fragen, wie sie ihn ernst nehmen",
+        "effect": -1,
+        "feedback": "Tobias erklärt mehr über ihre Gespräche."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seinen Druck benennen",
+        "effect": -1,
+        "feedback": "Tobias wirkt kurz irritiert, bleibt aber im Gespräch."
+      },
+      {
+        "label": "Seine Zugehörigkeit loben",
+        "effect": 1,
+        "feedback": "Tobias fühlt sich bestätigt, bleibt verhärtet."
+      },
+      {
+        "label": "Neutral fragen, was passiert, wenn er nicht mitmacht",
+        "effect": -2,
+        "feedback": "Tobias überlegt und wirkt kurz nachdenklich."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Sein Bedürfnis nach Familie anerkennen",
+        "effect": -1,
+        "feedback": "Tobias wirkt kurz weicher."
+      },
+      {
+        "label": "Die Aussage kritisieren",
+        "effect": 2,
+        "feedback": "Tobias verschärft seine Position."
+      },
+      {
+        "label": "Neutral nachfragen, warum er sie 'Familie' nennt",
+        "effect": -1,
+        "feedback": "Tobias erklärt vorsichtig."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Seine absolute Haltung spiegeln",
+        "effect": -1,
+        "feedback": "Tobias bleibt hart, wirkt aber kurz nachdenklich."
+      },
+      {
+        "label": "Die Umma-Idee frontal angreifen",
+        "effect": 2,
+        "feedback": "Tobias reagiert aggressiv."
+      },
+      {
+        "label": "Ruhig zuhören",
+        "effect": 0,
+        "feedback": "Tobias wiederholt seine Worte, ohne mehr zu sagen."
+      }
+    ]
+  }
+}

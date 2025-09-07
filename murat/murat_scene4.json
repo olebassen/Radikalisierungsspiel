@@ -1,1 +1,102 @@
-
+{
+  "title": "Familienkonflikte und Identität",
+  "text": {
+    "Z1": "Murat berichtet offen, dass er mit den Erwartungen seiner Eltern hadert. Er möchte mehr Freiheit, ohne die Familie zu verlieren.",
+    "Z2": "Murat deutet an, dass er sich eingeengt fühlt, formuliert es aber vorsichtig, um nicht respektlos zu wirken.",
+    "Z3": "Murat schwankt zwischen Gehorsam und dem Wunsch, selbst Entscheidungen zu treffen.",
+    "Z4": "Murat spricht knapp. Er sagt nur, dass er 'seine Pflicht' erfüllen muss.",
+    "Z5": "Murat wiederholt die Worte seines Vaters: 'Wer zweifelt, verrät die Familie.' Eigene Gedanken zeigt er nicht."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Seine Zerrissenheit anerkennen",
+        "effect": -2,
+        "feedback": "Murat fühlt sich verstanden und erlebt, dass beide Seiten Platz haben dürfen."
+      },
+      {
+        "label": "Die Erwartungen der Eltern kritisieren",
+        "effect": 2,
+        "feedback": "Murat geht in die Verteidigung und bricht ab."
+      },
+      {
+        "label": "Neutral nachfragen: 'Was bedeutet Freiheit für dich?'",
+        "effect": -1,
+        "feedback": "Murat denkt kurz nach und beschreibt erste Vorstellungen."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Seine Vorsicht wertschätzen",
+        "effect": -1,
+        "feedback": "Murat fühlt sich respektiert und öffnet sich weiter."
+      },
+      {
+        "label": "Nachfragen, wie er Grenzen wahrnimmt",
+        "effect": -1,
+        "feedback": "Murat benennt konkrete Situationen aus dem Alltag."
+      },
+      {
+        "label": "Ratschläge geben, wie er sich durchsetzen kann",
+        "effect": 1,
+        "feedback": "Murat fühlt sich überfordert und zieht sich zurück."
+      },
+      {
+        "label": "Thema wechseln",
+        "effect": 0,
+        "feedback": "Murat bleibt ruhig, das Gespräch bleibt jedoch oberflächlich."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Sein Schwanken normalisieren",
+        "effect": -1,
+        "feedback": "Murat erkennt, dass Ambivalenz erlaubt ist."
+      },
+      {
+        "label": "Die familiären Regeln infrage stellen",
+        "effect": 2,
+        "feedback": "Murat verteidigt die Strenge seiner Eltern."
+      },
+      {
+        "label": "Fragen, welche Entscheidungen er selbst treffen möchte",
+        "effect": -2,
+        "feedback": "Murat nennt konkrete Wünsche und wirkt entlastet."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Behutsam fragen, wie er sich dabei fühlt",
+        "effect": -1,
+        "feedback": "Murat gibt zögerlich zu, dass er manchmal unglücklich ist."
+      },
+      {
+        "label": "Betonen, dass Pflicht wichtig ist",
+        "effect": 1,
+        "feedback": "Murat fühlt sich bestätigt, aber nicht nähergebracht."
+      },
+      {
+        "label": "Ein neutrales Alltagsgespräch beginnen",
+        "effect": 0,
+        "feedback": "Das Gespräch bleibt oberflächlich, die Tür bleibt offen."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Geduldig zuhören und nachfragen, was er selbst denkt",
+        "effect": -1,
+        "feedback": "Murat stockt, zeigt aber minimale eigene Gedanken."
+      },
+      {
+        "label": "Die Worte seines Vaters kritisieren",
+        "effect": 2,
+        "feedback": "Murat reagiert abwehrend und bricht fast ab."
+      },
+      {
+        "label": "Auf seine Gefühle in der Situation eingehen",
+        "effect": -1,
+        "feedback": "Murat wirkt überrascht, dass es nicht nur um Gehorsam geht."
+      }
+    ]
+  }
+}

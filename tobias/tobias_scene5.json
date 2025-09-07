@@ -1,0 +1,97 @@
+{
+  "title": "Identität",
+  "text": {
+    "Z1": "Tobias sagt, er habe endlich 'einen Sinn im Leben' gefunden.",
+    "Z2": "Tobias erklärt, dass er sich stark fühlt, seit er islamistische Inhalte verfolgt.",
+    "Z3": "Tobias schwankt: Einerseits spricht er von Sicherheit, andererseits von ständiger Wut.",
+    "Z4": "Tobias sagt: 'Ihr im Westen habt keine Werte – wir Muslime haben die Wahrheit.'",
+    "Z5": "Tobias betont: 'Ich bin Kämpfer für den Islam. Alles andere ist unwichtig.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Seinen Wunsch nach Sinn anerkennen",
+        "effect": -1,
+        "feedback": "Tobias fühlt sich ernst genommen und erzählt mehr."
+      },
+      {
+        "label": "Seine Aussage relativieren",
+        "effect": 1,
+        "feedback": "Tobias wirkt enttäuscht und abweisend."
+      },
+      {
+        "label": "Fragen, wie er Sinn definiert",
+        "effect": -2,
+        "feedback": "Tobias denkt kurz nach und beschreibt eigene Vorstellungen."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Sein Gefühl von Stärke anerkennen",
+        "effect": -1,
+        "feedback": "Tobias fühlt sich gesehen und öffnet sich vorsichtig."
+      },
+      {
+        "label": "Sein Gefühl kleinreden",
+        "effect": 2,
+        "feedback": "Tobias reagiert aggressiv und blockt ab."
+      },
+      {
+        "label": "Nachfragen, was ihn vorher schwach gemacht hat",
+        "effect": -1,
+        "feedback": "Tobias benennt Momente von Unsicherheit."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Ambivalenz benennen",
+        "effect": -1,
+        "feedback": "Tobias merkt, dass er nicht nur stark ist."
+      },
+      {
+        "label": "Seine Wut betonen",
+        "effect": 1,
+        "feedback": "Tobias steigert sich hinein."
+      },
+      {
+        "label": "Fragen, wie er mit der Wut umgeht",
+        "effect": -2,
+        "feedback": "Tobias wirkt nachdenklich und wird leiser."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Sein Bedürfnis nach Werten anerkennen",
+        "effect": -1,
+        "feedback": "Tobias nickt und bleibt gesprächsbereit."
+      },
+      {
+        "label": "Die Aussage scharf kritisieren",
+        "effect": 2,
+        "feedback": "Tobias verhärtet sofort."
+      },
+      {
+        "label": "Neutral fragen, was er unter 'Werten' versteht",
+        "effect": -1,
+        "feedback": "Tobias erklärt, was er als Kern sieht."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Seine Selbstdefinition spiegeln",
+        "effect": -1,
+        "feedback": "Tobias wirkt stolz, aber auch etwas verletzlich."
+      },
+      {
+        "label": "Seine Haltung zurückweisen",
+        "effect": 2,
+        "feedback": "Tobias wird aggressiver."
+      },
+      {
+        "label": "Neutral fragen, was 'Kämpfer' für ihn bedeutet",
+        "effect": -2,
+        "feedback": "Tobias denkt nach und benennt Worte statt Taten."
+      }
+    ]
+  }
+}

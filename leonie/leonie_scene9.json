@@ -1,0 +1,97 @@
+{
+  "title": "Zuspitzung",
+  "text": {
+    "Z1": "Leonie zeigt vorsichtige Distanz zu extremen Inhalten. Sie sagt, dass manches übertrieben sei.",
+    "Z2": "Leonie wirkt nachdenklich, betont aber, dass sie noch unsicher ist, wem sie trauen kann.",
+    "Z3": "Leonie schwankt: Einerseits verteidigt sie ihre Gruppe, andererseits zeigt sie Zweifel.",
+    "Z4": "Leonie wirkt müde und abweisend: 'Ich hab keine Lust mehr, immer zu reden.'",
+    "Z5": "Leonie sagt: 'Es gibt keinen Weg zurück – wer einmal drin ist, bleibt drin.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Ihre Distanz bestärken",
+        "effect": -2,
+        "feedback": "Leonie fühlt sich ermutigt, sich weiter abzusetzen."
+      },
+      {
+        "label": "Ihre Zweifel kleinreden",
+        "effect": 1,
+        "feedback": "Leonie wirkt enttäuscht und zieht sich zurück."
+      },
+      {
+        "label": "Fragen, was sie übertrieben findet",
+        "effect": -1,
+        "feedback": "Leonie benennt vorsichtig ein Beispiel."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Ihre Unsicherheit anerkennen",
+        "effect": -1,
+        "feedback": "Leonie fühlt sich verstanden und bleibt im Gespräch."
+      },
+      {
+        "label": "Darauf bestehen, dass sie der Polizei vertrauen muss",
+        "effect": 2,
+        "feedback": "Leonie blockt sofort ab."
+      },
+      {
+        "label": "Fragen, wem sie bisher vertraut hat",
+        "effect": -1,
+        "feedback": "Leonie überlegt und nennt eine Bezugsperson."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Ihre Ambivalenz normalisieren",
+        "effect": -1,
+        "feedback": "Leonie spürt, dass ihre Zweifel erlaubt sind."
+      },
+      {
+        "label": "Ihre Gruppe direkt angreifen",
+        "effect": 2,
+        "feedback": "Leonie verteidigt sie vehementer."
+      },
+      {
+        "label": "Nachfragen, was ihr an der Gruppe wirklich wichtig ist",
+        "effect": -2,
+        "feedback": "Leonie denkt nach und zeigt erste Differenzierungen."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Ihre Müdigkeit respektieren und eine Pause anbieten",
+        "effect": 0,
+        "feedback": "Leonie bleibt abweisend, aber nicht aggressiv."
+      },
+      {
+        "label": "Darauf bestehen, dass sie weiterreden muss",
+        "effect": 2,
+        "feedback": "Leonie blockt und wirkt wütend."
+      },
+      {
+        "label": "Sanft fragen, ob sie überfordert ist",
+        "effect": -1,
+        "feedback": "Leonie wirkt überrascht, aber nachdenklich."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Ihre Hoffnungslosigkeit anerkennen",
+        "effect": -1,
+        "feedback": "Leonie reagiert kurz still, aber weniger aggressiv."
+      },
+      {
+        "label": "Die Aussage scharf zurückweisen",
+        "effect": 2,
+        "feedback": "Leonie beharrt noch stärker auf der Endgültigkeit."
+      },
+      {
+        "label": "Geduldig zuhören",
+        "effect": 0,
+        "feedback": "Leonie wiederholt ihre Worte, das Gespräch bleibt offen."
+      }
+    ]
+  }
+}

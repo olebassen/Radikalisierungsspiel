@@ -1,0 +1,97 @@
+{
+  "title": "Familie und Konflikte",
+  "text": {
+    "Z1": "Leonie erzählt, dass ihre Eltern besorgt sind, aber sie gleichzeitig nicht versteht. Sie wünscht sich Ruhe.",
+    "Z2": "Leonie berichtet von häufigem Streit zuhause, besonders wegen ihrer Online-Aktivitäten.",
+    "Z3": "Leonie schwankt: Sie betont die Bedeutung der Familie, aber auch, dass sie sich kontrolliert fühlt.",
+    "Z4": "Leonie sagt abweisend: 'Meine Familie hat keine Ahnung.' Sie blockt Nachfragen.",
+    "Z5": "Leonie behauptet, dass ihre Eltern sie verraten und mit der Polizei gegen sie arbeiten."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Ihre Sehnsucht nach Ruhe anerkennen",
+        "effect": -1,
+        "feedback": "Leonie entspannt sich etwas und öffnet sich vorsichtig."
+      },
+      {
+        "label": "Ihre Eltern direkt kritisieren",
+        "effect": 2,
+        "feedback": "Leonie verteidigt sie und zieht sich zurück."
+      },
+      {
+        "label": "Neutral nachfragen: 'Wann fühlst du dich zuhause wohl?'",
+        "effect": -1,
+        "feedback": "Leonie denkt kurz nach und beschreibt eine Situation."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Ihre Belastung durch den Streit anerkennen",
+        "effect": -1,
+        "feedback": "Leonie wirkt erleichtert, dass der Druck gesehen wird."
+      },
+      {
+        "label": "Betonen, dass sie schuld am Streit ist",
+        "effect": 2,
+        "feedback": "Leonie reagiert aggressiv und verschließt sich."
+      },
+      {
+        "label": "Fragen, wie sie mit den Konflikten umgeht",
+        "effect": -1,
+        "feedback": "Leonie erzählt kurz von Strategien, bleibt aber vorsichtig."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Ihre Ambivalenz normalisieren",
+        "effect": -1,
+        "feedback": "Leonie merkt, dass beides nebeneinander bestehen darf."
+      },
+      {
+        "label": "Die Kontrolle durch die Familie stark kritisieren",
+        "effect": 2,
+        "feedback": "Leonie verteidigt sie und wird abweisend."
+      },
+      {
+        "label": "Neutral fragen, was sie selbst möchte",
+        "effect": -2,
+        "feedback": "Leonie überlegt und äußert einen kleinen eigenen Wunsch."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Ihre Abwehr respektieren und ruhig bleiben",
+        "effect": 0,
+        "feedback": "Leonie bleibt verschlossen, doch das Gespräch bricht nicht ab."
+      },
+      {
+        "label": "Darauf bestehen, dass sie über ihre Familie spricht",
+        "effect": 2,
+        "feedback": "Leonie blockt sofort und beendet fast das Gespräch."
+      },
+      {
+        "label": "Sanft erklären, warum Familie ein wichtiger Faktor ist",
+        "effect": -1,
+        "feedback": "Leonie hört zu, bleibt aber vorsichtig."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Ihre Angst vor Verrat ansprechen",
+        "effect": -1,
+        "feedback": "Leonie wirkt kurz irritiert, aber auch nachdenklich."
+      },
+      {
+        "label": "Ihre Eltern scharf verteidigen",
+        "effect": 1,
+        "feedback": "Leonie fühlt sich missverstanden und zieht sich zurück."
+      },
+      {
+        "label": "Ihre Worte direkt kritisieren",
+        "effect": 2,
+        "feedback": "Leonie reagiert aggressiv und verhärtet ihre Haltung."
+      }
+    ]
+  }
+}

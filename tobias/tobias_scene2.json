@@ -1,0 +1,97 @@
+{
+  "title": "Online-Videos",
+  "text": {
+    "Z1": "Tobias erzählt, dass er Videos gesehen hat, in denen behauptet wird, dass die Scharia alle Probleme lösen würde.",
+    "Z2": "Tobias berichtet begeistert von einem Prediger, der sagt: 'Der Westen bricht bald zusammen.'",
+    "Z3": "Tobias schwankt: Einerseits kritisiert er westliche Politik, andererseits wirkt er noch unsicher.",
+    "Z4": "Tobias sagt: 'Alles, was ihr hört, sind Lügen. Nur diese Videos zeigen die Wahrheit.'",
+    "Z5": "Tobias verteidigt fanatisch einen Online-Prediger: 'Wer ihm widerspricht, steht gegen den Islam.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Nachfragen, was ihn an diesen Videos überzeugt",
+        "effect": -1,
+        "feedback": "Tobias erklärt, dass er klare Antworten schätzt."
+      },
+      {
+        "label": "Die Videos als Lügen entlarven",
+        "effect": 2,
+        "feedback": "Tobias blockt sofort und verteidigt sie vehement."
+      },
+      {
+        "label": "Neutral fragen, ob er auch andere Quellen prüft",
+        "effect": -2,
+        "feedback": "Tobias wirkt kurz irritiert und nennt eine zweite Quelle."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Seine Faszination anerkennen und nachhaken",
+        "effect": -1,
+        "feedback": "Tobias erzählt mehr über die Inhalte."
+      },
+      {
+        "label": "Den Prediger scharf kritisieren",
+        "effect": 2,
+        "feedback": "Tobias verteidigt ihn aggressiv."
+      },
+      {
+        "label": "Fragen, warum er glaubt, dass der Westen zerfällt",
+        "effect": -1,
+        "feedback": "Tobias nennt Beispiele, wirkt aber unsicher."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Unsicherheit ansprechen",
+        "effect": -1,
+        "feedback": "Tobias wirkt erleichtert und spricht vorsichtig weiter."
+      },
+      {
+        "label": "Seine Kritik relativieren",
+        "effect": 1,
+        "feedback": "Tobias reagiert abwehrend."
+      },
+      {
+        "label": "Neutral fragen, was er selbst erlebt hat",
+        "effect": -2,
+        "feedback": "Tobias wird nachdenklich und bleibt offen."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Seine Pauschalität spiegeln",
+        "effect": -1,
+        "feedback": "Tobias merkt, dass er verallgemeinert."
+      },
+      {
+        "label": "Seine Aussage als absurd darstellen",
+        "effect": 2,
+        "feedback": "Tobias verschärft seine Haltung."
+      },
+      {
+        "label": "Ruhig nachfragen, warum er so sicher ist",
+        "effect": 0,
+        "feedback": "Tobias bleibt vage, bleibt aber im Gespräch."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Seine Loyalität anerkennen und nachfragen",
+        "effect": -1,
+        "feedback": "Tobias erklärt, was ihn beeindruckt."
+      },
+      {
+        "label": "Den Prediger frontal angreifen",
+        "effect": 2,
+        "feedback": "Tobias wirkt aggressiv und blockt sofort."
+      },
+      {
+        "label": "Neutral bleiben und zuhören",
+        "effect": 0,
+        "feedback": "Tobias bleibt hart, aber der Kontakt hält."
+      }
+    ]
+  }
+}

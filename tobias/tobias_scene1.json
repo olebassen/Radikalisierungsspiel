@@ -1,0 +1,97 @@
+{
+  "title": "Erste Provokationen",
+  "text": {
+    "Z1": "Tobias provoziert mit der Aussage: 'Demokratie ist doch nur Menschenwerk – warum sollte ich daran glauben?' Er wirkt neugierig, wie du reagierst.",
+    "Z2": "Tobias sagt: 'Das System hier ist verrottet. Nur ein Kalifat könnte wirklich Gerechtigkeit bringen.'",
+    "Z3": "Tobias schwankt: Einerseits stellt er Fragen über Gerechtigkeit, andererseits greift er schon islamistische Schlagworte auf.",
+    "Z4": "Tobias erklärt: 'Die Politiker lügen alle. Eure Demokratie ist nur eine Täuschung.' Er klingt abwertend und abwehrend.",
+    "Z5": "Tobias sagt aggressiv: 'Euer System ist haram. Nur Scharia zählt – alles andere ist Kufr.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Seine Frage ernst nehmen und nach seiner Definition von Gerechtigkeit fragen",
+        "effect": -2,
+        "feedback": "Tobias wirkt überrascht, dass du nicht direkt widersprichst, und wird nachdenklich."
+      },
+      {
+        "label": "Ihm sofort erklären, dass Demokratie überlegen ist",
+        "effect": 2,
+        "feedback": "Tobias blockt ab und wertet dich als Teil des 'Systems' ab."
+      },
+      {
+        "label": "Neutral nachfragen, woher er diese Gedanken hat",
+        "effect": -1,
+        "feedback": "Tobias erzählt knapp von Videos, die er gesehen hat."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Sein Bedürfnis nach Gerechtigkeit anerkennen",
+        "effect": -1,
+        "feedback": "Tobias wirkt kurz offener und nennt Beispiele, die ihn beschäftigen."
+      },
+      {
+        "label": "Das Kalifat sofort scharf kritisieren",
+        "effect": 2,
+        "feedback": "Tobias verteidigt die Idee aggressiv und zieht sich zurück."
+      },
+      {
+        "label": "Nachfragen, was er sich unter 'Gerechtigkeit' vorstellt",
+        "effect": -2,
+        "feedback": "Tobias gerät ins Grübeln und benennt vage Vorstellungen."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Fragen aufgreifen und nachhaken",
+        "effect": -1,
+        "feedback": "Tobias erklärt mehr, ohne sofort in Abwehr zu gehen."
+      },
+      {
+        "label": "Seine islamistischen Schlagworte direkt zurückweisen",
+        "effect": 2,
+        "feedback": "Tobias blockt sofort und verschärft seine Position."
+      },
+      {
+        "label": "Neutral betonen, dass er gerade widersprüchlich klingt",
+        "effect": -1,
+        "feedback": "Tobias wird kurz still, bleibt aber im Gespräch."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Sein Misstrauen anerkennen",
+        "effect": -1,
+        "feedback": "Tobias wirkt überrascht, dass du nicht direkt widersprichst."
+      },
+      {
+        "label": "Seine Abwertung scharf kritisieren",
+        "effect": 2,
+        "feedback": "Tobias lacht abfällig und blockt."
+      },
+      {
+        "label": "Nachfragen, woher er diese Sicht hat",
+        "effect": 0,
+        "feedback": "Tobias nennt vage Quellen, bleibt aber misstrauisch."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Seine Härte spiegeln und fragen, ob er nur Schwarz-Weiß kennt",
+        "effect": -1,
+        "feedback": "Tobias wirkt kurz irritiert, aber hält an seinen Worten fest."
+      },
+      {
+        "label": "Seine Aussage direkt angreifen",
+        "effect": 2,
+        "feedback": "Tobias steigert sich weiter in die Abwertung hinein."
+      },
+      {
+        "label": "Ruhig zuhören, ohne sofort zu reagieren",
+        "effect": 0,
+        "feedback": "Tobias wiederholt seine Parole, wirkt aber unsicher."
+      }
+    ]
+  }
+}

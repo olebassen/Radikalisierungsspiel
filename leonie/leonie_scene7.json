@@ -1,0 +1,97 @@
+{
+  "title": "Online-Communities",
+  "text": {
+    "Z1": "Leonie erzählt, dass sie in Online-Gruppen diskutiert, in denen sie sich ernst genommen fühlt.",
+    "Z2": "Leonie betont, dass sie online 'endlich Leute findet, die die Wahrheit sagen'.",
+    "Z3": "Leonie schwankt: Einerseits fühlt sie sich dort stark, andererseits merkt sie, dass der Ton oft aggressiv ist.",
+    "Z4": "Leonie sagt, dass sie sich online besser verstanden fühlt als von allen in der realen Welt.",
+    "Z5": "Leonie behauptet: 'Nur im Netz erfährt man die Wahrheit – die Medien lügen alle.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Nachfragen, was sie an den Diskussionen schätzt",
+        "effect": -1,
+        "feedback": "Leonie erklärt, dass sie sich ernst genommen fühlt – aber auch manchmal unter Druck."
+      },
+      {
+        "label": "Die Gruppen als gefährlich bezeichnen",
+        "effect": 2,
+        "feedback": "Leonie verteidigt sie vehement und blockt ab."
+      },
+      {
+        "label": "Neutral fragen, ob es auch andere Stimmen gibt",
+        "effect": 0,
+        "feedback": "Leonie bleibt vage, aber hört zu."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Ihre Suche nach Wahrheit anerkennen",
+        "effect": -1,
+        "feedback": "Leonie wirkt erleichtert, dass ihre Motivation verstanden wird."
+      },
+      {
+        "label": "Ihre Aussage als naiv kritisieren",
+        "effect": 2,
+        "feedback": "Leonie reagiert trotzig und verschließt sich."
+      },
+      {
+        "label": "Fragen, woran sie erkennt, ob etwas glaubwürdig ist",
+        "effect": -2,
+        "feedback": "Leonie denkt nach und beginnt, über Kriterien zu sprechen."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Ihre Ambivalenz hervorheben",
+        "effect": -1,
+        "feedback": "Leonie erkennt, dass sie ihre Zweifel zeigen darf."
+      },
+      {
+        "label": "Den aggressiven Ton stark kritisieren",
+        "effect": 2,
+        "feedback": "Leonie verteidigt die Gruppen noch mehr."
+      },
+      {
+        "label": "Nachfragen, wie sie sich dabei fühlt",
+        "effect": -1,
+        "feedback": "Leonie beschreibt vorsichtig ihre Unsicherheit."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Ihre Sehnsucht nach Verständnis anerkennen",
+        "effect": -1,
+        "feedback": "Leonie wirkt kurz weicher, bleibt aber vorsichtig."
+      },
+      {
+        "label": "Ihre reale Umgebung abwerten",
+        "effect": 1,
+        "feedback": "Leonie fühlt sich bestätigt, dass niemand sie versteht."
+      },
+      {
+        "label": "Das Gespräch neutral halten",
+        "effect": 0,
+        "feedback": "Leonie bleibt im Kontakt, ohne sich zu öffnen."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Sanft fragen, ob sie wirklich allen Medien misstraut",
+        "effect": -1,
+        "feedback": "Leonie stockt, wirkt kurz nachdenklich."
+      },
+      {
+        "label": "Die Aussage direkt widerlegen",
+        "effect": 2,
+        "feedback": "Leonie beharrt noch stärker auf der Parole."
+      },
+      {
+        "label": "Geduldig zuhören und spiegeln",
+        "effect": 0,
+        "feedback": "Leonie wiederholt ihre Haltung, merkt aber deine Ruhe."
+      }
+    ]
+  }
+}

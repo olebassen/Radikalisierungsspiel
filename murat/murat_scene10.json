@@ -1,1 +1,97 @@
-
+{
+  "title": "Weichenstellung",
+  "text": {
+    "Z1": "Murat spricht offen über seine Zukunft. Er überlegt, wie er Familie, Religion und eigene Wünsche verbinden kann.",
+    "Z2": "Murat wirkt vorsichtig hoffnungsvoll. Er zeigt, dass er Wege sucht, Konflikte friedlich zu lösen.",
+    "Z3": "Murat schwankt zwischen Rückzug in alte Muster und dem Versuch, eigene Ideen zu formulieren.",
+    "Z4": "Murat sagt knapp, dass alles egal sei – er macht, was verlangt wird.",
+    "Z5": "Murat wiederholt starre Parolen: 'Nur Gehorsam bringt Ehre, alles andere zerstört uns.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Seine Offenheit bestärken",
+        "effect": -2,
+        "feedback": "Murat fühlt sich unterstützt und wagt mehr Eigenständigkeit."
+      },
+      {
+        "label": "Ihm konkrete Ratschläge geben",
+        "effect": 1,
+        "feedback": "Murat fühlt sich gedrängt, bleibt aber noch offen."
+      },
+      {
+        "label": "Fragen, wie er Familie und Freiheit verbinden möchte",
+        "effect": -1,
+        "feedback": "Murat beginnt, eine eigene Balance zu formulieren."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Seine Hoffnung anerkennen",
+        "effect": -1,
+        "feedback": "Murat fühlt sich verstanden und hält an seinen positiven Ansätzen fest."
+      },
+      {
+        "label": "Betonen, dass er stark bleiben muss",
+        "effect": 1,
+        "feedback": "Murat wirkt verunsichert, ob er Schwäche zeigen darf."
+      },
+      {
+        "label": "Nach konkreten nächsten Schritten fragen",
+        "effect": -2,
+        "feedback": "Murat entwickelt eine kleine, realistische Idee für die Zukunft."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Ambivalenz akzeptieren",
+        "effect": -1,
+        "feedback": "Murat merkt, dass er nicht sofort eine klare Entscheidung treffen muss."
+      },
+      {
+        "label": "Seine Unsicherheit kritisieren",
+        "effect": 2,
+        "feedback": "Murat geht in die Verteidigung und zieht sich zurück."
+      },
+      {
+        "label": "Nachfragen, welche seiner Ideen ihm am wichtigsten ist",
+        "effect": -1,
+        "feedback": "Murat konzentriert sich auf einen eigenen Gedanken."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Seine Resignation vorsichtig ansprechen",
+        "effect": -1,
+        "feedback": "Murat gibt zu, dass er sich manchmal ohnmächtig fühlt."
+      },
+      {
+        "label": "Sein Gehorsam bestärken",
+        "effect": 1,
+        "feedback": "Murat bestätigt die Haltung, wirkt aber unzufrieden."
+      },
+      {
+        "label": "Ein neutrales Thema anschneiden",
+        "effect": 0,
+        "feedback": "Murat bleibt verschlossen, aber die Beziehung reißt nicht ab."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Sanft fragen, ob er wirklich nur Gehorsam kennt",
+        "effect": -1,
+        "feedback": "Murat stockt und wirkt kurz nachdenklich."
+      },
+      {
+        "label": "Die Parolen direkt widerlegen",
+        "effect": 2,
+        "feedback": "Murat beharrt stärker auf den starren Mustern."
+      },
+      {
+        "label": "Geduldig zuhören, ohne Druck aufzubauen",
+        "effect": 0,
+        "feedback": "Murat wiederholt die Parolen, doch er spürt deine Ruhe."
+      }
+    ]
+  }
+}

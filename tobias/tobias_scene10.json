@@ -1,0 +1,97 @@
+{
+  "title": "Das Finale",
+  "text": {
+    "Z1": "Tobias erzählt, dass er zu einem Vortrag von Hizb ut-Tahrir eingeladen wurde, ist sich aber unsicher, ob er hingehen soll.",
+    "Z2": "Tobias berichtet aufgeregt: 'Am Wochenende kommt ein Prediger – das ist die Chance, mehr zu erfahren!'",
+    "Z3": "Tobias schwankt: Einerseits fühlt er sich geehrt, eingeladen zu sein, andererseits wirkt er nervös.",
+    "Z4": "Tobias sagt: 'Ich muss hingehen – das ist meine Pflicht als Muslim.'",
+    "Z5": "Tobias erklärt stolz: 'Ich werde mich offiziell anschließen. Das Kalifat ist die Zukunft!'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Seine Unsicherheit aufgreifen",
+        "effect": -2,
+        "feedback": "Tobias spricht offener über seine Zweifel."
+      },
+      {
+        "label": "Den Vortrag sofort kritisieren",
+        "effect": 2,
+        "feedback": "Tobias verteidigt ihn aggressiv."
+      },
+      {
+        "label": "Neutral fragen, was er sich davon erhofft",
+        "effect": -1,
+        "feedback": "Tobias erklärt vorsichtig seine Erwartungen."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Seine Begeisterung anerkennen",
+        "effect": -1,
+        "feedback": "Tobias fühlt sich verstanden, bleibt aber überzeugt."
+      },
+      {
+        "label": "Die Einladung als gefährlich bezeichnen",
+        "effect": 2,
+        "feedback": "Tobias blockt sofort und verteidigt sie vehement."
+      },
+      {
+        "label": "Fragen, was er daraus lernen möchte",
+        "effect": -2,
+        "feedback": "Tobias wirkt nachdenklich und bleibt im Gespräch."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Nervosität ansprechen",
+        "effect": -1,
+        "feedback": "Tobias wird stiller und gibt Unsicherheit zu."
+      },
+      {
+        "label": "Seine Einladung als Manipulation darstellen",
+        "effect": 2,
+        "feedback": "Tobias verteidigt sie heftig."
+      },
+      {
+        "label": "Neutral fragen, ob er sich wirklich sicher ist",
+        "effect": -1,
+        "feedback": "Tobias wirkt unentschlossen, bleibt aber im Gespräch."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Sein Pflichtgefühl anerkennen",
+        "effect": -1,
+        "feedback": "Tobias wirkt ernst, aber offener."
+      },
+      {
+        "label": "Sein Pflichtgefühl in Frage stellen",
+        "effect": 2,
+        "feedback": "Tobias blockt sofort ab."
+      },
+      {
+        "label": "Nachfragen, wie er 'Pflicht' versteht",
+        "effect": -2,
+        "feedback": "Tobias denkt nach und erklärt vorsichtig."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Seine Entschlossenheit spiegeln",
+        "effect": -1,
+        "feedback": "Tobias wirkt stolz, aber auch verunsichert."
+      },
+      {
+        "label": "Seine Entscheidung frontal angreifen",
+        "effect": 2,
+        "feedback": "Tobias verhärtet sofort."
+      },
+      {
+        "label": "Ruhig zuhören, ohne Konfrontation",
+        "effect": 0,
+        "feedback": "Tobias wiederholt seine Haltung, das Gespräch bleibt bestehen."
+      }
+    ]
+  }
+}

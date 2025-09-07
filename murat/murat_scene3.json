@@ -1,1 +1,107 @@
-
+{
+  "title": "Peers und Online-Räume",
+  "text": {
+    "Z1": "Murat erzählt von einem Freund, mit dem er viel über Religion spricht. Er betont, dass die Gespräche ihn interessieren, aber auch verunsichern.",
+    "Z2": "Murat erwähnt beiläufig, dass er Videos schaut, die ihn 'zum Nachdenken bringen'. Er wirkt neugierig, aber zurückhaltend.",
+    "Z3": "Murat schwankt: Einerseits zeigt er Faszination für religiöse YouTuber, andererseits äußert er Zweifel an deren Radikalität.",
+    "Z4": "Murat reagiert knapp. Er deutet an, dass seine Freunde ihm 'die Wahrheit zeigen', ohne Details preiszugeben.",
+    "Z5": "Murat wiederholt starre Narrative aus Online-Videos. Eigene Reflexion ist kaum sichtbar."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Nachfragen, was ihn an den Gesprächen interessiert",
+        "effect": -1,
+        "feedback": "Murat beginnt zu reflektieren, warum ihn diese Themen bewegen."
+      },
+      {
+        "label": "Den Freund kritisch bewerten",
+        "effect": 2,
+        "feedback": "Murat verteidigt den Freund und verschließt sich."
+      },
+      {
+        "label": "Neutral fragen: 'Wie fühlst du dich danach?'",
+        "effect": 0,
+        "feedback": "Murat bleibt vorsichtig, deutet aber Unsicherheit an."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Offen fragen, welche Videos er meint",
+        "effect": -1,
+        "feedback": "Murat beschreibt die Inhalte und zeigt erste Distanz."
+      },
+      {
+        "label": "Die Videos direkt als gefährlich bezeichnen",
+        "effect": 2,
+        "feedback": "Murat blockt ab und sagt, man solle ihn nicht bevormunden."
+      },
+      {
+        "label": "Vorsichtig nach seiner Meinung zu den Videos fragen",
+        "effect": -1,
+        "feedback": "Murat versucht, seine Eindrücke in eigenen Worten zu beschreiben."
+      },
+      {
+        "label": "Das Thema wechseln",
+        "effect": 0,
+        "feedback": "Murat bleibt im Gespräch, doch das Thema bleibt ungeklärt."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Zweifel anerkennen",
+        "effect": -2,
+        "feedback": "Murat spürt, dass er seine Ambivalenz zeigen darf."
+      },
+      {
+        "label": "Die YouTuber abwerten",
+        "effect": 2,
+        "feedback": "Murat verteidigt sie und verliert Vertrauen."
+      },
+      {
+        "label": "Nach Beispielen aus den Videos fragen",
+        "effect": -1,
+        "feedback": "Murat zitiert Inhalte, erkennt aber auch Übertreibungen."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Vorsichtig fragen, was er mit 'Wahrheit' meint",
+        "effect": -1,
+        "feedback": "Murat erklärt sich etwas und zeigt Nuancen."
+      },
+      {
+        "label": "Die Freunde als gefährlichen Einfluss darstellen",
+        "effect": 2,
+        "feedback": "Murat fühlt sich angegriffen und verteidigt sie."
+      },
+      {
+        "label": "Neutral zuhören und später zurückkommen",
+        "effect": 0,
+        "feedback": "Das Thema bleibt oberflächlich, doch der Kontakt reißt nicht ab."
+      },
+      {
+        "label": "Nach positiven Kontakten außerhalb der Gruppe fragen",
+        "effect": -1,
+        "feedback": "Murat erwähnt eine andere Freundschaft, die weniger belastend wirkt."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Geduldig zuhören und gelegentlich nachfragen",
+        "effect": -1,
+        "feedback": "Murat bemerkt, dass du ihm Raum gibst, ohne sofort zu urteilen."
+      },
+      {
+        "label": "Die Narrative direkt widerlegen",
+        "effect": 2,
+        "feedback": "Murat blockt ab und verstärkt die Parolen."
+      },
+      {
+        "label": "Fragen, ob er auch andere Perspektiven kennt",
+        "effect": -1,
+        "feedback": "Murat zeigt zögerlich, dass er manche Gegenargumente kennt."
+      }
+    ]
+  }
+}

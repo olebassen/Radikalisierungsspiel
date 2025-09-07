@@ -1,0 +1,97 @@
+{
+  "title": "Familienkonflikte",
+  "text": {
+    "Z1": "Tobias erzählt, dass seine Eltern seine Veränderung nicht verstehen. Er wirkt unsicher, ob er ihnen noch vertrauen kann.",
+    "Z2": "Tobias berichtet von häufigem Streit: 'Sie sagen, ich sei gehirngewaschen.'",
+    "Z3": "Tobias schwankt: Einerseits betont er die Bedeutung der Familie, andererseits wirft er ihnen Verrat vor.",
+    "Z4": "Tobias sagt: 'Meine Familie hat keine Ahnung. Sie sind Teil des Problems.'",
+    "Z5": "Tobias behauptet: 'Meine Eltern stehen gegen den Islam – sie sind Feinde.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Sein Gefühl von Unverständnis anerkennen",
+        "effect": -1,
+        "feedback": "Tobias wirkt erleichtert und erzählt etwas mehr."
+      },
+      {
+        "label": "Seine Eltern kritisieren",
+        "effect": 2,
+        "feedback": "Tobias verteidigt sie plötzlich und blockt ab."
+      },
+      {
+        "label": "Fragen, wann er sich zuhause verstanden fühlt",
+        "effect": -2,
+        "feedback": "Tobias denkt nach und benennt einen kleinen Moment."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Seine Belastung durch den Streit anerkennen",
+        "effect": -1,
+        "feedback": "Tobias wirkt erleichtert, dass jemand das versteht."
+      },
+      {
+        "label": "Betonen, dass er übertreibt",
+        "effect": 2,
+        "feedback": "Tobias reagiert trotzig und verschließt sich."
+      },
+      {
+        "label": "Neutral fragen, wie er mit dem Streit umgeht",
+        "effect": -1,
+        "feedback": "Tobias erklärt, dass er sich zurückzieht."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Ambivalenz normalisieren",
+        "effect": -1,
+        "feedback": "Tobias merkt, dass er nicht sofort klar entscheiden muss."
+      },
+      {
+        "label": "Seine Eltern abwerten",
+        "effect": 1,
+        "feedback": "Tobias verstärkt die Abgrenzung."
+      },
+      {
+        "label": "Nachfragen, was Familie für ihn bedeutet",
+        "effect": -2,
+        "feedback": "Tobias wirkt kurz nachdenklich und öffnet sich."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Seine Abwehr respektieren und zuhören",
+        "effect": 0,
+        "feedback": "Tobias bleibt abweisend, aber im Gespräch."
+      },
+      {
+        "label": "Darauf bestehen, dass er falsch liegt",
+        "effect": 2,
+        "feedback": "Tobias blockt sofort ab."
+      },
+      {
+        "label": "Sanft fragen, warum er sie als 'Teil des Problems' sieht",
+        "effect": -1,
+        "feedback": "Tobias erklärt kurz seine Sichtweise."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Seine Feindbilder vorsichtig spiegeln",
+        "effect": -1,
+        "feedback": "Tobias wirkt irritiert, bleibt aber im Gespräch."
+      },
+      {
+        "label": "Die Aussage frontal zurückweisen",
+        "effect": 2,
+        "feedback": "Tobias verhärtet sofort."
+      },
+      {
+        "label": "Geduldig zuhören, ohne sofort zu widersprechen",
+        "effect": 0,
+        "feedback": "Tobias bleibt hart, doch der Kontakt reißt nicht ab."
+      }
+    ]
+  }
+}

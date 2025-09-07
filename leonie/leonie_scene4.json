@@ -1,117 +1,96 @@
 {
-  "id": "leonie_scene4",
-  "title": "Gespräch mit Angehörigen",
+  "title": "Die Gruppe",
   "text": {
-    "Z1": "Leonie lebt wieder bei ihren Eltern. Diese wirken besorgt über ihren Rückzug, sagen aber, sie verstehe sich zuhause nach wie vor gut.",
-    "Z2": "Die Eltern berichten, dass Leonie oft alleine in ihrem Zimmer sitzt und viele Online-Videos schaut. Sie sind unsicher, ob das bedenklich ist.",
-    "Z3": "Die Eltern erzählen, Leonie rede immer häufiger über Religion und habe alte Freundschaften abgebrochen. Sie machen sich Sorgen, ob sie 'in etwas hineingerät'.",
-    "Z4": "Die Familie wirkt defensiv. Sie sagt, Leonie sei 'nur gläubig' und die Polizei solle sie in Ruhe lassen.",
-    "Z5": "Die Angehörigen verteidigen Leonies Kontakte offen. Sie werfen der Polizei vor, Vorurteile zu haben und ihre Tochter zu stigmatisieren."
+    "Z1": "Leonie erzählt vorsichtig von Freund:innen, die 'ähnlich denken'. Sie wirkt unsicher, ob sie damit zu weit geht.",
+    "Z2": "Leonie betont, dass die Gruppe ihr Halt gibt, auch wenn sie weiß, dass manche Inhalte extrem sind.",
+    "Z3": "Leonie schwankt: Einerseits fühlt sie sich in der Gruppe stark, andererseits belastet sie der Druck, sich anzupassen.",
+    "Z4": "Leonie behauptet, dass nur ihre Gruppe sie wirklich versteht. Sie reagiert knapp und abwehrend.",
+    "Z5": "Leonie sagt offen, dass die Gruppe recht hat: 'Alle anderen lügen – nur wir kennen die Wahrheit.'"
   },
   "options": {
     "Z1": [
       {
-        "label": "Die Sorgen ernst nehmen und Tipps geben, wie die Eltern sie unterstützen können",
+        "label": "Nachfragen, was ihr an der Gruppe wichtig ist",
         "effect": -1,
-        "feedback": "Die Eltern wirken erleichtert, konkrete Hinweise zu bekommen."
+        "feedback": "Leonie beschreibt positive Seiten, zeigt aber auch Zweifel."
       },
       {
-        "label": "Nur dokumentieren und keine Empfehlung geben",
+        "label": "Die Gruppe als gefährlich bezeichnen",
+        "effect": 2,
+        "feedback": "Leonie verteidigt sie und blockt ab."
+      },
+      {
+        "label": "Neutral zuhören, ohne Wertung",
         "effect": 0,
-        "feedback": "Die Eltern bleiben unsicher und fühlen sich alleingelassen."
-      },
-      {
-        "label": "Die Sorgen herunterspielen",
-        "effect": 1,
-        "feedback": "Die Eltern nehmen an, dass nichts Ernstes vorliegt."
+        "feedback": "Leonie erzählt knapp, bleibt aber erreichbar."
       }
     ],
     "Z2": [
       {
-        "label": "Ruhig erklären, warum Online-Aktivität ein Risiko sein kann",
+        "label": "Ihre Ambivalenz hervorheben",
         "effect": -1,
-        "feedback": "Die Eltern hören aufmerksam zu und wirken nachdenklich."
+        "feedback": "Leonie merkt, dass sie nicht alles gutheißen muss."
       },
       {
-        "label": "Die Eltern ermutigen, weiter zu beobachten",
-        "effect": 0,
-        "feedback": "Die Eltern nicken, bleiben aber unsicher."
-      },
-      {
-        "label": "Die Eltern ermahnen, nicht so passiv zu sein",
-        "effect": 1,
-        "feedback": "Die Eltern fühlen sich unter Druck gesetzt und reagieren gereizt."
-      },
-      {
-        "label": "Drohen, dass Nachlässigkeit Konsequenzen haben kann",
+        "label": "Ihre Aussagen ironisch kommentieren",
         "effect": 2,
-        "feedback": "Die Eltern reagieren empört und gehen in die Abwehrhaltung."
+        "feedback": "Leonie reagiert trotzig und verteidigt sich stärker."
+      },
+      {
+        "label": "Fragen, wie sie mit Widersprüchen in der Gruppe umgeht",
+        "effect": -2,
+        "feedback": "Leonie denkt nach und wirkt kurz verunsichert."
       }
     ],
     "Z3": [
       {
-        "label": "Empfehlen, offen mit Leonie über ihre Veränderungen zu sprechen",
+        "label": "Den Gruppendruck benennen",
         "effect": -1,
-        "feedback": "Die Eltern zeigen Bereitschaft, ein Gespräch zu versuchen."
+        "feedback": "Leonie wirkt erleichtert, dass sie ihre Belastung aussprechen darf."
       },
       {
-        "label": "Die Beobachtung dokumentieren, aber nichts weiter unternehmen",
-        "effect": 0,
-        "feedback": "Die Eltern gehen nachdenklich, fühlen sich aber unsicher."
-      },
-      {
-        "label": "Die Eltern streng auf ihre Verantwortung hinweisen",
-        "effect": 1,
-        "feedback": "Die Eltern reagieren abwehrend und fühlen sich überfordert."
-      },
-      {
-        "label": "Die Eltern fragen, ob sie selbst extremistische Haltungen teilen",
+        "label": "Ihre Stärke in der Gruppe abwerten",
         "effect": 2,
-        "feedback": "Die Eltern fühlen sich beleidigt und brechen das Gespräch fast ab."
+        "feedback": "Leonie fühlt sich angegriffen und verteidigt die Gruppe."
+      },
+      {
+        "label": "Neutral fragen: 'Was passiert, wenn du nicht mitmachst?'",
+        "effect": -1,
+        "feedback": "Leonie überlegt und nennt eine kleine Szene."
       }
     ],
     "Z4": [
       {
-        "label": "Deeskalierend betonen, dass es nur um Unterstützung geht",
+        "label": "Ihre Sehnsucht nach Verständnis anerkennen",
         "effect": -1,
-        "feedback": "Die Familie bleibt skeptisch, zeigt aber einen kurzen Moment der Offenheit."
+        "feedback": "Leonie reagiert etwas weicher, bleibt aber vorsichtig."
       },
       {
-        "label": "Das Gespräch sachlich dokumentieren",
-        "effect": 0,
-        "feedback": "Die Familie wirkt distanziert, kooperiert aber oberflächlich."
-      },
-      {
-        "label": "Die Eltern streng ermahnen, die Lage ernst zu nehmen",
-        "effect": 1,
-        "feedback": "Die Familie reagiert gereizt und verweist auf Privatsphäre."
-      },
-      {
-        "label": "Offen vorwerfen, die Radikalisierung zu decken",
+        "label": "Die Gruppe direkt kriminalisieren",
         "effect": 2,
-        "feedback": "Die Familie wird wütend und bricht das Gespräch ab."
+        "feedback": "Leonie zieht sich sofort zurück."
+      },
+      {
+        "label": "Das Gespräch ruhig fortführen",
+        "effect": 0,
+        "feedback": "Leonie bleibt abweisend, aber ohne Abbruch."
       }
     ],
     "Z5": [
       {
-        "label": "Betonen, dass es um Leonies Schutz geht, nicht um Schuldzuweisungen",
+        "label": "Fragen, ob sie wirklich allen anderen misstraut",
         "effect": -1,
-        "feedback": "Die Familie bleibt abweisend, zeigt aber eine kurze Irritation."
+        "feedback": "Leonie stockt und zeigt einen Moment Unsicherheit."
       },
       {
-        "label": "Nur dokumentieren und keine weiteren Schritte einleiten",
-        "effect": 0,
-        "feedback": "Die Familie bleibt misstrauisch und fühlt sich bestätigt."
-      },
-      {
-        "label": "Die Angehörigen hart konfrontieren",
-        "effect": 1,
-        "feedback": "Die Familie blockt jede weitere Kooperation ab."
-      },
-      {
-        "label": "Das Jugendamt oder andere Behörden sofort einschalten",
+        "label": "Die Parole direkt widerlegen",
         "effect": 2,
-        "feedback": "Die Familie sieht sich kriminalisiert und verweigert Zusammenarbeit."
+        "feedback": "Leonie beharrt noch stärker auf ihrer Haltung."
+      },
+      {
+        "label": "Geduldig zuhören",
+        "effect": 0,
+        "feedback": "Leonie wiederholt die Sätze, ohne weiterzugehen."
       }
     ]
   }

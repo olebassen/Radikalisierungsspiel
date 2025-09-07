@@ -1,0 +1,97 @@
+{
+  "title": "Missionieren",
+  "text": {
+    "Z1": "Tobias erzählt, dass er Mitschüler:innen überreden wollte, 'die Wahrheit' zu sehen. Er wirkt stolz auf seine Argumente.",
+    "Z2": "Tobias berichtet, dass es Streit in der Klasse gab: 'Alle sind blind – sie verstehen nicht, dass Demokratie haram ist.'",
+    "Z3": "Tobias schwankt: Einerseits verteidigt er seine Aktionen, andererseits merkt er, dass er immer mehr aneckt.",
+    "Z4": "Tobias erklärt abwertend: 'Lehrer sind nur Werkzeuge des Systems – sie haben keine Ahnung.'",
+    "Z5": "Tobias ruft wütend: 'Wer nicht für das Kalifat ist, ist gegen den Islam!'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Nachfragen, was er den Mitschüler:innen vermitteln wollte",
+        "effect": -1,
+        "feedback": "Tobias beschreibt seine Argumente genauer, ohne sofort abzubrechen."
+      },
+      {
+        "label": "Seine Missionierung kritisieren",
+        "effect": 2,
+        "feedback": "Tobias verteidigt sich aggressiv."
+      },
+      {
+        "label": "Neutral fragen, wie sie reagiert haben",
+        "effect": -2,
+        "feedback": "Tobias reflektiert, dass sie nicht überzeugt waren."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Sein Gefühl von Frustration anerkennen",
+        "effect": -1,
+        "feedback": "Tobias wirkt etwas ruhiger und erzählt mehr."
+      },
+      {
+        "label": "Ihn beschuldigen, den Streit verursacht zu haben",
+        "effect": 2,
+        "feedback": "Tobias blockt sofort ab."
+      },
+      {
+        "label": "Nachfragen, warum ihm das so wichtig ist",
+        "effect": -1,
+        "feedback": "Tobias betont seine Suche nach Wahrheit."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Ambivalenz hervorheben",
+        "effect": -1,
+        "feedback": "Tobias wirkt irritiert, dass Zweifel erlaubt sein könnten."
+      },
+      {
+        "label": "Sein Verhalten lächerlich machen",
+        "effect": 2,
+        "feedback": "Tobias reagiert wütend."
+      },
+      {
+        "label": "Neutral fragen, ob er dadurch Anerkennung bekommt",
+        "effect": -1,
+        "feedback": "Tobias denkt nach und wirkt kurz nachdenklich."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Sein Misstrauen anerkennen",
+        "effect": -1,
+        "feedback": "Tobias wirkt überrascht, dass du zuhörst."
+      },
+      {
+        "label": "Die Lehrkräfte scharf verteidigen",
+        "effect": 2,
+        "feedback": "Tobias verhärtet seine Position."
+      },
+      {
+        "label": "Neutral fragen, ob er jemals gute Erfahrungen hatte",
+        "effect": -2,
+        "feedback": "Tobias erinnert sich kurz an positive Momente."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Seine Schwarz-Weiß-Sicht spiegeln",
+        "effect": -1,
+        "feedback": "Tobias bleibt hart, wirkt aber kurz irritiert."
+      },
+      {
+        "label": "Ihm frontal widersprechen",
+        "effect": 2,
+        "feedback": "Tobias verschärft sofort seine Haltung."
+      },
+      {
+        "label": "Ruhig zuhören, ohne zu provozieren",
+        "effect": 0,
+        "feedback": "Tobias wiederholt seine Parole."
+      }
+    ]
+  }
+}

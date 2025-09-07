@@ -1,0 +1,97 @@
+{
+  "title": "Emotionen",
+  "text": {
+    "Z1": "Tobias gibt zu, dass er oft wütend ist, weil die Welt so ungerecht sei.",
+    "Z2": "Tobias sagt: 'Alle lachen über den Islam – aber wir werden noch siegen.'",
+    "Z3": "Tobias schwankt: Einerseits ist er stolz, andererseits gesteht er Einsamkeit.",
+    "Z4": "Tobias behauptet: 'Mit euch kann man nicht reden – ihr seid Teil des Problems.'",
+    "Z5": "Tobias schreit: 'Der Westen wird untergehen, und ihr werdet mit ihm!'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Seine Wut anerkennen",
+        "effect": -1,
+        "feedback": "Tobias wirkt überrascht, dass du seine Gefühle ernst nimmst."
+      },
+      {
+        "label": "Seine Wut kritisieren",
+        "effect": 2,
+        "feedback": "Tobias steigert sich weiter hinein."
+      },
+      {
+        "label": "Fragen, wie er mit Wut umgeht",
+        "effect": -2,
+        "feedback": "Tobias reflektiert kurz und bleibt im Gespräch."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Sein Gefühl der Kränkung anerkennen",
+        "effect": -1,
+        "feedback": "Tobias wird leiser und erklärt sich."
+      },
+      {
+        "label": "Seine Aussage scharf zurückweisen",
+        "effect": 2,
+        "feedback": "Tobias verhärtet sofort."
+      },
+      {
+        "label": "Neutral fragen, ob er das oft erlebt",
+        "effect": -1,
+        "feedback": "Tobias erzählt von Erfahrungen in der Schule."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Einsamkeit thematisieren",
+        "effect": -1,
+        "feedback": "Tobias wirkt verletzlich und nachdenklich."
+      },
+      {
+        "label": "Seine Stolz betonen",
+        "effect": 1,
+        "feedback": "Tobias wirkt bestätigt, aber noch geschlossener."
+      },
+      {
+        "label": "Seine Ambivalenz spiegeln",
+        "effect": -1,
+        "feedback": "Tobias nickt zögerlich, ohne sich zu öffnen."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Seine Abwehr akzeptieren",
+        "effect": 0,
+        "feedback": "Tobias bleibt reserviert, aber der Kontakt bricht nicht ab."
+      },
+      {
+        "label": "Darauf bestehen, dass er falsch liegt",
+        "effect": 2,
+        "feedback": "Tobias reagiert aggressiv."
+      },
+      {
+        "label": "Sanft nachfragen, was er meint",
+        "effect": -1,
+        "feedback": "Tobias erklärt kurz seine Sicht."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Seine Angst hinter der Aggression ansprechen",
+        "effect": -1,
+        "feedback": "Tobias wird kurz still, bleibt aber misstrauisch."
+      },
+      {
+        "label": "Die Aussage als Drohung werten",
+        "effect": 2,
+        "feedback": "Tobias verhärtet sofort."
+      },
+      {
+        "label": "Ruhig zuhören, ohne Konfrontation",
+        "effect": 0,
+        "feedback": "Tobias beruhigt sich langsam, bleibt aber hart."
+      }
+    ]
+  }
+}

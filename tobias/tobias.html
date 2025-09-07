@@ -2,18 +2,32 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tobias – Politische Radikalisierung</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Tobias</title>
+  <link rel="stylesheet" href="../style.css">
   <script src="tobias.js" defer></script>
 </head>
 <body>
-  <h1>Tobias – Politische Radikalisierung</h1>
-  <p>Tobias ist 23. Er engagiert sich leidenschaftlich für Palästina-Solidarität. Doch Frust über Stillstand und das Gefühl von Ungerechtigkeit ziehen ihn in islamistische Strömungen. Dort findet er klare Feindbilder und die Idee von „direkten Aktionen“. Seine Eltern merken, wie Ungeduld und Zorn wachsen. Ihr spielt die Eltern – wie reagiert ihr auf diesen Wandel?</p>
-  
-  <div id="scene"></div>
-  <div id="options"></div>
-  <div id="feedback"></div>
-  <button id="next-btn">Weiter</button>
+  <div id="game-container">
+    <h1>Murat</h1>
+
+    <div id="intro">
+      <p>
+        Tobias ist 19 Jahre alt. Früher war er unauffällig, interessiert an Sport und Technik, nie besonders religiös. Doch seit einiger Zeit verändert er sich: Er verbringt Stunden in Online-Foren und teilt zunehmend Inhalte, die von Hizb ut-Tahrir inspiriert sind.
+
+Er sagt Sätze wie: „Demokratie ist nur Menschenwerk, nur das Kalifat bringt Gerechtigkeit.“ In Diskussionen provoziert er, indem er das politische System als „verrottet“ bezeichnet und Mitschüler:innen als „verblendete Anhänger des Westens“ abtut. Gewalt lehnt er offiziell ab – doch er relativiert Anschläge, indem er sie als „Reaktion auf Unterdrückung“ bezeichnet.
+
+Seine Eltern sind ratlos. Alte Freunde distanzieren sich. Tobias dagegen fühlt sich sicherer denn je: Er glaubt, endlich „die Wahrheit erkannt zu haben“.
+
+Du bist Mitarbeiterin in einem Demokratieförderungsprojekt. Deine Aufgabe: Mit Tobias im Gespräch bleiben, seine Argumente ernst nehmen – ohne sie zu bestätigen. Es geht darum, ihm alternative Deutungen anzubieten, Spielräume für Zweifel zu eröffnen und den Kontakt nicht abreißen zu lassen.
+      </p>
+      <button id="start-btn">Fall starten</button>
+    </div>
+
+    <h2 id="scene-title"></h2>
+    <div id="scene" style="display:none;"></div>
+    <div id="options"></div>
+    <div id="feedback"></div>
+    <button id="next-btn" style="display:none;">Weiter</button>
+  </div>
 </body>
 </html>

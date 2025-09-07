@@ -1,1 +1,102 @@
-
+{
+  "title": "Digitale Räume und Narrative",
+  "text": {
+    "Z1": "Murat erzählt, dass er in Foren unterwegs ist, wo kontrovers diskutiert wird. Er wirkt neugierig und probiert verschiedene Meinungen aus.",
+    "Z2": "Murat erwähnt Videos, die ihn verunsichern. Er ist unsicher, ob er den Inhalten vertrauen kann.",
+    "Z3": "Murat schwankt zwischen Faszination für klare Weltbilder und ersten Zweifeln an deren Glaubwürdigkeit.",
+    "Z4": "Murat sagt knapp, dass er sich online endlich verstanden fühlt. Kritik daran weist er zurück.",
+    "Z5": "Murat wiederholt Narrative aus Online-Videos: 'Die Welt ist gegen uns – nur wir kennen die Wahrheit.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Nachfragen, was ihn an den Diskussionen interessiert",
+        "effect": -1,
+        "feedback": "Murat reflektiert, dass er Vielfalt spannend findet."
+      },
+      {
+        "label": "Die Foren direkt kritisieren",
+        "effect": 2,
+        "feedback": "Murat verteidigt sie und verschließt sich."
+      },
+      {
+        "label": "Neutral fragen: 'Gibt es dort auch andere Sichtweisen?'",
+        "effect": 0,
+        "feedback": "Murat nickt, geht aber nicht näher darauf ein."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Seine Verunsicherung anerkennen",
+        "effect": -1,
+        "feedback": "Murat merkt, dass Zweifel erlaubt sind."
+      },
+      {
+        "label": "Die Videos als gefährlich bezeichnen",
+        "effect": 2,
+        "feedback": "Murat blockt und verteidigt die Inhalte."
+      },
+      {
+        "label": "Fragen, wie er entscheidet, was glaubwürdig ist",
+        "effect": -2,
+        "feedback": "Murat denkt nach und überlegt, welche Kriterien er nutzt."
+      },
+      {
+        "label": "Das Thema wechseln",
+        "effect": 0,
+        "feedback": "Murat bleibt distanziert, aber nicht abweisend."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Zweifel hervorheben",
+        "effect": -1,
+        "feedback": "Murat spürt, dass er eigene Gedanken entwickeln darf."
+      },
+      {
+        "label": "Die klaren Weltbilder abwerten",
+        "effect": 2,
+        "feedback": "Murat verteidigt sie und fühlt sich angegriffen."
+      },
+      {
+        "label": "Fragen, ob er unterschiedliche Quellen nutzt",
+        "effect": -1,
+        "feedback": "Murat nennt vorsichtig ein alternatives Medium."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Fragen, was ihn am meisten verstanden fühlen lässt",
+        "effect": -1,
+        "feedback": "Murat beschreibt Aspekte, die ihm Halt geben."
+      },
+      {
+        "label": "Betonen, dass Online-Gemeinschaften gefährlich sind",
+        "effect": 2,
+        "feedback": "Murat blockt ab und verteidigt sie stärker."
+      },
+      {
+        "label": "Neutral zuhören und später zurückkehren",
+        "effect": 0,
+        "feedback": "Murat bleibt verschlossen, doch das Gespräch bricht nicht ab."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Sanft fragen, ob er wirklich glaubt, dass alle gegen ihn sind",
+        "effect": -1,
+        "feedback": "Murat wirkt kurz nachdenklich."
+      },
+      {
+        "label": "Die Narrative direkt widerlegen",
+        "effect": 2,
+        "feedback": "Murat beharrt stärker auf den Parolen."
+      },
+      {
+        "label": "Geduldig zuhören und spiegeln",
+        "effect": 0,
+        "feedback": "Murat wiederholt sich, merkt aber deine Ruhe."
+      }
+    ]
+  }
+}

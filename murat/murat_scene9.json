@@ -1,1 +1,102 @@
-
+{
+  "title": "Familie und Loyalität",
+  "text": {
+    "Z1": "Murat spricht offen darüber, dass er seine Familie liebt, sich aber nach mehr Freiheit sehnt.",
+    "Z2": "Murat deutet an, dass er sich eingeengt fühlt, aber Angst hat, die Familie zu enttäuschen.",
+    "Z3": "Murat schwankt zwischen Verteidigung der Familientraditionen und dem Wunsch nach Selbstbestimmung.",
+    "Z4": "Murat sagt knapp, dass er tun wird, was die Eltern verlangen – auch wenn es ihn belastet.",
+    "Z5": "Murat wiederholt starre Aussagen seines Vaters: 'Familie zuerst, alles andere ist Verrat.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Seine Zerrissenheit anerkennen",
+        "effect": -2,
+        "feedback": "Murat fühlt sich verstanden und erlebt, dass beides nebeneinander bestehen darf."
+      },
+      {
+        "label": "Die Eltern kritisieren",
+        "effect": 2,
+        "feedback": "Murat verteidigt die Familie und zieht sich zurück."
+      },
+      {
+        "label": "Nachfragen, was er mit Freiheit meint",
+        "effect": -1,
+        "feedback": "Murat beginnt, seine Vorstellungen konkreter zu formulieren."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Seine Angst wertschätzen",
+        "effect": -1,
+        "feedback": "Murat merkt, dass seine Sorgen ernst genommen werden."
+      },
+      {
+        "label": "Betonen, dass er sich durchsetzen muss",
+        "effect": 1,
+        "feedback": "Murat fühlt sich überfordert und verschließt sich."
+      },
+      {
+        "label": "Vorsichtig fragen, was er selbst möchte",
+        "effect": -2,
+        "feedback": "Murat äußert zum ersten Mal klar einen eigenen Wunsch."
+      },
+      {
+        "label": "Thema wechseln",
+        "effect": 0,
+        "feedback": "Murat bleibt angespannt, doch die Beziehung bleibt stabil."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Ambivalenz normalisieren",
+        "effect": -1,
+        "feedback": "Murat erkennt, dass er nicht sofort klare Antworten haben muss."
+      },
+      {
+        "label": "Die Familientraditionen infrage stellen",
+        "effect": 2,
+        "feedback": "Murat verteidigt die Eltern energisch."
+      },
+      {
+        "label": "Nach seinen persönlichen Zielen fragen",
+        "effect": -2,
+        "feedback": "Murat überlegt und nennt einen Wunsch, der über die Tradition hinausgeht."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Nach seinen Gefühlen in dieser Situation fragen",
+        "effect": -1,
+        "feedback": "Murat gesteht, dass er sich unglücklich fühlt."
+      },
+      {
+        "label": "Bestärken, dass Gehorsam wichtig ist",
+        "effect": 1,
+        "feedback": "Murat fühlt sich bestätigt, bleibt aber innerlich unzufrieden."
+      },
+      {
+        "label": "Gelassen reagieren und das Gespräch offen halten",
+        "effect": 0,
+        "feedback": "Das Gespräch bleibt oberflächlich, bricht aber nicht ab."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Sanft nachfragen, ob er wirklich an Verrat denkt",
+        "effect": -1,
+        "feedback": "Murat wirkt kurz nachdenklich, bevor er schweigt."
+      },
+      {
+        "label": "Die Worte seines Vaters kritisieren",
+        "effect": 2,
+        "feedback": "Murat geht sofort in die Verteidigung."
+      },
+      {
+        "label": "Geduldig zuhören, ohne Druck aufzubauen",
+        "effect": 0,
+        "feedback": "Murat bleibt bei den Parolen, doch die Gesprächsbasis bleibt bestehen."
+      }
+    ]
+  }
+}

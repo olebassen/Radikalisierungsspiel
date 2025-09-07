@@ -1,0 +1,97 @@
+{
+  "title": "Polizeikontrolle",
+  "text": {
+    "Z1": "Tobias berichtet von einer Polizeikontrolle nach einer Demonstration. Er wirkt verunsichert, ob er strafbar geworden ist.",
+    "Z2": "Tobias erzählt aufgebracht: 'Die Polizei hat uns nur rausgezogen, weil wir Muslime sind!'",
+    "Z3": "Tobias schwankt: Einerseits fühlt er sich unfair behandelt, andererseits wirkt er beeindruckt von der Autorität der Polizei.",
+    "Z4": "Tobias sagt aggressiv: 'Die Polizei ist nur ein Werkzeug der Unterdrückung.'",
+    "Z5": "Tobias erklärt: 'Wer mit der Polizei redet, verrät den Islam.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Seine Unsicherheit anerkennen und beruhigen",
+        "effect": -1,
+        "feedback": "Tobias wirkt erleichtert und spricht offener über die Situation."
+      },
+      {
+        "label": "Die Polizei verteidigen",
+        "effect": 2,
+        "feedback": "Tobias geht sofort in die Abwehr und beschuldigt dich, parteiisch zu sein."
+      },
+      {
+        "label": "Neutral fragen, wie er die Kontrolle erlebt hat",
+        "effect": -1,
+        "feedback": "Tobias schildert die Szene genauer, ohne sofort abzuwehren."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Sein Gefühl von Diskriminierung anerkennen",
+        "effect": -1,
+        "feedback": "Tobias wirkt gehört, bleibt aber kritisch."
+      },
+      {
+        "label": "Die Aussage als übertrieben zurückweisen",
+        "effect": 2,
+        "feedback": "Tobias wird aggressiver und verschließt sich."
+      },
+      {
+        "label": "Nachfragen, wie er sich dabei gefühlt hat",
+        "effect": -2,
+        "feedback": "Tobias beschreibt Unsicherheit hinter der Wut."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Ambivalenz spiegeln",
+        "effect": -1,
+        "feedback": "Tobias wirkt irritiert, bleibt aber im Gespräch."
+      },
+      {
+        "label": "Seine Furcht kleinreden",
+        "effect": 1,
+        "feedback": "Tobias verhärtet seine Abwehr."
+      },
+      {
+        "label": "Neutral fragen, ob er Konsequenzen fürchtet",
+        "effect": -2,
+        "feedback": "Tobias zeigt vorsichtige Zweifel."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Sein Misstrauen ernst nehmen",
+        "effect": -1,
+        "feedback": "Tobias beruhigt sich leicht, bleibt aber angespannt."
+      },
+      {
+        "label": "Die Polizei verteidigen und seine Worte kritisieren",
+        "effect": 2,
+        "feedback": "Tobias blockt ab."
+      },
+      {
+        "label": "Fragen, was er mit 'Unterdrückung' meint",
+        "effect": -1,
+        "feedback": "Tobias erklärt seine Sicht und wird etwas konkreter."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Seine Loyalität zur Gruppe spiegeln",
+        "effect": -1,
+        "feedback": "Tobias wirkt kurz nachdenklich, bleibt aber hart."
+      },
+      {
+        "label": "Die Aussage scharf zurückweisen",
+        "effect": 2,
+        "feedback": "Tobias verhärtet sofort."
+      },
+      {
+        "label": "Ruhig zuhören und die Spannung nicht erhöhen",
+        "effect": 0,
+        "feedback": "Tobias bleibt bei seiner Parole, das Gespräch reißt aber nicht ab."
+      }
+    ]
+  }
+}

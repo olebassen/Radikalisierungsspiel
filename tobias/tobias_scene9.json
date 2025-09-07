@@ -1,0 +1,97 @@
+{
+  "title": "Konflikt in der Schule",
+  "text": {
+    "Z1": "Tobias gerät in eine Diskussion im Unterricht. Er sagt: 'Eure Demokratie hat keine Zukunft.' Er wirkt herausfordernd, aber nicht völlig abwehrend.",
+    "Z2": "Tobias ruft im Klassenzimmer: 'Alle Lehrer sind nur Propaganda!' Mitschüler:innen reagieren empört.",
+    "Z3": "Tobias schwankt: Einerseits provoziert er, andererseits wirkt er unsicher, ob er zu weit geht.",
+    "Z4": "Tobias schreit: 'Ihr seid alle Feinde des Islam!' und verlässt wütend das Klassenzimmer.",
+    "Z5": "Tobias verkündet laut: 'Nur das Kalifat kann uns retten!' und erwartet Zustimmung."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Seine Provokation sachlich aufnehmen",
+        "effect": -1,
+        "feedback": "Tobias bleibt im Gespräch und hört dir zu."
+      },
+      {
+        "label": "Ihm direkt widersprechen",
+        "effect": 2,
+        "feedback": "Tobias blockt ab und provoziert weiter."
+      },
+      {
+        "label": "Nachfragen, was er an Demokratie problematisch findet",
+        "effect": -2,
+        "feedback": "Tobias wird nachdenklich und benennt Aspekte."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Seine Kritik ruhig spiegeln",
+        "effect": -1,
+        "feedback": "Tobias wirkt kurz weniger aggressiv."
+      },
+      {
+        "label": "Seine Aussage scharf zurückweisen",
+        "effect": 2,
+        "feedback": "Tobias schreit noch lauter."
+      },
+      {
+        "label": "Neutral nachfragen, ob er das wirklich so meint",
+        "effect": 0,
+        "feedback": "Tobias bleibt trotzig, aber nicht aggressiver."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seine Unsicherheit ansprechen",
+        "effect": -1,
+        "feedback": "Tobias wirkt ertappt, aber bleibt im Gespräch."
+      },
+      {
+        "label": "Sein Verhalten lächerlich machen",
+        "effect": 2,
+        "feedback": "Tobias wird wütend und verlässt fast den Raum."
+      },
+      {
+        "label": "Neutral fragen, ob er merkt, wie andere reagieren",
+        "effect": -2,
+        "feedback": "Tobias wirkt kurz nachdenklich und sieht die Mitschüler:innen an."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Seine Aggression benennen",
+        "effect": -1,
+        "feedback": "Tobias wird leiser und bleibt im Raum."
+      },
+      {
+        "label": "Seine Worte frontal kritisieren",
+        "effect": 2,
+        "feedback": "Tobias verlässt wütend das Gespräch."
+      },
+      {
+        "label": "Ruhig nachfragen, warum er die Mitschüler:innen als Feinde sieht",
+        "effect": -1,
+        "feedback": "Tobias erklärt knapp seine Sichtweise."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Seine Hoffnung aufgreifen und nachfragen",
+        "effect": -1,
+        "feedback": "Tobias erklärt seine Vision vom Kalifat."
+      },
+      {
+        "label": "Die Aussage scharf kritisieren",
+        "effect": 2,
+        "feedback": "Tobias blockt sofort ab."
+      },
+      {
+        "label": "Neutral zuhören, ohne zu bestätigen",
+        "effect": 0,
+        "feedback": "Tobias bleibt hart, aber der Kontakt hält."
+      }
+    ]
+  }
+}

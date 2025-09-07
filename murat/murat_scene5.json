@@ -1,1 +1,102 @@
-
+{
+  "title": "Schule und Zukunftspläne",
+  "text": {
+    "Z1": "Murat spricht interessiert über die Schule. Er denkt über Ausbildungsmöglichkeiten nach, wirkt offen für verschiedene Wege.",
+    "Z2": "Murat zeigt Ambivalenz: Er möchte Erfolg, hat aber Angst, den Erwartungen seiner Familie nicht zu genügen.",
+    "Z3": "Murat schwankt zwischen der Betonung von Pflicht und dem Wunsch, selbst zu entscheiden, welchen Beruf er ergreifen will.",
+    "Z4": "Murat wirkt abweisend. Er sagt nur, dass er 'machen wird, was die Eltern wollen'.",
+    "Z5": "Murat wiederholt die Aussage seines Vaters: 'Alles andere als der vorgegebene Weg ist Verrat.'"
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Seine Offenheit für verschiedene Wege bestärken",
+        "effect": -2,
+        "feedback": "Murat fühlt sich ermutigt, über Alternativen nachzudenken."
+      },
+      {
+        "label": "Direkt vorschlagen, einen bestimmten Beruf zu wählen",
+        "effect": 1,
+        "feedback": "Murat fühlt sich gedrängt und reagiert zurückhaltender."
+      },
+      {
+        "label": "Nachfragen, was ihn an den verschiedenen Möglichkeiten reizt",
+        "effect": -1,
+        "feedback": "Murat reflektiert genauer, was ihn wirklich interessiert."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Seine Angst benennen und entlasten",
+        "effect": -1,
+        "feedback": "Murat merkt, dass seine Sorgen verstanden werden."
+      },
+      {
+        "label": "Auf die Erwartungen der Familie fokussieren",
+        "effect": 2,
+        "feedback": "Murat fühlt sich noch stärker eingeengt."
+      },
+      {
+        "label": "Nachfragen, was für ihn selbst Erfolg bedeutet",
+        "effect": -1,
+        "feedback": "Murat entwickelt vorsichtig eine eigene Definition."
+      },
+      {
+        "label": "Thema wechseln",
+        "effect": 0,
+        "feedback": "Das Gespräch bleibt oberflächlich, aber Murat bleibt in Kontakt."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Seinen Wunsch nach Eigenständigkeit anerkennen",
+        "effect": -2,
+        "feedback": "Murat fühlt sich ernst genommen und denkt weiter über Alternativen nach."
+      },
+      {
+        "label": "Die familiären Vorgaben direkt kritisieren",
+        "effect": 2,
+        "feedback": "Murat verteidigt die Eltern und verschließt sich."
+      },
+      {
+        "label": "Vorsichtig fragen, welche Entscheidung er gerne selbst treffen würde",
+        "effect": -1,
+        "feedback": "Murat äußert erstmals eine eigene Idee."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Sanft nach seinen eigenen Interessen fragen",
+        "effect": -1,
+        "feedback": "Murat überlegt und erwähnt ein Hobby."
+      },
+      {
+        "label": "Betonen, dass die Eltern es sicher gut meinen",
+        "effect": 1,
+        "feedback": "Murat sieht keinen Grund, weiterzureden."
+      },
+      {
+        "label": "Neutrales Smalltalk-Thema zur Schule beginnen",
+        "effect": 0,
+        "feedback": "Murat bleibt zurückhaltend, doch das Gespräch geht weiter."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Nachfragen, was er selbst über seine Zukunft denkt",
+        "effect": -1,
+        "feedback": "Murat zögert, deutet aber an, dass er nicht nur den Vorgaben folgen möchte."
+      },
+      {
+        "label": "Die Haltung seines Vaters kritisieren",
+        "effect": 2,
+        "feedback": "Murat verteidigt die Vorgaben vehementer."
+      },
+      {
+        "label": "Geduldig zuhören und Raum lassen",
+        "effect": 0,
+        "feedback": "Murat wiederholt die Worte, merkt aber, dass du nicht drängst."
+      }
+    ]
+  }
+}

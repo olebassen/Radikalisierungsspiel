@@ -1,0 +1,97 @@
+{
+  "title": "Schule und Umfeld",
+  "text": {
+    "Z1": "Leonie berichtet, dass sie in der Schule oft aneckt, aber auch Lehrkräfte hat, die ihr zuhören.",
+    "Z2": "Leonie erzählt von Konflikten mit Mitschüler:innen, die ihre Posts kritisieren.",
+    "Z3": "Leonie schwankt zwischen dem Wunsch, dazuzugehören, und der Abwehr gegenüber Kritik.",
+    "Z4": "Leonie behauptet, dass alle gegen sie seien. Sie fühlt sich isoliert.",
+    "Z5": "Leonie sagt, dass Schule Zeitverschwendung sei und sie sich lieber online informiert."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Ihre positiven Erfahrungen hervorheben",
+        "effect": -1,
+        "feedback": "Leonie erkennt, dass es Orte gibt, an denen sie Unterstützung erfährt."
+      },
+      {
+        "label": "Ihre Konflikte fokussieren",
+        "effect": 1,
+        "feedback": "Leonie betont stärker die Ablehnung."
+      },
+      {
+        "label": "Nachfragen, welche Lehrkraft ihr zuhört",
+        "effect": -1,
+        "feedback": "Leonie benennt eine Person, die sie ernst nimmt."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Ihre Konflikte anerkennen",
+        "effect": -1,
+        "feedback": "Leonie spürt, dass ihre Belastung gesehen wird."
+      },
+      {
+        "label": "Ihre Mitschüler:innen kritisieren",
+        "effect": 2,
+        "feedback": "Leonie fühlt sich bestätigt, dass alle unfair zu ihr sind."
+      },
+      {
+        "label": "Neutral fragen, wie sie mit der Kritik umgeht",
+        "effect": 0,
+        "feedback": "Leonie bleibt vage, bleibt aber im Gespräch."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Ihre Ambivalenz normalisieren",
+        "effect": -1,
+        "feedback": "Leonie merkt, dass Zweifel erlaubt sind."
+      },
+      {
+        "label": "Ihre Abwehr als Problem darstellen",
+        "effect": 2,
+        "feedback": "Leonie fühlt sich angegriffen und verschließt sich."
+      },
+      {
+        "label": "Fragen, wann sie sich in der Schule wohlfühlt",
+        "effect": -2,
+        "feedback": "Leonie nennt ein Beispiel und wirkt kurz offener."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Ihre Isolation vorsichtig benennen",
+        "effect": -1,
+        "feedback": "Leonie reagiert überrascht, aber nicht feindselig."
+      },
+      {
+        "label": "Ihre Sichtweise in Frage stellen",
+        "effect": 2,
+        "feedback": "Leonie blockt sofort ab."
+      },
+      {
+        "label": "Das Thema neutral halten",
+        "effect": 0,
+        "feedback": "Leonie bleibt reserviert, doch sie bleibt ansprechbar."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Fragen, was sie an Online-Informationen reizt",
+        "effect": -1,
+        "feedback": "Leonie erklärt, dass sie schnelle Antworten mag."
+      },
+      {
+        "label": "Betonen, dass Schule Pflicht ist",
+        "effect": 1,
+        "feedback": "Leonie reagiert trotzig und blockt."
+      },
+      {
+        "label": "Ihre Abwertung direkt kritisieren",
+        "effect": 2,
+        "feedback": "Leonie verhärtet und wirkt aggressiver."
+      }
+    ]
+  }
+}
