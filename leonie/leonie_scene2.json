@@ -1,0 +1,108 @@
+{
+  "id": "leonie_scene2",
+  "title": "Social-Media-Beobachtung",
+  "text": {
+    "Z1": "Bei einer kurzen Sichtung von Leonies Profilen findest du harmlose Beiträge: Musik, Zitate, Alltägliches. Keine Hinweise auf Extremismus.",
+    "Z2": "Leonie postet religiöse Sprüche und Bilder. Sie wirken ernsthaft, aber nicht extremistisch. Ihre Kontakte bleiben stabil.",
+    "Z3": "Leonie teilt zunehmend Links zu Predigten und spirituellen Foren. Sie folgt neuen Accounts mit politischen Themen.",
+    "Z4": "Auf Leonies Profil erscheinen Botschaften wie: 'Der Westen versteht uns nicht.' Sie tritt Gruppen bei, die für radikale Rhetorik bekannt sind.",
+    "Z5": "Leonie verbreitet extremistische Inhalte offen, zitiert radikale Prediger und postet Memes, die eine klare Abgrenzung zu 'Ungläubigen' darstellen."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Beobachtung beenden, da nichts Verdächtiges vorliegt",
+        "effect": 0,
+        "feedback": "Leonie bleibt unbeachtet, mögliche Entwicklungen werden nicht erfasst."
+      },
+      {
+        "label": "Weiterhin im Hintergrund beobachten",
+        "effect": 0,
+        "feedback": "Es bleibt unauffällig, du bleibst aber wachsam."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Das Profil dokumentieren und im Auge behalten",
+        "effect": 0,
+        "feedback": "Die Daten werden gespeichert, Leonie bemerkt nichts."
+      },
+      {
+        "label": "Leonie anonym weiter beobachten",
+        "effect": 0,
+        "feedback": "Sie postet weiter religiöse Inhalte, bleibt aber unauffällig."
+      },
+      {
+        "label": "Sie direkt kontaktieren und nach den Posts fragen",
+        "effect": 1,
+        "feedback": "Leonie wirkt irritiert und fragt, warum die Polizei ihre Beiträge sieht."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Ein vertieftes Monitoring einrichten",
+        "effect": 0,
+        "feedback": "Neue Inhalte werden regelmäßig dokumentiert."
+      },
+      {
+        "label": "Leonie deeskalierend kontaktieren und Gespräch anbieten",
+        "effect": -1,
+        "feedback": "Leonie reagiert misstrauisch, hört aber zu."
+      },
+      {
+        "label": "Sie offiziell befragen",
+        "effect": 1,
+        "feedback": "Leonie reagiert genervt und verschließt sich."
+      },
+      {
+        "label": "Die Universität warnen, dass Leonie gefährdet sei",
+        "effect": 2,
+        "feedback": "Leonie erfährt davon und fühlt sich stigmatisiert."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Gesammelte Daten an Präventionsstelle weitergeben",
+        "effect": 0,
+        "feedback": "Leonie bemerkt nichts, die Behörden bereiten Schritte vor."
+      },
+      {
+        "label": "Leonie ruhig zu einem Gespräch einladen",
+        "effect": -1,
+        "feedback": "Leonie lehnt erst ab, überlegt dann aber kurz."
+      },
+      {
+        "label": "Sie streng konfrontieren",
+        "effect": 1,
+        "feedback": "Leonie schreit, dass man sie mundtot machen will."
+      },
+      {
+        "label": "Den Account sofort sperren lassen",
+        "effect": 2,
+        "feedback": "Leonie fühlt sich bestätigt: 'Die Polizei will die Wahrheit verbergen.'"
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Deeskalierend reagieren und Gespräch suchen",
+        "effect": -1,
+        "feedback": "Leonie bleibt abweisend, zeigt aber eine kurze Unsicherheit."
+      },
+      {
+        "label": "Die Aktivitäten dokumentieren und weiterleiten",
+        "effect": 0,
+        "feedback": "Die Inhalte werden gesichert, Leonie merkt nichts."
+      },
+      {
+        "label": "Sie sofort offiziell befragen",
+        "effect": 1,
+        "feedback": "Leonie weigert sich zu kooperieren und blockt jede Frage ab."
+      },
+      {
+        "label": "Strenge Überwachungsmaßnahmen einleiten",
+        "effect": 2,
+        "feedback": "Leonie spürt den Druck und steigert ihr Misstrauen massiv."
+      }
+    ]
+  }
+}

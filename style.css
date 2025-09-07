@@ -11,17 +11,18 @@ body {
 h1 {
   text-align: center;
   margin: 15px 0;
-  font-size: 1.6rem;   /* groß für Smartphones */
+  font-size: 1.6rem;
   font-weight: 600;
 }
 
-/* Container für Fallauswahl */
+/* Container für Spielauswahl */
 .case-container {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
+/* Karten (älteres Layout, optional beibehalten) */
 .case-card {
   background: #1e1e1e;
   padding: 16px;
@@ -183,11 +184,15 @@ h1 {
     width: auto;
   }
 }
+
+/* ------------------- */
+/* Bildkarte mit 5 Bereichen */
+/* ------------------- */
 .case-map {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  aspect-ratio: 5 / 2;     /* 5 gleich breite Bereiche */
+  aspect-ratio: 5 / 2;
   background-image: url("assets/images/happy.png");
   background-size: cover;
   background-position: center;
@@ -196,7 +201,7 @@ h1 {
   box-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
 
-/* Standard-Zonen (unsichtbare Klickflächen) */
+/* Klickflächen */
 .zone {
   position: absolute;
   top: 0;
@@ -207,14 +212,14 @@ h1 {
   color: #fff;
 }
 
-/* 5 Fünftel */
+/* 5 Bereiche */
 .zone.sami { left: 0; }
 .zone.alina { left: 20%; }
 .zone.leonie { left: 40%; }
 .zone.murat { left: 60%; }
 .zone.tobias { left: 80%; }
 
-/* Wenn irgendein Bereich gehovered wird → unhappy.png */
+/* Hover → unhappy-Bild */
 .case-map:hover {
   background-image: url("assets/images/unhappy.png");
 }
@@ -225,25 +230,19 @@ h1 {
   bottom: 0;
   left: 0;
   right: 0;
-
   background: rgba(0,0,0,0.7);
   padding: 12px;
   border-radius: 0 0 12px 12px;
-
-  /* Text-Einstellungen */
-  font-size: clamp(0.8rem, 2vw, 1rem); 
-  /* → min 0.8rem, steigt dynamisch bis 1rem, abhängig von Bildschirmbreite */
+  font-size: clamp(0.8rem, 2vw, 1rem);
   line-height: 1.4;
   color: #fff;
   text-align: left;
   word-wrap: break-word;
   white-space: normal;
-
-  /* Animation & Begrenzung */
   opacity: 0;
   transition: opacity 0.3s ease;
-  max-height: 35%;     
-  overflow-y: auto;    
+  max-height: 35%;
+  overflow-y: auto;
 }
 
 /* Beim Hover sichtbar */

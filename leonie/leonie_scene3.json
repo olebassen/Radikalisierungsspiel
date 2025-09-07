@@ -1,0 +1,118 @@
+{
+  "id": "leonie_scene3",
+  "title": "Erstkontakt",
+  "text": {
+    "Z1": "Du triffst Leonie bei einer freiwilligen Info-Veranstaltung zum Thema 'Sicherheit im Netz'. Sie wirkt zurückhaltend, aber höflich. Noch keine klaren Anzeichen für Radikalisierung.",
+    "Z2": "Leonie wurde zu einem Gespräch eingeladen. Sie erscheint pünktlich, wirkt unsicher und fragt, warum sie hier sei.",
+    "Z3": "Im Gespräch äußert Leonie, dass 'die Medien sowieso lügen'. Sie wirkt skeptisch, bleibt aber äußerlich ruhig.",
+    "Z4": "Leonie reagiert abwehrend: 'Die Polizei will uns doch nur kontrollieren.' Ihre Körpersprache ist angespannt, sie wirkt misstrauisch.",
+    "Z5": "Beim Erstkontakt wird Leonie laut. Sie wirft der Polizei vor, 'Teil des Systems zu sein, das Muslime unterdrückt', und verweigert jede Zusammenarbeit."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Das Gespräch locker halten und Vertrauen aufbauen",
+        "effect": -1,
+        "feedback": "Leonie bleibt vorsichtig, hört dir aber aufmerksam zu."
+      },
+      {
+        "label": "Das Gespräch formal führen und dokumentieren",
+        "effect": 0,
+        "feedback": "Leonie beantwortet Fragen knapp und geht wieder."
+      },
+      {
+        "label": "Sie direkt fragen, ob sie Kontakt zu riskanten Gruppen hat",
+        "effect": 1,
+        "feedback": "Leonie wirkt irritiert und zieht sich zurück."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Verständnis zeigen und erklären, warum du das Gespräch führst",
+        "effect": -1,
+        "feedback": "Leonie entspannt sich etwas und wirkt offener."
+      },
+      {
+        "label": "Neutral Fragen stellen und dokumentieren",
+        "effect": 0,
+        "feedback": "Leonie bleibt einsilbig und wirkt abwesend."
+      },
+      {
+        "label": "Sie streng ermahnen, mitzuwirken",
+        "effect": 1,
+        "feedback": "Leonie schaut abweisend und bricht das Gespräch fast ab."
+      },
+      {
+        "label": "Das Gespräch abkürzen und sofort Aktenvermerk anlegen",
+        "effect": 2,
+        "feedback": "Leonie geht wortlos und wirkt verärgert."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Auf ihre Skepsis eingehen und nach ihren Gründen fragen",
+        "effect": -1,
+        "feedback": "Leonie nennt Beispiele, wirkt aber nachdenklich."
+      },
+      {
+        "label": "Die Aussage kommentarlos notieren",
+        "effect": 0,
+        "feedback": "Leonie redet nicht weiter und beendet das Gespräch schnell."
+      },
+      {
+        "label": "Sie streng unterbrechen und klarstellen, dass das Unsinn sei",
+        "effect": 1,
+        "feedback": "Leonie verschließt sich und wirkt feindselig."
+      },
+      {
+        "label": "Ironisch fragen, ob sie die Wahrheit besser kenne",
+        "effect": 2,
+        "feedback": "Leonie fühlt sich provoziert und reagiert aggressiv."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Ruhig bleiben und betonen, dass es um Prävention geht",
+        "effect": -1,
+        "feedback": "Leonie bleibt abwehrend, hört aber zu."
+      },
+      {
+        "label": "Ihre Vorwürfe ignorieren und Thema wechseln",
+        "effect": 0,
+        "feedback": "Leonie wirkt unbeeindruckt und distanziert."
+      },
+      {
+        "label": "Sie streng konfrontieren",
+        "effect": 1,
+        "feedback": "Leonie schreit, dass die Polizei sie überwache."
+      },
+      {
+        "label": "Das Gespräch abbrechen und vermerken",
+        "effect": 2,
+        "feedback": "Leonie verlässt wütend den Raum."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Ruhig deeskalieren und ihre Kritik ernst nehmen",
+        "effect": -1,
+        "feedback": "Leonie bleibt aggressiv, zeigt aber kurz Unsicherheit."
+      },
+      {
+        "label": "Ihre Aussagen dokumentieren und sachlich fortfahren",
+        "effect": 0,
+        "feedback": "Leonie bleibt ablehnend, das Gespräch bleibt angespannt."
+      },
+      {
+        "label": "Sie streng ermahnen, die Polizei zu respektieren",
+        "effect": 1,
+        "feedback": "Leonie schreit lauter und weigert sich weiter."
+      },
+      {
+        "label": "Das Gespräch abbrechen und Konsequenzen androhen",
+        "effect": 2,
+        "feedback": "Leonie fühlt sich bestätigt, dass der Staat sie bekämpft."
+      }
+    ]
+  }
+}

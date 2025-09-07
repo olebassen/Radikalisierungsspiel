@@ -1,0 +1,118 @@
+{
+  "id": "leonie_scene4",
+  "title": "Gespräch mit Angehörigen",
+  "text": {
+    "Z1": "Leonie lebt wieder bei ihren Eltern. Diese wirken besorgt über ihren Rückzug, sagen aber, sie verstehe sich zuhause nach wie vor gut.",
+    "Z2": "Die Eltern berichten, dass Leonie oft alleine in ihrem Zimmer sitzt und viele Online-Videos schaut. Sie sind unsicher, ob das bedenklich ist.",
+    "Z3": "Die Eltern erzählen, Leonie rede immer häufiger über Religion und habe alte Freundschaften abgebrochen. Sie machen sich Sorgen, ob sie 'in etwas hineingerät'.",
+    "Z4": "Die Familie wirkt defensiv. Sie sagt, Leonie sei 'nur gläubig' und die Polizei solle sie in Ruhe lassen.",
+    "Z5": "Die Angehörigen verteidigen Leonies Kontakte offen. Sie werfen der Polizei vor, Vorurteile zu haben und ihre Tochter zu stigmatisieren."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Die Sorgen ernst nehmen und Tipps geben, wie die Eltern sie unterstützen können",
+        "effect": -1,
+        "feedback": "Die Eltern wirken erleichtert, konkrete Hinweise zu bekommen."
+      },
+      {
+        "label": "Nur dokumentieren und keine Empfehlung geben",
+        "effect": 0,
+        "feedback": "Die Eltern bleiben unsicher und fühlen sich alleingelassen."
+      },
+      {
+        "label": "Die Sorgen herunterspielen",
+        "effect": 1,
+        "feedback": "Die Eltern nehmen an, dass nichts Ernstes vorliegt."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Ruhig erklären, warum Online-Aktivität ein Risiko sein kann",
+        "effect": -1,
+        "feedback": "Die Eltern hören aufmerksam zu und wirken nachdenklich."
+      },
+      {
+        "label": "Die Eltern ermutigen, weiter zu beobachten",
+        "effect": 0,
+        "feedback": "Die Eltern nicken, bleiben aber unsicher."
+      },
+      {
+        "label": "Die Eltern ermahnen, nicht so passiv zu sein",
+        "effect": 1,
+        "feedback": "Die Eltern fühlen sich unter Druck gesetzt und reagieren gereizt."
+      },
+      {
+        "label": "Drohen, dass Nachlässigkeit Konsequenzen haben kann",
+        "effect": 2,
+        "feedback": "Die Eltern reagieren empört und gehen in die Abwehrhaltung."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Empfehlen, offen mit Leonie über ihre Veränderungen zu sprechen",
+        "effect": -1,
+        "feedback": "Die Eltern zeigen Bereitschaft, ein Gespräch zu versuchen."
+      },
+      {
+        "label": "Die Beobachtung dokumentieren, aber nichts weiter unternehmen",
+        "effect": 0,
+        "feedback": "Die Eltern gehen nachdenklich, fühlen sich aber unsicher."
+      },
+      {
+        "label": "Die Eltern streng auf ihre Verantwortung hinweisen",
+        "effect": 1,
+        "feedback": "Die Eltern reagieren abwehrend und fühlen sich überfordert."
+      },
+      {
+        "label": "Die Eltern fragen, ob sie selbst extremistische Haltungen teilen",
+        "effect": 2,
+        "feedback": "Die Eltern fühlen sich beleidigt und brechen das Gespräch fast ab."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Deeskalierend betonen, dass es nur um Unterstützung geht",
+        "effect": -1,
+        "feedback": "Die Familie bleibt skeptisch, zeigt aber einen kurzen Moment der Offenheit."
+      },
+      {
+        "label": "Das Gespräch sachlich dokumentieren",
+        "effect": 0,
+        "feedback": "Die Familie wirkt distanziert, kooperiert aber oberflächlich."
+      },
+      {
+        "label": "Die Eltern streng ermahnen, die Lage ernst zu nehmen",
+        "effect": 1,
+        "feedback": "Die Familie reagiert gereizt und verweist auf Privatsphäre."
+      },
+      {
+        "label": "Offen vorwerfen, die Radikalisierung zu decken",
+        "effect": 2,
+        "feedback": "Die Familie wird wütend und bricht das Gespräch ab."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Betonen, dass es um Leonies Schutz geht, nicht um Schuldzuweisungen",
+        "effect": -1,
+        "feedback": "Die Familie bleibt abweisend, zeigt aber eine kurze Irritation."
+      },
+      {
+        "label": "Nur dokumentieren und keine weiteren Schritte einleiten",
+        "effect": 0,
+        "feedback": "Die Familie bleibt misstrauisch und fühlt sich bestätigt."
+      },
+      {
+        "label": "Die Angehörigen hart konfrontieren",
+        "effect": 1,
+        "feedback": "Die Familie blockt jede weitere Kooperation ab."
+      },
+      {
+        "label": "Das Jugendamt oder andere Behörden sofort einschalten",
+        "effect": 2,
+        "feedback": "Die Familie sieht sich kriminalisiert und verweigert Zusammenarbeit."
+      }
+    ]
+  }
+}

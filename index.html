@@ -2,44 +2,61 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Radikalisierungsspiel – Fallauswahl</title>
+  <title>Radikalisierungsspiel</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Radikalisierung</h1>
+  <h1>Wähle einen Fall</h1>
 
-  <div class="case-map">
-    <a href="sami/sami.html" class="zone sami">
-      <div class="case-info">
-        <h2>Sami</h2>
-        <p>Online-Radikalisierung – Samis Eltern machen sich Sorgen</p>
-      </div>
-    </a>
-    <a href="alina/alina.html" class="zone alina">
-      <div class="case-info">
-        <h2>Alina</h2>
-        <p>Peer-Group-Radikalisierung – Alinas Lehrerkraft weiß nicht, wie sie mit den Veränderungen umgehen soll</p>
-      </div>
-    </a>
-    <a href="leonie/leonie.html" class="zone leonie">
-      <div class="case-info">
-        <h2>Leonie</h2>
-        <p>Krisen-Radikalisierung – Halt in der Sinnsuche</p>
-      </div>
-    </a>
-    <a href="murat/murat.html" class="zone murat">
-      <div class="case-info">
-        <h2>Murat</h2>
-        <p>Familiale Tradierung – Geschlossene Welten</p>
-      </div>
-    </a>
-    <a href="tobias/tobias.html" class="zone tobias">
-      <div class="case-info">
-        <h2>Tobias</h2>
-        <p>Politische Radikalisierung – Aktivismus kippt</p>
-      </div>
-    </a>
+  <div class="case-container">
+
+    <!-- Sami -->
+    <div class="case-card" data-link="sami/sami.html">
+      <img src="images/sami_happy.png" 
+           data-happy="images/sami_happy.png" 
+           data-unhappy="images/sami_unhappy.png" 
+           alt="Sami">
+      <div class="case-text">Sami – Online-Radikalisierung</div>
+    </div>
+
+    <!-- Alina -->
+    <div class="case-card" data-link="alina/alina.html">
+      <img src="images/alina_happy.png" 
+           data-happy="images/alina_happy.png" 
+           data-unhappy="images/alina_unhappy.png" 
+           alt="Alina">
+      <div class="case-text">Alina – Peer-Group-Radikalisierung</div>
+    </div>
+
+    <!-- Leonie -->
+    <div class="case-card" data-link="leonie/leonie.html">
+      <img src="images/leonie_happy.png" 
+           data-happy="images/leonie_happy.png" 
+           data-unhappy="images/leonie_unhappy.png" 
+           alt="Leonie">
+      <div class="case-text">Leonie – Krisen-Radikalisierung</div>
+    </div>
+
+    <!-- Murat -->
+    <div class="case-card" data-link="murat/murat.html">
+      <img src="images/murat_happy.png" 
+           data-happy="images/murat_happy.png" 
+           data-unhappy="images/murat_unhappy.png" 
+           alt="Murat">
+      <div class="case-text">Murat – Familiale Tradierung</div>
+    </div>
+
+    <!-- Tobias -->
+    <div class="case-card" data-link="tobias/tobias.html">
+      <img src="images/tobias_happy.png" 
+           data-happy="images/tobias_happy.png" 
+           data-unhappy="images/tobias_unhappy.png" 
+           alt="Tobias">
+      <div class="case-text">Tobias – Politische Radikalisierung</div>
+    </div>
+
   </div>
+
+  <script src="index.js"></script>
 </body>
 </html>
