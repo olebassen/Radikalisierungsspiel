@@ -64,3 +64,72 @@ h2 {
     opacity: 1;
   }
 }
+/* Optionen-Container */
+#options {
+  display: flex;
+  flex-direction: column;   /* untereinander */
+  gap: 12px;                /* Abstand zwischen Buttons */
+  margin: 20px auto;
+  max-width: 420px;
+}
+
+/* Antwort-Buttons */
+#options .option {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 14px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+  color: #f5f5f5;
+}
+
+/* Hover-Effekt */
+#options .option:hover {
+  background: #2a2a2a;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+}
+
+/* Klick-Effekt */
+#options .option:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+#game-container {
+  text-align: center;
+}
+#next-btn {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 14px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+  color: #f5f5f5;
+
+  display: inline-block;       /* macht den Button zum Block */
+  margin: 30px auto 0;  /* auto = zentriert horizontal */
+  max-width: 220px;     /* sorgt dafür, dass er nicht zu breit wird */
+}
+
+/* Hover-Effekt */
+#next-btn:hover {
+  background: #2a2a2a;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+}
+
+/* Klick-Effekt */
+#next-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
