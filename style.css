@@ -183,3 +183,56 @@ h1 {
     width: auto;
   }
 }
+.case-map {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  aspect-ratio: 5 / 2;     /* 5 gleich breite Bereiche */
+  background-image: url("assets/images/happy.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* Standard-Zonen (unsichtbare Klickflächen) */
+.zone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* 5 Fünftel */
+.zone.sami { left: 0; }
+.zone.alina { left: 20%; }
+.zone.leonie { left: 40%; }
+.zone.murat { left: 60%; }
+.zone.tobias { left: 80%; }
+
+/* Wenn irgendein Bereich gehovered wird → unhappy.png */
+.case-map:hover {
+  background-image: url("assets/images/unhappy.png");
+}
+
+/* Textbox unsichtbar bis hover */
+.case-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.7);
+  padding: 10px;
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.9rem;
+}
+
+.zone:hover .case-info {
+  opacity: 1;
+}
