@@ -125,6 +125,24 @@ h2 {
   max-width: 240px;
 }
 
+#start-btn {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 16px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+  color: #f5f5f5;
+
+  display: inline-block;
+  margin: 30px auto 0;
+  max-width: 240px;
+}
+
 /* Hover-Effekt */
 #next-btn:hover {
   background: #2a2a2a;
@@ -132,8 +150,19 @@ h2 {
   box-shadow: 0 6px 12px rgba(0,0,0,0.6);
 }
 
+#start-btn:hover {
+  background: #2a2a2a;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+}
+
 /* Klick-Effekt */
 #next-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+#start-btn:active {
   transform: translateY(0);
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
