@@ -19,6 +19,7 @@ h2 {
   font-size: 1.0rem;
   font-weight: 600;
 }
+
 .case-container {
   display: flex;
   flex-wrap: wrap;
@@ -57,13 +58,11 @@ h2 {
 
 /* Hover für Desktop */
 @media (hover: hover) and (pointer: fine) {
-  .case-card:hover img {
-    content: attr(data-unhappy);
-  }
   .case-card:hover .case-info {
     opacity: 1;
   }
 }
+
 /* Optionen-Container */
 #options {
   display: flex;
@@ -78,7 +77,7 @@ h2 {
   background: #1e1e1e;
   border: 1px solid #333;
   border-radius: 10px;
-  padding: 14px 18px;
+  padding: 16px 20px;
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
@@ -108,12 +107,11 @@ h2 {
   padding: 0 15px;     /* sorgt dafür, dass Inhalte nicht am Rand kleben */
 }
 
-
 #next-btn {
   background: #1e1e1e;
   border: 1px solid #333;
   border-radius: 10px;
-  padding: 14px 18px;
+  padding: 16px 20px;
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
@@ -122,9 +120,9 @@ h2 {
   box-shadow: 0 3px 6px rgba(0,0,0,0.4);
   color: #f5f5f5;
 
-  display: inline-block;       /* macht den Button zum Block */
-  margin: 30px auto 0;  /* auto = zentriert horizontal */
-  max-width: 220px;     /* sorgt dafür, dass er nicht zu breit wird */
+  display: inline-block;
+  margin: 30px auto 0;
+  max-width: 240px;
 }
 
 /* Hover-Effekt */
@@ -138,4 +136,36 @@ h2 {
 #next-btn:active {
   transform: translateY(0);
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* --- Responsive Anpassungen für Smartphone --- */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .case-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .case-card {
+    width: 90%;   /* fast volle Breite des Screens */
+    max-width: 400px;
+  }
+
+  .case-info {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  #options .option,
+  #next-btn {
+    font-size: 1.2rem;
+    padding: 18px 22px;
+    max-width: 100%;
+  }
 }
