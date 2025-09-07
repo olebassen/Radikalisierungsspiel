@@ -3,7 +3,7 @@ document.querySelectorAll(".case-card").forEach(card => {
   const link = card.getAttribute("data-link");
   let clickedOnce = false;
 
-  // Desktop: beim Hovern Bild wechseln
+  // Desktop Hover → Bild wechseln
   card.addEventListener("mouseenter", () => {
     if (window.matchMedia("(hover: hover)").matches) {
       img.src = img.dataset.unhappy;
@@ -15,14 +15,14 @@ document.querySelectorAll(".case-card").forEach(card => {
     }
   });
 
-  // Mobile: 1. Klick = Bildwechsel, 2. Klick = Link öffnen
+  // Mobile: 1. Klick = Unhappy + Text, 2. Klick = Link
   card.addEventListener("click", (e) => {
     if (!window.matchMedia("(hover: hover)").matches) {
       if (!clickedOnce) {
-        img.src = img.dataset.unhappy;
-        card.querySelector(".case-text").style.opacity = "1";
-        clickedOnce = true;
         e.preventDefault();
+        img.src = img.dataset.unhappy;
+        card.querySelector(".case-info").style.opacity = "1";
+        clickedOnce = true;
       } else {
         window.location.href = link;
       }
