@@ -1,0 +1,118 @@
+{
+  "id": "alina_scene5",
+  "title": "Elternabend",
+  "text": {
+    "Z1": "Beim Elternabend wirken Alinas Eltern freundlich und interessiert. Sie sind überrascht, von Alinas Rückzug zu hören, und fragen nach Wegen, wie sie sie unterstützen können.",
+    "Z2": "Alinas Eltern hören aufmerksam zu, verharmlosen die Veränderungen aber: 'Das ist nur eine Phase, sie ist eben pubertär.'",
+    "Z3": "Alinas Eltern reagieren defensiv: 'Unsere Tochter ist nicht anders als die anderen, Sie übertreiben da sicher.'",
+    "Z4": "Alinas Eltern wirken gereizt. Sie behaupten, die Clique sei harmlos und die Schule würde Probleme heraufbeschwören.",
+    "Z5": "Alinas Eltern verteidigen die Clique offen und werfen der Schule vor, Vorurteile gegen ihre Tochter zu haben. Ihre Haltung wirkt ablehnend und misstrauisch."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Eltern konkrete Tipps geben, wie sie Alina unterstützen können",
+        "effect": -1,
+        "feedback": "Die Eltern bedanken sich und wirken motiviert, mehr auf Alina einzugehen."
+      },
+      {
+        "label": "Das Gespräch allgemein halten und keine Maßnahmen vorschlagen",
+        "effect": 0,
+        "feedback": "Die Eltern hören zu, es bleibt aber bei allgemeinen Worten."
+      },
+      {
+        "label": "Alina sehr streng darstellen, um Druck auf die Eltern zu machen",
+        "effect": 1,
+        "feedback": "Die Eltern wirken irritiert und etwas beschämt."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Ruhig erklären, warum Sie die Entwicklung ernst nehmen",
+        "effect": -1,
+        "feedback": "Die Eltern hören zu und wirken etwas nachdenklicher."
+      },
+      {
+        "label": "Die Verharmlosung akzeptieren und das Gespräch beenden",
+        "effect": 0,
+        "feedback": "Die Eltern gehen beruhigt nach Hause, nehmen die Sorgen aber nicht ernst."
+      },
+      {
+        "label": "Die Eltern vor anderen auf ihre Haltung hinweisen",
+        "effect": 1,
+        "feedback": "Die Eltern fühlen sich bloßgestellt und reagieren ablehnend."
+      },
+      {
+        "label": "Mit Drohungen von Ordnungsmaßnahmen argumentieren",
+        "effect": 2,
+        "feedback": "Die Eltern reagieren empört und gehen in die Verteidigung."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Ein Einzelgespräch vorschlagen, um Missverständnisse zu klären",
+        "effect": -1,
+        "feedback": "Die Eltern stimmen zögernd zu und wirken etwas offener."
+      },
+      {
+        "label": "Die Aussagen notieren und sachlich dokumentieren",
+        "effect": 0,
+        "feedback": "Die Eltern merken wenig, bleiben aber bei ihrer defensiven Haltung."
+      },
+      {
+        "label": "Die Eltern streng konfrontieren",
+        "effect": 1,
+        "feedback": "Die Eltern reagieren gereizt und schließen sich enger zusammen."
+      },
+      {
+        "label": "Vorwürfe machen, dass sie Alina falsch erziehen",
+        "effect": 2,
+        "feedback": "Die Eltern werden laut und brechen das Gespräch fast ab."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Ruhig betonen, dass die Schule und Eltern zusammenarbeiten sollten",
+        "effect": -1,
+        "feedback": "Die Eltern hören kurz zu, bleiben aber misstrauisch."
+      },
+      {
+        "label": "Die Haltung akzeptieren, aber im Kollegium beraten",
+        "effect": 0,
+        "feedback": "Die Eltern fühlen sich bestätigt, die Distanz bleibt."
+      },
+      {
+        "label": "Die Eltern streng auf ihre Verantwortung hinweisen",
+        "effect": 1,
+        "feedback": "Die Eltern reagieren abwehrend und fühlen sich angegriffen."
+      },
+      {
+        "label": "Die Eltern vor versammelter Runde kritisieren",
+        "effect": 2,
+        "feedback": "Die Eltern werden wütend und werfen der Schule Feindseligkeit vor."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Deeskalierend betonen, dass es um Alinas Zukunft geht",
+        "effect": -1,
+        "feedback": "Die Eltern hören nur halb zu, zeigen aber ein kurzes Zögern."
+      },
+      {
+        "label": "Gespräch abbrechen und dokumentieren",
+        "effect": 0,
+        "feedback": "Die Eltern bleiben unbeeindruckt, die Distanz verschärft sich."
+      },
+      {
+        "label": "Sie streng maßregeln und Verantwortung einfordern",
+        "effect": 1,
+        "feedback": "Die Eltern reagieren aggressiv und werfen der Schule Diskriminierung vor."
+      },
+      {
+        "label": "Die Schulleitung hinzuziehen und formelle Schritte einleiten",
+        "effect": 2,
+        "feedback": "Die Eltern verlassen empört den Raum und verweigern Zusammenarbeit."
+      }
+    ]
+  }
+}

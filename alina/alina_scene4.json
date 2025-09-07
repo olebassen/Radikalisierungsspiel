@@ -1,0 +1,118 @@
+{
+  "id": "alina_scene4",
+  "title": "Gruppenarbeit",
+  "text": {
+    "Z1": "Bei einer Gruppenarbeit beteiligt sich Alina normal, lacht gelegentlich mit anderen und bringt einfache Beiträge ein.",
+    "Z2": "Alina wirkt still und lässt die anderen arbeiten. Sie redet kaum und bleibt nah bei zwei Freundinnen aus der Clique.",
+    "Z3": "Alina beteiligt sich kaum, verdreht die Augen bei Kommentaren anderer und macht spöttische Bemerkungen.",
+    "Z4": "Alina weigert sich, mit bestimmten Mitschüler*innen zu arbeiten. Sie behauptet, dass 'die sowieso nichts verstehen'.",
+    "Z5": "Alina lehnt die Zusammenarbeit offen ab. Sie sagt laut, dass sie nur mit ihrer Clique 'richtig arbeiten' könne und verweigert jede Kooperation."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Alina für ihre Mitarbeit loben",
+        "effect": -1,
+        "feedback": "Alina wirkt verlegen, freut sich aber über die Anerkennung."
+      },
+      {
+        "label": "Die Situation unbeachtet lassen",
+        "effect": 0,
+        "feedback": "Alina arbeitet unauffällig weiter."
+      },
+      {
+        "label": "Sie auffordern, sich stärker einzubringen",
+        "effect": 1,
+        "feedback": "Alina wirkt irritiert und zieht sich leicht zurück."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Alina ermutigen, ihre Ideen zu teilen",
+        "effect": -1,
+        "feedback": "Alina nickt vorsichtig und sagt ein paar Worte."
+      },
+      {
+        "label": "Die Zurückhaltung ignorieren",
+        "effect": 0,
+        "feedback": "Alina bleibt stumm, die Clique übernimmt das Wort."
+      },
+      {
+        "label": "Sie vor der Gruppe auffordern, aktiver zu sein",
+        "effect": 1,
+        "feedback": "Alina wird rot, wirkt beschämt und bleibt noch stiller."
+      },
+      {
+        "label": "Ihr mangelndes Engagement streng kritisieren",
+        "effect": 2,
+        "feedback": "Alina zieht sich zurück und flüstert etwas mit der Clique."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Alina ruhig auf ihr spöttisches Verhalten ansprechen",
+        "effect": -1,
+        "feedback": "Alina verdreht zwar die Augen, wirkt aber kurz nachdenklich."
+      },
+      {
+        "label": "Die Bemerkungen ignorieren und die Arbeit weiterlaufen lassen",
+        "effect": 0,
+        "feedback": "Alina bleibt abseits, die Clique wirkt gestärkt."
+      },
+      {
+        "label": "Sie streng ermahnen, die Gruppe nicht zu stören",
+        "effect": 1,
+        "feedback": "Alina lacht abfällig und sagt nichts mehr."
+      },
+      {
+        "label": "Sie vor allen für ihr Verhalten kritisieren",
+        "effect": 2,
+        "feedback": "Alina kontert lautstark und zieht sich enger an die Clique."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Alina unter vier Augen fragen, warum sie nicht mitarbeiten will",
+        "effect": -1,
+        "feedback": "Alina wirkt abweisend, zeigt aber einen kurzen Moment des Zögerns."
+      },
+      {
+        "label": "Sie in eine neue Gruppe setzen und genau beobachten",
+        "effect": 0,
+        "feedback": "Alina arbeitet widerwillig mit, bleibt aber distanziert."
+      },
+      {
+        "label": "Sie streng auffordern, die Zusammenarbeit nicht zu verweigern",
+        "effect": 1,
+        "feedback": "Alina reagiert trotzig und spricht nur noch mit der Clique."
+      },
+      {
+        "label": "Vor der ganzen Klasse Konsequenzen ankündigen",
+        "effect": 2,
+        "feedback": "Alina fühlt sich bloßgestellt und verschließt sich völlig."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Ruhig klarstellen, dass Kooperation Teil des Lernens ist",
+        "effect": -1,
+        "feedback": "Alina bleibt stur, aber deine ruhige Haltung irritiert sie."
+      },
+      {
+        "label": "Den Vorfall dokumentieren und ans Kollegium weitergeben",
+        "effect": 0,
+        "feedback": "Alina zeigt sich unbeeindruckt und verweigert weiter."
+      },
+      {
+        "label": "Alina scharf maßregeln, dass ihr Verhalten nicht akzeptabel ist",
+        "effect": 1,
+        "feedback": "Alina schreit, dass niemand sie respektiere."
+      },
+      {
+        "label": "Sie sofort aus der Gruppenarbeit ausschließen",
+        "effect": 2,
+        "feedback": "Alina verlässt wütend die Gruppe, die Clique applaudiert demonstrativ."
+      }
+    ]
+  }
+}

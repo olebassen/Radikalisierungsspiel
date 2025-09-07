@@ -1,0 +1,118 @@
+{
+  "id": "alina_scene9",
+  "title": "Schulhof-Eskalation",
+  "text": {
+    "Z1": "Auf dem Pausenhof siehst du, wie Alina mit einer Mitschülerin streitet. Es wirkt wie ein normaler Teenager-Konflikt, Stimmen sind leicht erhoben.",
+    "Z2": "Alina diskutiert scharf mit einem Mitschüler. Sie sagt, er sei 'gegen sie' und zieht sich schnell zu ihrer Clique zurück.",
+    "Z3": "Alina beleidigt eine Mitschülerin lautstark. Einige Schüler*innen lachen, andere sind sichtlich erschrocken.",
+    "Z4": "Alina schreit, dass 'alle sie fertig machen wollen'. Die Clique steht hinter ihr und macht die Situation bedrohlicher.",
+    "Z5": "Alina stößt eine Mitschülerin grob und ruft laut Parolen, die klar ideologisch gefärbt sind. Die Situation droht völlig zu eskalieren."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Den Streit ruhig unterbrechen und die beiden trennen",
+        "effect": -1,
+        "feedback": "Alina beruhigt sich sichtbar, auch wenn sie noch mürrisch wirkt."
+      },
+      {
+        "label": "Die Situation kurz beobachten, ob sie sich von selbst löst",
+        "effect": 0,
+        "feedback": "Der Streit klingt langsam ab, Alina bleibt aber angespannt."
+      },
+      {
+        "label": "Alina streng vor allen ermahnen",
+        "effect": 1,
+        "feedback": "Alina wird rot und zieht sich sofort zur Clique zurück."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Alina sofort zu einem ruhigen Gespräch bitten",
+        "effect": -1,
+        "feedback": "Alina schnaubt, hört dir aber widerwillig zu."
+      },
+      {
+        "label": "Den Vorfall ignorieren und weitermachen",
+        "effect": 0,
+        "feedback": "Alina verschwindet mit der Clique, der Konflikt bleibt bestehen."
+      },
+      {
+        "label": "Alina laut und deutlich zurechtweisen",
+        "effect": 1,
+        "feedback": "Alina schreit, dass du immer gegen sie bist."
+      },
+      {
+        "label": "Sie sofort bestrafen und Konsequenzen androhen",
+        "effect": 2,
+        "feedback": "Alina reagiert trotzig und sucht Schutz bei der Clique."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Den Konflikt deeskalieren und ein klärendes Gespräch anbieten",
+        "effect": -1,
+        "feedback": "Alina bleibt abweisend, zeigt aber kurz Unsicherheit."
+      },
+      {
+        "label": "Den Vorfall dokumentieren und später nachbereiten",
+        "effect": 0,
+        "feedback": "Alina beruhigt sich langsam, bleibt aber feindselig."
+      },
+      {
+        "label": "Sie scharf zurechtweisen und Respekt einfordern",
+        "effect": 1,
+        "feedback": "Alina schreit, dass die Schule ihr nichts zu sagen habe."
+      },
+      {
+        "label": "Sie vor allen Mitschüler*innen bloßstellen",
+        "effect": 2,
+        "feedback": "Alina brüllt, dass sie absichtlich unfair behandelt werde."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Ruhig bleiben und sofort Hilfe durch Kolleg*innen holen",
+        "effect": -1,
+        "feedback": "Alina bleibt aggressiv, zeigt aber Irritation durch deine Ruhe."
+      },
+      {
+        "label": "Die Situation beenden und Alina getrennt betreuen",
+        "effect": 0,
+        "feedback": "Alina zieht sich widerwillig mit der Clique zurück."
+      },
+      {
+        "label": "Sie laut und vor allen scharf zurechtweisen",
+        "effect": 1,
+        "feedback": "Alina schreit noch lauter, die Clique johlt zustimmend."
+      },
+      {
+        "label": "Sie vom Schulhof verweisen",
+        "effect": 2,
+        "feedback": "Alina verlässt wütend den Hof, die Clique feiert sie als Heldin."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Deeskalierend klarstellen, dass Gewalt nicht akzeptabel ist",
+        "effect": -1,
+        "feedback": "Alina schreit weiter, wirkt aber kurz verunsichert."
+      },
+      {
+        "label": "Die Situation dokumentieren und sofort an die Schulleitung melden",
+        "effect": 0,
+        "feedback": "Alina beruhigt sich nicht, die Clique bleibt aggressiv."
+      },
+      {
+        "label": "Sie streng maßregeln und sofort Konsequenzen androhen",
+        "effect": 1,
+        "feedback": "Alina ruft, dass die Schule ein Feind sei."
+      },
+      {
+        "label": "Polizei oder Ordnungsamt einschalten",
+        "effect": 2,
+        "feedback": "Alina fühlt sich bestätigt und schreit, dass alle sie unterdrücken wollen."
+      }
+    ]
+  }
+}

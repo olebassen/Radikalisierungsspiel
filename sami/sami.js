@@ -24,6 +24,11 @@ async function loadScene(sceneId) {
 
     // Szenentext einsetzen
     document.getElementById("scene").innerText = scene.text[zone];
+// Szenentitel einsetzen
+document.getElementById("scene-title").innerText = scene.title;
+
+// Szenentext einsetzen (wie bisher abhängig von RI)
+document.getElementById("scene").innerText = scene.text[zone];
 
     // Optionen anzeigen
     const optionsDiv = document.getElementById("options");

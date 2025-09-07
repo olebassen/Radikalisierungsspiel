@@ -1,0 +1,118 @@
+{
+  "id": "alina_scene3",
+  "title": "Unterrichtsdiskussion",
+  "text": {
+    "Z1": "Im Unterricht meldet sich Alina gelegentlich und bringt sachliche Beiträge. Sie wirkt interessiert, auch wenn sie nicht sehr aktiv ist.",
+    "Z2": "Alina beteiligt sich selten, wirkt abgelenkt. Wenn sie sich äußert, betont sie, dass bestimmte Themen 'von den Medien verzerrt' seien.",
+    "Z3": "Alina meldet sich nur, um kritische Bemerkungen zu machen. Sie sagt, Lehrer*innen würden 'die Wahrheit nicht erzählen'.",
+    "Z4": "Alina äußert laut, dass 'der Westen immer gegen uns ist'. Ihre Beiträge klingen zunehmend ideologisch geprägt.",
+    "Z5": "Alina unterbricht andere, spricht aggressiv und sagt, nur 'wahre Gläubige' hätten den Durchblick. Die Diskussion kippt in offene Feindseligkeit."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Alina gezielt für ihre Beiträge loben",
+        "effect": -1,
+        "feedback": "Alina wirkt verlegen, aber auch gestärkt und beteiligt sich etwas mehr."
+      },
+      {
+        "label": "Sie ignorieren, um die Klasse im Fluss zu halten",
+        "effect": 0,
+        "feedback": "Alina bleibt still, die Distanz verstärkt sich unauffällig."
+      },
+      {
+        "label": "Sie auffordern, sich häufiger zu melden",
+        "effect": 1,
+        "feedback": "Alina fühlt sich unter Druck gesetzt und zieht sich zurück."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Offen nachfragen, was sie mit 'verzerrt' meint",
+        "effect": -1,
+        "feedback": "Alina erklärt vorsichtig ihre Zweifel und zeigt kurz Offenheit."
+      },
+      {
+        "label": "Ihre Aussage übergehen und das Thema wechseln",
+        "effect": 0,
+        "feedback": "Alina zieht sich schweigend zurück, fühlt sich aber bestätigt."
+      },
+      {
+        "label": "Klarstellen, dass solche Aussagen im Unterricht nicht passen",
+        "effect": 1,
+        "feedback": "Alina wirkt beschämt und lehnt weitere Teilnahme ab."
+      },
+      {
+        "label": "Sie ironisch fragen, ob sie es besser weiß",
+        "effect": 2,
+        "feedback": "Alina reagiert verletzt und zieht sich deutlich zur Clique."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Alina in einem ruhigen Ton nach Beispielen fragen",
+        "effect": -1,
+        "feedback": "Alina nennt vage Beispiele, wirkt aber kurz ins Nachdenken gebracht."
+      },
+      {
+        "label": "Die Diskussion nutzen, um kritisch mit Medien umzugehen",
+        "effect": 0,
+        "feedback": "Die Klasse diskutiert weiter, Alina schweigt demonstrativ."
+      },
+      {
+        "label": "Sie streng unterbrechen und klarstellen, dass das Unsinn ist",
+        "effect": 1,
+        "feedback": "Alina zieht sich zurück und wirkt trotzig."
+      },
+      {
+        "label": "Vor der Klasse ihre Aussage lächerlich machen",
+        "effect": 2,
+        "feedback": "Alina wird wütend, ihre Clique stärkt ihr den Rücken."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Die Aussage aufnehmen und um ein Gespräch nach dem Unterricht bitten",
+        "effect": -1,
+        "feedback": "Alina reagiert ablehnend, zeigt aber ein kurzes Zögern."
+      },
+      {
+        "label": "Das Thema neutral an die gesamte Klasse zurückspielen",
+        "effect": 0,
+        "feedback": "Die Klasse diskutiert weiter, Alina wirkt unbeteiligt."
+      },
+      {
+        "label": "Sie ermahnen, solche Parolen im Unterricht zu unterlassen",
+        "effect": 1,
+        "feedback": "Alina reagiert trotzig und provoziert die Klasse."
+      },
+      {
+        "label": "Ihre Äußerung sofort als extremistisch deklarieren",
+        "effect": 2,
+        "feedback": "Alina fühlt sich bloßgestellt und lehnt jede weitere Teilnahme ab."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Ruhig bleiben und klarstellen, dass Respekt Grundbedingung ist",
+        "effect": -1,
+        "feedback": "Alina reagiert aggressiv, aber deine Ruhe irritiert sie sichtbar."
+      },
+      {
+        "label": "Die Situation dokumentieren und an die Schulleitung geben",
+        "effect": 0,
+        "feedback": "Alina bleibt unbeeindruckt, die Fronten verhärten sich."
+      },
+      {
+        "label": "Sie streng zurechtweisen und sofort unterbrechen",
+        "effect": 1,
+        "feedback": "Alina schreit, dass die Schule Teil der Lüge sei."
+      },
+      {
+        "label": "Sie vor der Klasse anprangern und Strafen ankündigen",
+        "effect": 2,
+        "feedback": "Alina fühlt sich bestätigt, dass alle gegen sie sind."
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "alina_scene10",
+  "title": "Wendepunkt",
+  "text": {
+    "Z1": "Am Ende des Schuljahres wirkt Alina wieder etwas offener. Sie redet mit Mitschüler*innen und zeigt Anzeichen, dass sie Anschluss außerhalb der Clique findet.",
+    "Z2": "Alina bleibt zurückhaltend, aber nicht mehr ganz so distanziert. Sie ist vorsichtig erreichbar, auch wenn die Clique noch wichtig für sie ist.",
+    "Z3": "Alina wirkt ambivalent: Mal sucht sie Nähe zur Clique, mal zeigt sie kurze Offenheit. Ihr Weg bleibt unklar.",
+    "Z4": "Alina hält weiterhin eng an der Clique fest und grenzt sich stark ab. Sie wirkt trotzig und abwehrend gegenüber Lehrkräften.",
+    "Z5": "Alina lehnt Schule, Lehrkräfte und Mitschüler*innen offen ab. Sie betont, dass nur ihre Clique sie verstehe und verstärkt extremistische Narrative."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Alina für ihre positiven Schritte ausdrücklich loben",
+        "effect": -1,
+        "feedback": "Alina lächelt verlegen, zeigt aber deutlich, dass sie sich gesehen fühlt."
+      },
+      {
+        "label": "Die Veränderung wahrnehmen, aber nicht ansprechen",
+        "effect": 0,
+        "feedback": "Alina bleibt offener, auch wenn sie keine klare Rückmeldung bekommt."
+      },
+      {
+        "label": "Alina kritisch fragen, warum sie so lange distanziert war",
+        "effect": 1,
+        "feedback": "Alina wirkt irritiert und zieht sich wieder leicht zurück."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Alina ein unterstützendes Gespräch anbieten",
+        "effect": -1,
+        "feedback": "Alina nickt vorsichtig und zeigt ein kleines Lächeln."
+      },
+      {
+        "label": "Die Entwicklung nur dokumentieren, ohne aktiv zu werden",
+        "effect": 0,
+        "feedback": "Alina bleibt unsicher erreichbar, ohne weitere Bewegung."
+      },
+      {
+        "label": "Sie vor der Klasse direkt auf ihre Zurückhaltung ansprechen",
+        "effect": 1,
+        "feedback": "Alina wirkt beschämt und zieht sich zurück."
+      },
+      {
+        "label": "Ihre Clique für ihr Verhalten kritisieren",
+        "effect": 2,
+        "feedback": "Alina stellt sich schützend vor ihre Clique und wirkt feindselig."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Ruhig das Gespräch suchen und ihre Unsicherheit thematisieren",
+        "effect": -1,
+        "feedback": "Alina wirkt misstrauisch, hört aber zu und denkt nach."
+      },
+      {
+        "label": "Die Ambivalenz dokumentieren, aber nicht ansprechen",
+        "effect": 0,
+        "feedback": "Alina bleibt zwischen Nähe und Distanz gefangen."
+      },
+      {
+        "label": "Sie streng auffordern, eine klare Haltung zu zeigen",
+        "effect": 1,
+        "feedback": "Alina reagiert trotzig und wendet sich stärker der Clique zu."
+      },
+      {
+        "label": "Ihre Clique offen als schädlich bezeichnen",
+        "effect": 2,
+        "feedback": "Alina verteidigt die Gruppe lautstark und lehnt dich ab."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Ruhig betonen, dass dir ihre Zukunft wichtig ist",
+        "effect": -1,
+        "feedback": "Alina zeigt einen kurzen Moment des Zögerns."
+      },
+      {
+        "label": "Die Abgrenzung dokumentieren und an die Schulleitung melden",
+        "effect": 0,
+        "feedback": "Alina bleibt stur und eng an die Clique gebunden."
+      },
+      {
+        "label": "Sie streng auf ihre Verantwortung hinweisen",
+        "effect": 1,
+        "feedback": "Alina kontert laut und wendet sich ab."
+      },
+      {
+        "label": "Alina vor der Klasse bloßstellen",
+        "effect": 2,
+        "feedback": "Alina schreit, dass niemand sie verstehe. Die Clique applaudiert."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Deeskalierend betonen, dass sie trotzdem Teil der Klasse bleibt",
+        "effect": -1,
+        "feedback": "Alina bleibt feindselig, zeigt aber kurz Irritation."
+      },
+      {
+        "label": "Die Haltung dokumentieren und weitergeben",
+        "effect": 0,
+        "feedback": "Alina bleibt aggressiv, die Clique bestärkt sie."
+      },
+      {
+        "label": "Sie streng maßregeln und Konsequenzen androhen",
+        "effect": 1,
+        "feedback": "Alina schreit, dass die Schule gegen sie sei."
+      },
+      {
+        "label": "Sie offen als extremistisch bezeichnen",
+        "effect": 2,
+        "feedback": "Alina reagiert wütend, fühlt sich bestätigt und bricht das Gespräch ab."
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "alina_scene1",
+  "title": "Erster Eindruck",
+  "text": {
+    "Z1": "Alina wirkt zu Beginn des Schuljahrs etwas stiller, beteiligt sich aber weiterhin am Unterricht. Sie lacht gelegentlich mit Mitschüler*innen, bleibt jedoch insgesamt unauffällig.",
+    "Z2": "Alina wirkt zurückhaltend und verbringt die Pausen fast nur noch mit einer kleinen Clique. Sie spricht weniger mit anderen und meidet Blickkontakt im Unterricht.",
+    "Z3": "Alina grenzt sich zunehmend ab. Im Unterricht meldet sie sich kaum, in Pausen beobachtest du sie, wie sie andere Schüler*innen abfällig kommentiert.",
+    "Z4": "Alina spricht kaum noch mit dir oder Mitschüler*innen. Sie verhält sich provozierend, lacht über Bemerkungen der Clique und wirkt feindselig gegenüber anderen Gruppen.",
+    "Z5": "Alina sitzt abseits mit ihrer Clique, die andere offen verspottet. Sie beteiligt sich nicht mehr am Unterricht, sondern zeigt klar abweisendes und feindseliges Verhalten."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Alina im Unterricht gezielt positiv ansprechen",
+        "effect": -1,
+        "feedback": "Alina reagiert zurückhaltend, scheint aber zufrieden über die Aufmerksamkeit."
+      },
+      {
+        "label": "Die Veränderung zunächst beobachten",
+        "effect": 0,
+        "feedback": "Alina bleibt unauffällig, die Distanz setzt sich leise fort."
+      },
+      {
+        "label": "Sie streng auf ihre Zurückhaltung ansprechen",
+        "effect": 1,
+        "feedback": "Alina wirkt irritiert und zieht sich stärker zurück."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Ein vertrauliches Gespräch nach dem Unterricht suchen",
+        "effect": -1,
+        "feedback": "Alina öffnet sich ein wenig und spricht von ihrem Gefühl, ausgeschlossen zu sein."
+      },
+      {
+        "label": "Die Clique im Auge behalten, ohne Alina direkt anzusprechen",
+        "effect": 0,
+        "feedback": "Alina bemerkt nichts, bleibt aber auf Distanz."
+      },
+      {
+        "label": "Alina vor der Klasse auf ihre Passivität ansprechen",
+        "effect": 1,
+        "feedback": "Alina wird rot, wirkt beschämt und zieht sich noch stärker zurück."
+      },
+      {
+        "label": "Ihre Mitarbeit schriftlich bewerten und Druck ausüben",
+        "effect": 2,
+        "feedback": "Alina zeigt deutlich Abwehr, die Clique bestärkt sie darin, die Schule abzulehnen."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Alina ein Gespräch unter vier Augen anbieten",
+        "effect": -1,
+        "feedback": "Alina wirkt misstrauisch, aber hört immerhin zu."
+      },
+      {
+        "label": "In der Klasse thematisieren, wie man respektvoll miteinander umgeht",
+        "effect": 0,
+        "feedback": "Alina reagiert kaum, wirkt jedoch leicht unwohl."
+      },
+      {
+        "label": "Alina streng ermahnen, abfällige Kommentare zu unterlassen",
+        "effect": 1,
+        "feedback": "Alina verschränkt die Arme und lacht abfällig."
+      },
+      {
+        "label": "Die Clique auseinander setzen und Sitzordnung ändern",
+        "effect": 2,
+        "feedback": "Alina protestiert lautstark und fühlt sich ungerecht behandelt."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Offen zeigen, dass du dir Sorgen machst, und ein Gespräch suchen",
+        "effect": -1,
+        "feedback": "Alina reagiert abweisend, merkt aber, dass du ihre Situation ernst nimmst."
+      },
+      {
+        "label": "Die Situation mit Kolleg*innen oder Schulsozialarbeit besprechen",
+        "effect": 0,
+        "feedback": "Alina bemerkt nichts, die Distanz bleibt bestehen."
+      },
+      {
+        "label": "Vor der Klasse klare Grenzen setzen",
+        "effect": 1,
+        "feedback": "Alina wird trotzig und lehnt jede Kritik ab."
+      },
+      {
+        "label": "Alina mit einem Verweis bestrafen",
+        "effect": 2,
+        "feedback": "Alina fühlt sich angegriffen und rückt noch enger zur Clique."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Ruhig bleiben und Alina im Gespräch deine Unterstützung anbieten",
+        "effect": -1,
+        "feedback": "Alina reagiert feindselig, merkt aber deine Beharrlichkeit."
+      },
+      {
+        "label": "Den Konflikt an Kollegium oder Schulleitung übergeben",
+        "effect": 0,
+        "feedback": "Alina zeigt sich unbeeindruckt, die Situation bleibt angespannt."
+      },
+      {
+        "label": "Sie vor der Klasse streng maßregeln",
+        "effect": 1,
+        "feedback": "Alina reagiert aggressiv, die Clique unterstützt sie lautstark."
+      },
+      {
+        "label": "Sie von gemeinsamen Aktivitäten ausschließen",
+        "effect": 2,
+        "feedback": "Alina fühlt sich bestätigt, dass die Schule gegen sie ist."
+      }
+    ]
+  }
+}

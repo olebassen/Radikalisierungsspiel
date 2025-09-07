@@ -1,0 +1,118 @@
+{
+  "id": "alina_scene8",
+  "title": "Exkursion / Projekttag",
+  "text": {
+    "Z1": "Alina nimmt an der Exkursion teil, wirkt aber etwas still. Sie hört aufmerksam zu und schreibt Notizen, bleibt aber im Hintergrund.",
+    "Z2": "Alina beteiligt sich kaum. Sie sitzt mit zwei Freundinnen abseits und meidet den Austausch mit anderen Gruppen.",
+    "Z3": "Alina zeigt offen Desinteresse. Sie rollt mit den Augen und kommentiert spöttisch, dass 'das eh nichts mit der Realität zu tun habe'.",
+    "Z4": "Alina weigert sich, an den geplanten Aktivitäten teilzunehmen. Sie behauptet, das Programm sei 'von außen gesteuert'.",
+    "Z5": "Alina lehnt die Exkursion vollständig ab. Sie erklärt, solche Veranstaltungen seien 'gegen ihre Werte' und ruft lautstark Protest."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Alina ermutigen, ihre Eindrücke zu teilen",
+        "effect": -1,
+        "feedback": "Alina spricht vorsichtig ein paar Worte und wirkt kurz eingebunden."
+      },
+      {
+        "label": "Sie unbeachtet lassen und die Exkursion normal durchführen",
+        "effect": 0,
+        "feedback": "Alina bleibt still und zieht sich nicht weiter hervor."
+      },
+      {
+        "label": "Alina auffordern, vor allen zu berichten",
+        "effect": 1,
+        "feedback": "Alina wirkt überfordert und zieht sich stärker zurück."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Sie freundlich einladen, an den Gruppenaufgaben teilzunehmen",
+        "effect": -1,
+        "feedback": "Alina schaut verlegen, beteiligt sich aber ein wenig."
+      },
+      {
+        "label": "Ihre Zurückhaltung ignorieren",
+        "effect": 0,
+        "feedback": "Alina bleibt abseits mit der Clique sitzen."
+      },
+      {
+        "label": "Sie streng auffordern, aktiver mitzuwirken",
+        "effect": 1,
+        "feedback": "Alina murmelt abfällig und macht nicht mit."
+      },
+      {
+        "label": "Ihr eine schlechte Note für Beteiligung androhen",
+        "effect": 2,
+        "feedback": "Alina wirkt trotzig und lehnt jede Teilnahme ab."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Alina ruhig fragen, warum sie das Programm ablehnt",
+        "effect": -1,
+        "feedback": "Alina wirkt abweisend, nennt aber ein paar Gründe."
+      },
+      {
+        "label": "Ihre Kommentare überhören und weitermachen",
+        "effect": 0,
+        "feedback": "Alina lacht mit der Clique, bleibt spöttisch."
+      },
+      {
+        "label": "Sie streng ermahnen, respektvoll zu sein",
+        "effect": 1,
+        "feedback": "Alina kontert laut, dass 'das alles Zeitverschwendung' sei."
+      },
+      {
+        "label": "Vor der Gruppe deutlich machen, dass ihr Verhalten inakzeptabel ist",
+        "effect": 2,
+        "feedback": "Alina ruft, dass die Schule alle manipuliert."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Deeskalierend anbieten, dass sie kleinere Aufgaben übernimmt",
+        "effect": -1,
+        "feedback": "Alina lehnt zwar ab, zeigt aber einen Moment Unsicherheit."
+      },
+      {
+        "label": "Die Weigerung notieren und später im Kollegium besprechen",
+        "effect": 0,
+        "feedback": "Alina bleibt passiv und zieht sich zurück."
+      },
+      {
+        "label": "Sie streng auffordern, die Teilnahme nicht zu verweigern",
+        "effect": 1,
+        "feedback": "Alina ruft, dass die Schule sie zwingen wolle."
+      },
+      {
+        "label": "Sie vor allen maßregeln und Konsequenzen androhen",
+        "effect": 2,
+        "feedback": "Alina schreit, dass niemand ihr etwas zu sagen habe."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Ruhig betonen, dass die Exkursion für alle verpflichtend ist",
+        "effect": -1,
+        "feedback": "Alina protestiert, zeigt aber kurz ein Zögern."
+      },
+      {
+        "label": "Die Weigerung dokumentieren und an die Schulleitung melden",
+        "effect": 0,
+        "feedback": "Alina bleibt stur und lacht mit der Clique."
+      },
+      {
+        "label": "Sie streng zurechtweisen und Teilnahme erzwingen",
+        "effect": 1,
+        "feedback": "Alina reagiert aggressiv und steigert ihre Ablehnung."
+      },
+      {
+        "label": "Sie sofort aus der Aktivität ausschließen",
+        "effect": 2,
+        "feedback": "Alina verlässt laut protestierend die Veranstaltung."
+      }
+    ]
+  }
+}

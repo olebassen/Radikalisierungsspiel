@@ -1,0 +1,118 @@
+{
+  "id": "alina_scene2",
+  "title": "Pausensituation",
+  "text": {
+    "Z1": "In der Pause siehst du Alina lachend mit einigen Mitschüler*innen sprechen. Alles wirkt normal, doch du bemerkst, dass sie häufiger mit einer kleinen festen Gruppe unterwegs ist.",
+    "Z2": "Alina verbringt die Pause fast ausschließlich mit der Clique. Sie wirkt still und meidet andere Schülerinnen und Schüler.",
+    "Z3": "Alina hält sich abseits mit ihrer Clique auf. Sie beobachtet andere abfällig, spricht aber kaum mit Personen außerhalb der Gruppe.",
+    "Z4": "Alina steht eng mit der Clique zusammen. Die Gruppe grenzt sich sichtbar ab, macht abwertende Bemerkungen über andere Schülerinnen und Schüler.",
+    "Z5": "Alina und ihre Clique verhöhnen andere offen auf dem Pausenhof. Ihr Verhalten wirkt aggressiv und einschüchternd."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Alina freundlich begrüßen und beiläufig das Gespräch suchen",
+        "effect": -1,
+        "feedback": "Alina reagiert zurückhaltend, wirkt aber erfreut über die persönliche Ansprache."
+      },
+      {
+        "label": "Die Clique im Auge behalten, ohne einzugreifen",
+        "effect": 0,
+        "feedback": "Alina bemerkt nichts. Die Bindung zur Clique festigt sich ungestört."
+      },
+      {
+        "label": "Alina streng darauf hinweisen, dass sie nicht immer mit denselben Leuten zusammen sein soll",
+        "effect": 1,
+        "feedback": "Alina wirkt verwirrt und zieht sich sofort zu ihren Freundinnen zurück."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Nach der Pause ein vertrauliches Gespräch mit Alina suchen",
+        "effect": -1,
+        "feedback": "Alina spricht kurz über ihr Gefühl, ausgegrenzt zu sein."
+      },
+      {
+        "label": "Die Clique während der Pause beobachten, aber nichts sagen",
+        "effect": 0,
+        "feedback": "Alina bleibt zurückgezogen, ihre Bindung zur Clique verstärkt sich."
+      },
+      {
+        "label": "Die Gruppe direkt darauf hinweisen, dass sie sich isoliert",
+        "effect": 1,
+        "feedback": "Alina wirkt beschämt, die Clique reagiert trotzig."
+      },
+      {
+        "label": "Alina in der Klasse auf ihre Freundschaften ansprechen",
+        "effect": 2,
+        "feedback": "Alina fühlt sich bloßgestellt und wendet sich noch stärker der Clique zu."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Alina freundlich einladen, mit anderen zusammenzustehen",
+        "effect": -1,
+        "feedback": "Alina zögert, geht aber ein paar Schritte mit."
+      },
+      {
+        "label": "Das Verhalten notieren und später mit Kolleg*innen besprechen",
+        "effect": 0,
+        "feedback": "Alina bemerkt nichts. Die Clique bleibt geschlossen."
+      },
+      {
+        "label": "Vor der Clique deutlich machen, dass abwertende Blicke respektlos sind",
+        "effect": 1,
+        "feedback": "Alina verschränkt die Arme, die Clique reagiert spöttisch."
+      },
+      {
+        "label": "Alina von der Gruppe trennen und woanders positionieren",
+        "effect": 2,
+        "feedback": "Alina protestiert heftig, die Clique solidarisert sich lautstark."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Ein Gespräch unter vier Augen suchen, um ihre Sicht zu verstehen",
+        "effect": -1,
+        "feedback": "Alina reagiert ablehnend, merkt aber, dass du ihre Situation ernst nimmst."
+      },
+      {
+        "label": "Mit Kolleg*innen oder Schulsozialarbeit Rücksprache halten",
+        "effect": 0,
+        "feedback": "Alina bemerkt nichts. Das Verhalten bleibt unverändert."
+      },
+      {
+        "label": "Vor der Gruppe streng klarstellen, dass Abwertungen nicht toleriert werden",
+        "effect": 1,
+        "feedback": "Alina kontert trotzig, die Clique lacht höhnisch."
+      },
+      {
+        "label": "Die Clique auseinanderziehen und Alina von ihnen trennen",
+        "effect": 2,
+        "feedback": "Alina ruft lautstark, dass die Schule sie unterdrückt."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Alina ruhig ansprechen und klar machen, dass Respekt unverzichtbar ist",
+        "effect": -1,
+        "feedback": "Alina reagiert aggressiv, zeigt aber ein kurzes Zögern."
+      },
+      {
+        "label": "Die Situation dokumentieren und an die Schulleitung weitergeben",
+        "effect": 0,
+        "feedback": "Alina bleibt unbeeindruckt, die Clique verhält sich weiterhin feindselig."
+      },
+      {
+        "label": "Alina vor der ganzen Gruppe zurechtweisen",
+        "effect": 1,
+        "feedback": "Alina schreit, dass alle gegen sie seien. Die Clique stimmt ein."
+      },
+      {
+        "label": "Alina mit sofortigem Ausschluss von der Pause bestrafen",
+        "effect": 2,
+        "feedback": "Alina verlässt wütend den Hof und fühlt sich bestätigt, dass die Schule sie ablehnt."
+      }
+    ]
+  }
+}

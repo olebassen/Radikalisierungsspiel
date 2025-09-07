@@ -1,0 +1,118 @@
+{
+  "id": "alina_scene7",
+  "title": "Sinkende Schulleistung",
+  "text": {
+    "Z1": "Alina wirkt etwas unkonzentriert, ihre Hausaufgaben sind unvollständig. Dennoch zeigt sie grundsätzlich Interesse und Verständnis für den Stoff.",
+    "Z2": "Alinas Leistungen nehmen ab. Sie vergisst Hausaufgaben und wirkt erschöpft. Auf Nachfragen reagiert sie einsilbig.",
+    "Z3": "Alina verweigert Hausaufgaben häufiger und beteiligt sich kaum. Auf Kritik reagiert sie gereizt und wirft dir vor, 'immer nur auf ihr herumzuhacken'.",
+    "Z4": "Alina sagt offen, dass Schule 'keine Bedeutung' habe. Sie gibt abwertende Kommentare über Fächer und Lehrer*innen ab.",
+    "Z5": "Alina erklärt laut, dass schulische Inhalte 'Lügen der Gesellschaft' seien. Sie weigert sich komplett, mitzuschreiben oder mitzuarbeiten."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Alina ein motivierendes Gespräch anbieten",
+        "effect": -1,
+        "feedback": "Alina wirkt erleichtert, dass ihre Schwierigkeiten ernst genommen werden."
+      },
+      {
+        "label": "Das Verhalten beobachten, ohne direkt zu reagieren",
+        "effect": 0,
+        "feedback": "Alina bleibt unauffällig, doch ihre Leistungen bessern sich nicht."
+      },
+      {
+        "label": "Alina vor der Klasse ermahnen, sorgfältiger zu arbeiten",
+        "effect": 1,
+        "feedback": "Alina wird rot und zieht sich in die Clique zurück."
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Ein Gespräch mit ihr über Belastungen suchen",
+        "effect": -1,
+        "feedback": "Alina spricht vorsichtig über Stress, öffnet sich aber ein Stück weit."
+      },
+      {
+        "label": "Die Fehlleistungen im Klassenbuch dokumentieren",
+        "effect": 0,
+        "feedback": "Alina bemerkt nichts, bleibt aber passiv."
+      },
+      {
+        "label": "Sie streng auf ihre Verantwortung hinweisen",
+        "effect": 1,
+        "feedback": "Alina wirkt genervt und verweigert weitere Antworten."
+      },
+      {
+        "label": "Ihr mit schlechter Note drohen",
+        "effect": 2,
+        "feedback": "Alina schnaubt und sagt, Noten seien 'eh sinnlos'."
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Im Vier-Augen-Gespräch Verständnis zeigen und Hilfe anbieten",
+        "effect": -1,
+        "feedback": "Alina reagiert misstrauisch, zeigt aber kurz ein Lächeln."
+      },
+      {
+        "label": "Die Hausaufgabenverweigerung notieren und sachlich ansprechen",
+        "effect": 0,
+        "feedback": "Alina wirkt unbeeindruckt und bleibt passiv."
+      },
+      {
+        "label": "Sie streng ermahnen, ihre Pflichten ernst zu nehmen",
+        "effect": 1,
+        "feedback": "Alina zieht sich zurück und flüstert etwas zur Clique."
+      },
+      {
+        "label": "Sie vor der Klasse wegen Faulheit kritisieren",
+        "effect": 2,
+        "feedback": "Alina schreit, dass alle gegen sie seien. Die Clique lacht höhnisch."
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Alina ruhig fragen, warum Schule für sie keine Bedeutung hat",
+        "effect": -1,
+        "feedback": "Alina wirkt abweisend, zögert aber bei der Antwort."
+      },
+      {
+        "label": "Die abwertenden Kommentare ignorieren",
+        "effect": 0,
+        "feedback": "Alina redet leise mit der Clique, bleibt abweisend."
+      },
+      {
+        "label": "Sie streng ermahnen, respektvoll zu bleiben",
+        "effect": 1,
+        "feedback": "Alina rollt die Augen und lacht abfällig."
+      },
+      {
+        "label": "Konsequenzen androhen, wenn sie nicht mitarbeitet",
+        "effect": 2,
+        "feedback": "Alina schreit, dass die Schule ihr nichts zu sagen habe."
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Deeskalierend betonen, dass Bildung ein Schlüssel für ihre Zukunft ist",
+        "effect": -1,
+        "feedback": "Alina zeigt kurz Unsicherheit, kontert aber aggressiv."
+      },
+      {
+        "label": "Die Situation dokumentieren und weitergeben",
+        "effect": 0,
+        "feedback": "Alina ignoriert dich und redet mit der Clique."
+      },
+      {
+        "label": "Alina scharf zurechtweisen",
+        "effect": 1,
+        "feedback": "Alina schreit, dass du Teil der 'Lügen' bist."
+      },
+      {
+        "label": "Sie sofort aus dem Unterricht verweisen",
+        "effect": 2,
+        "feedback": "Alina verlässt den Raum wütend, die Clique johlt."
+      }
+    ]
+  }
+}
