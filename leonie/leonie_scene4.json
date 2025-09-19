@@ -1,96 +1,106 @@
 {
-  "title": "Die Gruppe",
+  "title": "Freundeskreis",
   "text": {
-    "Z1": "Leonie erzählt vorsichtig von Freund:innen, die 'ähnlich denken'. Sie wirkt unsicher, ob sie damit zu weit geht.",
-    "Z2": "Leonie betont, dass die Gruppe ihr Halt gibt, auch wenn sie weiß, dass manche Inhalte extrem sind.",
-    "Z3": "Leonie schwankt: Einerseits fühlt sie sich in der Gruppe stark, andererseits belastet sie der Druck, sich anzupassen.",
-    "Z4": "Leonie behauptet, dass nur ihre Gruppe sie wirklich versteht. Sie reagiert knapp und abwehrend.",
-    "Z5": "Leonie sagt offen, dass die Gruppe recht hat: 'Alle anderen lügen – nur wir kennen die Wahrheit.'"
+    "Z1": "Leonie erzählt, dass sie sich oft mit ein paar Mitschülerinnen trifft. 'Die meisten sind gar nicht so politisch – wir hängen einfach ab.'",
+    "Z2": "Leonie sagt: 'Meine Freunde verstehen wenigstens, wie die Welt läuft. Die Lehrer und ihr Bullen kapiert das halt nicht.'",
+    "Z3": "Leonie wirkt trotzig: 'Meine Leute stehen hinter mir. Ohne die hätte ich niemanden.'",
+    "Z4": "Leonie sagt aggressiv: 'Meine Freunde sind die Einzigen, die nicht lügen. Ihr würdet sie eh sofort überwachen!'",
+    "Z5": "Leonie grinst herausfordernd: 'Mein Kreis ist organisiert. Ihr habt keine Chance, uns zu stoppen.'"
   },
   "options": {
     "Z1": [
       {
-        "label": "Nachfragen, was ihr an der Gruppe wichtig ist",
+        "label": "Nachfragen, ob sie manchmal mit politischen Themen provozieren.",
         "effect": -1,
-        "feedback": "Leonie beschreibt positive Seiten, zeigt aber auch Zweifel."
+        "feedback": "Leonie gibt zu: 'Naja, manchmal... aber eher zum Spaß.'"
       },
       {
-        "label": "Die Gruppe als gefährlich bezeichnen",
-        "effect": 2,
-        "feedback": "Leonie verteidigt sie und blockt ab."
-      },
-      {
-        "label": "Neutral zuhören, ohne Wertung",
+        "label": "Betonen, dass Freundschaften wichtig sind, aber nicht in problematische Richtungen führen sollten.",
         "effect": 0,
-        "feedback": "Leonie erzählt knapp, bleibt aber erreichbar."
+        "feedback": "Leonie hört zu, scheint aber nicht überzeugt."
+      },
+      {
+        "label": "Ihre Freunde als unbedenklich einordnen und das Thema wechseln.",
+        "effect": 0,
+        "feedback": "Leonie wirkt erleichtert, du verlierst aber einen Ansatzpunkt."
       }
     ],
     "Z2": [
       {
-        "label": "Ihre Ambivalenz hervorheben",
+        "label": "Nachhaken, was ihre Freunde konkret 'verstehen'.",
         "effect": -1,
-        "feedback": "Leonie merkt, dass sie nicht alles gutheißen muss."
+        "feedback": "Leonie erklärt, dass es um Misstrauen gegenüber Medien geht."
       },
       {
-        "label": "Ihre Aussagen ironisch kommentieren",
-        "effect": 2,
-        "feedback": "Leonie reagiert trotzig und verteidigt sich stärker."
+        "label": "Ihre Freunde kritisch als 'Mitläufer' bezeichnen.",
+        "effect": 1,
+        "feedback": "Leonie blockt ab: 'Die checken mehr als du denkst!'"
       },
       {
-        "label": "Fragen, wie sie mit Widersprüchen in der Gruppe umgeht",
-        "effect": -2,
-        "feedback": "Leonie denkt nach und wirkt kurz verunsichert."
+        "label": "Erkunden, ob es in der Clique auch andere Sichtweisen gibt.",
+        "effect": -1,
+        "feedback": "Leonie erzählt von einer Freundin, die nicht alles so extrem sieht."
       }
     ],
     "Z3": [
       {
-        "label": "Den Gruppendruck benennen",
+        "label": "Anerkennen, dass Zugehörigkeit wichtig ist.",
         "effect": -1,
-        "feedback": "Leonie wirkt erleichtert, dass sie ihre Belastung aussprechen darf."
+        "feedback": "Leonie wirkt etwas weicher: 'Ja, ohne die wär’s schwer.'"
       },
       {
-        "label": "Ihre Stärke in der Gruppe abwerten",
+        "label": "Darauf hinweisen, dass Gruppen auch Druck ausüben können.",
+        "effect": 0,
+        "feedback": "Leonie denkt kurz nach, will es aber nicht zugeben."
+      },
+      {
+        "label": "Ihre Clique direkt als gefährlich einstufen.",
         "effect": 2,
-        "feedback": "Leonie fühlt sich angegriffen und verteidigt die Gruppe."
-      },
-      {
-        "label": "Neutral fragen: 'Was passiert, wenn du nicht mitmachst?'",
-        "effect": -1,
-        "feedback": "Leonie überlegt und nennt eine kleine Szene."
+        "feedback": "Leonie springt auf: 'Lasst meine Leute in Ruhe!'"
       }
     ],
     "Z4": [
       {
-        "label": "Ihre Sehnsucht nach Verständnis anerkennen",
+        "label": "Sie fragen, ob sie Angst hätte, allein ohne ihre Freunde zu sein.",
         "effect": -1,
-        "feedback": "Leonie reagiert etwas weicher, bleibt aber vorsichtig."
+        "feedback": "Leonie wirkt für einen Moment verletzlich, bevor sie abwehrt."
       },
       {
-        "label": "Die Gruppe direkt kriminalisieren",
-        "effect": 2,
-        "feedback": "Leonie zieht sich sofort zurück."
-      },
-      {
-        "label": "Das Gespräch ruhig fortführen",
+        "label": "Betonen, dass Vertrauen wichtig ist, aber nicht blind sein darf.",
         "effect": 0,
-        "feedback": "Leonie bleibt abweisend, aber ohne Abbruch."
+        "feedback": "Leonie zuckt mit den Schultern, hört aber zu."
+      },
+      {
+        "label": "Ihre Freunde mit Extremisten gleichsetzen.",
+        "effect": 1,
+        "feedback": "Leonie schreit: 'Ihr checkt gar nichts!'"
+      },
+      {
+        "label": "Vorsichtig fragen, ob alle in der Clique wirklich dieselben Ansichten teilen.",
+        "effect": -1,
+        "feedback": "Leonie überlegt und murmelt: 'Nicht jeder ist so krass drauf...'"
       }
     ],
     "Z5": [
       {
-        "label": "Fragen, ob sie wirklich allen anderen misstraut",
+        "label": "Ruhig bleiben und nachfragen, warum sie das 'organisiert' nennt.",
         "effect": -1,
-        "feedback": "Leonie stockt und zeigt einen Moment Unsicherheit."
+        "feedback": "Leonie prahlt noch etwas, verstrickt sich aber in Widersprüche."
       },
       {
-        "label": "Die Parole direkt widerlegen",
-        "effect": 2,
-        "feedback": "Leonie beharrt noch stärker auf ihrer Haltung."
+        "label": "Sie warnen, dass ein organisierter Kreis polizeiliche Konsequenzen hat.",
+        "effect": 1,
+        "feedback": "Leonie ruft: 'Genau das belegt, dass ihr uns bekämpft!'"
       },
       {
-        "label": "Geduldig zuhören",
+        "label": "Ansprechen, ob sie im Freundeskreis überhaupt noch über andere Themen redet.",
         "effect": 0,
-        "feedback": "Leonie wiederholt die Sätze, ohne weiterzugehen."
+        "feedback": "Leonie denkt kurz nach, blockt aber wieder ab."
+      },
+      {
+        "label": "Ihre Clique ins Lächerliche ziehen.",
+        "effect": 2,
+        "feedback": "Leonie wird extrem wütend: 'Über die machst du keine Witze!'"
       }
     ]
   }

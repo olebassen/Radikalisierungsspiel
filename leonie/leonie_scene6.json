@@ -1,96 +1,116 @@
 {
-  "title": "Emotionale Reaktionen",
+  "title": "Konflikt in der Schule",
   "text": {
-    "Z1": "Leonie wirkt angespannt, gibt aber zu, dass sie manchmal unsicher ist, ob sie sich verrannt hat.",
-    "Z2": "Leonie zeigt Frust: 'Alle schauen nur kritisch auf mich.'",
-    "Z3": "Leonie schwankt zwischen Wut und dem Eingeständnis, dass sie sich manchmal einsam fühlt.",
-    "Z4": "Leonie sagt, dass Gespräche mit der Polizei sinnlos seien. Sie wirkt müde und abweisend.",
-    "Z5": "Leonie ruft: 'Ihr seid Teil des Systems, das mich kaputtmachen will!'"
+    "Z1": "Leonie erzählt, dass sie mit einer Mitschülerin gestritten hat. 'Es war nur ein Wortgefecht – nix Besonderes.'",
+    "Z2": "Leonie wirkt trotzig: 'Die anderen fangen doch an! Ich sag halt, was ich denke.'",
+    "Z3": "Leonie berichtet, dass sie von Mitschülern provoziert wird. 'Die behandeln mich wie eine Außenseiterin.'",
+    "Z4": "Leonie lacht höhnisch: 'Die haben Schiss vor mir – und das ist auch gut so!'",
+    "Z5": "Leonie faucht: 'Die sind meine Feinde. Früher oder später kriegen die ihre Strafe.'"
   },
   "options": {
     "Z1": [
       {
-        "label": "Ihre Unsicherheit anerkennen",
-        "effect": -2,
-        "feedback": "Leonie zeigt vorsichtige Offenheit und bleibt im Gespräch."
-      },
-      {
-        "label": "Ihre Zweifel herunterspielen",
-        "effect": 1,
-        "feedback": "Leonie zieht sich zurück und blockt ab."
-      },
-      {
-        "label": "Neutral fragen: 'Was gibt dir Sicherheit?'",
+        "label": "Nachfragen, wie sie den Streit erlebt hat.",
         "effect": -1,
-        "feedback": "Leonie überlegt und nennt ein kleines Beispiel."
+        "feedback": "Leonie schildert, dass sie sich unfair behandelt fühlte, bleibt aber ruhig."
+      },
+      {
+        "label": "Darauf hinweisen, dass Worte verletzen können.",
+        "effect": 0,
+        "feedback": "Leonie nickt widerwillig, lenkt aber schnell ab."
+      },
+      {
+        "label": "Das Ganze als 'Jugendkram' abtun.",
+        "effect": 1,
+        "feedback": "Leonie wirkt gekränkt: 'Euch ist das doch egal!'"
       }
     ],
     "Z2": [
       {
-        "label": "Ihren Frust ernst nehmen",
+        "label": "Fragen, ob sie glaubt, dass ihre Worte andere verletzen.",
         "effect": -1,
-        "feedback": "Leonie wirkt erleichtert, dass ihre Gefühle anerkannt werden."
+        "feedback": "Leonie zögert, weicht aber nicht ganz aus."
       },
       {
-        "label": "Betonen, dass sie übertreibt",
-        "effect": 2,
-        "feedback": "Leonie reagiert noch wütender."
-      },
-      {
-        "label": "Das Gespräch ruhig fortsetzen",
+        "label": "Anerkennen, dass Provokationen oft auf beiden Seiten passieren.",
         "effect": 0,
-        "feedback": "Leonie bleibt genervt, aber sie hört zu."
+        "feedback": "Leonie stimmt halbherzig zu: 'Mag sein...'"
+      },
+      {
+        "label": "Ihr Verhalten als respektlos kritisieren.",
+        "effect": 1,
+        "feedback": "Leonie faucht: 'Respekt muss man sich verdienen!'"
+      },
+      {
+        "label": "Anregen, mal mit der Mitschülerin zu reden.",
+        "effect": -1,
+        "feedback": "Leonie runzelt die Stirn, sagt aber: 'Vielleicht irgendwann.'"
       }
     ],
     "Z3": [
       {
-        "label": "Ihre Einsamkeit thematisieren",
+        "label": "Nachfragen, warum sie sich als Außenseiterin sieht.",
         "effect": -1,
-        "feedback": "Leonie reagiert nachdenklich und spricht vorsichtiger."
+        "feedback": "Leonie erklärt, dass sie das Gefühl hat, nicht dazuzugehören."
       },
       {
-        "label": "Ihre Wut fokussieren",
+        "label": "Anerkennen, dass Ausgrenzung weh tun kann.",
+        "effect": -1,
+        "feedback": "Leonie wirkt kurz verletzlich, bevor sie wieder trotzig wird."
+      },
+      {
+        "label": "Darauf hinweisen, dass ihre Reaktionen die Abgrenzung verstärken.",
+        "effect": 0,
+        "feedback": "Leonie überlegt, will aber nicht zustimmen."
+      },
+      {
+        "label": "Ihre Mitschüler als unsensibel bezeichnen.",
         "effect": 1,
-        "feedback": "Leonie steigert sich in ihre Aggression hinein."
-      },
-      {
-        "label": "Ihre Ambivalenz akzeptieren",
-        "effect": -1,
-        "feedback": "Leonie merkt, dass sie sich nicht sofort festlegen muss."
+        "feedback": "Leonie nickt energisch: 'Genau das sag ich auch!'"
       }
     ],
     "Z4": [
       {
-        "label": "Ihre Müdigkeit anerkennen",
+        "label": "Fragen, ob sie stolz auf die Angst anderer ist.",
         "effect": -1,
-        "feedback": "Leonie entspannt sich minimal, bleibt aber skeptisch."
+        "feedback": "Leonie wird kurz still, versucht dann aber zu kontern."
       },
       {
-        "label": "Darauf bestehen, dass sie reden muss",
-        "effect": 2,
-        "feedback": "Leonie blockt sofort ab."
-      },
-      {
-        "label": "Gespräch neutral halten",
+        "label": "Ihre Haltung als Machtdemonstration entlarven.",
         "effect": 0,
-        "feedback": "Leonie bleibt verschlossen, doch der Kontakt reißt nicht ab."
+        "feedback": "Leonie wirkt unbeeindruckt, aber etwas unsicher."
+      },
+      {
+        "label": "Ihre Drohungen ernst nehmen und warnen.",
+        "effect": 1,
+        "feedback": "Leonie schreit: 'Ihr droht mir doch auch ständig!'"
+      },
+      {
+        "label": "Das Thema wechseln, um sie zu beruhigen.",
+        "effect": 0,
+        "feedback": "Leonie wirkt irritiert, lässt sich aber ablenken."
       }
     ],
     "Z5": [
       {
-        "label": "Ihre Angst vor Verfolgung ansprechen",
+        "label": "Ruhig fragen, was sie mit 'Strafe' meint.",
         "effect": -1,
-        "feedback": "Leonie stockt, wirkt aber leicht irritiert und weniger aggressiv."
+        "feedback": "Leonie grinst, schweigt dann aber auffällig lange."
       },
       {
-        "label": "Ihre Aussage als absurd abtun",
+        "label": "Klarstellen, dass Gewalt Konsequenzen hat.",
+        "effect": 1,
+        "feedback": "Leonie zischt: 'Genau das zeigt, dass ihr mich nicht versteht!'"
+      },
+      {
+        "label": "Vorsichtig ansprechen, ob sie sich selbst in Gefahr bringt.",
+        "effect": -1,
+        "feedback": "Leonie wirkt kurz nachdenklich, bevor sie abblockt."
+      },
+      {
+        "label": "Ihre Aussagen verharmlosen.",
         "effect": 2,
-        "feedback": "Leonie schreit lauter und blockt ab."
-      },
-      {
-        "label": "Ruhig zuhören und keine Konfrontation suchen",
-        "effect": 0,
-        "feedback": "Leonie beruhigt sich langsam, bleibt aber misstrauisch."
+        "feedback": "Leonie lacht: 'Ihr nehmt mich eh nie ernst.'"
       }
     ]
   }

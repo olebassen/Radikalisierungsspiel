@@ -1,96 +1,71 @@
 {
-  "title": "Erste Beobachtungen",
+  "title": "Hausbesuch",
   "text": {
-    "Z1": "Leonie fällt online durch kritische, aber noch nicht klar extremistische Kommentare auf. Sie wirkt provozierend, aber auch suchend.",
-    "Z2": "Leonie teilt Inhalte, die verschwörungsideologisch geprägt sind. Sie testet Grenzen, bleibt aber ansprechbar.",
-    "Z3": "Leonie verbreitet provokante Posts mit radikalem Unterton. Sie schwankt zwischen Protesthaltung und ernsthafter Übernahme extremistischer Narrative.",
-    "Z4": "Leonie beteiligt sich aktiv in Foren mit extremistischem Vokabular. Sie zeigt Abwehr, wenn man ihre Haltung infrage stellt.",
-    "Z5": "Leonie teilt offen extremistisches Material und verteidigt es aggressiv. Sie präsentiert sich klar in Abgrenzung zum 'System'."
+    "Z1": "Leonie öffnet dir die Tür zögerlich, wirkt aber erleichtert, dass du ruhig auftrittst. Sie sagt: 'Ich dachte schon, ihr haltet mich gleich für eine Kriminelle.'",
+    "Z2": "Leonie steht im Türrahmen, verschränkt die Arme und mustert dich kritisch. 'Was wollt ihr hier? Ich hab doch nichts gemacht.'",
+    "Z3": "Leonie reagiert abweisend: 'Ich hab keine Lust auf Bullen.' Sie macht keine Anstalten, dich hereinzulassen, bleibt aber stehen.",
+    "Z4": "Leonie lacht spöttisch: 'Ach, jetzt interessiert ihr euch für mich? Zu spät.' Sie wirkt provozierend und will dich abwimmeln.",
+    "Z5": "Leonie ruft durchs Fenster: 'Verschwindet! Ihr seid doch alle gleich – Verräter!' Sie blockiert jeden Kontakt und zieht sich zurück."
   },
   "options": {
     "Z1": [
       {
-        "label": "Ein vertrauliches Gespräch an der Schule anbahnen",
+        "label": "Betonen, dass du nicht zur Strafe da bist, sondern um zuzuhören.",
         "effect": -1,
-        "feedback": "Leonie wirkt überrascht, aber sie hört zu und bleibt erreichbar."
+        "feedback": "Leonie entspannt sich etwas und bittet dich ins Wohnzimmer."
       },
       {
-        "label": "Ihre Posts sofort aktenkundig machen und beobachten",
+        "label": "Offen ansprechen, dass dich ihre Posts beunruhigen.",
         "effect": 0,
-        "feedback": "Die Informationen werden gesichert. Für den Moment bleibt der Kontakt jedoch distanziert."
-      },
-      {
-        "label": "Sie öffentlich auf ihr Verhalten ansprechen",
-        "effect": 2,
-        "feedback": "Leonie fühlt sich bloßgestellt und reagiert trotzig."
+        "feedback": "Leonie runzelt die Stirn, bleibt aber gesprächsbereit."
       }
     ],
     "Z2": [
       {
-        "label": "Ihre Unsicherheit ansprechen und nachfragen",
+        "label": "Ruhig erklären, dass es ein Gesprächsangebot ist, kein Verhör.",
         "effect": -1,
-        "feedback": "Leonie wirkt ertappt, aber sie antwortet knapp und bleibt ansprechbar."
+        "feedback": "Leonie wirkt etwas weniger misstrauisch, lässt dich aber noch nicht rein."
       },
       {
-        "label": "Ihre Online-Aktivitäten protokollieren und abwarten",
-        "effect": 0,
-        "feedback": "Die Dokumentation ist sauber, aber der Kontakt zu Leonie wird nicht gestärkt."
-      },
-      {
-        "label": "Ihr Verhalten als gefährlich einstufen",
-        "effect": 2,
-        "feedback": "Leonie fühlt sich missverstanden und verteidigt ihre Haltung."
+        "label": "Direkt fragen, ob sie extremistische Gruppen unterstützt.",
+        "effect": 1,
+        "feedback": "Leonie reagiert gereizt: 'So schnell urteilt ihr also.'"
       }
     ],
     "Z3": [
       {
-        "label": "Ein Gespräch mit den Eltern führen",
+        "label": "Geduldig bleiben und betonen, dass sie ihre Sicht darstellen kann.",
         "effect": -1,
-        "feedback": "Die Eltern sind besorgt, Leonie reagiert jedoch gemischt."
+        "feedback": "Leonie bleibt zwar distanziert, hört dir aber zu."
       },
       {
-        "label": "Ein offizielles Verhör einleiten",
-        "effect": 2,
-        "feedback": "Leonie geht sofort in die Verteidigung und misstraut der Polizei."
-      },
-      {
-        "label": "In einem vertraulichen Rahmen vorsichtig Kontakt aufnehmen",
-        "effect": -2,
-        "feedback": "Leonie reagiert abweisend, hört aber zu – ein kleiner Zugang entsteht."
+        "label": "Ihr mit Konsequenzen drohen, falls sie nicht kooperiert.",
+        "effect": 1,
+        "feedback": "Leonie knallt fast die Tür zu, bleibt aber stehen."
       }
     ],
     "Z4": [
       {
-        "label": "Ihre Aktivitäten still dokumentieren und beobachten",
+        "label": "Versuchen, Humor einzubringen, um die Spannung zu brechen.",
         "effect": 0,
-        "feedback": "Es gibt keine Eskalation, aber auch keinen direkten Zugang."
+        "feedback": "Leonie reagiert skeptisch, aber sie bleibt im Gespräch."
       },
       {
-        "label": "Sie direkt mit den Forenbeiträgen konfrontieren",
-        "effect": 2,
-        "feedback": "Leonie blockt sofort ab und beruft sich auf Meinungsfreiheit."
-      },
-      {
-        "label": "Über Dritte (z. B. Schule, Jugendamt) einen Zugang suchen",
-        "effect": -1,
-        "feedback": "Leonie erfährt es indirekt, reagiert skeptisch, bleibt aber ansprechbar."
+        "label": "Ernst bleiben und ihre Provokation zurückweisen.",
+        "effect": 1,
+        "feedback": "Leonie rollt die Augen und wirkt noch distanzierter."
       }
     ],
     "Z5": [
       {
-        "label": "Eine offizielle Gefährderansprache durchführen",
-        "effect": 2,
-        "feedback": "Leonie fühlt sich frontal angegriffen und zieht sich tiefer in ihre Szene zurück."
-      },
-      {
-        "label": "Ihre Online-Aktivitäten dokumentieren und erst beobachten",
-        "effect": 0,
-        "feedback": "Die Gefahreneinschätzung wird abgesichert, ohne dass ein direkter Zugang entsteht."
-      },
-      {
-        "label": "In einem geschützten Rahmen das Gespräch suchen",
+        "label": "Draußen bleiben, aber anbieten, deine Kontaktdaten dazulassen.",
         "effect": -1,
-        "feedback": "Leonie reagiert abwehrend, aber sie hört mit halbem Ohr zu."
+        "feedback": "Leonie brüllt noch etwas, nimmt aber den Zettel an."
+      },
+      {
+        "label": "Noch einmal laut fordern, dass sie mit dir sprechen soll.",
+        "effect": 1,
+        "feedback": "Leonie knallt das Fenster zu und verschwindet."
       }
     ]
   }

@@ -1,96 +1,111 @@
 {
-  "title": "Schule und Umfeld",
+  "title": "Werte und Identität",
   "text": {
-    "Z1": "Leonie berichtet, dass sie in der Schule oft aneckt, aber auch Lehrkräfte hat, die ihr zuhören.",
-    "Z2": "Leonie erzählt von Konflikten mit Mitschüler:innen, die ihre Posts kritisieren.",
-    "Z3": "Leonie schwankt zwischen dem Wunsch, dazuzugehören, und der Abwehr gegenüber Kritik.",
-    "Z4": "Leonie behauptet, dass alle gegen sie seien. Sie fühlt sich isoliert.",
-    "Z5": "Leonie sagt, dass Schule Zeitverschwendung sei und sie sich lieber online informiert."
+    "Z1": "Leonie sagt leise: 'Ich will einfach ernst genommen werden. Oft hab ich das Gefühl, niemand hört mir wirklich zu.'",
+    "Z2": "Leonie meint: 'Ich hab halt meine Prinzipien. Die anderen sind doch alle nur Mitläufer.'",
+    "Z3": "Leonie sagt trotzig: 'Ich hab meinen eigenen Weg. Wer nicht damit klarkommt, ist mir egal.'",
+    "Z4": "Leonie ruft: 'Die Gesellschaft ist kaputt! Nur wer aufwacht, sieht das!'",
+    "Z5": "Leonie grinst kalt: 'Ich weiß, wer ich bin – Teil von etwas Größerem. Die da draußen sind nur Schafe.'"
   },
   "options": {
     "Z1": [
       {
-        "label": "Ihre positiven Erfahrungen hervorheben",
+        "label": "Bestätigen, dass es schwer ist, nicht gehört zu werden.",
         "effect": -1,
-        "feedback": "Leonie erkennt, dass es Orte gibt, an denen sie Unterstützung erfährt."
+        "feedback": "Leonie wirkt erleichtert und erzählt mehr über ihre Erfahrungen."
       },
       {
-        "label": "Ihre Konflikte fokussieren",
-        "effect": 1,
-        "feedback": "Leonie betont stärker die Ablehnung."
+        "label": "Fragen, wo sie sich mehr Respekt wünschen würde.",
+        "effect": -1,
+        "feedback": "Leonie denkt nach und spricht über die Schule."
       },
       {
-        "label": "Nachfragen, welche Lehrkraft ihr zuhört",
-        "effect": -1,
-        "feedback": "Leonie benennt eine Person, die sie ernst nimmt."
+        "label": "Darauf hinweisen, dass Provokationen selten zu echtem Zuhören führen.",
+        "effect": 0,
+        "feedback": "Leonie runzelt die Stirn, widerspricht nicht."
       }
     ],
     "Z2": [
       {
-        "label": "Ihre Konflikte anerkennen",
+        "label": "Nachhaken, was ihre 'Prinzipien' genau sind.",
         "effect": -1,
-        "feedback": "Leonie spürt, dass ihre Belastung gesehen wird."
+        "feedback": "Leonie erklärt, dass es um Gerechtigkeit und 'ehrliche Meinungen' geht."
       },
       {
-        "label": "Ihre Mitschüler:innen kritisieren",
-        "effect": 2,
-        "feedback": "Leonie fühlt sich bestätigt, dass alle unfair zu ihr sind."
-      },
-      {
-        "label": "Neutral fragen, wie sie mit der Kritik umgeht",
+        "label": "Betonen, dass Prinzipien wichtig sind, aber nicht zur Abwertung anderer führen sollten.",
         "effect": 0,
-        "feedback": "Leonie bleibt vage, bleibt aber im Gespräch."
+        "feedback": "Leonie hört zu, reagiert aber abweisend."
+      },
+      {
+        "label": "Ihre Haltung als jugendliche Rebellion einordnen.",
+        "effect": 1,
+        "feedback": "Leonie wirkt beleidigt: 'Ich weiß genau, was ich tue!'"
+      },
+      {
+        "label": "Fragen, ob sie sich auch mal geirrt hat.",
+        "effect": -1,
+        "feedback": "Leonie überlegt kurz: 'Vielleicht... aber selten.'"
       }
     ],
     "Z3": [
       {
-        "label": "Ihre Ambivalenz normalisieren",
+        "label": "Anerkennen, dass Eigenständigkeit Mut braucht.",
         "effect": -1,
-        "feedback": "Leonie merkt, dass Zweifel erlaubt sind."
+        "feedback": "Leonie wirkt etwas stolz, ohne aggressiv zu werden."
       },
       {
-        "label": "Ihre Abwehr als Problem darstellen",
-        "effect": 2,
-        "feedback": "Leonie fühlt sich angegriffen und verschließt sich."
+        "label": "Darauf hinweisen, dass Gleichgültigkeit gegenüber anderen riskant sein kann.",
+        "effect": 0,
+        "feedback": "Leonie verdreht die Augen, hört aber zu."
       },
       {
-        "label": "Fragen, wann sie sich in der Schule wohlfühlt",
-        "effect": -2,
-        "feedback": "Leonie nennt ein Beispiel und wirkt kurz offener."
+        "label": "Ihre Haltung als egoistisch kritisieren.",
+        "effect": 1,
+        "feedback": "Leonie faucht: 'Klar, ihr wollt mich kleinmachen!'"
       }
     ],
     "Z4": [
       {
-        "label": "Ihre Isolation vorsichtig benennen",
+        "label": "Fragen, was sie mit 'aufwachen' meint.",
         "effect": -1,
-        "feedback": "Leonie reagiert überrascht, aber nicht feindselig."
+        "feedback": "Leonie erklärt, dass viele Leute angeblich 'blind' seien."
       },
       {
-        "label": "Ihre Sichtweise in Frage stellen",
-        "effect": 2,
-        "feedback": "Leonie blockt sofort ab."
-      },
-      {
-        "label": "Das Thema neutral halten",
+        "label": "Versuchen, ihre Energie auf konstruktive Formen von Engagement zu lenken.",
         "effect": 0,
-        "feedback": "Leonie bleibt reserviert, doch sie bleibt ansprechbar."
+        "feedback": "Leonie reagiert skeptisch, aber hört zu."
+      },
+      {
+        "label": "Ihre Aussagen als übertrieben darstellen.",
+        "effect": 1,
+        "feedback": "Leonie schreit: 'Das ist die Wahrheit!'"
+      },
+      {
+        "label": "Anmerken, dass auch sie nicht alles wissen kann.",
+        "effect": -1,
+        "feedback": "Leonie bleibt kurz still, wirkt nachdenklich."
       }
     ],
     "Z5": [
       {
-        "label": "Fragen, was sie an Online-Informationen reizt",
+        "label": "Nachfragen, was sie mit 'etwas Größerem' meint.",
         "effect": -1,
-        "feedback": "Leonie erklärt, dass sie schnelle Antworten mag."
+        "feedback": "Leonie erzählt stolz von Online-Gruppen, die ihr Zugehörigkeit geben."
       },
       {
-        "label": "Betonen, dass Schule Pflicht ist",
+        "label": "Sie warnen, dass diese Gruppen sie instrumentalisieren könnten.",
+        "effect": 0,
+        "feedback": "Leonie lacht abwehrend, scheint aber kurz verunsichert."
+      },
+      {
+        "label": "Ihre Selbstbeschreibung infrage stellen.",
         "effect": 1,
-        "feedback": "Leonie reagiert trotzig und blockt."
+        "feedback": "Leonie ruft: 'Ihr habt keine Ahnung, wer ich wirklich bin!'"
       },
       {
-        "label": "Ihre Abwertung direkt kritisieren",
-        "effect": 2,
-        "feedback": "Leonie verhärtet und wirkt aggressiver."
+        "label": "Betonen, dass Identität auch außerhalb extremer Gruppen wachsen kann.",
+        "effect": -1,
+        "feedback": "Leonie runzelt die Stirn, aber du merkst einen Moment der Unsicherheit."
       }
     ]
   }

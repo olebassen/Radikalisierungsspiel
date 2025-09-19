@@ -1,96 +1,71 @@
 {
-  "title": "Erste Reaktion",
+  "title": "Gespräch über die Schule",
   "text": {
-    "Z1": "Leonie zeigt sich überrascht, aber nicht feindselig. Sie wirkt unsicher, warum die Polizei überhaupt interessiert ist.",
-    "Z2": "Leonie reagiert abwehrend und behauptet, dass ihre Posts harmlos seien. Sie sucht nach Rechtfertigungen.",
-    "Z3": "Leonie schwankt: Sie zeigt Trotz, aber auch Neugier, was die Polizei wirklich über sie weiß.",
-    "Z4": "Leonie verhält sich misstrauisch und verweist auf ihre Meinungsfreiheit. Sie spricht kaum mehr als nötig.",
-    "Z5": "Leonie reagiert aggressiv: 'Ihr wollt mich nur mundtot machen!' – Sie sieht sich klar in Opposition zum Staat."
+    "Z1": "Im Wohnzimmer erzählt Leonie von der Schule. Sie wirkt genervt: 'Die Lehrer übertreiben doch nur. Ich hab mal nen blöden Spruch gemacht – das heißt doch nicht, dass ich gefährlich bin.'",
+    "Z2": "Leonie verdreht die Augen: 'Immer diese Lehrer... die können mich nicht leiden. Klar sag ich mal meine Meinung, aber deswegen gleich Staatsschutz?'",
+    "Z3": "Leonie verschränkt die Arme: 'Die Lehrer lügen doch! Die machen mich extra schlecht, weil ich anders denke.'",
+    "Z4": "Leonie wird laut: 'Die Schule ist doch voll indoktriniert. Wenn man nicht deren Meinung hat, wird man fertiggemacht!'",
+    "Z5": "Leonie faucht: 'Alles Lügner! Schule ist Gehirnwäsche – und ich bin die Einzige, die noch klar sieht.'"
   },
   "options": {
     "Z1": [
       {
-        "label": "Ruhig erklären, warum Sie das Gespräch suchen",
+        "label": "Nachfragen, welche Situationen sie konkret meint.",
         "effect": -1,
-        "feedback": "Leonie hört zu und wirkt weniger angespannt."
+        "feedback": "Leonie denkt kurz nach und schildert Beispiele, wirkt dabei weniger abwehrend."
       },
       {
-        "label": "Betonen, dass sie beobachtet wird",
-        "effect": 1,
-        "feedback": "Leonie wirkt eingeschüchtert, aber auch misstrauischer."
-      },
-      {
-        "label": "Ihre Posts als jugendliches Testen einordnen",
+        "label": "Darauf hinweisen, dass die Schule sich Sorgen macht.",
         "effect": 0,
-        "feedback": "Leonie fühlt sich nicht ernst genommen und bleibt distanziert."
+        "feedback": "Leonie zuckt mit den Schultern, bleibt aber im Gespräch."
       }
     ],
     "Z2": [
       {
-        "label": "Ihre Rechtfertigungen ohne Wertung anhören",
+        "label": "Anerkennen, dass Lehrer manchmal ungerecht wirken können.",
         "effect": -1,
-        "feedback": "Leonie beruhigt sich etwas, weil sie merkt, dass sie reden darf."
+        "feedback": "Leonie entspannt sich leicht: 'Genau, das versteht sonst keiner.'"
       },
       {
-        "label": "Ihre Aussagen sofort widerlegen",
-        "effect": 2,
-        "feedback": "Leonie geht in die Konfrontation und wird trotzig."
-      },
-      {
-        "label": "Sachlich betonen, dass die Polizei nur prüfen muss",
-        "effect": 0,
-        "feedback": "Leonie bleibt zurückhaltend, ohne klarer zu werden."
+        "label": "Darauf bestehen, dass ihre Aussagen problematisch waren.",
+        "effect": 1,
+        "feedback": "Leonie wird defensiv: 'Ihr wollt mich doch nur mundtot machen!'"
       }
     ],
     "Z3": [
       {
-        "label": "Ihre Neugier nutzen und erklären, welche Kriterien wichtig sind",
-        "effect": -2,
-        "feedback": "Leonie wirkt interessiert und fragt vorsichtig nach."
-      },
-      {
-        "label": "Ihre Trotzreaktion kritisieren",
-        "effect": 2,
-        "feedback": "Leonie verteidigt sich noch stärker."
-      },
-      {
-        "label": "Das Gespräch in sachlicher Ruhe fortsetzen",
+        "label": "Ruhig erklären, dass du ihre Perspektive hören willst.",
         "effect": -1,
-        "feedback": "Leonie bleibt im Gespräch, wenn auch zurückhaltend."
+        "feedback": "Leonie spricht mehr über ihre Lehrer, bleibt aber kritisch."
+      },
+      {
+        "label": "Sagen, dass Lehrer in solchen Fällen kaum übertreiben.",
+        "effect": 1,
+        "feedback": "Leonie schnaubt: 'Natürlich hältst du zu denen.'"
       }
     ],
     "Z4": [
       {
-        "label": "Ihre Meinungsfreiheit anerkennen, aber Grenzen aufzeigen",
-        "effect": -1,
-        "feedback": "Leonie hört zu und reagiert etwas offener."
-      },
-      {
-        "label": "Betonen, dass sie im Visier der Behörden steht",
-        "effect": 2,
-        "feedback": "Leonie blockt sofort ab und wirkt feindselig."
-      },
-      {
-        "label": "Neutral dokumentieren und abwarten",
+        "label": "Die Aufregung nicht ignorieren, sondern fragen, was sie so wütend macht.",
         "effect": 0,
-        "feedback": "Die Situation eskaliert nicht, bleibt aber distanziert."
+        "feedback": "Leonie reagiert gereizt, bleibt aber im Gespräch."
+      },
+      {
+        "label": "Ihr klar sagen, dass extreme Aussagen nicht akzeptabel sind.",
+        "effect": 1,
+        "feedback": "Leonie schreit: 'Genau das mein ich – ihr wollt mich brechen!'"
       }
     ],
     "Z5": [
       {
-        "label": "Ihre Angst vor Repression anerkennen",
+        "label": "Sachlich bleiben und vorschlagen, auch mal mit einer Vertrauensperson zu sprechen.",
         "effect": -1,
-        "feedback": "Leonie wirkt kurz irritiert, reagiert aber weniger aggressiv."
+        "feedback": "Leonie lehnt ab, aber du merkst, dass sie den Gedanken nicht völlig abblockt."
       },
       {
-        "label": "Ihre Haltung scharf kritisieren",
-        "effect": 2,
-        "feedback": "Leonie verhärtet und bricht das Gespräch fast ab."
-      },
-      {
-        "label": "Das Gespräch ruhig weiterführen, ohne zu provozieren",
-        "effect": 0,
-        "feedback": "Leonie beruhigt sich etwas, bleibt aber misstrauisch."
+        "label": "Ihre Aussagen als kompletten Unsinn abtun.",
+        "effect": 1,
+        "feedback": "Leonie rastet aus: 'Ihr seid alle blind!'"
       }
     ]
   }

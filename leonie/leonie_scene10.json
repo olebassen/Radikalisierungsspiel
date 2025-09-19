@@ -1,96 +1,121 @@
 {
-  "title": "Finale Entscheidung",
+  "title": "Abschlussgespräch",
   "text": {
-    "Z1": "Leonie spricht von Zukunftsplänen und zeigt vorsichtige Offenheit für andere Perspektiven.",
-    "Z2": "Leonie wirkt ambivalent: Sie erkennt Probleme, hat aber noch Bindung zur Gruppe.",
-    "Z3": "Leonie schwankt zwischen Neugier auf andere Wege und Abwehr gegen Kontrolle.",
-    "Z4": "Leonie sagt: 'Ich will einfach meine Ruhe und mache, was nötig ist.'",
-    "Z5": "Leonie bekräftigt: 'Die Polizei ist mein Feind, und ich bleibe, wo ich bin.'"
+    "Z1": "Leonie wirkt nachdenklich: 'Ich weiß, dass ich Mist gebaut hab. Aber vielleicht kann ich echt noch was ändern.'",
+    "Z2": "Leonie sagt: 'Ich bin mir unsicher… Manchmal denk ich, ihr habt recht. Aber dann fühl ich mich wieder unverstanden.'",
+    "Z3": "Leonie schaut dich misstrauisch an: 'Keine Ahnung, ob ich dir trauen kann. Ihr sagt doch auch nur, was ihr müsst.'",
+    "Z4": "Leonie lacht spöttisch: 'Ihr wollt mir doch nur euren Stempel aufdrücken. Vergiss es!'",
+    "Z5": "Leonie grinst kalt: 'Euer Gerede interessiert mich nicht. Mein Weg ist klar – und ihr könnt nichts tun.'"
   },
   "options": {
     "Z1": [
       {
-        "label": "Ihre Pläne bestärken",
-        "effect": -2,
-        "feedback": "Leonie fühlt sich ernst genommen und öffnet sich weiter."
-      },
-      {
-        "label": "Ihr sofort konkrete Wege vorgeben",
-        "effect": 1,
-        "feedback": "Leonie wirkt gedrängt und zieht sich leicht zurück."
-      },
-      {
-        "label": "Fragen, wie sie diese Pläne umsetzen möchte",
+        "label": "Bestärken, dass sie jederzeit Unterstützung bekommen kann.",
         "effect": -1,
-        "feedback": "Leonie beginnt, kleine Schritte zu benennen."
+        "feedback": "Leonie nickt: 'Vielleicht nutz ich die Chance wirklich.'"
+      },
+      {
+        "label": "Sie ermutigen, einen konkreten Schritt in Richtung Ausbildung oder Gespräch mit Eltern zu gehen.",
+        "effect": -1,
+        "feedback": "Leonie wirkt zögerlich, sagt aber: 'Okay, ich denk drüber nach.'"
+      },
+      {
+        "label": "Betonen, dass Fehler Teil des Erwachsenwerdens sind.",
+        "effect": 0,
+        "feedback": "Leonie wirkt erleichtert: 'Das klingt fair.'"
       }
     ],
     "Z2": [
       {
-        "label": "Ihre Ambivalenz akzeptieren",
+        "label": "Anerkennen, dass ihre Zweifel verständlich sind.",
         "effect": -1,
-        "feedback": "Leonie bleibt erreichbar und fühlt sich verstanden."
+        "feedback": "Leonie atmet durch: 'Gut, dass das mal jemand sagt.'"
       },
       {
-        "label": "Ihre Bindung an die Gruppe scharf kritisieren",
-        "effect": 2,
-        "feedback": "Leonie verteidigt sie aggressiv."
+        "label": "Nachfragen, in welchen Momenten sie sich am meisten unverstanden fühlt.",
+        "effect": -1,
+        "feedback": "Leonie denkt kurz nach und erzählt von der Schule."
       },
       {
-        "label": "Nachfragen, was sie außerhalb der Gruppe reizt",
-        "effect": -2,
-        "feedback": "Leonie denkt über Alternativen nach."
+        "label": "Ihre Unsicherheit als Schwäche darstellen.",
+        "effect": 1,
+        "feedback": "Leonie wird wütend: 'Schwäche? Ich bin stärker als ihr alle!'"
+      },
+      {
+        "label": "Darauf hinweisen, dass es ihre Entscheidung ist, welchen Weg sie geht.",
+        "effect": 0,
+        "feedback": "Leonie nickt langsam: 'Stimmt… ich muss das selbst wissen.'"
       }
     ],
     "Z3": [
       {
-        "label": "Ihre Neugier hervorheben",
+        "label": "Ehrlich zugeben, dass Vertrauen Zeit braucht.",
         "effect": -1,
-        "feedback": "Leonie zeigt vorsichtiges Interesse an anderen Wegen."
+        "feedback": "Leonie schaut überrascht: 'Das klingt wenigstens ehrlich.'"
       },
       {
-        "label": "Ihre Abwehr fokussieren",
+        "label": "Klarstellen, dass du nur helfen kannst, wenn sie offen bleibt.",
+        "effect": 0,
+        "feedback": "Leonie nickt zögerlich, bleibt aber misstrauisch."
+      },
+      {
+        "label": "Ihre Skepsis als grundlose Paranoia bezeichnen.",
         "effect": 1,
-        "feedback": "Leonie betont stärker ihre Ablehnung."
+        "feedback": "Leonie zischt: 'Genau das mein ich!'"
       },
       {
-        "label": "Neutral fragen: 'Was gibt dir Sicherheit?'",
+        "label": "Fragen, wem sie überhaupt vertraut.",
         "effect": -1,
-        "feedback": "Leonie reflektiert und bleibt im Gespräch."
+        "feedback": "Leonie zuckt mit den Schultern: 'Vielleicht einer Freundin… sonst niemandem.'"
       }
     ],
     "Z4": [
       {
-        "label": "Ihre Sehnsucht nach Ruhe anerkennen",
+        "label": "Nachhaken, warum sie sich gegen 'Stempel' wehrt.",
         "effect": -1,
-        "feedback": "Leonie wirkt erleichtert, bleibt aber zurückhaltend."
+        "feedback": "Leonie erklärt, dass sie nicht in eine Schublade gesteckt werden will."
       },
       {
-        "label": "Ihre Resignation kritisieren",
-        "effect": 2,
-        "feedback": "Leonie blockt und reagiert aggressiv."
-      },
-      {
-        "label": "Das Gespräch neutral offenhalten",
+        "label": "Darauf hinweisen, dass Vorurteile in beide Richtungen wirken können.",
         "effect": 0,
-        "feedback": "Leonie bleibt vage, aber nicht konfrontativ."
+        "feedback": "Leonie denkt kurz nach, bleibt aber abwehrend."
+      },
+      {
+        "label": "Ihre Haltung als reine Abwehr kritisieren.",
+        "effect": 1,
+        "feedback": "Leonie schreit: 'Ihr versteht nichts!'"
+      },
+      {
+        "label": "Vorsichtig betonen, dass sie selbst bestimmen kann, wie andere sie sehen.",
+        "effect": -1,
+        "feedback": "Leonie schaut dich an, wirkt für einen Moment unsicher."
       }
     ],
     "Z5": [
       {
-        "label": "Ihre Feindbilder vorsichtig spiegeln",
+        "label": "Ruhig fragen, was sie glaubt, dadurch zu gewinnen.",
         "effect": -1,
-        "feedback": "Leonie reagiert kurz irritiert, ohne aggressiv zu werden."
+        "feedback": "Leonie antwortet ausweichend, wirkt aber kurz nachdenklich."
       },
       {
-        "label": "Ihre Aussage direkt zurückweisen",
-        "effect": 2,
-        "feedback": "Leonie verhärtet ihre Haltung sofort."
-      },
-      {
-        "label": "Ruhig zuhören und keine Konfrontation suchen",
+        "label": "Betonen, dass der eingeschlagene Weg schwer umkehrbar ist.",
         "effect": 0,
-        "feedback": "Leonie bleibt bei ihrer Haltung, das Gespräch bleibt sachlich."
+        "feedback": "Leonie zuckt mit den Schultern: 'Dann ist es eben so.'"
+      },
+      {
+        "label": "Ihre Entscheidung als endgültig akzeptieren.",
+        "effect": 1,
+        "feedback": "Leonie triumphiert: 'Gut, endlich habt ihr’s kapiert!'"
+      },
+      {
+        "label": "Ihre Szenezugehörigkeit als Illusion von Stärke darstellen.",
+        "effect": -1,
+        "feedback": "Leonie reagiert wütend, doch ihre Stimme zittert leicht."
+      },
+      {
+        "label": "Sie provozierend fragen, ob sie wirklich frei ist.",
+        "effect": -1,
+        "feedback": "Leonie bleibt still und vermeidet deinen Blick."
       }
     ]
   }

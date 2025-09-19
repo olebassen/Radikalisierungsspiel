@@ -1,96 +1,111 @@
 {
-  "title": "Online-Communities",
+  "title": "Familie",
   "text": {
-    "Z1": "Leonie erzählt, dass sie in Online-Gruppen diskutiert, in denen sie sich ernst genommen fühlt.",
-    "Z2": "Leonie betont, dass sie online 'endlich Leute findet, die die Wahrheit sagen'.",
-    "Z3": "Leonie schwankt: Einerseits fühlt sie sich dort stark, andererseits merkt sie, dass der Ton oft aggressiv ist.",
-    "Z4": "Leonie sagt, dass sie sich online besser verstanden fühlt als von allen in der realen Welt.",
-    "Z5": "Leonie behauptet: 'Nur im Netz erfährt man die Wahrheit – die Medien lügen alle.'"
+    "Z1": "Leonie erzählt, dass ihre Eltern oft besorgt sind. 'Sie nerven manchmal, aber eigentlich meinen sie es gut.'",
+    "Z2": "Leonie seufzt: 'Meine Eltern verstehen mich nicht. Die wollen, dass ich 'normal' bin.'",
+    "Z3": "Leonie sagt trotzig: 'Zuhause ist nur Stress. Die checken überhaupt nicht, wer ich bin.'",
+    "Z4": "Leonie ruft: 'Meine Eltern sind Teil des Problems! Die fressen alles, was im Fernsehen kommt.'",
+    "Z5": "Leonie knurrt: 'Familie? Gibt’s für mich nicht mehr. Die sind Feinde – genau wie ihr.'"
   },
   "options": {
     "Z1": [
       {
-        "label": "Nachfragen, was sie an den Diskussionen schätzt",
+        "label": "Anerkennen, dass es wichtig ist, wenn Eltern sich sorgen.",
         "effect": -1,
-        "feedback": "Leonie erklärt, dass sie sich ernst genommen fühlt – aber auch manchmal unter Druck."
+        "feedback": "Leonie nickt leicht und sagt: 'Ja, sie übertreiben manchmal, aber sie kümmern sich.'"
       },
       {
-        "label": "Die Gruppen als gefährlich bezeichnen",
-        "effect": 2,
-        "feedback": "Leonie verteidigt sie vehement und blockt ab."
-      },
-      {
-        "label": "Neutral fragen, ob es auch andere Stimmen gibt",
+        "label": "Fragen, ob sie mit ihren Eltern über ihre Online-Aktivitäten redet.",
         "effect": 0,
-        "feedback": "Leonie bleibt vage, aber hört zu."
+        "feedback": "Leonie sagt: 'Nee, das würden die nicht verstehen.'"
+      },
+      {
+        "label": "Ihre Eltern als wichtigen Rückhalt betonen.",
+        "effect": -1,
+        "feedback": "Leonie wirkt nachdenklich und sagt: 'Vielleicht hast du recht.'"
       }
     ],
     "Z2": [
       {
-        "label": "Ihre Suche nach Wahrheit anerkennen",
+        "label": "Nachhaken, was sie unter 'normal' versteht.",
         "effect": -1,
-        "feedback": "Leonie wirkt erleichtert, dass ihre Motivation verstanden wird."
+        "feedback": "Leonie lacht unsicher: 'Na halt brav und angepasst – das bin ich nicht.'"
       },
       {
-        "label": "Ihre Aussage als naiv kritisieren",
-        "effect": 2,
-        "feedback": "Leonie reagiert trotzig und verschließt sich."
+        "label": "Darauf hinweisen, dass Eltern oft aus Sorge reagieren.",
+        "effect": 0,
+        "feedback": "Leonie rollt mit den Augen, hört aber zu."
       },
       {
-        "label": "Fragen, woran sie erkennt, ob etwas glaubwürdig ist",
-        "effect": -2,
-        "feedback": "Leonie denkt nach und beginnt, über Kriterien zu sprechen."
+        "label": "Ihre Eltern als altmodisch darstellen.",
+        "effect": 1,
+        "feedback": "Leonie grinst: 'Genau! Die leben in einer anderen Welt.'"
+      },
+      {
+        "label": "Anregen, trotz Konflikten das Gespräch mit ihnen zu suchen.",
+        "effect": -1,
+        "feedback": "Leonie schweigt kurz und sagt dann: 'Vielleicht... irgendwann.'"
       }
     ],
     "Z3": [
       {
-        "label": "Ihre Ambivalenz hervorheben",
+        "label": "Fragen, ob es Themen gibt, über die sie mit den Eltern reden kann.",
         "effect": -1,
-        "feedback": "Leonie erkennt, dass sie ihre Zweifel zeigen darf."
+        "feedback": "Leonie zögert und sagt: 'Hm, vielleicht über Musik oder so.'"
       },
       {
-        "label": "Den aggressiven Ton stark kritisieren",
-        "effect": 2,
-        "feedback": "Leonie verteidigt die Gruppen noch mehr."
+        "label": "Ihre Eltern als mögliche Verbündete ins Spiel bringen.",
+        "effect": 0,
+        "feedback": "Leonie winkt ab: 'Die würden das nie kapieren.'"
       },
       {
-        "label": "Nachfragen, wie sie sich dabei fühlt",
-        "effect": -1,
-        "feedback": "Leonie beschreibt vorsichtig ihre Unsicherheit."
+        "label": "Betonen, dass Rückzug die Konflikte nur verstärkt.",
+        "effect": 1,
+        "feedback": "Leonie wird laut: 'Ich zieh mich zurück, weil sie mich nicht akzeptieren!'"
       }
     ],
     "Z4": [
       {
-        "label": "Ihre Sehnsucht nach Verständnis anerkennen",
+        "label": "Nachfragen, warum sie ihre Eltern als Teil des Problems sieht.",
         "effect": -1,
-        "feedback": "Leonie wirkt kurz weicher, bleibt aber vorsichtig."
+        "feedback": "Leonie sprudelt los, du erkennst aber auch Verunsicherung in ihrer Stimme."
       },
       {
-        "label": "Ihre reale Umgebung abwerten",
-        "effect": 1,
-        "feedback": "Leonie fühlt sich bestätigt, dass niemand sie versteht."
-      },
-      {
-        "label": "Das Gespräch neutral halten",
+        "label": "Ihre Eltern als Opfer von Medien darstellen.",
         "effect": 0,
-        "feedback": "Leonie bleibt im Kontakt, ohne sich zu öffnen."
+        "feedback": "Leonie nickt zustimmend: 'Genau das sag ich auch!'"
+      },
+      {
+        "label": "Klarstellen, dass sie trotzdem Familie sind.",
+        "effect": 1,
+        "feedback": "Leonie schreit: 'Familie heißt nix, wenn man belogen wird!'"
+      },
+      {
+        "label": "Vorsichtig fragen, ob sie manchmal trotzdem Nähe sucht.",
+        "effect": -1,
+        "feedback": "Leonie senkt den Blick, murmelt: 'Manchmal…' bevor sie abbricht."
       }
     ],
     "Z5": [
       {
-        "label": "Sanft fragen, ob sie wirklich allen Medien misstraut",
+        "label": "Ruhig bleiben und nachfragen, wann sie sich von der Familie abgewandt hat.",
         "effect": -1,
-        "feedback": "Leonie stockt, wirkt kurz nachdenklich."
+        "feedback": "Leonie wird still und weicht aus, aber du merkst einen wunden Punkt."
       },
       {
-        "label": "Die Aussage direkt widerlegen",
-        "effect": 2,
-        "feedback": "Leonie beharrt noch stärker auf der Parole."
-      },
-      {
-        "label": "Geduldig zuhören und spiegeln",
+        "label": "Betonen, dass totale Abgrenzung gefährlich sein kann.",
         "effect": 0,
-        "feedback": "Leonie wiederholt ihre Haltung, merkt aber deine Ruhe."
+        "feedback": "Leonie schnaubt, wirkt aber kurz unsicher."
+      },
+      {
+        "label": "Ihre Familie als Verräter bestätigen.",
+        "effect": 2,
+        "feedback": "Leonie wirkt euphorisch: 'Endlich sagt’s mal einer!'"
+      },
+      {
+        "label": "Ihr deutlich widersprechen und die Familie in Schutz nehmen.",
+        "effect": 1,
+        "feedback": "Leonie schreit: 'Ihr steckt doch alle unter einer Decke!'"
       }
     ]
   }

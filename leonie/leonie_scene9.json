@@ -1,96 +1,121 @@
 {
-  "title": "Zuspitzung",
+  "title": "Zukunftspläne",
   "text": {
-    "Z1": "Leonie zeigt vorsichtige Distanz zu extremen Inhalten. Sie sagt, dass manches übertrieben sei.",
-    "Z2": "Leonie wirkt nachdenklich, betont aber, dass sie noch unsicher ist, wem sie trauen kann.",
-    "Z3": "Leonie schwankt: Einerseits verteidigt sie ihre Gruppe, andererseits zeigt sie Zweifel.",
-    "Z4": "Leonie wirkt müde und abweisend: 'Ich hab keine Lust mehr, immer zu reden.'",
-    "Z5": "Leonie sagt: 'Es gibt keinen Weg zurück – wer einmal drin ist, bleibt drin.'"
+    "Z1": "Leonie wirkt unsicher, sagt aber: 'Vielleicht mach ich eine Ausbildung – ich will ja auch irgendwann auf eigenen Beinen stehen.'",
+    "Z2": "Leonie zuckt mit den Schultern: 'Keine Ahnung… vielleicht Schule fertig machen, vielleicht auch nicht. Das ist mir gerade egal.'",
+    "Z3": "Leonie sagt trotzig: 'Wozu Zukunft? Ich leb im Jetzt. Alles andere ist doch nur Gelaber.'",
+    "Z4": "Leonie ruft: 'Eine normale Zukunft gibt’s für mich nicht. Ich geh meinen eigenen Weg, egal was ihr sagt.'",
+    "Z5": "Leonie grinst kalt: 'Meine Zukunft ist mit der Bewegung. Da find ich alles, was ich brauch – Anerkennung, Stärke, Klarheit.'"
   },
   "options": {
     "Z1": [
       {
-        "label": "Ihre Distanz bestärken",
-        "effect": -2,
-        "feedback": "Leonie fühlt sich ermutigt, sich weiter abzusetzen."
-      },
-      {
-        "label": "Ihre Zweifel kleinreden",
-        "effect": 1,
-        "feedback": "Leonie wirkt enttäuscht und zieht sich zurück."
-      },
-      {
-        "label": "Fragen, was sie übertrieben findet",
+        "label": "Ihr Interesse an Ausbildung bestärken.",
         "effect": -1,
-        "feedback": "Leonie benennt vorsichtig ein Beispiel."
+        "feedback": "Leonie wirkt motivierter: 'Ja, vielleicht könnte ich echt was anfangen.'"
+      },
+      {
+        "label": "Fragen, in welchem Bereich sie arbeiten möchte.",
+        "effect": -1,
+        "feedback": "Leonie überlegt: 'Hm, vielleicht was mit Tieren oder Medien.'"
+      },
+      {
+        "label": "Darauf hinweisen, dass ein klarer Plan Sicherheit geben kann.",
+        "effect": 0,
+        "feedback": "Leonie nickt vorsichtig: 'Stimmt schon…'"
       }
     ],
     "Z2": [
       {
-        "label": "Ihre Unsicherheit anerkennen",
+        "label": "Sie ermutigen, kleine Schritte für die Zukunft zu gehen.",
         "effect": -1,
-        "feedback": "Leonie fühlt sich verstanden und bleibt im Gespräch."
+        "feedback": "Leonie murmelt: 'Vielleicht fang ich klein an…'"
       },
       {
-        "label": "Darauf bestehen, dass sie der Polizei vertrauen muss",
-        "effect": 2,
-        "feedback": "Leonie blockt sofort ab."
+        "label": "Ihr Gleichgültigkeit kritisieren.",
+        "effect": 1,
+        "feedback": "Leonie faucht: 'Ist doch eh egal, was ich mach!'"
       },
       {
-        "label": "Fragen, wem sie bisher vertraut hat",
+        "label": "Fragen, was sie sich insgeheim wünscht.",
         "effect": -1,
-        "feedback": "Leonie überlegt und nennt eine Bezugsperson."
+        "feedback": "Leonie schweigt kurz und sagt dann: 'Manchmal wünsch ich mir einfach Ruhe.'"
+      },
+      {
+        "label": "Darauf pochen, dass sie Verantwortung übernehmen muss.",
+        "effect": 0,
+        "feedback": "Leonie wirkt gereizt: 'Ja, ja…' bleibt aber im Gespräch."
       }
     ],
     "Z3": [
       {
-        "label": "Ihre Ambivalenz normalisieren",
+        "label": "Nachfragen, warum Zukunft für sie unwichtig ist.",
         "effect": -1,
-        "feedback": "Leonie spürt, dass ihre Zweifel erlaubt sind."
+        "feedback": "Leonie sagt: 'Weil sowieso keiner weiß, was kommt.'"
       },
       {
-        "label": "Ihre Gruppe direkt angreifen",
-        "effect": 2,
-        "feedback": "Leonie verteidigt sie vehementer."
+        "label": "Betonen, dass Perspektiven helfen, Stabilität zu gewinnen.",
+        "effect": 0,
+        "feedback": "Leonie winkt ab, hört dir aber zu."
       },
       {
-        "label": "Nachfragen, was ihr an der Gruppe wirklich wichtig ist",
-        "effect": -2,
-        "feedback": "Leonie denkt nach und zeigt erste Differenzierungen."
+        "label": "Ihre Haltung als verantwortungslos kritisieren.",
+        "effect": 1,
+        "feedback": "Leonie schreit: 'Ihr wollt mir nur Vorschriften machen!'"
+      },
+      {
+        "label": "Vorsichtig fragen, ob sie insgeheim Wünsche für ihr Leben hat.",
+        "effect": -1,
+        "feedback": "Leonie schaut kurz zu Boden: 'Vielleicht… aber das sag ich nicht.'"
       }
     ],
     "Z4": [
       {
-        "label": "Ihre Müdigkeit respektieren und eine Pause anbieten",
-        "effect": 0,
-        "feedback": "Leonie bleibt abweisend, aber nicht aggressiv."
-      },
-      {
-        "label": "Darauf bestehen, dass sie weiterreden muss",
-        "effect": 2,
-        "feedback": "Leonie blockt und wirkt wütend."
-      },
-      {
-        "label": "Sanft fragen, ob sie überfordert ist",
+        "label": "Fragen, was 'eigener Weg' für sie konkret bedeutet.",
         "effect": -1,
-        "feedback": "Leonie wirkt überrascht, aber nachdenklich."
+        "feedback": "Leonie erklärt vage, dass sie 'anders' leben will, ohne Details."
+      },
+      {
+        "label": "Darauf hinweisen, dass ein Leben abseits der Gesellschaft Risiken birgt.",
+        "effect": 0,
+        "feedback": "Leonie reagiert abwehrend: 'Das weiß ich selbst!'"
+      },
+      {
+        "label": "Ihre Haltung als Selbsttäuschung bezeichnen.",
+        "effect": 1,
+        "feedback": "Leonie faucht: 'Ich weiß genau, was ich will!'"
+      },
+      {
+        "label": "Sie fragen, ob sie sich auch Positives außerhalb der Szene vorstellen kann.",
+        "effect": -1,
+        "feedback": "Leonie schweigt kurz, wirkt aber nachdenklich."
       }
     ],
     "Z5": [
       {
-        "label": "Ihre Hoffnungslosigkeit anerkennen",
+        "label": "Ruhig fragen, was ihr die Bewegung konkret gibt.",
         "effect": -1,
-        "feedback": "Leonie reagiert kurz still, aber weniger aggressiv."
+        "feedback": "Leonie erklärt mit Stolz, dass sie dort 'Respekt' findet."
       },
       {
-        "label": "Die Aussage scharf zurückweisen",
-        "effect": 2,
-        "feedback": "Leonie beharrt noch stärker auf der Endgültigkeit."
-      },
-      {
-        "label": "Geduldig zuhören",
+        "label": "Darauf hinweisen, dass Bewegungen oft Erwartungen und Zwänge auferlegen.",
         "effect": 0,
-        "feedback": "Leonie wiederholt ihre Worte, das Gespräch bleibt offen."
+        "feedback": "Leonie schnaubt: 'Vielleicht, aber das ist besser als eure Heuchelei.'"
+      },
+      {
+        "label": "Ihre Entscheidung als gefährlich einstufen.",
+        "effect": 1,
+        "feedback": "Leonie schreit: 'Genau deswegen bleib ich dabei!'"
+      },
+      {
+        "label": "Sie fragen, ob sie wirklich glaubt, dort frei zu sein.",
+        "effect": -1,
+        "feedback": "Leonie zögert und antwortet nicht sofort."
+      },
+      {
+        "label": "Ihre Zukunftspläne ins Lächerliche ziehen.",
+        "effect": 2,
+        "feedback": "Leonie wird wütend: 'Ihr nehmt mich nie ernst!'"
       }
     ]
   }

@@ -1,96 +1,71 @@
 {
-  "title": "Gespräch vertiefen",
+  "title": "Online-Aktivitäten",
   "text": {
-    "Z1": "Leonie wirkt nachdenklich und erzählt zögerlich von Spannungen mit ihren Eltern, die ihre Online-Aktivitäten nicht verstehen.",
-    "Z2": "Leonie verteidigt ihre Posts, sagt aber, dass sie zuhause zunehmend Streit deswegen hat.",
-    "Z3": "Leonie schwankt: Einerseits verteidigt sie ihre Position, andererseits deutet sie an, dass sie manchmal überfordert ist.",
-    "Z4": "Leonie reagiert distanziert: 'Das geht niemanden etwas an.' Sie will nicht über Familie oder Umfeld reden.",
-    "Z5": "Leonie behauptet, dass ihre Familie und die Polizei gegen sie arbeiten. Sie betont, dass nur ihre Gruppe sie versteht."
+    "Z1": "Leonie wirkt nachdenklich, als du ihre Posts ansprichst: 'Manchmal teile ich halt provokante Sachen. Aber das heißt doch nicht, dass ich alles glaube.'",
+    "Z2": "Leonie sagt trotzig: 'Ich hab halt das Recht, zu sagen, was ich will. Wenn euch das nicht passt, ist das euer Problem.'",
+    "Z3": "Leonie verschränkt die Arme: 'Diese Screenshots sind doch aus dem Zusammenhang gerissen. Ihr wollt mich nur schlecht dastehen lassen.'",
+    "Z4": "Leonie wird aggressiver: 'Endlich merkt mal jemand, wie korrupt alles ist! Klar teile ich das – wenigstens sag ich die Wahrheit.'",
+    "Z5": "Leonie grinst kalt: 'Online bin ich frei. Da hört mir wenigstens jemand zu. Die Szene ist das Einzige, was echt ist.'"
   },
   "options": {
     "Z1": [
       {
-        "label": "Ihre Konflikte anerkennen und Verständnis zeigen",
+        "label": "Fragen, ob sie manchmal bewusst provoziert, um Aufmerksamkeit zu bekommen.",
         "effect": -1,
-        "feedback": "Leonie fühlt sich gesehen und öffnet sich etwas mehr."
+        "feedback": "Leonie gibt zu: 'Ja, vielleicht ein bisschen. Manche Sachen poste ich nur, um die Leute zu schocken.'"
       },
       {
-        "label": "Ihre Eltern kritisieren",
-        "effect": 2,
-        "feedback": "Leonie verteidigt die Familie und zieht sich zurück."
-      },
-      {
-        "label": "Neutral fragen: 'Wie erlebst du die Reaktionen zuhause?'",
-        "effect": -1,
-        "feedback": "Leonie erzählt etwas mehr, bleibt aber vorsichtig."
+        "label": "Betonen, dass selbst 'nur geteilte' Inhalte Wirkung haben.",
+        "effect": 0,
+        "feedback": "Leonie zuckt mit den Schultern: 'Mag sein, aber das ist doch mein Problem, oder?'"
       }
     ],
     "Z2": [
       {
-        "label": "Ihre Belastung durch den Streit ansprechen",
+        "label": "Ihre Meinungsfreiheit anerkennen, aber auf die Verantwortung beim Teilen hinweisen.",
         "effect": -1,
-        "feedback": "Leonie wirkt erleichtert, dass der Druck wahrgenommen wird."
+        "feedback": "Leonie hört kurz zu: 'Okay... vielleicht war manches echt drüber.'"
       },
       {
-        "label": "Ihre Verteidigung kritisieren",
-        "effect": 2,
-        "feedback": "Leonie verschließt sich und reagiert trotzig."
-      },
-      {
-        "label": "Sachlich erklären, warum die Polizei aufmerksam ist",
-        "effect": 0,
-        "feedback": "Leonie hört zu, bleibt aber auf Distanz."
+        "label": "Darauf pochen, dass ihre Posts gefährlich sind.",
+        "effect": 1,
+        "feedback": "Leonie faucht: 'Ihr wollt mich einfach zensieren!'"
       }
     ],
     "Z3": [
       {
-        "label": "Ihre Überforderung benennen",
+        "label": "Nachfragen, wie sie selbst ihre Absicht beim Posten einschätzt.",
         "effect": -1,
-        "feedback": "Leonie fühlt sich verstanden und nickt vorsichtig."
+        "feedback": "Leonie wirkt nachdenklich: 'Manchmal will ich halt provozieren... vielleicht ist das dumm.'"
       },
       {
-        "label": "Ihre Unsicherheit als Schwäche darstellen",
-        "effect": 2,
-        "feedback": "Leonie geht sofort in die Abwehrhaltung."
-      },
-      {
-        "label": "Nachfragen, welche Unterstützung sie sich wünschen würde",
-        "effect": -2,
-        "feedback": "Leonie überlegt und nennt vorsichtig ein Bedürfnis."
+        "label": "Ihr vorwerfen, dass sie bewusst Stimmung macht.",
+        "effect": 1,
+        "feedback": "Leonie schnaubt: 'Ihr habt keine Ahnung, was wirklich abgeht!'"
       }
     ],
     "Z4": [
       {
-        "label": "Ihre Grenzen respektieren und zuhören",
+        "label": "Versuchen herauszufinden, warum sie 'die Wahrheit' in diesen Inhalten sieht.",
         "effect": 0,
-        "feedback": "Leonie bleibt reserviert, aber das Gespräch bricht nicht ab."
+        "feedback": "Leonie erklärt dir lang, warum sie den Medien misstraut. Sie bleibt misstrauisch, aber redet weiter."
       },
       {
-        "label": "Darauf bestehen, dass sie Auskunft geben muss",
-        "effect": 2,
-        "feedback": "Leonie blockt sofort und zieht sich zurück."
-      },
-      {
-        "label": "Sanft erklären, warum ihr Umfeld relevant ist",
-        "effect": -1,
-        "feedback": "Leonie hört zu, bleibt aber vorsichtig."
+        "label": "Ihre Argumente als Verschwörungstheorien abtun.",
+        "effect": 1,
+        "feedback": "Leonie schreit: 'Natürlich sagt ihr das – ihr steckt doch mit drin!'"
       }
     ],
     "Z5": [
       {
-        "label": "Ihre Angst vor Isolation anerkennen",
+        "label": "Vorsichtig ansprechen, dass Online-Communities auch manipulativ sein können.",
         "effect": -1,
-        "feedback": "Leonie wirkt irritiert, aber auch etwas nachdenklich."
+        "feedback": "Leonie rollt mit den Augen, wirkt aber für einen Moment unsicher."
       },
       {
-        "label": "Ihre Gruppe als gefährlich bezeichnen",
-        "effect": 2,
-        "feedback": "Leonie verteidigt sie heftig und bricht fast ab."
-      },
-      {
-        "label": "Neutral nachfragen, was sie an der Gruppe stärkt",
-        "effect": 0,
-        "feedback": "Leonie antwortet knapp, bleibt aber im Gespräch."
+        "label": "Ihre Szene-Kontakte frontal angreifen.",
+        "effect": 1,
+        "feedback": "Leonie schneidet das Gespräch ab: 'Red nicht schlecht über meine Leute!'"
       }
     ]
   }

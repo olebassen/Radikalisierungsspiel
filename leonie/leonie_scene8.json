@@ -1,96 +1,111 @@
 {
-  "title": "Familie und Konflikte",
+  "title": "Grenzen und Konsequenzen",
   "text": {
-    "Z1": "Leonie erzählt, dass ihre Eltern besorgt sind, aber sie gleichzeitig nicht versteht. Sie wünscht sich Ruhe.",
-    "Z2": "Leonie berichtet von häufigem Streit zuhause, besonders wegen ihrer Online-Aktivitäten.",
-    "Z3": "Leonie schwankt: Sie betont die Bedeutung der Familie, aber auch, dass sie sich kontrolliert fühlt.",
-    "Z4": "Leonie sagt abweisend: 'Meine Familie hat keine Ahnung.' Sie blockt Nachfragen.",
-    "Z5": "Leonie behauptet, dass ihre Eltern sie verraten und mit der Polizei gegen sie arbeiten."
+    "Z1": "Leonie wirkt unsicher: 'Also... Ärger mit der Polizei will ich echt nicht. Ich hab halt Mist gebaut, mehr nicht.'",
+    "Z2": "Leonie sagt trotzig: 'Wenn ihr meint, ich mach was Verbotenes, dann beweist es doch!'",
+    "Z3": "Leonie verschränkt die Arme: 'Ihr sucht doch nur Gründe, mich fertigzumachen.'",
+    "Z4": "Leonie lacht spöttisch: 'Egal, was ich tue – ihr werdet immer behaupten, ich wär gefährlich.'",
+    "Z5": "Leonie zischt: 'Mir ist egal, was ihr macht. Eure Strafen treffen mich nicht. Ich geh meinen Weg.'"
   },
   "options": {
     "Z1": [
       {
-        "label": "Ihre Sehnsucht nach Ruhe anerkennen",
+        "label": "Betonen, dass es nicht um Strafe, sondern um Unterstützung geht.",
         "effect": -1,
-        "feedback": "Leonie entspannt sich etwas und öffnet sich vorsichtig."
+        "feedback": "Leonie wirkt erleichtert: 'Unterstützung? Hm... das klingt besser.'"
       },
       {
-        "label": "Ihre Eltern direkt kritisieren",
-        "effect": 2,
-        "feedback": "Leonie verteidigt sie und zieht sich zurück."
+        "label": "Darauf hinweisen, dass ihre Online-Aktivitäten Konsequenzen haben können.",
+        "effect": 0,
+        "feedback": "Leonie nickt zögerlich: 'Ja, vielleicht…'"
       },
       {
-        "label": "Neutral nachfragen: 'Wann fühlst du dich zuhause wohl?'",
+        "label": "Ihr versichern, dass sie eine zweite Chance hat.",
         "effect": -1,
-        "feedback": "Leonie denkt kurz nach und beschreibt eine Situation."
+        "feedback": "Leonie atmet auf: 'Das hoff ich wirklich.'"
       }
     ],
     "Z2": [
       {
-        "label": "Ihre Belastung durch den Streit anerkennen",
+        "label": "Ruhig erklären, dass es nicht um Beweise, sondern um Prävention geht.",
         "effect": -1,
-        "feedback": "Leonie wirkt erleichtert, dass der Druck gesehen wird."
+        "feedback": "Leonie schaut verwirrt: 'Prävention... also rechtzeitig stoppen?'"
       },
       {
-        "label": "Betonen, dass sie schuld am Streit ist",
-        "effect": 2,
-        "feedback": "Leonie reagiert aggressiv und verschließt sich."
+        "label": "Ihre Provokation ignorieren und zum Gespräch zurückkehren.",
+        "effect": 0,
+        "feedback": "Leonie wirkt irritiert, bleibt aber im Kontakt."
       },
       {
-        "label": "Fragen, wie sie mit den Konflikten umgeht",
+        "label": "Ihre Haltung als respektlos bezeichnen.",
+        "effect": 1,
+        "feedback": "Leonie faucht: 'Ihr wollt mich nur kleinhalten!'"
+      },
+      {
+        "label": "Sie direkt fragen, ob sie Angst vor Konsequenzen hat.",
         "effect": -1,
-        "feedback": "Leonie erzählt kurz von Strategien, bleibt aber vorsichtig."
+        "feedback": "Leonie schweigt einen Moment, bevor sie abwehrend reagiert."
       }
     ],
     "Z3": [
       {
-        "label": "Ihre Ambivalenz normalisieren",
+        "label": "Anerkennen, dass es schwer ist, Vertrauen zur Polizei zu haben.",
         "effect": -1,
-        "feedback": "Leonie merkt, dass beides nebeneinander bestehen darf."
+        "feedback": "Leonie schaut überrascht: 'Das hätt ich nicht erwartet.'"
       },
       {
-        "label": "Die Kontrolle durch die Familie stark kritisieren",
-        "effect": 2,
-        "feedback": "Leonie verteidigt sie und wird abweisend."
+        "label": "Klarstellen, dass es nicht darum geht, sie 'fertigzumachen'.",
+        "effect": 0,
+        "feedback": "Leonie zuckt mit den Schultern: 'So fühlt es sich aber an.'"
       },
       {
-        "label": "Neutral fragen, was sie selbst möchte",
-        "effect": -2,
-        "feedback": "Leonie überlegt und äußert einen kleinen eigenen Wunsch."
+        "label": "Ihr Verhalten als Selbstmitleid darstellen.",
+        "effect": 1,
+        "feedback": "Leonie schreit: 'Ihr nehmt mich nie ernst!'"
       }
     ],
     "Z4": [
       {
-        "label": "Ihre Abwehr respektieren und ruhig bleiben",
-        "effect": 0,
-        "feedback": "Leonie bleibt verschlossen, doch das Gespräch bricht nicht ab."
-      },
-      {
-        "label": "Darauf bestehen, dass sie über ihre Familie spricht",
-        "effect": 2,
-        "feedback": "Leonie blockt sofort und beendet fast das Gespräch."
-      },
-      {
-        "label": "Sanft erklären, warum Familie ein wichtiger Faktor ist",
+        "label": "Fragen, warum sie glaubt, dass ihr Urteil schon feststeht.",
         "effect": -1,
-        "feedback": "Leonie hört zu, bleibt aber vorsichtig."
+        "feedback": "Leonie überlegt und sagt: 'Weil’s bisher immer so war.'"
+      },
+      {
+        "label": "Darauf hinweisen, dass jeder Fehler auch wieder gutgemacht werden kann.",
+        "effect": 0,
+        "feedback": "Leonie wirkt kurz nachdenklich: 'Meinst du wirklich?'"
+      },
+      {
+        "label": "Ihre Aussagen als Opferhaltung kritisieren.",
+        "effect": 1,
+        "feedback": "Leonie faucht: 'Ihr checkt gar nichts!'"
+      },
+      {
+        "label": "Anmerken, dass Vertrauen nur wachsen kann, wenn beide Seiten es versuchen.",
+        "effect": -1,
+        "feedback": "Leonie schaut kurz weg, sagt dann leise: 'Vielleicht.'"
       }
     ],
     "Z5": [
       {
-        "label": "Ihre Angst vor Verrat ansprechen",
+        "label": "Ruhig erklären, dass niemand völlig unabhängig von Konsequenzen ist.",
         "effect": -1,
-        "feedback": "Leonie wirkt kurz irritiert, aber auch nachdenklich."
+        "feedback": "Leonie wirkt unsicher: 'Ja, vielleicht stimmt das...' "
       },
       {
-        "label": "Ihre Eltern scharf verteidigen",
-        "effect": 1,
-        "feedback": "Leonie fühlt sich missverstanden und zieht sich zurück."
+        "label": "Sie darauf hinweisen, dass Gleichgültigkeit gefährlich sein kann.",
+        "effect": 0,
+        "feedback": "Leonie grinst abwehrend, sagt aber nichts mehr."
       },
       {
-        "label": "Ihre Worte direkt kritisieren",
+        "label": "Ihre Trotzreaktion als Stärke bestätigen.",
         "effect": 2,
-        "feedback": "Leonie reagiert aggressiv und verhärtet ihre Haltung."
+        "feedback": "Leonie strahlt: 'Genau – endlich versteht mich jemand!'"
+      },
+      {
+        "label": "Ihr klar machen, dass sie Grenzen überschreitet.",
+        "effect": 1,
+        "feedback": "Leonie zischt: 'Genau so beweist ihr, dass ihr gegen mich seid!'"
       }
     ]
   }
