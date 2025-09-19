@@ -21,6 +21,11 @@
         "feedback": "Sami wirkt überrascht, dass die Eltern mitdenken wollen, und nickt vorsichtig."
       },
       {
+        "label": "„Religion - Ist doch alles Quatsch!“",
+        "effect": 2,
+        "feedback": "Sami wirkt verletzt und zieht sich zurück."
+      },
+      {
         "label": "Nur zuhören, ohne viele Nachfragen",
         "effect": 0,
         "feedback": "Sami redet ein bisschen, zieht sich dann in sein Zimmer zurück."
