@@ -1,0 +1,107 @@
+{
+  "title": "Stabilisierung – erste Schritte",
+  "text": {
+    "Z1": "Die Lehrer berichten, dass Murat ruhiger wirkt und wieder öfter beim Training auftaucht. In der Beratung erzählt er: 'Ich hab mit meinem Lehrer über ein Praktikum gesprochen. Vielleicht gibt’s doch Wege für mich.' Seine Stimme klingt vorsichtig hoffnungsvoll.",
+    "Z2": "Murat wirkt nachdenklich, aber angespannt. 'Ich hab manchmal weniger Lust auf die Videos… aber die Stimmen sind noch da.' Er wirkt hin- und hergerissen zwischen alten Mustern und neuen Möglichkeiten.",
+    "Z3": "Murat sagt mit harter Stimme: 'Die Videos ziehen mich immer noch an. Aber manchmal denk ich, vielleicht haben die Lehrer doch nicht ganz Unrecht.' Er wirkt zerrissen, schwankt zwischen Trotz und Zweifel.",
+    "Z4": "Die Eltern berichten, dass Murat wieder mehr Zeit allein im Zimmer verbringt. In der Beratung sagt er verbittert: 'Alle tun so, als hätt ich Chancen. Aber wenn ich’s probiere, lachen die mich nur aus.' Seine Worte sind scharf, doch in den Augen liegt Unsicherheit.",
+    "Z5": "Murat spricht laut und herausfordernd: 'Ihr wollt, dass ich mich verändere – aber draußen wird sich nie was ändern!' Seine Stimme klingt aggressiv, doch sein Blick verrät Müdigkeit und einen Rest Zweifel."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Du fragst, was er an den Gesprächen mit dem Lehrer hilfreich fand.",
+        "effect": -2,
+        "feedback": "Murat sagt: 'Der hat mich ernst genommen. Das war gut.'"
+      },
+      {
+        "label": "Du bleibst neutral und nickst nur.",
+        "effect": 0,
+        "feedback": "Murat wartet, ob du mehr fragst."
+      },
+      {
+        "label": "Du sagst, dass er sofort ganz mit den Videos aufhören muss.",
+        "effect": 2,
+        "feedback": "Murat wirkt gereizt: 'Ihr versteht’s nicht.'"
+      },
+      {
+        "label": "Du anerkennst, dass er mutig ist, erste Schritte zu machen, auch wenn es noch Unsicherheit gibt.",
+        "effect": -1,
+        "feedback": "Murat lächelt kurz: 'Ja… unsicher bin ich echt.'"
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Du fragst, wann er weniger Lust auf die Videos hat und was ihm dann guttut.",
+        "effect": -2,
+        "feedback": "Murat überlegt: 'Wenn ich mit Freunden draußen bin… dann brauch ich’s nicht.'"
+      },
+      {
+        "label": "Du hörst still zu.",
+        "effect": 0,
+        "feedback": "Murat schaut dich an, ohne weiterzureden."
+      },
+      {
+        "label": "Du sagst, dass er schwach ist, wenn er immer noch die Videos schaut.",
+        "effect": 2,
+        "feedback": "Murat zieht sich sofort zurück: 'Genau das dachte ich mir!'"
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Du anerkennst seine Ambivalenz und sagst, dass es normal ist, zwischen verschiedenen Stimmen hin- und hergerissen zu sein.",
+        "effect": -1,
+        "feedback": "Murat nickt zögerlich: 'Vielleicht… ja.'"
+      },
+      {
+        "label": "Du fragst, welche Erfahrungen ihn daran zweifeln lassen, dass die Videos recht haben.",
+        "effect": -2,
+        "feedback": "Murat sagt: 'Wenn ich mit Freunden bin, wirkt alles normaler…' "
+      },
+      {
+        "label": "Du sagst, dass er endlich aufhören soll, den Predigern zuzuhören.",
+        "effect": 1,
+        "feedback": "Murat wirkt trotzig: 'Ihr seid doch wie die Lehrer.'"
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Du sagst, dass seine Angst vor Spott verständlich ist, wenn er Neues ausprobiert.",
+        "effect": -1,
+        "feedback": "Murat atmet tief durch: 'Ja, das macht mich echt unsicher.'"
+      },
+      {
+        "label": "Du fragst, ob er schon Situationen erlebt hat, wo er doch Anerkennung bekommen hat.",
+        "effect": -2,
+        "feedback": "Murat denkt kurz nach: 'Beim Training vielleicht… da haben sie mich gelobt.'"
+      },
+      {
+        "label": "Du bleibst neutral und wartest ab.",
+        "effect": 0,
+        "feedback": "Murat schaut aus dem Fenster, ohne weiterzureden."
+      },
+      {
+        "label": "Du sagst spöttisch, dass er übertreibt und nur Ausreden sucht.",
+        "effect": 2,
+        "feedback": "Murat reagiert heftig: 'Genau so reden die auch!'"
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Du fragst, was er meint, wenn er sagt, draußen wird sich nie was ändern.",
+        "effect": -2,
+        "feedback": "Murat sagt nachdenklich: 'Die Leute gucken immer komisch… aber vielleicht irre ich mich manchmal.'"
+      },
+      {
+        "label": "Du bleibst ruhig und sagst nichts.",
+        "effect": 0,
+        "feedback": "Murat verschränkt die Arme, bleibt aber sitzen."
+      },
+      {
+        "label": "Du sagst, dass er endlich akzeptieren muss, dass er sich ändern soll.",
+        "effect": 1,
+        "feedback": "Murat wirkt verletzt: 'Ihr seid alle gleich.'"
+      }
+    ]
+  }
+}

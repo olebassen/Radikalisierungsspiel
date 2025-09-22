@@ -1,101 +1,106 @@
 {
-  "title": "Zugehörigkeit und Gruppendruck",
+  "title": "Diskriminierung – Erfahrungen",
   "text": {
-    "Z1": "Murat erzählt, dass er sich manchmal in seiner Clique wohlfühlt, manchmal aber auch unter Druck gesetzt wird.",
-    "Z2": "Murat deutet an, dass seine Freunde ihn stark beeinflussen. Er wirkt unsicher, ob er eigene Entscheidungen treffen darf.",
-    "Z3": "Murat schwankt zwischen dem Wunsch nach Zugehörigkeit und dem Bedürfnis nach Unabhängigkeit.",
-    "Z4": "Murat betont, dass er unbedingt dazugehören muss, auch wenn er sich nicht immer wohlfühlt.",
-    "Z5": "Murat wiederholt: 'Alle außerhalb der Gruppe sind Feinde.'"
+    "Z1": "Die Lehrer berichten, dass Murat im Unterricht ruhiger geworden ist, aber öfter von 'Ungerechtigkeit' spricht. In der Beratung sagt er leise: 'Manchmal gucken die Lehrer so komisch, nur weil ich Murat heiße.' Er wirkt traurig und sucht nach Verständnis.",
+    "Z2": "Murat sitzt mit gesenktem Blick da. Er sagt: 'Immer wenn was passiert, denken die gleich, ich war’s. Nur weil ich anders bin.' Seine Stimme klingt verbittert, aber auch verletzt.",
+    "Z3": "Murat spricht angespannt: 'In der Schule behandeln die mich wie einen Verdächtigen. Nur weil ich über Religion rede.' Seine Worte sind scharf, er wirkt aber auch verletzt.",
+    "Z4": "Die Eltern berichten, dass Murat häufiger von Ausgrenzung spricht. In der Beratung sagt er laut: 'Alle sehen mich nur als Problem. Keiner akzeptiert mich so wie ich bin.' Er wirkt wütend und abwehrend.",
+    "Z5": "Murat sitzt aufrecht, die Augen funkelnd. Er sagt: 'Ihr wollt nicht, dass ich dazugehöre. Ihr wollt mich brechen!' Seine Stimme ist voller Anklage, die Atmosphäre ist angespannt."
   },
   "options": {
     "Z1": [
       {
-        "label": "Seine Ambivalenz anerkennen",
+        "label": "Du nimmst seine Wahrnehmung ernst und sagst, dass Blicke oder Vorurteile sich tatsächlich belastend anfühlen können.",
         "effect": -1,
-        "feedback": "Murat merkt, dass es normal ist, gleichzeitig Zugehörigkeit und Zweifel zu empfinden."
+        "feedback": "Murat atmet auf: 'Genau, endlich versteht das jemand.'"
       },
       {
-        "label": "Seine Clique kritisieren",
+        "label": "Du fragst nach einer Situation, in der er sich angenommen gefühlt hat.",
+        "effect": -2,
+        "feedback": "Murat denkt kurz nach: 'Beim Fußball, da ist es egal, wie ich heiße.'"
+      },
+      {
+        "label": "Du sagst, dass er sich das wahrscheinlich nur einbildet.",
         "effect": 2,
-        "feedback": "Murat verteidigt die Gruppe und zieht sich zurück."
-      },
-      {
-        "label": "Fragen, was ihm in der Clique gefällt",
-        "effect": -1,
-        "feedback": "Murat reflektiert, was ihn wirklich anspricht."
+        "feedback": "Murat zieht sich zurück: 'Genau, ihr redet alles klein.'"
       }
     ],
     "Z2": [
       {
-        "label": "Seinen Einfluss durch Freunde thematisieren",
-        "effect": -1,
-        "feedback": "Murat erkennt vorsichtig, dass er nicht immer frei entscheidet."
+        "label": "Du bestätigst, dass Vorurteile oft ungerecht sind, und fragst, wie er in solchen Momenten reagiert.",
+        "effect": -2,
+        "feedback": "Murat sagt: 'Manchmal sag ich nichts… manchmal werd ich laut.'"
       },
       {
-        "label": "Betonen, dass er stärker als der Druck sein muss",
+        "label": "Du hörst einfach nur zu, ohne nachzufragen.",
+        "effect": 0,
+        "feedback": "Murat verstummt und schaut auf den Boden."
+      },
+      {
+        "label": "Du sagst, dass Lehrer sicher gute Gründe haben, so zu reagieren.",
         "effect": 1,
-        "feedback": "Murat fühlt sich kritisiert und blockt ab."
-      },
-      {
-        "label": "Neutral nachfragen: 'Wie ist es, wenn du anderer Meinung bist?'",
-        "effect": 0,
-        "feedback": "Murat bleibt vage, denkt aber nach."
-      },
-      {
-        "label": "Das Thema wechseln",
-        "effect": 0,
-        "feedback": "Murat bleibt distanziert, aber nicht abweisend."
+        "feedback": "Murat presst die Lippen aufeinander: 'Dachte ich mir…'"
       }
     ],
     "Z3": [
       {
-        "label": "Sein Bedürfnis nach Unabhängigkeit wertschätzen",
-        "effect": -2,
-        "feedback": "Murat fühlt sich bestärkt, eigene Entscheidungen zu entwickeln."
-      },
-      {
-        "label": "Auf Zugehörigkeit pochen",
-        "effect": 2,
-        "feedback": "Murat betont noch stärker die Loyalität zur Gruppe."
-      },
-      {
-        "label": "Fragen, wo er sich am wohlsten fühlt",
+        "label": "Du fragst, ob er auch Momente kennt, in denen Lehrer fair mit ihm umgehen.",
         "effect": -1,
-        "feedback": "Murat beginnt, Unterschiede zwischen Gruppen wahrzunehmen."
+        "feedback": "Murat überlegt: 'Ja… eine Lehrerin, die hört mir zu.'"
+      },
+      {
+        "label": "Du erkennst an, dass es verletzend sein kann, ständig unter Verdacht zu stehen.",
+        "effect": -2,
+        "feedback": "Murat nickt: 'Das macht mich echt fertig.'"
+      },
+      {
+        "label": "Du reagierst spöttisch: 'Vielleicht solltest du einfach weniger provozieren.'",
+        "effect": 2,
+        "feedback": "Murat knallt die Faust auf den Tisch: 'Genau das meine ich!'"
+      },
+      {
+        "label": "Du bleibst neutral und sagst nichts.",
+        "effect": 0,
+        "feedback": "Murat lehnt sich zurück, wirkt abweisend."
       }
     ],
     "Z4": [
       {
-        "label": "Sanft nachfragen, warum Zugehörigkeit so wichtig ist",
+        "label": "Du fragst, wann er sich zuletzt akzeptiert gefühlt hat.",
+        "effect": -2,
+        "feedback": "Murat überlegt: 'Vielleicht bei meinen Cousins… da ist es anders.'"
+      },
+      {
+        "label": "Du sagst, dass seine Wut verständlich klingt, wenn er sich ausgeschlossen fühlt.",
         "effect": -1,
-        "feedback": "Murat öffnet sich ein Stück und benennt Unsicherheiten."
+        "feedback": "Murat nickt knapp, bleibt aber angespannt."
       },
       {
-        "label": "Seine Abhängigkeit kritisieren",
-        "effect": 2,
-        "feedback": "Murat geht in die Verteidigung."
-      },
-      {
-        "label": "Neutral zuhören, ohne zu drängen",
+        "label": "Du hörst schweigend zu.",
         "effect": 0,
-        "feedback": "Murat bleibt beim Thema, ohne Neues preiszugeben."
+        "feedback": "Murat trommelt mit den Fingern und sagt nichts mehr."
+      },
+      {
+        "label": "Du wirfst ihm vor, dass er übertreibt und sich nur in die Opferrolle begibt.",
+        "effect": 2,
+        "feedback": "Murat faucht: 'Ihr wollt’s einfach nicht sehen!'"
       }
     ],
     "Z5": [
       {
-        "label": "Fragen, ob er wirklich alle anderen für Feinde hält",
-        "effect": -1,
-        "feedback": "Murat zögert und wirkt kurz unsicher."
+        "label": "Du gehst auf seine Angst ein, ausgeschlossen zu werden, und fragst, wann er sich zuletzt zugehörig gefühlt hat.",
+        "effect": -2,
+        "feedback": "Murat wirkt überrascht: 'Hm… beim Training vielleicht.'"
       },
       {
-        "label": "Die Aussage direkt widerlegen",
-        "effect": 2,
-        "feedback": "Murat beharrt noch stärker auf der Abgrenzung."
+        "label": "Du sagst, dass seine Vorwürfe übertrieben sind.",
+        "effect": 1,
+        "feedback": "Murat wird laut: 'Ihr redet alles klein!'"
       },
       {
-        "label": "Geduldig zuhören und spiegeln",
+        "label": "Du bleibst still und beobachtest ihn.",
         "effect": 0,
-        "feedback": "Murat wiederholt die Worte, bemerkt aber dein ruhiges Zuhören."
+        "feedback": "Murat schaut dich misstrauisch an."
       }
     ]
   }

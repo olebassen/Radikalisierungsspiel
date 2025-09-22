@@ -1,6 +1,6 @@
 let ri = Math.floor(Math.random() * 11) - 5; // Startwert zwischen -5 und +5
 let currentScene = 1;
-const maxScenes = 10;
+const maxScenes = 12;
 
 // Start-Button klick
 document.getElementById("start-btn").addEventListener("click", () => {
@@ -36,7 +36,7 @@ async function loadScene(sceneId) {
     let options = [...scene.options[zone]];
     options = shuffle(options);
 
-    options.forEach(opt => {
+    options.forEach((opt) => {
       const btn = document.createElement("button");
       btn.className = "option";
       btn.innerText = opt.label;
@@ -71,20 +71,27 @@ function endGame() {
   let consequence = "";
 
   if (ri <= -6) {
-    summary = "Murat konnte eigene Perspektiven entwickeln und bleibt offen für Beratung.";
-    consequence = "Deine professionelle Haltung war deeskalierend, validierend und ermöglichte Distanzierung.";
+    summary =
+      "Murat konnte eigene Perspektiven entwickeln und bleibt offen für Beratung.";
+    consequence =
+      "Deine professionelle Haltung war deeskalierend, validierend und ermöglichte Distanzierung.";
   } else if (ri <= -1) {
     summary = "Murat zeigt vorsichtige Distanz zu rigiden Mustern.";
-    consequence = "Du hast ihn mit Geduld begleitet und erste Reflexionsräume geöffnet.";
+    consequence =
+      "Du hast ihn mit Geduld begleitet und erste Reflexionsräume geöffnet.";
   } else if (ri <= 3) {
-    summary = "Murat bleibt ambivalent – er schwankt zwischen Eigenständigkeit und starren Vorgaben.";
-    consequence = "Deine Interventionen waren teils förderlich, teils zu konfrontativ.";
+    summary =
+      "Murat bleibt ambivalent – er schwankt zwischen Eigenständigkeit und starren Vorgaben.";
+    consequence =
+      "Deine Interventionen waren teils förderlich, teils zu konfrontativ.";
   } else if (ri <= 6) {
     summary = "Murat zieht sich stärker in rigide Familiennarrative zurück.";
-    consequence = "Zu viel Druck oder Konfrontation haben die Gesprächsbasis geschwächt.";
+    consequence =
+      "Zu viel Druck oder Konfrontation haben die Gesprächsbasis geschwächt.";
   } else {
     summary = "Murat verfestigt rigide und radikale Deutungsmuster.";
-    consequence = "Eine zu harte Herangehensweise hat Distanz statt Nähe geschaffen.";
+    consequence =
+      "Eine zu harte Herangehensweise hat Distanz statt Nähe geschaffen.";
   }
 
   const evaluation = `
@@ -125,11 +132,15 @@ function endGame() {
 
 // Helferfunktion: Array mischen
 function shuffle(array) {
-  let currentIndex = array.length, randomIndex;
+  let currentIndex = array.length,
+    randomIndex;
   while (currentIndex !== 0) {
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex--;
-    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
   }
   return array;
 }

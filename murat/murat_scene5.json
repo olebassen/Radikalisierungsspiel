@@ -1,101 +1,111 @@
 {
-  "title": "Schule und Zukunftspläne",
+  "title": "Onlinekontakte – Faszination",
   "text": {
-    "Z1": "Murat spricht interessiert über die Schule. Er denkt über Ausbildungsmöglichkeiten nach, wirkt offen für verschiedene Wege.",
-    "Z2": "Murat zeigt Ambivalenz: Er möchte Erfolg, hat aber Angst, den Erwartungen seiner Familie nicht zu genügen.",
-    "Z3": "Murat schwankt zwischen der Betonung von Pflicht und dem Wunsch, selbst zu entscheiden, welchen Beruf er ergreifen will.",
-    "Z4": "Murat wirkt abweisend. Er sagt nur, dass er 'machen wird, was die Eltern wollen'.",
-    "Z5": "Murat wiederholt die Aussage seines Vaters: 'Alles andere als der vorgegebene Weg ist Verrat.'"
+    "Z1": "Die Lehrer berichten, dass Murat ruhiger wirkt, aber viel Zeit am Handy verbringt. In der Beratung sagt er: 'Ich schau mir manchmal Videos an… manche sind echt spannend.' Er klingt neugierig, aber nicht festgelegt. Es wirkt, als teste er, wie du auf seine Offenheit reagierst.",
+    "Z2": "Murat wirkt unsicher, sein Blick wandert zwischen dir und dem Boden. Er sagt: 'Die Videos… die sind stark. Aber irgendwie macht’s mir auch Angst.' Seine Stimme schwankt, als ob er die Wirkung selbst noch nicht richtig einordnen kann.",
+    "Z3": "Murat lehnt sich nach vorne, spricht mit leiser, eindringlicher Stimme: 'Die reden von Wahrheit, von Mut. Aber manchmal frag ich mich, ob das alles stimmt.' Seine Hände zittern leicht, während er seine Worte fast flüstert.",
+    "Z4": "Die Eltern berichten, dass Murat viel Zeit allein im Zimmer verbringt. Er sagt im Gespräch scharf: 'Die Videos zeigen, was hier keiner sehen will. Alle anderen lügen.' Seine Stimme klingt überzeugt, seine Körpersprache abweisend.",
+    "Z5": "Murat kommt mit flackerndem Blick in die Sitzung. Er sagt laut: 'Nur die Videos sagen die Wahrheit! Ihr alle werdet es eines Tages sehen!' Er wirkt erregt, seine Stimme aggressiv, als wolle er dich provozieren."
   },
   "options": {
     "Z1": [
       {
-        "label": "Seine Offenheit für verschiedene Wege bestärken",
+        "label": "Du fragst, was ihn an den Videos fasziniert und welche Themen ihn besonders ansprechen.",
         "effect": -2,
-        "feedback": "Murat fühlt sich ermutigt, über Alternativen nachzudenken."
+        "feedback": "Murat denkt nach: 'Die reden von Mut… das find ich spannend.'"
       },
       {
-        "label": "Direkt vorschlagen, einen bestimmten Beruf zu wählen",
-        "effect": 1,
-        "feedback": "Murat fühlt sich gedrängt und reagiert zurückhaltender."
+        "label": "Du bleibst neutral und reagierst kaum.",
+        "effect": 0,
+        "feedback": "Murat schaut dich kurz an, redet dann nicht weiter."
       },
       {
-        "label": "Nachfragen, was ihn an den verschiedenen Möglichkeiten reizt",
-        "effect": -1,
-        "feedback": "Murat reflektiert genauer, was ihn wirklich interessiert."
+        "label": "Du sagst, er solle sofort aufhören, solche Inhalte anzuschauen.",
+        "effect": 2,
+        "feedback": "Murat zieht die Stirn kraus: 'Genau das dachte ich mir!'"
       }
     ],
     "Z2": [
       {
-        "label": "Seine Angst benennen und entlasten",
+        "label": "Du anerkennst seine Ambivalenz und sagst, dass es normal ist, wenn Faszination und Angst nebeneinanderstehen.",
         "effect": -1,
-        "feedback": "Murat merkt, dass seine Sorgen verstanden werden."
+        "feedback": "Murat nickt leicht: 'Ja, das macht mich verrückt.'"
       },
       {
-        "label": "Auf die Erwartungen der Familie fokussieren",
-        "effect": 2,
-        "feedback": "Murat fühlt sich noch stärker eingeengt."
+        "label": "Du fragst nach, in welchen Momenten die Angst besonders stark wird.",
+        "effect": -2,
+        "feedback": "Murat überlegt: 'Nachts, wenn ich allein bin… dann fühlt es sich unheimlich an.'"
       },
       {
-        "label": "Nachfragen, was für ihn selbst Erfolg bedeutet",
-        "effect": -1,
-        "feedback": "Murat entwickelt vorsichtig eine eigene Definition."
-      },
-      {
-        "label": "Thema wechseln",
+        "label": "Du bleibst still und wartest.",
         "effect": 0,
-        "feedback": "Das Gespräch bleibt oberflächlich, aber Murat bleibt in Kontakt."
+        "feedback": "Murat schaut dich nervös an, sagt aber nichts mehr."
+      },
+      {
+        "label": "Du erklärst scharf, dass diese Videos nur Propaganda sind.",
+        "effect": 1,
+        "feedback": "Murat schaut dich misstrauisch an: 'Woher willst du das wissen?'"
       }
     ],
     "Z3": [
       {
-        "label": "Seinen Wunsch nach Eigenständigkeit anerkennen",
+        "label": "Du lobst, dass er den Mut hat, auch seine Zweifel anzusprechen.",
         "effect": -2,
-        "feedback": "Murat fühlt sich ernst genommen und denkt weiter über Alternativen nach."
+        "feedback": "Murat wirkt erleichtert: 'Das sagt sonst keiner…'"
       },
       {
-        "label": "Die familiären Vorgaben direkt kritisieren",
-        "effect": 2,
-        "feedback": "Murat verteidigt die Eltern und verschließt sich."
-      },
-      {
-        "label": "Vorsichtig fragen, welche Entscheidung er gerne selbst treffen würde",
+        "label": "Du fragst, wann er die Zweifel am stärksten spürt.",
         "effect": -1,
-        "feedback": "Murat äußert erstmals eine eigene Idee."
+        "feedback": "Murat überlegt: 'Wenn ich die Kommentare lese… da bin ich unsicher.'"
+      },
+      {
+        "label": "Du bleibst neutral und sagst nichts.",
+        "effect": 0,
+        "feedback": "Murat wirkt enttäuscht und zieht sich zurück."
+      },
+      {
+        "label": "Du kritisierst direkt: Er soll endlich einsehen, dass diese Inhalte gefährlich sind.",
+        "effect": 2,
+        "feedback": "Murat wird wütend: 'Ihr lügt genauso!'"
       }
     ],
     "Z4": [
       {
-        "label": "Sanft nach seinen eigenen Interessen fragen",
+        "label": "Du fragst, was er mit 'Lügen' genau meint und welche Erfahrungen ihn zu dieser Einschätzung bringen.",
+        "effect": -2,
+        "feedback": "Murat schaut dich prüfend an: 'Alle sagen was anderes… aber die Videos klingen echt.'"
+      },
+      {
+        "label": "Du anerkennst, dass er nach Wahrheit sucht, auch wenn die Quellen fragwürdig sind.",
         "effect": -1,
-        "feedback": "Murat überlegt und erwähnt ein Hobby."
+        "feedback": "Murat sagt: 'Ja, ich will einfach wissen, was echt ist.'"
       },
       {
-        "label": "Betonen, dass die Eltern es sicher gut meinen",
-        "effect": 1,
-        "feedback": "Murat sieht keinen Grund, weiterzureden."
-      },
-      {
-        "label": "Neutrales Smalltalk-Thema zur Schule beginnen",
+        "label": "Du hörst still zu und unterbrichst nicht.",
         "effect": 0,
-        "feedback": "Murat bleibt zurückhaltend, doch das Gespräch geht weiter."
+        "feedback": "Murat redet abgehackt weiter, wirkt angespannt."
+      },
+      {
+        "label": "Du sagst spöttisch, dass er alles glaubt, was er online sieht.",
+        "effect": 1,
+        "feedback": "Murat verengt die Augen: 'So leichtgläubig bin ich nicht!'"
       }
     ],
     "Z5": [
       {
-        "label": "Nachfragen, was er selbst über seine Zukunft denkt",
+        "label": "Du gehst direkt auf seine Wut ein und fragst, warum er so überzeugt ist, dass nur die Videos die Wahrheit zeigen.",
         "effect": -1,
-        "feedback": "Murat zögert, deutet aber an, dass er nicht nur den Vorgaben folgen möchte."
+        "feedback": "Murat zischt: 'Weil sie die Dinge sagen, die sonst keiner sagt.'"
       },
       {
-        "label": "Die Haltung seines Vaters kritisieren",
-        "effect": 2,
-        "feedback": "Murat verteidigt die Vorgaben vehementer."
-      },
-      {
-        "label": "Geduldig zuhören und Raum lassen",
+        "label": "Du bleibst ruhig und schweigst, bis er sich beruhigt.",
         "effect": 0,
-        "feedback": "Murat wiederholt die Worte, merkt aber, dass du nicht drängst."
+        "feedback": "Murat schaut dich an, atmet schwer, redet aber nicht weiter."
+      },
+      {
+        "label": "Du sagst, dass er einer gefährlichen Ideologie folgt und sofort aufhören muss.",
+        "effect": 2,
+        "feedback": "Murat schreit: 'Genau, ihr wollt uns alle klein halten!'"
       }
     ]
   }

@@ -1,96 +1,101 @@
 {
-  "title": "Weichenstellung",
+  "title": "Ausstiegsperspektiven – Rollenmodelle",
   "text": {
-    "Z1": "Murat spricht offen über seine Zukunft. Er überlegt, wie er Familie, Religion und eigene Wünsche verbinden kann.",
-    "Z2": "Murat wirkt vorsichtig hoffnungsvoll. Er zeigt, dass er Wege sucht, Konflikte friedlich zu lösen.",
-    "Z3": "Murat schwankt zwischen Rückzug in alte Muster und dem Versuch, eigene Ideen zu formulieren.",
-    "Z4": "Murat sagt knapp, dass alles egal sei – er macht, was verlangt wird.",
-    "Z5": "Murat wiederholt starre Parolen: 'Nur Gehorsam bringt Ehre, alles andere zerstört uns.'"
+    "Z1": "Murat wirkt nachdenklich. Er sagt: 'Manchmal denk ich, es gibt Leute, die schaffen’s trotzdem, auch wenn alle gegen sie sind.' Seine Stimme klingt leise, aber hoffnungsvoll.",
+    "Z2": "Murat erzählt: 'Ein älterer Cousin von mir hat’s geschafft, eine Ausbildung zu machen. Aber die Prediger sagen, das bringt nichts.' Er klingt hin- und hergerissen.",
+    "Z3": "Murat spricht mit Spannung: 'Manche in meiner Schule sagen, ich soll nicht so werden wie die im Internet. Aber online sagen sie, die anderen sind Verräter.' Seine Worte wirken hart, aber voller Unsicherheit.",
+    "Z4": "Die Eltern berichten, dass Murat fast nur noch über 'Brüder' im Netz redet. In der Beratung sagt er scharf: 'Die sind die Einzigen, die echte Stärke haben.' Er wirkt provozierend, aber auch suchend.",
+    "Z5": "Murat sagt laut: 'Nur die Brüder online sind echte Vorbilder. Alle anderen sind Heuchler!' Er wirkt überzeugt, doch in seiner Stimme liegt eine Spur von Zweifel."
   },
   "options": {
     "Z1": [
       {
-        "label": "Seine Offenheit bestärken",
+        "label": "Du fragst, welche Eigenschaften diese Menschen haben, die er bewundert.",
         "effect": -2,
-        "feedback": "Murat fühlt sich unterstützt und wagt mehr Eigenständigkeit."
+        "feedback": "Murat sagt: 'Die geben nicht auf. Das find ich stark.'"
       },
       {
-        "label": "Ihm konkrete Ratschläge geben",
-        "effect": 1,
-        "feedback": "Murat fühlt sich gedrängt, bleibt aber noch offen."
-      },
-      {
-        "label": "Fragen, wie er Familie und Freiheit verbinden möchte",
+        "label": "Du bestätigst, dass es Mut macht, wenn man Vorbilder findet, die Widerstände überwinden.",
         "effect": -1,
-        "feedback": "Murat beginnt, eine eigene Balance zu formulieren."
+        "feedback": "Murat nickt leicht: 'Ja, genau.'"
+      },
+      {
+        "label": "Du bleibst neutral.",
+        "effect": 0,
+        "feedback": "Murat schaut zur Seite, ohne mehr zu sagen."
       }
     ],
     "Z2": [
       {
-        "label": "Seine Hoffnung anerkennen",
-        "effect": -1,
-        "feedback": "Murat fühlt sich verstanden und hält an seinen positiven Ansätzen fest."
-      },
-      {
-        "label": "Betonen, dass er stark bleiben muss",
-        "effect": 1,
-        "feedback": "Murat wirkt verunsichert, ob er Schwäche zeigen darf."
-      },
-      {
-        "label": "Nach konkreten nächsten Schritten fragen",
+        "label": "Du fragst, was er an dem Weg seines Cousins spannend findet.",
         "effect": -2,
-        "feedback": "Murat entwickelt eine kleine, realistische Idee für die Zukunft."
+        "feedback": "Murat sagt: 'Der hat’s einfach durchgezogen… das beeindruckt mich.'"
+      },
+      {
+        "label": "Du sagst, dass er sich entscheiden müsse, wem er glaubt: den Predigern oder seinem Cousin.",
+        "effect": 2,
+        "feedback": "Murat sagt scharf: 'Genau, ihr wollt mich spalten.'"
+      },
+      {
+        "label": "Du anerkennst, dass widersprüchliche Stimmen verwirrend sein können.",
+        "effect": -1,
+        "feedback": "Murat wirkt nachdenklich: 'Ja, das ist es.'"
       }
     ],
     "Z3": [
       {
-        "label": "Seine Ambivalenz akzeptieren",
-        "effect": -1,
-        "feedback": "Murat merkt, dass er nicht sofort eine klare Entscheidung treffen muss."
+        "label": "Du fragst, ob er Menschen kennt, die beides verbinden: Glauben und einen Platz hier in der Gesellschaft.",
+        "effect": -2,
+        "feedback": "Murat überlegt: 'Vielleicht ein Nachbar von uns… der betet auch, aber arbeitet normal.'"
       },
       {
-        "label": "Seine Unsicherheit kritisieren",
-        "effect": 2,
-        "feedback": "Murat geht in die Verteidigung und zieht sich zurück."
+        "label": "Du sagst, dass er endlich aufhören müsse, den Predigern zuzuhören.",
+        "effect": 1,
+        "feedback": "Murat wirkt trotzig: 'Die sind ehrlicher als ihr!'"
       },
       {
-        "label": "Nachfragen, welche seiner Ideen ihm am wichtigsten ist",
-        "effect": -1,
-        "feedback": "Murat konzentriert sich auf einen eigenen Gedanken."
+        "label": "Du bleibst still und hörst nur zu.",
+        "effect": 0,
+        "feedback": "Murat schaut auf seine Hände und sagt nichts mehr."
       }
     ],
     "Z4": [
       {
-        "label": "Seine Resignation vorsichtig ansprechen",
+        "label": "Du fragst, welche Stärke er bei den Online-Brüdern sieht und ob er solche Stärke auch schon woanders erlebt hat.",
         "effect": -1,
-        "feedback": "Murat gibt zu, dass er sich manchmal ohnmächtig fühlt."
+        "feedback": "Murat überlegt: 'Vielleicht beim Training… da fühlt man sich stark.'"
       },
       {
-        "label": "Sein Gehorsam bestärken",
-        "effect": 1,
-        "feedback": "Murat bestätigt die Haltung, wirkt aber unzufrieden."
-      },
-      {
-        "label": "Ein neutrales Thema anschneiden",
+        "label": "Du hörst schweigend zu.",
         "effect": 0,
-        "feedback": "Murat bleibt verschlossen, aber die Beziehung reißt nicht ab."
+        "feedback": "Murat verschränkt die Arme und schaut dich an."
+      },
+      {
+        "label": "Du sagst spöttisch, dass er naiv ist, wenn er das für echte Stärke hält.",
+        "effect": 2,
+        "feedback": "Murat faucht: 'Ihr lacht uns alle aus!'"
+      },
+      {
+        "label": "Du fragst, ob er auch Menschen kennt, die stark wirken, ohne Gewalt oder Drohungen.",
+        "effect": -2,
+        "feedback": "Murat denkt nach: 'Hm… vielleicht mein Onkel.'"
       }
     ],
     "Z5": [
       {
-        "label": "Sanft fragen, ob er wirklich nur Gehorsam kennt",
+        "label": "Du fragst, ob er Menschen außerhalb des Internets kennt, die für ihn echte Vorbilder sein könnten.",
         "effect": -1,
-        "feedback": "Murat stockt und wirkt kurz nachdenklich."
+        "feedback": "Murat sagt leise: 'Vielleicht… aber nicht viele.'"
       },
       {
-        "label": "Die Parolen direkt widerlegen",
+        "label": "Du sagst, dass alle seine Vorbilder falsch sind.",
         "effect": 2,
-        "feedback": "Murat beharrt stärker auf den starren Mustern."
+        "feedback": "Murat schreit: 'Ihr habt keine Ahnung!'"
       },
       {
-        "label": "Geduldig zuhören, ohne Druck aufzubauen",
+        "label": "Du bleibst neutral.",
         "effect": 0,
-        "feedback": "Murat wiederholt die Parolen, doch er spürt deine Ruhe."
+        "feedback": "Murat schaut dich misstrauisch an und schweigt."
       }
     ]
   }

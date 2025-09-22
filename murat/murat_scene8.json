@@ -1,101 +1,106 @@
 {
-  "title": "Digitale Räume und Narrative",
+  "title": "Diskriminierung – Zugehörigkeit",
   "text": {
-    "Z1": "Murat erzählt, dass er in Foren unterwegs ist, wo kontrovers diskutiert wird. Er wirkt neugierig und probiert verschiedene Meinungen aus.",
-    "Z2": "Murat erwähnt Videos, die ihn verunsichern. Er ist unsicher, ob er den Inhalten vertrauen kann.",
-    "Z3": "Murat schwankt zwischen Faszination für klare Weltbilder und ersten Zweifeln an deren Glaubwürdigkeit.",
-    "Z4": "Murat sagt knapp, dass er sich online endlich verstanden fühlt. Kritik daran weist er zurück.",
-    "Z5": "Murat wiederholt Narrative aus Online-Videos: 'Die Welt ist gegen uns – nur wir kennen die Wahrheit.'"
+    "Z1": "Murat erzählt leise: 'Manchmal denk ich, ich gehöre nirgends richtig dazu.' Gleichzeitig sagt er, dass er in seiner Fußballmannschaft Freunde hat. Er wirkt nachdenklich, aber offen für das Gespräch.",
+    "Z2": "Murat sitzt mit verschränkten Armen da. 'Die Leute wollen mich nicht wirklich dabei haben', sagt er. Dann fügt er hinzu: 'Aber meine Cousins akzeptieren mich.' Er klingt verletzt, aber auch erleichtert, wenigstens irgendwo Zugehörigkeit zu finden.",
+    "Z3": "Murat sagt mit fester Stimme: 'Hier werd ich nie dazugehören. Aber online… da gibt’s Brüder, die verstehen mich.' Er wirkt überzeugt, aber seine Augen verraten Unsicherheit.",
+    "Z4": "Die Eltern berichten, dass Murat sich stärker von ihnen abgrenzt. In der Beratung sagt er scharf: 'Ihr wollt nicht, dass ich dazugehöre. Online fühl ich mich stärker.' Er wirkt wütend, aber auch suchend.",
+    "Z5": "Murat sagt laut: 'Nur die Brüder im Internet sind meine Familie. Alle anderen stoßen mich weg.' Seine Stimme ist voller Überzeugung, er wirkt angespannt, aber in seinen Augen liegt ein Rest Zweifel."
   },
   "options": {
     "Z1": [
       {
-        "label": "Nachfragen, was ihn an den Diskussionen interessiert",
+        "label": "Du fragst, was genau ihn in seiner Fußballmannschaft das Gefühl gibt, dazuzugehören.",
+        "effect": -2,
+        "feedback": "Murat lächelt kurz: 'Da zählt nur, ob du den Ball triffst.'"
+      },
+      {
+        "label": "Du sagst, dass es völlig normal ist, manchmal das Gefühl zu haben, nirgends richtig dazuzugehören.",
         "effect": -1,
-        "feedback": "Murat reflektiert, dass er Vielfalt spannend findet."
+        "feedback": "Murat nickt nachdenklich: 'Hm, vielleicht.'"
       },
       {
-        "label": "Die Foren direkt kritisieren",
-        "effect": 2,
-        "feedback": "Murat verteidigt sie und verschließt sich."
-      },
-      {
-        "label": "Neutral fragen: 'Gibt es dort auch andere Sichtweisen?'",
+        "label": "Du bleibst neutral und hörst zu.",
         "effect": 0,
-        "feedback": "Murat nickt, geht aber nicht näher darauf ein."
+        "feedback": "Murat starrt auf den Boden, ohne weiterzureden."
       }
     ],
     "Z2": [
       {
-        "label": "Seine Verunsicherung anerkennen",
+        "label": "Du anerkennst, dass es schmerzhaft sein kann, wenn man das Gefühl hat, ausgeschlossen zu werden.",
         "effect": -1,
-        "feedback": "Murat merkt, dass Zweifel erlaubt sind."
+        "feedback": "Murat nickt knapp: 'Ja, das ist es.'"
       },
       {
-        "label": "Die Videos als gefährlich bezeichnen",
-        "effect": 2,
-        "feedback": "Murat blockt und verteidigt die Inhalte."
-      },
-      {
-        "label": "Fragen, wie er entscheidet, was glaubwürdig ist",
+        "label": "Du fragst, was er an der Zugehörigkeit bei seinen Cousins besonders schätzt.",
         "effect": -2,
-        "feedback": "Murat denkt nach und überlegt, welche Kriterien er nutzt."
+        "feedback": "Murat sagt: 'Die nehmen mich so, wie ich bin.'"
       },
       {
-        "label": "Das Thema wechseln",
+        "label": "Du sagst, dass er sich das wahrscheinlich nur einbildet.",
+        "effect": 2,
+        "feedback": "Murat schaut dich wütend an: 'Genau so reden die Lehrer!'"
+      },
+      {
+        "label": "Du hörst zu, ohne zu reagieren.",
         "effect": 0,
-        "feedback": "Murat bleibt distanziert, aber nicht abweisend."
+        "feedback": "Murat wirkt enttäuscht und lehnt sich zurück."
       }
     ],
     "Z3": [
       {
-        "label": "Seine Zweifel hervorheben",
-        "effect": -1,
-        "feedback": "Murat spürt, dass er eigene Gedanken entwickeln darf."
+        "label": "Du fragst, was er im Kontakt mit den 'Brüdern online' bekommt, was er hier nicht findet.",
+        "effect": -2,
+        "feedback": "Murat überlegt: 'Die hören mir zu… irgendwie.'"
       },
       {
-        "label": "Die klaren Weltbilder abwerten",
-        "effect": 2,
-        "feedback": "Murat verteidigt sie und fühlt sich angegriffen."
+        "label": "Du sagst, dass er sich irrt, wenn er denkt, hier gehöre er nie dazu.",
+        "effect": 1,
+        "feedback": "Murat presst die Lippen zusammen: 'Ihr versteht’s nicht.'"
       },
       {
-        "label": "Fragen, ob er unterschiedliche Quellen nutzt",
+        "label": "Du anerkennst, dass er sich nach Zugehörigkeit sehnt, und fragst, wo er das offline schon erlebt hat.",
         "effect": -1,
-        "feedback": "Murat nennt vorsichtig ein alternatives Medium."
+        "feedback": "Murat sagt leise: 'Vielleicht im Verein… früher mal.'"
       }
     ],
     "Z4": [
       {
-        "label": "Fragen, was ihn am meisten verstanden fühlen lässt",
-        "effect": -1,
-        "feedback": "Murat beschreibt Aspekte, die ihm Halt geben."
+        "label": "Du gehst auf seinen Wunsch nach Stärke ein und fragst, wann er sich im Offline-Leben stark gefühlt hat.",
+        "effect": -2,
+        "feedback": "Murat sagt nach kurzem Zögern: 'Beim Sport… da schon.'"
       },
       {
-        "label": "Betonen, dass Online-Gemeinschaften gefährlich sind",
-        "effect": 2,
-        "feedback": "Murat blockt ab und verteidigt sie stärker."
-      },
-      {
-        "label": "Neutral zuhören und später zurückkehren",
+        "label": "Du hörst schweigend zu.",
         "effect": 0,
-        "feedback": "Murat bleibt verschlossen, doch das Gespräch bricht nicht ab."
+        "feedback": "Murat schaut dich misstrauisch an, ohne weiterzureden."
+      },
+      {
+        "label": "Du sagst, dass er sich lächerlich macht, wenn er seine Stärke nur online sucht.",
+        "effect": 2,
+        "feedback": "Murat springt fast auf: 'Ihr lacht über mich!'"
+      },
+      {
+        "label": "Du erkennst an, dass er sich nach Zugehörigkeit sehnt, auch wenn er es wütend ausdrückt.",
+        "effect": -1,
+        "feedback": "Murat atmet hörbar aus, bleibt aber angespannt."
       }
     ],
     "Z5": [
       {
-        "label": "Sanft fragen, ob er wirklich glaubt, dass alle gegen ihn sind",
+        "label": "Du fragst, ob es auch offline Situationen gibt, in denen er sich für einen Moment zugehörig fühlt.",
         "effect": -1,
-        "feedback": "Murat wirkt kurz nachdenklich."
+        "feedback": "Murat sagt nachdenklich: 'Vielleicht… aber selten.'"
       },
       {
-        "label": "Die Narrative direkt widerlegen",
-        "effect": 2,
-        "feedback": "Murat beharrt stärker auf den Parolen."
-      },
-      {
-        "label": "Geduldig zuhören und spiegeln",
+        "label": "Du bleibst still und beobachtest ihn.",
         "effect": 0,
-        "feedback": "Murat wiederholt sich, merkt aber deine Ruhe."
+        "feedback": "Murat wirkt gereizt, sagt aber nichts mehr."
+      },
+      {
+        "label": "Du wirfst ihm vor, dass er sich in etwas hineinsteigert, was gar nicht real ist.",
+        "effect": 2,
+        "feedback": "Murat schreit: 'Die sind realer als ihr!'"
       }
     ]
   }

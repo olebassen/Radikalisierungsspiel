@@ -1,106 +1,121 @@
 {
-  "title": "Peers und Online-Räume",
+  "title": "Werte & Identität – Orientierung",
   "text": {
-    "Z1": "Murat erzählt von einem Freund, mit dem er viel über Religion spricht. Er betont, dass die Gespräche ihn interessieren, aber auch verunsichern.",
-    "Z2": "Murat erwähnt beiläufig, dass er Videos schaut, die ihn 'zum Nachdenken bringen'. Er wirkt neugierig, aber zurückhaltend.",
-    "Z3": "Murat schwankt: Einerseits zeigt er Faszination für religiöse YouTuber, andererseits äußert er Zweifel an deren Radikalität.",
-    "Z4": "Murat reagiert knapp. Er deutet an, dass seine Freunde ihm 'die Wahrheit zeigen', ohne Details preiszugeben.",
-    "Z5": "Murat wiederholt starre Narrative aus Online-Videos. Eigene Reflexion ist kaum sichtbar."
+    "Z1": "In den letzten Tagen berichten die Eltern, dass Murat mehr über Religion spricht, aber auch Fragen stellt. Er wirkt nachdenklich und zurückgezogen. Heute sagt er im Gespräch: 'Meine Eltern meinen, sie machen alles richtig. Aber ich bin mir nicht sicher…' Seine Unsicherheit ist spürbar, gleichzeitig scheint er offen, über seine Zweifel zu reden.",
+    "Z2": "Murat sitzt dir gegenüber, die Stirn gerunzelt. Er erzählt von Streit zu Hause, weil seine Eltern manche Regeln lockerer sehen als er. Dann sagt er: 'Die im Internet sagen, nur wer streng ist, ist ein richtiger Muslim. Aber meine Eltern sagen, ich soll es nicht übertreiben.' Seine Stimme klingt hin- und hergerissen.",
+    "Z3": "Murat wirkt unruhig, seine Hände trommeln auf den Tisch. Er sagt: 'Meine Eltern beten falsch. Die haben Angst, was die Nachbarn denken. Aber online sagen die Prediger, dass nur die klare Wahrheit zählt.' Seine Worte klingen scharf, aber es ist zu spüren, dass er selbst noch nach Orientierung sucht.",
+    "Z4": "Die Eltern berichten, dass Murat sie kritisiert und ihnen religiöse Begriffe vorwirft. In der Beratung sagt er abfällig: 'Ihr versteht eh nichts. Meine Eltern sind blind, und ihr wollt, dass ich so werde wie die.' Seine Stimme ist voller Abwehr, er lehnt sich zurück und verschränkt die Arme.",
+    "Z5": "Murat wirkt angespannt und kämpferisch. Er sagt laut: 'Alle hier sind Heuchler. Meine Eltern machen alles falsch, die Lehrer hassen uns – und nur die Brüder online wissen die Wahrheit.' Er spricht mit fester Überzeugung, sein Blick ist hart und herausfordernd."
   },
   "options": {
     "Z1": [
       {
-        "label": "Nachfragen, was ihn an den Gesprächen interessiert",
+        "label": "Wertearbeit: Du fragst, was ihm am Glauben persönlich wichtig ist und welche Bedeutung das für ihn hat.",
+        "effect": -2,
+        "feedback": "Murat denkt nach und sagt: 'Dass man ehrlich ist… und dass man für andere da ist.'"
+      },
+      {
+        "label": "Zweifel anerkennen: Du sagst, dass es normal ist, Fragen zu haben, gerade in seinem Alter.",
         "effect": -1,
-        "feedback": "Murat beginnt zu reflektieren, warum ihn diese Themen bewegen."
+        "feedback": "Murat nickt leicht: 'Ja, aber die anderen tun so, als wüssten sie alles.'"
       },
       {
-        "label": "Den Freund kritisch bewerten",
-        "effect": 2,
-        "feedback": "Murat verteidigt den Freund und verschließt sich."
-      },
-      {
-        "label": "Neutral fragen: 'Wie fühlst du dich danach?'",
+        "label": "Schweigen aushalten: Du reagierst nicht sofort und lässt ihn selbst weiterreden.",
         "effect": 0,
-        "feedback": "Murat bleibt vorsichtig, deutet aber Unsicherheit an."
+        "feedback": "Murat schaut auf den Boden, überlegt, ob er noch mehr sagen soll."
+      },
+      {
+        "label": "Autoritativ reagieren: Du sagst, dass er sich einfach an seine Eltern halten soll, weil die es besser wissen.",
+        "effect": 2,
+        "feedback": "Murat verzieht das Gesicht: 'Genau, ihr seid alle wie meine Eltern.'"
       }
     ],
     "Z2": [
       {
-        "label": "Offen fragen, welche Videos er meint",
+        "label": "Ambivalenzarbeit: Du fragst, was er an den Aussagen seiner Eltern nachvollziehen kann und was ihn an den Predigern überzeugt.",
+        "effect": -2,
+        "feedback": "Murat überlegt und sagt: 'Manchmal denke ich schon, dass meine Eltern es gut meinen.'"
+      },
+      {
+        "label": "Validierung: Du erkennst an, dass es schwierig ist, wenn wichtige Personen Gegensätzliches fordern.",
         "effect": -1,
-        "feedback": "Murat beschreibt die Inhalte und zeigt erste Distanz."
+        "feedback": "Murat nickt zustimmend: 'Ja, das macht mich fertig.'"
       },
       {
-        "label": "Die Videos direkt als gefährlich bezeichnen",
-        "effect": 2,
-        "feedback": "Murat blockt ab und sagt, man solle ihn nicht bevormunden."
-      },
-      {
-        "label": "Vorsichtig nach seiner Meinung zu den Videos fragen",
-        "effect": -1,
-        "feedback": "Murat versucht, seine Eindrücke in eigenen Worten zu beschreiben."
-      },
-      {
-        "label": "Das Thema wechseln",
+        "label": "Neutral bleiben: Du hörst zu, ohne nachzufragen.",
         "effect": 0,
-        "feedback": "Murat bleibt im Gespräch, doch das Thema bleibt ungeklärt."
+        "feedback": "Murat zieht sich leicht zurück und redet nicht weiter."
+      },
+      {
+        "label": "Parteinahme: Du stellst dich sofort auf die Seite der Eltern und sagst, dass er ihren Rat befolgen soll.",
+        "effect": 1,
+        "feedback": "Murat schüttelt den Kopf: 'Ihr versteht es nicht.'"
       }
     ],
     "Z3": [
       {
-        "label": "Seine Zweifel anerkennen",
+        "label": "Wertearbeit: Du fragst, ob er Situationen kennt, in denen Religion für ihn Trost oder Sicherheit gegeben hat.",
         "effect": -2,
-        "feedback": "Murat spürt, dass er seine Ambivalenz zeigen darf."
+        "feedback": "Murat denkt kurz nach: 'Ja, beim Beten… manchmal fühl ich mich ruhiger.'"
       },
       {
-        "label": "Die YouTuber abwerten",
-        "effect": 2,
-        "feedback": "Murat verteidigt sie und verliert Vertrauen."
-      },
-      {
-        "label": "Nach Beispielen aus den Videos fragen",
+        "label": "Ambivalenzarbeit: Du sprichst an, dass er einerseits von 'klarer Wahrheit' spricht, andererseits aber auch Zweifel zeigt.",
         "effect": -1,
-        "feedback": "Murat zitiert Inhalte, erkennt aber auch Übertreibungen."
+        "feedback": "Murat antwortet knapp: 'Vielleicht… ja.'"
+      },
+      {
+        "label": "Schweigen aushalten: Du wartest ab, ob er von sich aus weiterredet.",
+        "effect": 0,
+        "feedback": "Murat schaut dich an, bleibt aber stumm."
+      },
+      {
+        "label": "Prediger abwerten: Du sagst, dass die Online-Prediger keine Ahnung haben und nur manipulieren wollen.",
+        "effect": 2,
+        "feedback": "Murat wird wütend: 'Die sind ehrlicher als ihr alle!'"
       }
     ],
     "Z4": [
       {
-        "label": "Vorsichtig fragen, was er mit 'Wahrheit' meint",
+        "label": "Ambivalenzarbeit: Du fragst, ob er auch Momente kennt, in denen er mit seinen Eltern übereinstimmt.",
+        "effect": -2,
+        "feedback": "Murat zögert: 'Manchmal… aber selten.'"
+      },
+      {
+        "label": "Gefühle anerkennen: Du sagst, dass es schwer klingt, zwischen Eltern und anderen Autoritäten zu stehen.",
         "effect": -1,
-        "feedback": "Murat erklärt sich etwas und zeigt Nuancen."
+        "feedback": "Murat schaut dich prüfend an, bleibt aber im Gespräch."
       },
       {
-        "label": "Die Freunde als gefährlichen Einfluss darstellen",
-        "effect": 2,
-        "feedback": "Murat fühlt sich angegriffen und verteidigt sie."
-      },
-      {
-        "label": "Neutral zuhören und später zurückkommen",
+        "label": "Neutral bleiben: Du hörst schweigend zu.",
         "effect": 0,
-        "feedback": "Das Thema bleibt oberflächlich, doch der Kontakt reißt nicht ab."
+        "feedback": "Murat verschränkt die Arme und wirkt noch distanzierter."
       },
       {
-        "label": "Nach positiven Kontakten außerhalb der Gruppe fragen",
-        "effect": -1,
-        "feedback": "Murat erwähnt eine andere Freundschaft, die weniger belastend wirkt."
+        "label": "Eltern verteidigen: Du sagst scharf, dass er mehr Respekt zeigen muss.",
+        "effect": 2,
+        "feedback": "Murat faucht: 'Ihr seid alle auf ihrer Seite!'"
       }
     ],
     "Z5": [
       {
-        "label": "Geduldig zuhören und gelegentlich nachfragen",
-        "effect": -1,
-        "feedback": "Murat bemerkt, dass du ihm Raum gibst, ohne sofort zu urteilen."
+        "label": "Wertearbeit: Du fragst, welche Werte für ihn die wichtigsten sind – unabhängig von dem, was andere sagen.",
+        "effect": -2,
+        "feedback": "Murat überlegt kurz: 'Respekt… Stärke… das zählt.'"
       },
       {
-        "label": "Die Narrative direkt widerlegen",
+        "label": "Ambivalenzarbeit: Du fragst, ob er manchmal doch erlebt, dass Menschen ehrlich und fair zu ihm sind.",
+        "effect": -1,
+        "feedback": "Murat brummt: 'Selten… aber vielleicht.'"
+      },
+      {
+        "label": "Neutral bleiben: Du nickst, ohne zu reagieren.",
+        "effect": 0,
+        "feedback": "Murat verschränkt die Arme fester und schaut dich misstrauisch an."
+      },
+      {
+        "label": "Frontal kritisieren: Du sagst, dass seine Eltern die Wahrheit kennen und er sich irrt.",
         "effect": 2,
-        "feedback": "Murat blockt ab und verstärkt die Parolen."
-      },
-      {
-        "label": "Fragen, ob er auch andere Perspektiven kennt",
-        "effect": -1,
-        "feedback": "Murat zeigt zögerlich, dass er manche Gegenargumente kennt."
+        "feedback": "Murat wird laut: 'Ihr habt keine Ahnung!'"
       }
     ]
   }

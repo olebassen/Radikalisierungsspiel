@@ -1,101 +1,111 @@
 {
-  "title": "Familienkonflikte und Identität",
+  "title": "Werte & Identität – Ambivalenz",
   "text": {
-    "Z1": "Murat berichtet offen, dass er mit den Erwartungen seiner Eltern hadert. Er möchte mehr Freiheit, ohne die Familie zu verlieren.",
-    "Z2": "Murat deutet an, dass er sich eingeengt fühlt, formuliert es aber vorsichtig, um nicht respektlos zu wirken.",
-    "Z3": "Murat schwankt zwischen Gehorsam und dem Wunsch, selbst Entscheidungen zu treffen.",
-    "Z4": "Murat spricht knapp. Er sagt nur, dass er 'seine Pflicht' erfüllen muss.",
-    "Z5": "Murat wiederholt die Worte seines Vaters: 'Wer zweifelt, verrät die Familie.' Eigene Gedanken zeigt er nicht."
+    "Z1": "Die Eltern berichten, dass Murat sich zurückgezogen hat, aber weniger streitet. In der Beratung wirkt er nachdenklich und sagt: 'Manchmal denk ich, meine Eltern haben schon recht… aber online klingt es alles viel klarer.' Er wirkt zerrissen, als würde er selbst zwischen zwei Welten stehen.",
+    "Z2": "Murat sitzt dir gegenüber, schaut auf den Boden und spielt nervös mit seinen Händen. Er sagt: 'Die Prediger sagen, nur strenge Regeln sind richtig. Aber manchmal fühl ich mich bei meinen Eltern sicherer.' Seine Stimme klingt unsicher, als wüsste er nicht, welche Seite er wählen soll.",
+    "Z3": "Murat lehnt sich zurück, redet mit fester Stimme: 'Die Online-Leute haben Argumente. Aber manchmal zweifel ich doch, ob sie recht haben.' Seine Stirn ist gerunzelt, er wirkt angespannt, aber er gibt offen zu, dass er innerlich schwankt.",
+    "Z4": "Die Eltern berichten, dass Murat sie immer häufiger kritisiert. In der Beratung sagt er abwertend: 'Meine Eltern sind blind. Aber wenn ich ehrlich bin… manchmal weiß ich nicht, wem ich glauben soll.' Seine Stimme schwankt zwischen Härte und Unsicherheit.",
+    "Z5": "Murat wirkt kämpferisch, aber auch gehetzt. Er sagt laut: 'Meine Eltern lügen sich selbst an. Nur online gibt es die Wahrheit. Aber… manchmal frag ich mich, ob das alles stimmt.' Trotz der Härte in seiner Stimme blitzt für einen Moment Zweifel auf."
   },
   "options": {
     "Z1": [
       {
-        "label": "Seine Zerrissenheit anerkennen",
-        "effect": -2,
-        "feedback": "Murat fühlt sich verstanden und erlebt, dass beide Seiten Platz haben dürfen."
-      },
-      {
-        "label": "Die Erwartungen der Eltern kritisieren",
-        "effect": 2,
-        "feedback": "Murat geht in die Verteidigung und bricht ab."
-      },
-      {
-        "label": "Neutral nachfragen: 'Was bedeutet Freiheit für dich?'",
+        "label": "Du machst deutlich, dass es normal ist, unterschiedliche Stimmen im Kopf zu haben, wenn Eltern und Prediger Gegensätzliches fordern.",
         "effect": -1,
-        "feedback": "Murat denkt kurz nach und beschreibt erste Vorstellungen."
+        "feedback": "Murat wirkt erleichtert: 'Ja, das zerreißt mich manchmal.'"
+      },
+      {
+        "label": "Du hörst still zu, ohne nachzufragen.",
+        "effect": 0,
+        "feedback": "Murat wirkt unsicher, ob er weitersprechen soll."
+      },
+      {
+        "label": "Du forderst, dass er den Predigern nicht zuhören darf und sich an seine Eltern halten muss.",
+        "effect": 2,
+        "feedback": "Murat schüttelt den Kopf: 'Ihr versteht es nicht.'"
       }
     ],
     "Z2": [
       {
-        "label": "Seine Vorsicht wertschätzen",
-        "effect": -1,
-        "feedback": "Murat fühlt sich respektiert und öffnet sich weiter."
+        "label": "Du fragst, ob er dir Beispiele nennen kann: Wann fühlt er sich bei den Eltern sicher, wann wirken die Prediger überzeugend?",
+        "effect": -2,
+        "feedback": "Murat denkt nach: 'Bei meinen Eltern… wenn wir essen. Online klingt es… stark.'"
       },
       {
-        "label": "Nachfragen, wie er Grenzen wahrnimmt",
+        "label": "Du erkennst an, dass ihn die widersprüchlichen Erwartungen verunsichern.",
         "effect": -1,
-        "feedback": "Murat benennt konkrete Situationen aus dem Alltag."
+        "feedback": "Murat nickt und sagt leise: 'Genau das nervt mich.'"
       },
       {
-        "label": "Ratschläge geben, wie er sich durchsetzen kann",
+        "label": "Du sagst, dass er endlich verstehen müsse, dass die Online-Prediger falsch liegen.",
         "effect": 1,
-        "feedback": "Murat fühlt sich überfordert und zieht sich zurück."
+        "feedback": "Murat zieht die Stirn kraus: 'Ihr seid doch parteiisch.'"
       },
       {
-        "label": "Thema wechseln",
+        "label": "Du bleibst neutral und machst keine Nachfrage.",
         "effect": 0,
-        "feedback": "Murat bleibt ruhig, das Gespräch bleibt jedoch oberflächlich."
+        "feedback": "Murat schaut dich prüfend an, redet aber nicht weiter."
       }
     ],
     "Z3": [
       {
-        "label": "Sein Schwanken normalisieren",
-        "effect": -1,
-        "feedback": "Murat erkennt, dass Ambivalenz erlaubt ist."
-      },
-      {
-        "label": "Die familiären Regeln infrage stellen",
-        "effect": 2,
-        "feedback": "Murat verteidigt die Strenge seiner Eltern."
-      },
-      {
-        "label": "Fragen, welche Entscheidungen er selbst treffen möchte",
+        "label": "Du lobst, dass er seine Zweifel offen ausspricht, obwohl die Prediger absolute Wahrheiten predigen.",
         "effect": -2,
-        "feedback": "Murat nennt konkrete Wünsche und wirkt entlastet."
+        "feedback": "Murat schaut überrascht: 'Noch keiner hat das so gesagt…'"
+      },
+      {
+        "label": "Du hörst aufmerksam zu, aber gehst nicht weiter auf seine Aussage ein.",
+        "effect": 0,
+        "feedback": "Murat wirkt enttäuscht, dass du nichts dazu sagst."
+      },
+      {
+        "label": "Du stellst dich sofort auf die Seite der Eltern und sagst, er solle ihnen glauben.",
+        "effect": 2,
+        "feedback": "Murat schnaubt: 'Genau, immer die Eltern!'"
+      },
+      {
+        "label": "Du fragst genauer nach, wann seine Zweifel besonders stark werden.",
+        "effect": -1,
+        "feedback": "Murat überlegt: 'Nachts… wenn ich allein bin.'"
       }
     ],
     "Z4": [
       {
-        "label": "Behutsam fragen, wie er sich dabei fühlt",
+        "label": "Du sagst, dass es nachvollziehbar klingt, wenn er sich zwischen verschiedenen Wahrheiten gefangen fühlt.",
         "effect": -1,
-        "feedback": "Murat gibt zögerlich zu, dass er manchmal unglücklich ist."
+        "feedback": "Murat nickt kurz, bleibt aber angespannt."
       },
       {
-        "label": "Betonen, dass Pflicht wichtig ist",
-        "effect": 1,
-        "feedback": "Murat fühlt sich bestätigt, aber nicht nähergebracht."
-      },
-      {
-        "label": "Ein neutrales Alltagsgespräch beginnen",
+        "label": "Du hörst schweigend zu, ohne ihn zu unterbrechen.",
         "effect": 0,
-        "feedback": "Das Gespräch bleibt oberflächlich, die Tür bleibt offen."
+        "feedback": "Murat presst die Lippen zusammen und schaut weg."
+      },
+      {
+        "label": "Du fragst, ob es früher Momente gab, in denen er mit seinen Eltern übereinstimmte.",
+        "effect": -2,
+        "feedback": "Murat sagt nach einer Pause: 'Ja… als ich kleiner war.'"
+      },
+      {
+        "label": "Du wirfst ihm vor, dass er respektlos über seine Eltern spricht.",
+        "effect": 1,
+        "feedback": "Murat faucht: 'Ihr seid alle auf ihrer Seite!'"
       }
     ],
     "Z5": [
       {
-        "label": "Geduldig zuhören und nachfragen, was er selbst denkt",
-        "effect": -1,
-        "feedback": "Murat stockt, zeigt aber minimale eigene Gedanken."
+        "label": "Du fragst, ob er sich vorstellen kann, dass beide Seiten – Eltern und Prediger – nur Teile einer Wahrheit haben.",
+        "effect": -2,
+        "feedback": "Murat wirkt nachdenklich: 'Vielleicht… aber schwer zu glauben.'"
       },
       {
-        "label": "Die Worte seines Vaters kritisieren",
+        "label": "Du bleibst neutral und machst keine weiteren Nachfragen.",
+        "effect": 0,
+        "feedback": "Murat zieht die Stirn kraus und wirkt misstrauisch."
+      },
+      {
+        "label": "Du sagst, dass seine Eltern recht haben und er die Realität verweigert.",
         "effect": 2,
-        "feedback": "Murat reagiert abwehrend und bricht fast ab."
-      },
-      {
-        "label": "Auf seine Gefühle in der Situation eingehen",
-        "effect": -1,
-        "feedback": "Murat wirkt überrascht, dass es nicht nur um Gehorsam geht."
+        "feedback": "Murat springt fast auf: 'Ihr versteht gar nichts!'"
       }
     ]
   }

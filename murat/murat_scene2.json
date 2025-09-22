@@ -1,106 +1,121 @@
 {
-  "title": "Zweites Gespräch",
+  "title": "Erstkontakt – Beziehungsaufbau",
   "text": {
-    "Z1": "Murat erzählt von einem Lehrer, der ihn unterstützt. Er reflektiert vorsichtig, dass nicht alle Autoritäten nur Druck ausüben.",
-    "Z2": "Murat spricht angedeutet über Spannungen mit seiner Familie, wirkt dabei unsicher, ob er dir vertrauen kann.",
-    "Z3": "Murat schwankt: Einerseits verteidigt er die Strenge zuhause, andererseits deutet er an, dass er sich eingeengt fühlt.",
-    "Z4": "Murat betont die Loyalität zur Familie. Er reagiert knapp, wenn es um seine eigenen Wünsche geht.",
-    "Z5": "Murat wiederholt starre Glaubenssätze, die er online gehört hat. Eigene Gedanken blendet er aus."
+    "Z1": "Nachdem die erste Anspannung etwas abgeklungen ist, lehnt sich Murat vorsichtig zurück. Er schaut dich zwar nicht direkt an, wirkt aber weniger verschlossen. Ab und zu huscht ein kurzes Lächeln über sein Gesicht, wenn es um unverfängliche Themen geht. Er scheint neugierig, testet vorsichtig, wie ernst du ihn nimmst.",
+    "Z2": "Murat sitzt mit hängenden Schultern vor dir, die Hände ineinander verschränkt. Seine Stimme ist leise, als er erzählt, dass er oft das Gefühl hat, die Lehrer hätten es auf ihn abgesehen. Immer wieder bricht er mitten im Satz ab, als wüsste er nicht, ob er dir vertrauen kann. Ein Rest an Misstrauen liegt in der Luft.",
+    "Z3": "Murat lehnt sich mit verschränkten Armen im Stuhl zurück. Er blickt dich direkt an, prüfend, ob du wirklich zuhörst. Seine Antworten sind kurz und oft sarkastisch. Er sagt: 'Ihr denkt doch eh alle, dass ich falsch liege.' Dennoch bleibt er im Gespräch und wirkt, als wolle er testen, ob du anders reagierst als Lehrer oder Eltern.",
+    "Z4": "Murat trommelt ungeduldig mit den Fingern auf den Tisch. Sein Blick ist hart, seine Stimme gereizt: 'Ich hab keine Lust, alles hundertmal zu erzählen. Ihr glaubt mir sowieso nicht.' Er lehnt sich nach vorne, die Körperspannung hoch, als erwarte er einen Angriff. Die Situation wirkt fragil, aber nicht völlig geschlossen.",
+    "Z5": "Murat sitzt weit nach vorne gebeugt, die Fäuste auf die Knie gestützt. Seine Augen fixieren dich misstrauisch. Er sagt in schneidendem Ton: 'Ihr seid alle gleich. Ihr tut so, als würdet ihr zuhören – und dann lacht ihr über uns.' Seine Körpersprache ist abwehrend, jede Bewegung angespannt, doch er bleibt im Raum und hört dir zu."
   },
   "options": {
     "Z1": [
       {
-        "label": "Das positive Lehrer-Erlebnis aufgreifen",
+        "label": "Niedrigschwellige Beziehungsarbeit: Du bleibst bei unverfänglichen Themen wie Hobbys oder Lieblingsfächer in der Schule, um Vertrauen ohne Druck aufzubauen.",
         "effect": -2,
-        "feedback": "Murat erkennt, dass Unterstützung auch außerhalb der Familie möglich ist."
+        "feedback": "Murat erzählt vorsichtig von Fußballspielen mit Freunden und wirkt etwas entspannter."
       },
       {
-        "label": "Seine Familie kritisch thematisieren",
-        "effect": 2,
-        "feedback": "Murat geht in die Verteidigung und blockt ab."
+        "label": "Gefühle spiegeln: Du benennst seine Unsicherheit ('Es wirkt, als wärst du noch unsicher, ob du mir trauen kannst') und signalisierst Verständnis.",
+        "effect": -1,
+        "feedback": "Murat nickt leicht und sagt: 'Ja, irgendwie schon.'"
       },
       {
-        "label": "Neutral nachfragen: 'Wie geht es dir damit?'",
+        "label": "Schweigen zulassen: Du reagierst nicht sofort, sondern gibst ihm Raum, selbst den nächsten Schritt zu machen.",
         "effect": 0,
-        "feedback": "Murat bleibt vage, doch das Gespräch bricht nicht ab."
+        "feedback": "Murat starrt eine Weile aus dem Fenster, bleibt aber sitzen."
+      },
+      {
+        "label": "Vorwürfe machen: Du sagst, dass er endlich offen reden müsse, sonst könne man ihm nicht helfen.",
+        "effect": 2,
+        "feedback": "Murat zieht sich zurück und murmelt: 'Wusste ich doch…'"
       }
     ],
     "Z2": [
       {
-        "label": "Aktiv zuhören und seine Unsicherheit benennen",
+        "label": "Validierung: Du nimmst seine Erfahrung ernst und sagst, dass es belastend klingt, wenn er das Gefühl hat, Lehrer seien gegen ihn.",
+        "effect": -2,
+        "feedback": "Murat wirkt erleichtert: 'Endlich sagt das mal jemand.'"
+      },
+      {
+        "label": "Alltagsthemen aufgreifen: Du fragst, was er nach der Schule macht, um den Gesprächsdruck zu verringern.",
         "effect": -1,
-        "feedback": "Murat fühlt sich ernst genommen und öffnet sich etwas."
+        "feedback": "Murat erzählt knapp, dass er meistens am Handy ist."
       },
       {
-        "label": "Schnell Ratschläge geben",
-        "effect": 1,
-        "feedback": "Murat nimmt die Hinweise nicht an und zieht sich zurück."
-      },
-      {
-        "label": "Ein Beispiel aus ähnlichen Beratungen schildern",
-        "effect": -1,
-        "feedback": "Murat erkennt Parallelen und fühlt sich weniger allein."
-      },
-      {
-        "label": "Das Thema wechseln",
+        "label": "Schweigen aushalten: Du lässt Pausen zu und wartest, ob er von sich aus weiterredet.",
         "effect": 0,
-        "feedback": "Das Gespräch bleibt oberflächlich, aber Murat bleibt ansprechbar."
+        "feedback": "Murat bleibt still und schaut auf seine Hände."
+      },
+      {
+        "label": "Schulische Vorfälle direkt ansprechen: Du fragst konfrontativ, warum er solche Aussagen gemacht hat.",
+        "effect": 1,
+        "feedback": "Murat blockt ab: 'Die übertreiben, ich hab nichts gemacht.'"
       }
     ],
     "Z3": [
       {
-        "label": "Seine Ambivalenz normalisieren",
-        "effect": -1,
-        "feedback": "Murat spürt, dass Zweifel erlaubt sind."
+        "label": "Beziehungsarbeit anbieten: Du sagst, dass es dir wichtig ist, ihn so kennenzulernen, wie er sich selbst sieht – nicht so, wie andere über ihn reden.",
+        "effect": -2,
+        "feedback": "Murat schaut dich prüfend an und sagt: 'Hm… das ist mal was anderes.'"
       },
       {
-        "label": "Seine Familie in Frage stellen",
+        "label": "Gefühle spiegeln: Du erkennst seine Skepsis an ('Es wirkt, als ob du testen willst, ob man dir hier wirklich zuhört').",
+        "effect": -1,
+        "feedback": "Murat grinst schief und sagt: 'Kann sein.'"
+      },
+      {
+        "label": "Neutral bleiben: Du hörst aufmerksam zu, ohne Fragen zu stellen.",
+        "effect": 0,
+        "feedback": "Murat wirkt ungeduldig und schaut auf die Uhr."
+      },
+      {
+        "label": "Direkte Kritik: Du sagst, er solle mit seiner Abwehrhaltung aufhören, sonst könne man nicht weiterarbeiten.",
         "effect": 2,
-        "feedback": "Murat rechtfertigt die Strenge und verschließt sich stärker."
-      },
-      {
-        "label": "Nach Beispielen aus seinem Alltag fragen",
-        "effect": -1,
-        "feedback": "Murat erzählt eine kleine Alltagsszene und zeigt damit ein Stück Offenheit."
+        "feedback": "Murat schnauft und lehnt sich noch weiter zurück: 'Genau das meine ich!'"
       }
     ],
     "Z4": [
       {
-        "label": "Nach seinen eigenen Interessen fragen",
+        "label": "Rahmen betonen: Du machst ruhig klar, dass er nichts 'hundertmal' erzählen muss und er selbst entscheidet, was er mitteilen will.",
         "effect": -2,
-        "feedback": "Murat erzählt zögerlich von Hobbys, die nichts mit Religion zu tun haben."
+        "feedback": "Murat wirkt überrascht: 'Also muss ich hier nicht alles sagen?'"
       },
       {
-        "label": "Auf seine Loyalität kritisch reagieren",
-        "effect": 2,
-        "feedback": "Murat verteidigt die Familie und beendet das Thema."
-      },
-      {
-        "label": "Loyalität anerkennen und vorsichtig nach Eigenem fragen",
+        "label": "Gefühle anerkennen: Du sagst, dass seine Wut verständlich klingt, wenn er sich nicht gehört fühlt.",
         "effect": -1,
-        "feedback": "Murat akzeptiert das und deutet vorsichtige Wünsche an."
+        "feedback": "Murat nickt knapp, bleibt aber angespannt."
       },
       {
-        "label": "Thema wechseln und neutral Smalltalk führen",
+        "label": "Neutral bleiben: Du sagst nichts und hörst ihm nur zu.",
         "effect": 0,
-        "feedback": "Murat bleibt reserviert, aber nicht abweisend."
+        "feedback": "Murat spricht weiter, aber mit schneidender Stimme."
+      },
+      {
+        "label": "Zwang betonen: Du sagst, dass er keine Wahl hat, hier zu sein.",
+        "effect": 2,
+        "feedback": "Murat knallt mit der Faust auf den Tisch: 'Hab ich’s doch gewusst!'"
       }
     ],
     "Z5": [
       {
-        "label": "Geduldig nach seinen eigenen Gedanken fragen",
+        "label": "Misstrauen aufgreifen: Du fragst nach, warum er denkt, man würde über ihn lachen, und machst deutlich, dass du seine Sicht ernst nimmst.",
+        "effect": -2,
+        "feedback": "Murat schaut dich prüfend an: 'Mal sehen, ob du’s ernst meinst.'"
+      },
+      {
+        "label": "Rahmenbedingungen erklären: Du sagst ruhig, dass er selbst bestimmt, wie viel er preisgibt, und dass du nichts über ihn verurteilst.",
         "effect": -1,
-        "feedback": "Murat stockt, überlegt, und zeigt kleine Brüche in der starren Haltung."
+        "feedback": "Murat runzelt die Stirn, aber sein Blick wird etwas weicher."
       },
       {
-        "label": "Die Glaubenssätze direkt widerlegen",
-        "effect": 1,
-        "feedback": "Murat fühlt sich angegriffen und verstärkt die Wiederholung."
-      },
-      {
-        "label": "Ein Gegenbeispiel aus der Realität nennen",
+        "label": "Schweigen zulassen: Du wartest ab, ob er sich von selbst öffnet.",
         "effect": 0,
-        "feedback": "Murat nimmt es zur Kenntnis, reagiert aber nicht weiter."
+        "feedback": "Murat schaut starr auf den Boden, ohne etwas zu sagen."
+      },
+      {
+        "label": "Frontal kritisieren: Du sagst, dass er sich nicht so einbilden solle, im Mittelpunkt zu stehen.",
+        "effect": 2,
+        "feedback": "Murat springt fast auf: 'Genau, ihr verarscht uns alle!'"
       }
     ]
   }

@@ -1,96 +1,111 @@
 {
-  "title": "Emotionen im Gespräch",
+  "title": "Onlinekontakte – Vertiefung",
   "text": {
-    "Z1": "Murat spricht offen über seine Wut und Enttäuschung. Er sagt, dass er manchmal nicht weiß, wohin mit seinen Gefühlen.",
-    "Z2": "Murat deutet an, dass er innerlich zerrissen ist. Er wirkt traurig, will aber nicht schwach erscheinen.",
-    "Z3": "Murat schwankt zwischen aggressiven Kommentaren und dem Eingeständnis, dass er sich überfordert fühlt.",
-    "Z4": "Murat reagiert schroff. Er sagt, dass solche Gespräche sowieso nichts bringen.",
-    "Z5": "Murat wiederholt starre Parolen: 'Gefühle sind Schwäche, nur Stärke zählt.'"
+    "Z1": "Lehrkräfte berichten, dass Murat zwar ruhiger ist, aber zunehmend abwesend wirkt. Heute sagt er: 'Ich weiß nicht… manchmal glaub ich den Videos, manchmal nicht.' Seine Stimme klingt unsicher, er wirkt nachdenklich, fast erleichtert, das auszusprechen.",
+    "Z2": "Murat wirkt nervös, blickt immer wieder auf sein Handy. Er sagt: 'Die zeigen, wie alle gegen uns sind. Aber… manchmal frag ich mich, ob die nicht übertreiben.' Seine Stimme ist leise, als wolle er nicht zu viel verraten.",
+    "Z3": "Murat erzählt mit Nachdruck: 'Die im Netz reden Klartext. Aber… ich hab Angst, dass es stimmt.' Er wirkt gehetzt, als ob die Inhalte ihn innerlich unter Druck setzen.",
+    "Z4": "Die Eltern berichten, dass Murat nachts lange wach ist. In der Beratung sagt er: 'Ihr wollt nicht verstehen. Nur die Videos zeigen, wie die Welt wirklich ist.' Er wirkt überzeugt, doch in seinen Augen liegt Unsicherheit.",
+    "Z5": "Murat spricht laut und aggressiv: 'Alle lügen! Nur die Brüder im Internet sagen die Wahrheit!' Doch dann bricht er ab, sein Blick flackert, als ob ein Rest Zweifel übrig ist."
   },
   "options": {
     "Z1": [
       {
-        "label": "Seine Gefühle anerkennen und entlasten",
+        "label": "Du anerkennst, dass er wagt, seine Zweifel zu äußern, und fragst, in welchen Momenten er die Videos für glaubwürdig hält.",
         "effect": -2,
-        "feedback": "Murat spürt, dass er mit seiner Wut nicht allein ist und beruhigt sich etwas."
+        "feedback": "Murat sagt: 'Wenn die über Ungerechtigkeit reden… dann glaub ich’s.'"
       },
       {
-        "label": "Schnell Lösungen anbieten",
-        "effect": 1,
-        "feedback": "Murat fühlt sich nicht verstanden und blockt ab."
+        "label": "Du bleibst zurückhaltend und wartest, ob er weiterredet.",
+        "effect": 0,
+        "feedback": "Murat schaut zur Seite, sagt aber nichts mehr."
       },
       {
-        "label": "Neutral nachfragen: 'Wann merkst du das am stärksten?'",
-        "effect": -1,
-        "feedback": "Murat beginnt, seine Wut besser einzuordnen."
+        "label": "Du sagst, dass die Videos allesamt Lügen sind.",
+        "effect": 2,
+        "feedback": "Murat schaut dich wütend an: 'Ihr lügt!'"
       }
     ],
     "Z2": [
       {
-        "label": "Seine Traurigkeit wertschätzen und normalisieren",
+        "label": "Du fragst, was er meint mit 'alle gegen uns', und ob er dafür konkrete Erlebnisse hat.",
         "effect": -1,
-        "feedback": "Murat erkennt, dass auch Schwäche Platz haben darf."
+        "feedback": "Murat überlegt: 'Hm… eigentlich nicht direkt…'"
       },
       {
-        "label": "Betonen, dass er stark wirken soll",
-        "effect": 2,
-        "feedback": "Murat fühlt sich gezwungen, seine Traurigkeit zu verbergen."
+        "label": "Du bestätigst, dass es schwer ist, zwischen Übertreibung und Wahrheit zu unterscheiden.",
+        "effect": -2,
+        "feedback": "Murat nickt: 'Genau, man weiß nie, was echt ist.'"
       },
       {
-        "label": "Eine kleine Pause vorschlagen",
+        "label": "Du hörst schweigend zu.",
         "effect": 0,
-        "feedback": "Murat atmet durch, bleibt aber zurückhaltend."
+        "feedback": "Murat schaut auf sein Handy und schweigt."
+      },
+      {
+        "label": "Du sagst streng, dass er aufhören muss, solchen Unsinn zu glauben.",
+        "effect": 1,
+        "feedback": "Murat zieht sich zurück: 'Ihr wollt es nicht verstehen.'"
       }
     ],
     "Z3": [
       {
-        "label": "Seine Überforderung klar benennen",
-        "effect": -1,
-        "feedback": "Murat wirkt erleichtert, dass jemand seine Ambivalenz erkennt."
+        "label": "Du fragst, ob er die Angst genauer beschreiben kann und wann sie besonders stark ist.",
+        "effect": -2,
+        "feedback": "Murat sagt leise: 'Nachts… dann fühl ich mich allein.'"
       },
       {
-        "label": "Seine aggressiven Kommentare kritisieren",
+        "label": "Du bleibst neutral, hörst nur zu.",
+        "effect": 0,
+        "feedback": "Murat schaut auf den Tisch und redet nicht weiter."
+      },
+      {
+        "label": "Du erklärst, dass er schwach ist, wenn er so viel Angst hat.",
         "effect": 2,
-        "feedback": "Murat geht in die Verteidigung und baut Distanz auf."
+        "feedback": "Murat wird wütend: 'Ich bin nicht schwach!'"
       },
       {
-        "label": "Eine Strategie zur Stressbewältigung anbieten",
+        "label": "Du erkennst an, dass es viel Mut braucht, Angst überhaupt auszusprechen.",
         "effect": -1,
-        "feedback": "Murat hört zu, bleibt aber vorsichtig interessiert."
+        "feedback": "Murat atmet tief durch: 'Vielleicht…'"
       }
     ],
     "Z4": [
       {
-        "label": "Seine Frustration anerkennen",
+        "label": "Du sagst, dass es mutig ist, wenn er Unsicherheit zeigt, auch wenn er überzeugt wirken möchte.",
         "effect": -1,
-        "feedback": "Murat merkt, dass seine Ablehnung gehört wird."
+        "feedback": "Murat schaut dich überrascht an: 'Merkst du das?'"
       },
       {
-        "label": "Betonen, dass er sich nicht so anstellen soll",
-        "effect": 2,
-        "feedback": "Murat reagiert abweisend und zieht sich stärker zurück."
-      },
-      {
-        "label": "Gelassen reagieren und das Thema wechseln",
+        "label": "Du bleibst schweigend und wartest.",
         "effect": 0,
-        "feedback": "Das Gespräch bleibt oberflächlich, aber ohne Abbruch."
+        "feedback": "Murat verschränkt die Arme und starrt an die Wand."
+      },
+      {
+        "label": "Du fragst, ob er manchmal auch andere Quellen liest oder hört.",
+        "effect": -2,
+        "feedback": "Murat überlegt: 'Selten… aber manchmal Nachrichten im TV.'"
+      },
+      {
+        "label": "Du sagst, dass seine Überzeugung dumm und naiv ist.",
+        "effect": 2,
+        "feedback": "Murat springt fast auf: 'Ihr lacht uns aus!'"
       }
     ],
     "Z5": [
       {
-        "label": "Sanft fragen, ob er wirklich keine Gefühle kennt",
-        "effect": -1,
-        "feedback": "Murat stockt und überlegt kurz."
+        "label": "Du fragst, ob er diese Restzweifel genauer benennen kann.",
+        "effect": -2,
+        "feedback": "Murat wirkt unsicher: 'Manchmal denk ich, dass sie auch übertreiben.'"
       },
       {
-        "label": "Die Parolen direkt kritisieren",
-        "effect": 2,
-        "feedback": "Murat wiederholt sie noch stärker."
-      },
-      {
-        "label": "Geduldig zuhören, ohne sofort zu reagieren",
+        "label": "Du bleibst ruhig und wartest, ob er von sich aus weiterspricht.",
         "effect": 0,
-        "feedback": "Murat bleibt bei seinen Sätzen, merkt aber deine Ruhe."
+        "feedback": "Murat schaut dich misstrauisch an, sagt aber nichts."
+      },
+      {
+        "label": "Du sagst streng, dass er endlich einsehen muss, dass er auf Lügen hereinfällt.",
+        "effect": 1,
+        "feedback": "Murat wird aggressiv: 'Ihr wollt uns mundtot machen!'"
       }
     ]
   }

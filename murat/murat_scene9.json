@@ -1,101 +1,101 @@
 {
-  "title": "Familie und Loyalität",
+  "title": "Ausstiegsperspektiven – Zukunft",
   "text": {
-    "Z1": "Murat spricht offen darüber, dass er seine Familie liebt, sich aber nach mehr Freiheit sehnt.",
-    "Z2": "Murat deutet an, dass er sich eingeengt fühlt, aber Angst hat, die Familie zu enttäuschen.",
-    "Z3": "Murat schwankt zwischen Verteidigung der Familientraditionen und dem Wunsch nach Selbstbestimmung.",
-    "Z4": "Murat sagt knapp, dass er tun wird, was die Eltern verlangen – auch wenn es ihn belastet.",
-    "Z5": "Murat wiederholt starre Aussagen seines Vaters: 'Familie zuerst, alles andere ist Verrat.'"
+    "Z1": "Die Eltern berichten, dass Murat wieder öfter beim Abendessen dabei ist. In der Beratung sagt er leise: 'Manchmal frag ich mich, was ich später mal machen will.' Seine Stimme klingt vorsichtig, als suche er nach Orientierung.",
+    "Z2": "Murat wirkt nachdenklich und erzählt: 'Ich weiß nicht, ob das alles richtig ist… Religion, Schule, Zukunft.' Er klingt unsicher, aber offen, über seine Zweifel zu sprechen.",
+    "Z3": "Murat sagt mit fester Stimme: 'Die Prediger sagen, alles andere ist wertlos. Aber ich überleg trotzdem manchmal, ob ich studieren könnte.' Seine Worte zeigen Spannungen zwischen Verlockung der Szene und eigener Zukunft.",
+    "Z4": "Die Eltern berichten, dass Murat abweisend ist. In der Beratung sagt er kühl: 'Zukunft? Gibt’s für uns nicht. Alles ist gegen uns.' Seine Stimme klingt hart, aber auch resigniert.",
+    "Z5": "Murat spricht laut: 'Ich brauch keine Zukunft hier. Die Brüder haben den Weg.' Doch in seiner Mimik liegt ein kurzer Moment von Unsicherheit."
   },
   "options": {
     "Z1": [
       {
-        "label": "Seine Zerrissenheit anerkennen",
+        "label": "Du fragst, welche Träume oder Ziele er schon einmal hatte, unabhängig von den Erwartungen anderer.",
         "effect": -2,
-        "feedback": "Murat fühlt sich verstanden und erlebt, dass beides nebeneinander bestehen darf."
+        "feedback": "Murat sagt vorsichtig: 'Früher wollt ich mal Ingenieur werden.'"
       },
       {
-        "label": "Die Eltern kritisieren",
-        "effect": 2,
-        "feedback": "Murat verteidigt die Familie und zieht sich zurück."
-      },
-      {
-        "label": "Nachfragen, was er mit Freiheit meint",
+        "label": "Du sagst, dass es normal ist, noch nicht alles über die Zukunft zu wissen.",
         "effect": -1,
-        "feedback": "Murat beginnt, seine Vorstellungen konkreter zu formulieren."
+        "feedback": "Murat wirkt erleichtert: 'Andere tun so, als müssten alle schon Bescheid wissen.'"
+      },
+      {
+        "label": "Du bleibst neutral und nickst nur.",
+        "effect": 0,
+        "feedback": "Murat schaut dich fragend an, redet aber nicht weiter."
       }
     ],
     "Z2": [
       {
-        "label": "Seine Angst wertschätzen",
+        "label": "Du anerkennst, dass es schwer ist, so viele Themen gleichzeitig im Kopf zu haben, und fragst, womit er anfangen möchte.",
         "effect": -1,
-        "feedback": "Murat merkt, dass seine Sorgen ernst genommen werden."
+        "feedback": "Murat sagt: 'Vielleicht Schule… aber Religion bleibt auch wichtig.'"
       },
       {
-        "label": "Betonen, dass er sich durchsetzen muss",
-        "effect": 1,
-        "feedback": "Murat fühlt sich überfordert und verschließt sich."
-      },
-      {
-        "label": "Vorsichtig fragen, was er selbst möchte",
+        "label": "Du fragst, welche Menschen ihn bisher am meisten unterstützt haben.",
         "effect": -2,
-        "feedback": "Murat äußert zum ersten Mal klar einen eigenen Wunsch."
+        "feedback": "Murat denkt nach: 'Ein Lehrer… und manchmal mein Onkel.'"
       },
       {
-        "label": "Thema wechseln",
+        "label": "Du sagst, dass er endlich eine klare Entscheidung treffen müsse.",
+        "effect": 1,
+        "feedback": "Murat zieht sich zurück: 'So einfach ist das nicht.'"
+      },
+      {
+        "label": "Du hörst schweigend zu.",
         "effect": 0,
-        "feedback": "Murat bleibt angespannt, doch die Beziehung bleibt stabil."
+        "feedback": "Murat schaut auf seine Hände und sagt nichts mehr."
       }
     ],
     "Z3": [
       {
-        "label": "Seine Ambivalenz normalisieren",
-        "effect": -1,
-        "feedback": "Murat erkennt, dass er nicht sofort klare Antworten haben muss."
-      },
-      {
-        "label": "Die Familientraditionen infrage stellen",
-        "effect": 2,
-        "feedback": "Murat verteidigt die Eltern energisch."
-      },
-      {
-        "label": "Nach seinen persönlichen Zielen fragen",
+        "label": "Du gehst auf seine Studienidee ein und fragst, was ihn an diesem Gedanken reizt.",
         "effect": -2,
-        "feedback": "Murat überlegt und nennt einen Wunsch, der über die Tradition hinausgeht."
+        "feedback": "Murat lächelt kurz: 'Dass man was lernen kann, was zählt.'"
+      },
+      {
+        "label": "Du sagst, dass er sich entscheiden müsse: Entweder Prediger oder Studium.",
+        "effect": 2,
+        "feedback": "Murat sagt scharf: 'Genau, ihr wollt uns spalten.'"
+      },
+      {
+        "label": "Du anerkennst, dass er verschiedene Stimmen in sich hört, und dass es mutig ist, das auszusprechen.",
+        "effect": -1,
+        "feedback": "Murat sagt leise: 'Ja… das ist echt schwer.'"
       }
     ],
     "Z4": [
       {
-        "label": "Nach seinen Gefühlen in dieser Situation fragen",
+        "label": "Du sagst, dass seine Resignation verständlich ist, wenn er das Gefühl hat, ausgeschlossen zu sein.",
         "effect": -1,
-        "feedback": "Murat gesteht, dass er sich unglücklich fühlt."
+        "feedback": "Murat nickt knapp, bleibt aber abweisend."
       },
       {
-        "label": "Bestärken, dass Gehorsam wichtig ist",
+        "label": "Du fragst, ob es Momente gab, in denen er trotzdem Hoffnung gespürt hat.",
+        "effect": -2,
+        "feedback": "Murat überlegt lange: 'Früher… beim Sport vielleicht.'"
+      },
+      {
+        "label": "Du sagst, dass er sich nicht so hängen lassen soll, sondern einfach kämpfen müsse.",
         "effect": 1,
-        "feedback": "Murat fühlt sich bestätigt, bleibt aber innerlich unzufrieden."
-      },
-      {
-        "label": "Gelassen reagieren und das Gespräch offen halten",
-        "effect": 0,
-        "feedback": "Das Gespräch bleibt oberflächlich, bricht aber nicht ab."
+        "feedback": "Murat schaut dich zornig an: 'Genau das meine ich!'"
       }
     ],
     "Z5": [
       {
-        "label": "Sanft nachfragen, ob er wirklich an Verrat denkt",
+        "label": "Du fragst, ob er sich vorstellen kann, dass es auch hier Menschen gibt, die ihn unterstützen wollen.",
         "effect": -1,
-        "feedback": "Murat wirkt kurz nachdenklich, bevor er schweigt."
+        "feedback": "Murat wirkt überrascht: 'Hm… vielleicht.'"
       },
       {
-        "label": "Die Worte seines Vaters kritisieren",
-        "effect": 2,
-        "feedback": "Murat geht sofort in die Verteidigung."
-      },
-      {
-        "label": "Geduldig zuhören, ohne Druck aufzubauen",
+        "label": "Du bleibst neutral und wartest ab.",
         "effect": 0,
-        "feedback": "Murat bleibt bei den Parolen, doch die Gesprächsbasis bleibt bestehen."
+        "feedback": "Murat schaut dich prüfend an, sagt aber nichts mehr."
+      },
+      {
+        "label": "Du sagst, dass seine Zukunft hier ohnehin keine Chance hat.",
+        "effect": 2,
+        "feedback": "Murat verengt die Augen: 'Genau so reden sie auch im Netz!'"
       }
     ]
   }

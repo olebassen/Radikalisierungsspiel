@@ -1,0 +1,117 @@
+{
+  "title": "Abschluss & Evaluation",
+  "text": {
+    "Z1": "Die Eltern berichten, dass Murat stabiler wirkt und wieder mehr Zeit mit Freunden verbringt. In der Beratung sagt er: 'Vielleicht gibt’s doch Wege für mich. Ich weiß jetzt besser, was ich will.' Er wirkt nachdenklich, aber zuversichtlich.",
+    "Z2": "Murat sagt: 'Die Videos sind nicht mehr so wichtig… aber manchmal denk ich noch dran.' Seine Stimme klingt unsicher, doch er bleibt offen im Gespräch.",
+    "Z3": "Murat sitzt angespannt da. 'Ich hab viel gehört… aber die Stimmen im Netz sind immer noch stark.' Er wirkt zerrissen, mal nachdenklich, mal trotzig.",
+    "Z4": "Die Eltern berichten, dass Murat sich wieder stärker abgrenzt. In der Beratung sagt er kühl: 'Alle reden viel, aber am Ende bin ich allein.' Seine Haltung wirkt abweisend, aber auch verletzt.",
+    "Z5": "Murat sagt laut: 'Alles war umsonst! Die Brüder im Netz haben recht!' Er wirkt aggressiv, seine Stimme erhoben, doch ein Rest Unsicherheit bleibt sichtbar."
+  },
+  "options": {
+    "Z1": [
+      {
+        "label": "Du fragst, welche konkreten nächsten Schritte er selbst für sich sieht.",
+        "effect": -2,
+        "feedback": "Murat sagt: 'Vielleicht ein Praktikum… das wäre gut.'"
+      },
+      {
+        "label": "Du anerkennst, dass er in den letzten Wochen viel Mut gezeigt hat.",
+        "effect": -1,
+        "feedback": "Murat lächelt kurz: 'Danke… das hat gutgetan.'"
+      },
+      {
+        "label": "Du bleibst neutral und nickst.",
+        "effect": 0,
+        "feedback": "Murat wirkt, als hätte er mehr erwartet."
+      },
+      {
+        "label": "Du sagst, dass er jetzt einfach durchhalten muss, egal was kommt.",
+        "effect": 1,
+        "feedback": "Murat wirkt unter Druck: 'So einfach ist das nicht…'"
+      }
+    ],
+    "Z2": [
+      {
+        "label": "Du fragst, in welchen Momenten er merkt, dass die Videos weniger wichtig sind.",
+        "effect": -2,
+        "feedback": "Murat sagt: 'Wenn ich mit Freunden bin, ist es leichter.'"
+      },
+      {
+        "label": "Du anerkennst, dass es normal ist, Rückfälle im Kopf zu haben.",
+        "effect": -1,
+        "feedback": "Murat nickt zögerlich: 'Ja, vielleicht.'"
+      },
+      {
+        "label": "Du hörst einfach still zu.",
+        "effect": 0,
+        "feedback": "Murat schaut auf den Boden, sagt aber nichts mehr."
+      },
+      {
+        "label": "Du forderst, dass er sofort alle Kontakte im Netz abbrechen muss.",
+        "effect": 2,
+        "feedback": "Murat zieht sich zurück: 'Ihr versteht gar nichts.'"
+      }
+    ],
+    "Z3": [
+      {
+        "label": "Du fragst, welche Erfahrungen außerhalb des Netzes ihm geholfen haben, einen anderen Blick zu bekommen.",
+        "effect": -2,
+        "feedback": "Murat denkt nach: 'Beim Training… da fühl ich mich besser.'"
+      },
+      {
+        "label": "Du bleibst neutral und wartest.",
+        "effect": 0,
+        "feedback": "Murat wirkt unruhig und schaut weg."
+      },
+      {
+        "label": "Du sagst, dass er sich entscheiden muss: Entweder die Szene oder die Gesellschaft.",
+        "effect": 1,
+        "feedback": "Murat reagiert trotzig: 'Genau das meine ich!'"
+      },
+      {
+        "label": "Du anerkennst, dass er mutig ist, die Zerrissenheit offen zu benennen.",
+        "effect": -1,
+        "feedback": "Murat sagt leise: 'Das ist echt schwer.'"
+      }
+    ],
+    "Z4": [
+      {
+        "label": "Du gehst auf sein Gefühl der Einsamkeit ein und fragst, ob er Momente kennt, in denen er sich nicht allein gefühlt hat.",
+        "effect": -2,
+        "feedback": "Murat überlegt: 'Vielleicht mit meinem Onkel… manchmal.'"
+      },
+      {
+        "label": "Du sagst, dass es nachvollziehbar ist, sich ausgeschlossen zu fühlen.",
+        "effect": -1,
+        "feedback": "Murat nickt knapp, bleibt aber abweisend."
+      },
+      {
+        "label": "Du hörst schweigend zu.",
+        "effect": 0,
+        "feedback": "Murat trommelt mit den Fingern auf den Tisch."
+      },
+      {
+        "label": "Du sagst, dass er selbst schuld ist, wenn er allein bleibt.",
+        "effect": 2,
+        "feedback": "Murat springt auf: 'Genau so reden alle!'"
+      }
+    ],
+    "Z5": [
+      {
+        "label": "Du fragst, ob es auch nur einen Moment gab, in dem er gemerkt hat, dass die 'Brüder im Netz' nicht alles wissen.",
+        "effect": -2,
+        "feedback": "Murat zögert kurz: 'Manchmal… ja… aber nur kurz.'"
+      },
+      {
+        "label": "Du bleibst ruhig und beobachtest ihn.",
+        "effect": 0,
+        "feedback": "Murat schaut dich herausfordernd an, schweigt aber."
+      },
+      {
+        "label": "Du sagst, dass er endlich aufhören muss, an diese Lügen zu glauben.",
+        "effect": 1,
+        "feedback": "Murat schreit: 'Ihr wollt uns alle zum Schweigen bringen!'"
+      }
+    ]
+  }
+}

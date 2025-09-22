@@ -1,96 +1,121 @@
 {
-  "title": "Erstes Beratungsgespräch",
+  "title": "Erstkontakt – Transparenz",
   "text": {
-    "Z1": "Murat wirkt vorsichtig offen. Er spricht von Druck zuhause, aber auch von seinem Wunsch nach Eigenständigkeit.",
-    "Z2": "Murat deutet Spannungen an, hält sich aber zurück. Er testet, wie sicher der Raum ist.",
-    "Z3": "Murat schwankt zwischen Verteidigung der Familie und ersten Zweifeln.",
-    "Z4": "Murat präsentiert sich abweisend, erwähnt nur die Pflichterfüllung gegenüber seiner Familie.",
-    "Z5": "Murat wiederholt starre Glaubenssätze, ohne eigenen Reflexionsraum zuzulassen."
+    "Z1": "Murat kommt pünktlich, wirkt aber angespannt. Er setzt sich vorsichtig auf den Stuhl, vermeidet den Blickkontakt, schaut aber neugierig im Raum umher. Seine Hände liegen unruhig auf dem Schoß, er wippt mit dem Fuß. Nach einer kurzen Pause sagt er leise: 'Ich weiß nicht, warum ich hier bin… vielleicht kann man ja reden.' Trotz seiner Zurückhaltung ist ein Rest an Offenheit spürbar.",
+    "Z2": "Murat betritt den Raum zögerlich, die Schultern hängen, der Blick geht sofort auf den Boden. Er setzt sich, lehnt sich nach vorn, als wolle er so schnell wie möglich wieder weg. Seine Stimme klingt dünn, fast entschuldigend: 'Die Schule übertreibt. Ich hab nur ein paar Sachen gesagt.' Er vermeidet es, dir direkt in die Augen zu sehen. Die Atmosphäre ist angespannt, aber nicht feindselig.",
+    "Z3": "Murat schlurft herein, lässt sich schwer in den Stuhl fallen und verschränkt sofort die Arme vor der Brust. Er fixiert dich mit einem prüfenden Blick, der zwischen Misstrauen und Trotz schwankt. Mit fester Stimme sagt er: 'Ihr denkt alle, ich hab ein Problem. Ich sag nur die Wahrheit, die keiner hören will.' Seine Körpersprache ist defensiv, seine Haltung herausfordernd.",
+    "Z4": "Murat kommt in den Raum, wirft seine Tasche in die Ecke und setzt sich mit demonstrativer Lässigkeit hin. Er lehnt sich weit zurück, verschränkt die Arme hinter dem Kopf und klopft nervös mit den Fingern auf die Lehne. Mit scharfer Stimme sagt er: 'Das hier ist Zeitverschwendung. Die Lehrer wollen mich nur loswerden – und ihr spielt mit.' Seine Körpersprache signalisiert Abwehr und Provokation.",
+    "Z5": "Murat kommt herein, bleibt zunächst stehen und mustert dich misstrauisch, bevor er sich setzt. Er lehnt sich nach vorne, die Augenbrauen zusammengezogen, die Hände fest verschränkt. Seine Stimme klingt kalt und anklagend: 'Ich weiß genau, was hier läuft. Ihr wollt mich umerziehen – aber das klappt nicht.' Schon im ersten Moment macht er klar, dass er dich als Gegner wahrnimmt."
   },
   "options": {
     "Z1": [
       {
-        "label": "Seine Ambivalenz anerkennen",
+        "label": "Transparenz herstellen: Du erklärst genau, welche Rolle du hast, dass Beratung keine Strafe ist, welche Schweigepflichten gelten und dass er freiwillig entscheiden darf, was er erzählt.",
         "effect": -2,
-        "feedback": "Murat spürt, dass seine widersprüchlichen Gefühle Platz haben. Vertrauen wächst."
+        "feedback": "Murat wirkt etwas entspannter: 'Okay… das wusste ich nicht.'"
       },
       {
-        "label": "Direkt vor Radikalisierung warnen",
-        "effect": 2,
-        "feedback": "Murat fühlt sich belehrt und zieht sich zurück."
+        "label": "Alltags- und Interessenfragen: Du bietest einen lockeren Einstieg, indem du nach Hobbys, Sport oder Musik fragst, um eine entspannte Atmosphäre zu schaffen.",
+        "effect": -1,
+        "feedback": "Murat erzählt knapp von Fußball und Computerspielen."
       },
       {
-        "label": "Neutral nachfragen: 'Was ist dir in letzter Zeit wichtig geworden?'",
+        "label": "Schweigen aushalten: Du reagierst kaum, gibst ihm Raum und signalisierst durch Körpersprache, dass er das Tempo vorgibt.",
         "effect": 0,
-        "feedback": "Murat antwortet vage, bleibt aber im Gespräch."
+        "feedback": "Murat schaut unsicher, bleibt aber im Gespräch."
+      },
+      {
+        "label": "Sofortige Konfrontation: Du sprichst gleich die schulischen Vorwürfe an und forderst eine Erklärung.",
+        "effect": 2,
+        "feedback": "Murat zieht sich zurück: 'Genau das hab ich erwartet.'"
       }
     ],
     "Z2": [
       {
-        "label": "Sein Bedürfnis nach Freiheit anerkennen",
+        "label": "Unabhängigkeit betonen: Du machst deutlich, dass du nicht im Auftrag der Schule handelst, sondern neutral und an seiner Perspektive interessiert bist.",
+        "effect": -2,
+        "feedback": "Murat wirkt erleichtert: 'Also seid ihr nicht auf deren Seite?'"
+      },
+      {
+        "label": "Offenen Einstieg wählen: Du fragst nach, wie er seine Tage verbringt, ohne direkt auf die Vorfälle einzugehen.",
         "effect": -1,
-        "feedback": "Murat erlebt Unterstützung und Entlastung."
+        "feedback": "Murat erzählt kurz, dass er viel Zeit am Handy verbringt."
       },
       {
-        "label": "Religiöse Pflichten betonen",
-        "effect": 1,
-        "feedback": "Murat fühlt sich stärker kontrolliert."
-      },
-      {
-        "label": "Offen lassen, ob er mehr erzählen möchte",
+        "label": "Schweigen aushalten: Du hörst einfach zu, ohne sofort zu reagieren.",
         "effect": 0,
-        "feedback": "Murat zögert, aber das Gespräch bleibt offen."
+        "feedback": "Murat schaut auf den Boden und redet kaum."
+      },
+      {
+        "label": "Frühe Bewertung: Du sagst, dass seine Aussagen problematisch seien und er sie rechtfertigen müsse.",
+        "effect": 1,
+        "feedback": "Murat verschließt sich: 'Genau das meine ich – ihr verurteilt mich!'"
       }
     ],
     "Z3": [
       {
-        "label": "Ermutigen, eigene Interessen zu verfolgen",
-        "effect": -1,
-        "feedback": "Murat entdeckt Räume für Selbstwirksamkeit."
+        "label": "Rahmung erneuern: Du erklärst, dass er hier nicht vor Gericht sitzt, sondern selbst bestimmt, wie viel er preisgibt.",
+        "effect": -2,
+        "feedback": "Murat wirkt überrascht: 'Das sagt sonst keiner.'"
       },
       {
-        "label": "Ihm Vorwürfe machen",
+        "label": "Beziehungsangebot machen: Du stellst einfache, unverbindliche Fragen nach seinen Interessen, um Distanz abzubauen.",
+        "effect": -1,
+        "feedback": "Murat reagiert zögerlich: 'Manchmal zock ich…' "
+      },
+      {
+        "label": "Neutral bleiben: Du hörst still zu, ohne Druck auszuüben.",
+        "effect": 0,
+        "feedback": "Murat starrt dich an, sagt aber nichts weiter."
+      },
+      {
+        "label": "Direktes Urteil: Du sagst, dass er mit dieser Haltung nur weitere Probleme schafft.",
         "effect": 2,
-        "feedback": "Murat verschließt sich und fühlt sich missverstanden."
-      },
-      {
-        "label": "Seine Familie würdigen und nach eigenen Wünschen fragen",
-        "effect": -1,
-        "feedback": "Murat fühlt sich respektiert und überlegt kurz."
+        "feedback": "Murat faucht: 'Ihr seid alle gleich!'"
       }
     ],
     "Z4": [
       {
-        "label": "Gemeinsame Aktivitäten anbieten",
+        "label": "Freiwilligkeit betonen: Du stellst ruhig klar, dass er selbst entscheidet, ob und wie er spricht, und dass Beratung kein Zwangsformat ist.",
         "effect": -2,
-        "feedback": "Murat erlebt Nähe und etwas Entspannung."
+        "feedback": "Murat schaut dich prüfend an: 'Hm… wir werden sehen.'"
       },
       {
-        "label": "Noch strenger auftreten",
-        "effect": 2,
-        "feedback": "Murat fühlt sich eingeengt und verhärtet."
+        "label": "Gefühle anerkennen: Du spiegelst seine Wut ('Es klingt, als fühlst du dich unfair behandelt') und gibst ihm die Wahl, weiterzureden.",
+        "effect": -1,
+        "feedback": "Murat nickt knapp: 'Genau so ist es.'"
       },
       {
-        "label": "Neutrales Smalltalk-Thema wählen",
+        "label": "Neutral bleiben: Du hörst schweigend zu.",
         "effect": 0,
-        "feedback": "Das Gespräch bleibt oberflächlich, aber Murat bleibt ansprechbar."
+        "feedback": "Murat redet mit gereizter Stimme weiter."
+      },
+      {
+        "label": "Zwang betonen: Du sagst, dass er ohnehin keine Wahl hat.",
+        "effect": 2,
+        "feedback": "Murat zischt: 'Genau – Zwang, wie immer!'"
       }
     ],
     "Z5": [
       {
-        "label": "Sanft fragen, was er wirklich denkt",
+        "label": "Begriff klären: Du fragst vorsichtig, was er mit 'umerziehen' meint, und zeigst, dass du seine Sicht verstehen willst.",
+        "effect": -2,
+        "feedback": "Murat sagt: 'Na, dass ihr wollt, dass ich so werde wie die anderen.'"
+      },
+      {
+        "label": "Rahmenbedingungen erklären: Du betonst, dass er hier frei sprechen oder auch schweigen darf, ohne Konsequenzen.",
         "effect": -1,
-        "feedback": "Murat zeigt kleine Offenheit."
+        "feedback": "Murat wirkt überrascht: 'Hm… das sagt sonst keiner.'"
       },
       {
-        "label": "Strenge verstärken",
-        "effect": 1,
-        "feedback": "Murat bestätigt sich in rigiden Mustern."
-      },
-      {
-        "label": "Geduldig zuhören, ohne sofort zu reagieren",
+        "label": "Neutral bleiben: Du nickst, reagierst kaum, lässt ihn reden.",
         "effect": 0,
-        "feedback": "Murat wiederholt seine Sätze, merkt aber, dass du zuhörst."
+        "feedback": "Murat mustert dich wachsam, sagt aber nichts weiter."
+      },
+      {
+        "label": "Frontal kritisieren: Du wirfst ihm vor, dass seine Haltung falsch und gefährlich sei.",
+        "effect": 2,
+        "feedback": "Murat wird wütend: 'Genau das meine ich – ihr hört nicht zu!'"
       }
     ]
   }
